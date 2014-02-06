@@ -1,0 +1,14 @@
+body {
+	background: $color-bg;
+	color: $color-0;
+}
+
+a {
+	color: $color-1;
+	text-decoration: underline;
+
+	&:hover,
+	&:focus {
+		color: $color-4;
+	}
+}

@@ -1,0 +1,12 @@
+.table-bordered {
+    border: 1px solid #ccc;
+
+    th,
+    td {
+        border: 1px solid #ccc;
+    }
+
+    th {
+        border-bottom-width: 2px;
+    }
+}

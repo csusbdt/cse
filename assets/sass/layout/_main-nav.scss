@@ -1,0 +1,80 @@
+#main-nav {
+    margin: 0;
+    padding: 0;
+}
+
+    .banner-options {
+        @include span-columns(3 of 12);
+        border-right: 1px solid rgba(0,0,0,.15);
+        height: 3.5em;
+
+        .text-button {
+            padding: 1em 0;
+        }
+    }
+
+    .site-nav {
+        @include span-columns(9 of 12);
+        @include omega();
+
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+        .site-nav-item {
+            @include span-columns(3 of 9);
+            @include omega(3n);
+            height: 3.5em;
+
+            ul {
+                display: none;
+            }
+
+            a {
+                height: 3.5em;
+                display: block;
+                padding: 1em 0;
+                color: $color-0;
+                text-decoration: none;
+                text-align: center;
+                position: relative;
+                border-left: 1px solid transparent;
+                border-right: 1px solid transparent;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: $color-1;
+                    border-color: rgba(0,0,0,.05);
+                    background: rgba(255,255,255,.5);
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        width: 0;
+                        height: 0;
+                        border-bottom: .35em solid rgba(0,0,0,.15);
+                        border-left: .35em solid transparent;
+                        border-right: .35em solid transparent;
+                        margin-left: -.175em;
+                    }
+
+                    .icon {
+                        color: $color-1;
+                    }
+                }
+            }
+
+            .icon {
+                display: inline-block;
+                margin-right: .5em;
+                color: $color-0-t1;
+                vertical-align: -1px;
+                -webkit-font-smoothing: antialiased;
+            }
+        }

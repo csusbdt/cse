@@ -1,0 +1,33 @@
+.inline-list {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+        display: inline;
+        margin: 0;
+        padding: 0;
+
+        &:before {
+            content: "\2022";
+            padding: 0 .5em;
+        }
+
+        &:first-child:before {
+            content: "";
+            padding: 0;
+        }
+    }
+}
+
+.inline-list-spaces {
+    @extend .inline-list;
+    li {
+        padding-right: 1.3em;
+
+        &:before {
+            content: "";
+            padding: 0;
+        }
+    }
+}

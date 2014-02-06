@@ -1,0 +1,21 @@
+.quote {
+    @include font-size($font-size-h4);
+    border-left: .25em solid $color-2;
+
+    blockquote {
+        padding: .5em 2em 0;
+        margin-bottom: .5em;
+        font-style: italic;
+        font-family: $font-family-serif;
+    }
+
+    figcaption {
+        &:before {
+            content: "\2014  ";
+        }
+        @include font-size($font-size-text);
+        margin: 0;
+        padding: 0 2em;
+        color: $color-0-t2;
+    }
+}
