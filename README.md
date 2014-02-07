@@ -1,3 +1,5 @@
+## Hack to Run Locally
+
 Github pages overrides a number of variables in _config.yml.
 In particular, it overrides the following.
 
@@ -12,4 +14,20 @@ We use this trick to preppend _/cse_ to absolute urls when running
 in Github pages.
 
    href='{% if safe %}/cse{% endif %}/assets/css/main.css' 
+
+
+## Proxy Setup
+
+Requests sent to cse.csusb.edu will be proxied to github pages.
+The following Apache configuration code will accomplish this.
+
+~~~
+<VirtualHost *:80>
+    ServerName cse.csusb.edu
+    RewriteEngine on
+    RewriteRule ^/cse/(.*)$ http://csusbdt.github.io/cse/$1 [P]
+    RewriteRule ^/(.*)$ http://csusbdt.github.io/cse/$1 [P]
+    ProxyPassReverse / http://csusbdt.github.io/cse/
+</VirtualHost>
+~~~
 
