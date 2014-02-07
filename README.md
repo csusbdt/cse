@@ -25,8 +25,18 @@ The following Apache configuration code will accomplish this.
 <VirtualHost *:80>
     ServerName cse.csusb.edu
     RewriteEngine on
+
+    # Do not proxy select folders.
+    RewriteRule ^/turner/(.*)$ /turner/$1 [L]
+
+    # Requests matching /cse/* come from absolute urls;
+    # their /cse prefix should be kept.
     RewriteRule ^/cse/(.*)$ http://csusbdt.github.io/cse/$1 [P]
+
+    # Prepend /cse to all other requests.
     RewriteRule ^/(.*)$ http://csusbdt.github.io/cse/$1 [P]
+
+    # I don't understand the purpose of the following.
     ProxyPassReverse / http://csusbdt.github.io/cse/
 </VirtualHost>
 ~~~
