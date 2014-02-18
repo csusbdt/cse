@@ -26,14 +26,13 @@ The following Apache configuration code will accomplish this.
     ServerName cse.csusb.edu
     RewriteEngine on
 
-    # Do not proxy select folders.
-    RewriteRule ^/turner/(.*)$ /turner/$1 [L]
-
     # Requests matching /cse/* come from absolute urls;
     # their /cse prefix should be kept.
     RewriteRule ^/cse/(.*)$ http://csusbdt.github.io/cse/$1 [P]
 
     # Prepend /cse to all other requests.
+    # Do not proxy select folders.
+    RewriteCond $1 !turner.*
     RewriteRule ^/(.*)$ http://csusbdt.github.io/cse/$1 [P]
 
     # I don't understand the purpose of the following.
