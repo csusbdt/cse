@@ -34,7 +34,7 @@
                     <ul>
                         {% for item in page.nav %}
                         <li>
-                            <a href='{{ item.url }}'>
+                            <a href='{% if site.safe %}/cse{% endif %}{{ item.url }}'>
                                 {{ item.title }}
                             </a>
                         </li>
