@@ -12,12 +12,12 @@
         <nav class='site-nav dropdown'>
             <ul>
                 <li class='site-nav-item'>
-                    <a href='{% if site.safe %}/cse{% endif %}/programs' title='Degree Programs'>
+                    <a data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/programs' title='Degree Programs'>
                         <span class='icon icon-files'></span>
                         Degree Programs
                     </a>
-                    <ul class='dropdown-sub-nav'>
-                        <li>Undergraduate</li>
+                    <ul class='dropdown-menu'>
+                        <li class='dropdown-header'>Undergraduate</li>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/programs/computer-science' title='BS in Computer Science'>
                                 BS in Computer Science
@@ -49,7 +49,7 @@
                             </a>
                         </li>
                         <li class='divider'></li>
-                        <li>Graduate</li>
+                        <li class='dropdown-header'>Graduate</li>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/programs/master' title='MS in Computer Science'>
                                 MS in Computer Science
@@ -58,12 +58,12 @@
                     </ul>
                 </li>
                 <li class='site-nav-item'>
-                    <a href='{% if site.safe %}/cse{% endif %}/info' title='Department Information'>
+                    <a data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/info' title='Department Information'>
                         <span class='icon icon-mug'></span>
                         Department Info
                     </a>
-                    <ul class='dropdown-sub-nav'>
-                        <li>Faculty and Staff</li>
+                    <ul class='dropdown-menu'>
+                        <li class='dropdown-header'>Faculty and Staff</li>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/faculty/full-time' title='Full Time Faculty'>
                                 Full Time Faculty
@@ -108,11 +108,11 @@
                     </ul>
                 </li>
                 <li class='site-nav-item'>
-                    <a href='{% if site.safe %}/cse{% endif %}/resources' title='Student Resources'>
+                    <a data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/resources' title='Student Resources'>
                         <span class='icon icon-list'></span>
                         Student Resources
                     </a>
-                    <ul class='dropdown-sub-nav'>
+                    <ul class='dropdown-menu'>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/forms' title='Forms'>
                                 Forms
