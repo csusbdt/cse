@@ -1,3 +1,7 @@
 .main {
     @include span-columns(8 of 12);
 }
+
+    .main h2 {
+        @extend .head-bar;
+    }

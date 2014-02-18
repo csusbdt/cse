@@ -9,6 +9,6 @@ nav:
       url: /#wumbo
 ---
 
-<h2 class='head-bar'>Page Title</h2>
+## Page Title
 
-<p>Temporary page content.</p>
+Temporary page content.
