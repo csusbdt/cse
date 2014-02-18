@@ -46,7 +46,6 @@
                 &:focus,
                 &:active {
                     color: $color-1;
-                    background: rgba(255,255,255,.5);
 
                     &:after {
                         content: "";
@@ -55,7 +54,7 @@
                         left: 50%;
                         width: 0;
                         height: 0;
-                        border-bottom: .35em solid rgba(0,0,0,.15);
+                        border-bottom: .35em solid $color-1;
                         border-left: .35em solid transparent;
                         border-right: .35em solid transparent;
                         margin-left: -.175em;
