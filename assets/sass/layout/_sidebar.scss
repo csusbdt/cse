@@ -8,7 +8,9 @@
 }
 
     .sidebar-content {
+        display: block;
         padding: 0 2em;
+        margin-bottom: 2em;
         @include font-size($font-size-milli);
         color: $color-0-t1;
     }
