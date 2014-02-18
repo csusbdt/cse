@@ -31,11 +31,13 @@
 
                 {% if page.nav %}
                 <nav class='vertical-nav'>
+                    <strong class='vertical-nav-title'>Navigation</strong>
                     <ul>
                         {% for item in page.nav %}
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}{{ item.url }}'>
                                 {{ item.title }}
+                                <span>{{ item.desc }}</span>
                             </a>
                         </li>
                         {% endfor %}
