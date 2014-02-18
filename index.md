@@ -5,10 +5,10 @@ description: This is an example page description. Each page will have a descript
 nav:
     - title: Purpose
       url: /#section-1
-      desc: What we do
+      desc: A description
     - title: Schedule
       url: /#section-2
-      desc: The when and where
+      desc: Another one
 ---
 
 ## Page Title
