@@ -33,7 +33,7 @@
                 display: none;
             }
 
-            a {
+            .nav-parent {
                 height: 3.5em;
                 display: block;
                 padding: 1em 0;
@@ -63,6 +63,20 @@
                     .icon {
                         color: $color-1;
                     }
+                }
+            }
+
+            .dropdown-header,
+            .dropdown-menu a {
+                padding: .5em 1em;
+            }
+
+            .dropdown-menu a {
+                text-decoration: none;
+
+                &:hover,
+                &:focus {
+                    background: $color-3;
                 }
             }
 

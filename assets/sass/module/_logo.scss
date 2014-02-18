@@ -6,5 +6,9 @@
     a {
         color: #000;
         text-decoration: none;
+
+        .amp {
+            color: $color-0-t1;
+        }
     }
 }

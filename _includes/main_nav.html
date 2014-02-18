@@ -9,10 +9,10 @@
                 Show Campus Banner
             </button>
         </div>
-        <nav class='site-nav dropdown'>
+        <nav class='site-nav'>
             <ul>
-                <li class='site-nav-item'>
-                    <a data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/programs' title='Degree Programs'>
+                <li class='site-nav-item dropdown'>
+                    <a class='nav-parent' data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/programs' title='Degree Programs'>
                         <span class='icon icon-files'></span>
                         Degree Programs
                     </a>
@@ -57,8 +57,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class='site-nav-item'>
-                    <a data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/info' title='Department Information'>
+                <li class='site-nav-item dropdown'>
+                    <a class='nav-parent' data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/info' title='Department Information'>
                         <span class='icon icon-mug'></span>
                         Department Info
                     </a>
@@ -107,8 +107,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class='site-nav-item'>
-                    <a data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/resources' title='Student Resources'>
+                <li class='site-nav-item dropdown'>
+                    <a class='nav-parent' data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/resources' title='Student Resources'>
                         <span class='icon icon-list'></span>
                         Student Resources
                     </a>
