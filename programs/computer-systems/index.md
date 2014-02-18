@@ -162,6 +162,13 @@ The graduates of the Computer Systems program will have the following characteri
 [game-08-09]: Game_development_option_2008_2009.pdf
 [graphics-08-09]: Graphics_programming_option_2008_2009.pdf
 
+[description-07-08]: ../bs_computer_science/Computer_science_requirements_2007_2008.pdf
+[inter-07-08]: Interdisciplinary_option_2007_2008.pdf
+[web-07-08]: Web_programming_option_2007_2008.pdf
+[system-07-08]: System_administration_option_2007_2008.pdf
+[game-07-08]: Game_development_option_2007_2008.pdf
+[graphics-07-08]: Graphics_programming_option_2007_2008.pdf
+
 [description-06-07]: Computer_science_requirements_2006_2007.pdf
 [flowchart-06-07]: Computer_systems_flowchart_2006_2007.pdf
 
