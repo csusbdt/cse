@@ -41,14 +41,11 @@
                 text-decoration: none;
                 text-align: center;
                 position: relative;
-                border-left: 1px solid transparent;
-                border-right: 1px solid transparent;
 
                 &:hover,
                 &:focus,
                 &:active {
                     color: $color-1;
-                    border-color: rgba(0,0,0,.05);
                     background: rgba(255,255,255,.5);
 
                     &:after {

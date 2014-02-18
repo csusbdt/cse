@@ -24,9 +24,29 @@
             <main class='main'>
               {{ content }}
             </main>
-            {% include sidebar.html %}
+            <aside class='sidebar'>
+                <div class='sidebar-content'>
+                    <p>{{ page.description }}</p>
+                </div>
+
+                {% if page.nav %}
+                <nav class='vertical-nav'>
+                    <ul>
+                        {% for item in page.nav %}
+                        <li>
+                            <a href='{{ item.url }}'>
+                                {{ item.title }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% endif %}
+            </aside>
           </div>
         </div>
+
+        {% include main_footer.html %}
 
         </div> <!-- /.container -->
 

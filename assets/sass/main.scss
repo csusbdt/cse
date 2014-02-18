@@ -217,6 +217,7 @@ $close-quote:    null;
 @import 'module/button';
 @import 'module/dropdown';
 @import 'module/form';
+@import 'module/head-bar';
 @import 'module/icon-font';
 @import 'module/inline-list';
 @import 'module/lede';
@@ -227,6 +228,7 @@ $close-quote:    null;
 @import 'module/table-caption-top';
 @import 'module/table-condensed';
 @import 'module/table-striped';
+@import 'module/vertical-nav';
 
 
 /**
@@ -238,6 +240,7 @@ $close-quote:    null;
 @import 'layout/content';
 @import 'layout/header';
 @import 'layout/main-nav';
+@import 'layout/footer';
 @import 'layout/main';
 @import 'layout/sidebar';
 

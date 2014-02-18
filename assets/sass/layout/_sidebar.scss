@@ -1,7 +1,14 @@
 .sidebar {
     @include span-columns(4 of 12);
     @include omega();
-    @include pad(4em 2em 2em);
-    margin-top: -2em;
-    background: rgba(0,0,0,.025);
+    @include pad(2em 0);
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: $border-radius-base;
 }
+
+    .sidebar-content {
+        padding: 0 2em;
+        @include font-size($font-size-milli);
+        color: $color-0-t1;
+    }

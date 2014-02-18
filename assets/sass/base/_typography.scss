@@ -16,16 +16,12 @@ h6,    .h6    { @include font-size($font-size-h6);    }
 small, .milli { @include font-size($font-size-milli); }
        .micro { @include font-size($font-size-micro); }
 
-h2 {
-    font-family: $font-family-serif;
+h1 {
     font-weight: 300;
-    color: $color-4;
 }
 
-h4 {
+h2 {
     font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: .2em;
 }
 
 p,

@@ -1,0 +1,30 @@
+.vertical-nav {
+    display: block;
+
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        border-bottom: 1px solid rgba(0,0,0,.05);
+
+        &:first-child {
+            border-top: 1px solid rgba(0,0,0,.05);
+        }
+    }
+
+    a {
+        display: block;
+        padding: 1em 2em;
+        color: $color-0;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            color: $color-1;
+            background: rgba(255,255,255,.5);
+        }
+    }
+}
