@@ -26,6 +26,9 @@ The following Apache configuration code will accomplish this.
     ServerName cse.csusb.edu
     RewriteEngine on
 
+    RewriteRule ^/cse$  / [R]
+    RewriteRule ^/cse/$ / [R]
+
     # Requests matching /cse/* come from absolute urls;
     # their /cse prefix should be kept.
     RewriteRule ^/cse/(.*)$ http://csusbdt.github.io/cse/$1 [P]

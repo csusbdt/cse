@@ -18,7 +18,7 @@ Program requirements change from year to year. Students need to complete course 
   - [General Interdisciplinary Option, 2012/14][inter-12-14]
   - [Web Programming Option, 2012/14][web-12-14]
   - [System Administrator Option, 2012/14][system-12-14]
-  - [Game Development Option, 2012/13][game-12-13]
+  - [Game Development Option, 2012/13][game-12-13] <br>
     [Game Development Option, 2013/14][game-13-14]
   - [Graphics Programming Option, 2012/14][graphics-12-14]
 
@@ -130,8 +130,8 @@ The graduates of the Computer Systems program will have the following characteri
 [inter-12-14]: Interdisciplinary_option_2012_2014.pdf
 [web-12-14]: Web_programming_option_2012_2014.pdf
 [system-12-14]: System_administration_option_2012_2014.pdf
-[game-12-13]: ba-game-2012.pdf
-[game-13-14]: ba-game-2013.pdf
+[game-12-13]: flowcharts/2012/ba-game-flowchart-2012.pdf
+[game-13-14]: flowcharts/2013/ba-game-flowchart-2013.pdf
 [graphics-12-14]: Graphics_programming_option_2012_2014.pdf
 
 [description-11-12]: ../bs_computer_science/Computer_science_requirements_2011_2012.pdf
