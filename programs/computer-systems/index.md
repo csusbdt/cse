@@ -15,67 +15,67 @@ Program requirements change from year to year. Students need to complete course 
 
 - [Program description, 2012/2014][description-12-14]
 - Flowcharts of Course Dependencies, 2012/14
-  - [General Interdisciplinary Option, 2012/14][inter-12-14]
-  - [Web Programming Option, 2012/14][web-12-14]
-  - [System Administrator Option, 2012/14][system-12-14]
-  - [Game Development Option, 2012/13][game-12-13]
-    [Game Development Option, 2013/14][game-13-14]
-  - [Graphics Programming Option, 2012/14][graphics-12-14]
+  - [General Interdisciplinary Option, 2012/14][inter-12]
+  - [Web Programming Option, 2012/14][web-12]
+  - [System Administrator Option, 2012/14][system-12]
+  - [Game Development Option, 2012/13][game-12] <br>
+    [Game Development Option, 2013/14][game-13]
+  - [Graphics Programming Option, 2012/14][graphics-12]
 
 ### Program Information, 2011/2012
 
 - [Program description, 2011/12][description-11-12]
 - Flowcharts of Course Dependencies, 2011/12
-  - [General Interdisciplinary Option, 2011/12][inter-11-12]
-  - [Web Programming Option, 2011/12][web-11-12]
-  - [System Administration Option, 2011/12][system-11-12]
-  - [Game Development Option, 2011/12][game-11-12]
-  - [Graphics Programming Option, 2011/12][graphics-11-12]
+  - [General Interdisciplinary Option, 2011/12][inter-11]
+  - [Web Programming Option, 2011/12][web-11]
+  - [System Administration Option, 2011/12][system-11]
+  - [Game Development Option, 2011/12][game-11]
+  - [Graphics Programming Option, 2011/12][graphics-11]
 
 ### Program Information, 2010/2011
 
 - [Program description, 2010/11][description-10-11]
 - Flowcharts of Course Dependencies, 2010/11
-  - [General Interdisciplinary Option, 2010/11][inter-10-11]
-  - [Web Programming Option, 2010/11][web-10-11]
-  - [System Administration Option, 2010/11][system-10-11]
-  - [Game Development Option, 2010/11][game-10-11]
-  - [Graphics Programming Option, 2010/11][graphics-10-11]
+  - [General Interdisciplinary Option, 2010/11][inter-10]
+  - [Web Programming Option, 2010/11][web-10]
+  - [System Administration Option, 2010/11][system-10]
+  - [Game Development Option, 2010/11][game-10]
+  - [Graphics Programming Option, 2010/11][graphics-10]
 
 ### Program Information, 2009/2010
 
 - [Program description, 2009/10][description-09-10]
 - Flowcharts of Course Dependencies, 2009/10
-  - [General Interdisciplinary Option, 2009/10][inter-09-10]
-  - [Web Programming Option, 2009/10][web-09-10]
-  - [System Administration Option, 2009/10][system-09-10]
-  - [Game Development Option, 2009/10][game-09-10]
-  - [Graphics Programming Option, 2009/10][graphics-09-10]
+  - [General Interdisciplinary Option, 2009/10][inter-09]
+  - [Web Programming Option, 2009/10][web-09]
+  - [System Administration Option, 2009/10][system-09]
+  - [Game Development Option, 2009/10][game-09]
+  - [Graphics Programming Option, 2009/10][graphics-09]
 
 ### Program Information, 2008/2009
 
 - [Program description, 2008/09][description-08-09]
 - Flowcharts of Course Dependencies, 2008/09
-  - [General Interdisciplinary Option, 2008/09][inter-08-09]
-  - [Web Programming Option, 2008/09][web-08-09]
-  - [System Administration Option, 2008/09][system-08-09]
-  - [Game Development Option, 2008/09][game-08-09]
-  - [Graphics Programming Option, 2008/09][graphics-08-09]
+  - [General Interdisciplinary Option, 2008/09][inter-08]
+  - [Web Programming Option, 2008/09][web-08]
+  - [System Administration Option, 2008/09][system-08]
+  - [Game Development Option, 2008/09][game-08]
+  - [Graphics Programming Option, 2008/09][graphics-08]
 
 ### Program Information, 2007/2008
 
 - [Program description, 2007/08][description-07-08]
 - Flowcharts of Course Dependencies, 2007/08
-  - [General Interdisciplinary Option, 2007/08][inter-07-08]
-  - [Web Programming Option, 2007/08][web-07-08]
-  - [System Administration Option, 2007/08][system-07-08]
-  - [Game Development Option, 2007/08][game-07-08]
-  - [Graphics Programming Option, 2007/08][graphics-07-08]
+  - [General Interdisciplinary Option, 2007/08][inter-07]
+  - [Web Programming Option, 2007/08][web-07]
+  - [System Administration Option, 2007/08][system-07]
+  - [Game Development Option, 2007/08][game-07]
+  - [Graphics Programming Option, 2007/08][graphics-07]
 
 ### Program Information, 2006/2007
 
 - [Program description, 2006/2007][description-06-07]
-- [Flowchart of Course Dependencies, 2006/2007][flowchart-06-07]
+- [Flowchart of Course Dependencies, 2006/2007][flowchart-06]
 
 ### Elective Coursework Application Forms
 
@@ -126,51 +126,45 @@ The graduates of the Computer Systems program will have the following characteri
 
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
-[description-12-14]: ../bs_computer_science/Computer_science_requirements_2012_2014.pdf
-[inter-12-14]: Interdisciplinary_option_2012_2014.pdf
-[web-12-14]: Web_programming_option_2012_2014.pdf
-[system-12-14]: System_administration_option_2012_2014.pdf
-[game-12-13]: ba-game-2012.pdf
-[game-13-14]: ba-game-2013.pdf
-[graphics-12-14]: Graphics_programming_option_2012_2014.pdf
+[inter-08]: flowcharts/ba-inter-flowchart-2008.pdf
+[inter-09]: flowcharts/ba-inter-2009.pdf
+[inter-10]: flowcharts/ba-inter-2010.pdf
+[inter-11]: flowcharts/ba-inter-2011.pdf
+[inter-12]: flowcharts/ba-inter-2012.pdf
 
-[description-11-12]: ../bs_computer_science/Computer_science_requirements_2011_2012.pdf
-[inter-11-12]: Interdisciplinary_option_2011_2012.pdf
-[web-11-12]: Web_programming_option_2011_2012.pdf
-[system-11-12]: System_administration_option_2011_2012.pdf
-[game-11-12]: Game_development_option_2011_2012.pdf
-[graphics-11-12]: Graphics_programming_option_2011_2012.pdf
+[game-08]: flowcharts/ba-game-2008.pdf
+[game-09]: flowcharts/ba-game-2009.pdf
+[game-10]: flowcharts/ba-game-2010.pdf
+[game-11]: flowcharts/ba-game-2011.pdf
+[game-12]: flowcharts/ba-game-2012.pdf
 
-[description-10-11]: ../bs_computer_science/Computer_science_requirements_2010_2011.pdf
-[inter-10-11]: Interdisciplinary_option_2010_2011.pdf
-[web-10-11]: Web_programming_option_2010_2011.pdf
-[system-10-11]: System_administration_option_2010_2011.pdf
-[game-10-11]: Game_development_option_2010_2011.pdf
-[graphics-10-11]: Graphics_programming_option_2010_2011.pdf
+[graphics-08]: flowcharts/ba-graphics-2008.pdf
+[graphics-09]: flowcharts/ba-graphics-2009.pdf
+[graphics-10]: flowcharts/ba-graphics-2010.pdf
+[graphics-11]: flowcharts/ba-graphics-2011.pdf
+[graphics-12]: flowcharts/ba-graphics-2012.pdf
 
-[description-09-10]: ../bs_computer_science/Computer_science_requirements_2009_2010.pdf
-[inter-09-10]: Interdisciplinary_option_2009_2010.pdf
-[web-09-10]: Web_programming_option_2009_2010.pdf
-[system-09-10]: System_administration_option_2009_2010.pdf
-[game-09-10]: Game_development_option_2009_2010.pdf
-[graphics-09-10]: Graphics_programming_option_2009_2010.pdf
+[system-08]: flowcharts/ba-system-2008.pdf
+[system-09]: flowcharts/ba-system-2009.pdf
+[system-10]: flowcharts/ba-system-2010.pdf
+[system-11]: flowcharts/ba-system-2011.pdf
+[system-12]: flowcharts/ba-system-2012.pdf
 
-[description-08-09]: ../bs_computer_science/Computer_science_requirements_2008_2009.pdf
-[inter-08-09]: Interdisciplinary_option_2008_2009.pdf
-[web-08-09]: Web_programming_option_2008_2009.pdf
-[system-08-09]: System_administration_option_2008_2009.pdf
-[game-08-09]: Game_development_option_2008_2009.pdf
-[graphics-08-09]: Graphics_programming_option_2008_2009.pdf
+[web-08]: flowcharts/ba-web-2008.pdf
+[web-09]: flowcharts/ba-web-2009.pdf
+[web-10]: flowcharts/ba-web-2010.pdf
+[web-11]: flowcharts/ba-web-2011.pdf
+[web-12]: flowcharts/ba-web-2012.pdf
 
-[description-07-08]: ../bs_computer_science/Computer_science_requirements_2007_2008.pdf
-[inter-07-08]: Interdisciplinary_option_2007_2008.pdf
-[web-07-08]: Web_programming_option_2007_2008.pdf
-[system-07-08]: System_administration_option_2007_2008.pdf
-[game-07-08]: Game_development_option_2007_2008.pdf
-[graphics-07-08]: Graphics_programming_option_2007_2008.pdf
-
-[description-06-07]: Computer_science_requirements_2006_2007.pdf
 [flowchart-06-07]: Computer_systems_flowchart_2006_2007.pdf
+
+[description-12-14]: ../bs_computer_science/Computer_science_requirements_2012_2014.pdf
+[description-11-12]: ../bs_computer_science/Computer_science_requirements_2011_2012.pdf
+[description-10-11]: ../bs_computer_science/Computer_science_requirements_2010_2011.pdf
+[description-09-10]: ../bs_computer_science/Computer_science_requirements_2009_2010.pdf
+[description-08-09]: ../bs_computer_science/Computer_science_requirements_2008_2009.pdf
+[description-07-08]: ../bs_computer_science/Computer_science_requirements_2007_2008.pdf
+[description-06-07]: Computer_science_requirements_2006_2007.pdf
 
 [inter-app]: /resources/forms/ba_computer_systems/interdisciplinary-coursework-2011-present.pdf
 [web-app]: /resources/forms/ba_computer_systems/web-coursework-2012-present.pdf
