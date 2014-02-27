@@ -126,35 +126,36 @@ The graduates of the Computer Systems program will have the following characteri
 
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
-[inter-08]: flowcharts/ba-inter-flowchart-2008.pdf
-[inter-09]: flowcharts/ba-inter-2009.pdf
-[inter-10]: flowcharts/ba-inter-2010.pdf
-[inter-11]: flowcharts/ba-inter-2011.pdf
-[inter-12]: flowcharts/ba-inter-2012.pdf
+[inter-08]: flowcharts/inter/ba-inter-flowchart-2008.pdf
+[inter-09]: flowcharts/inter/ba-inter-flowchart-2009.pdf
+[inter-10]: flowcharts/inter/ba-inter-flowchart-2010.pdf
+[inter-11]: flowcharts/inter/ba-inter-flowchart-2011.pdf
+[inter-12]: flowcharts/inter/ba-inter-flowchart-2012.pdf
 
-[game-08]: flowcharts/ba-game-2008.pdf
-[game-09]: flowcharts/ba-game-2009.pdf
-[game-10]: flowcharts/ba-game-2010.pdf
-[game-11]: flowcharts/ba-game-2011.pdf
-[game-12]: flowcharts/ba-game-2012.pdf
+[game-08]: flowcharts/game/ba-game-flowchart-2008.pdf
+[game-09]: flowcharts/game/ba-game-flowchart-2009.pdf
+[game-10]: flowcharts/game/ba-game-flowchart-2010.pdf
+[game-11]: flowcharts/game/ba-game-flowchart-2011.pdf
+[game-12]: flowcharts/game/ba-game-flowchart-2012.pdf
+[game-13]: flowcharts/game/ba-game-flowchart-2013.pdf
 
-[graphics-08]: flowcharts/ba-graphics-2008.pdf
-[graphics-09]: flowcharts/ba-graphics-2009.pdf
-[graphics-10]: flowcharts/ba-graphics-2010.pdf
-[graphics-11]: flowcharts/ba-graphics-2011.pdf
-[graphics-12]: flowcharts/ba-graphics-2012.pdf
+[graphics-08]: flowcharts/graphics/ba-graphics-flowchart-2008.pdf
+[graphics-09]: flowcharts/graphics/ba-graphics-flowchart-2009.pdf
+[graphics-10]: flowcharts/graphics/ba-graphics-flowchart-2010.pdf
+[graphics-11]: flowcharts/graphics/ba-graphics-flowchart-2011.pdf
+[graphics-12]: flowcharts/graphics/ba-graphics-flowchart-2012.pdf
 
-[system-08]: flowcharts/ba-system-2008.pdf
-[system-09]: flowcharts/ba-system-2009.pdf
-[system-10]: flowcharts/ba-system-2010.pdf
-[system-11]: flowcharts/ba-system-2011.pdf
-[system-12]: flowcharts/ba-system-2012.pdf
+[system-08]: flowcharts/system/ba-system-flowchart-2008.pdf
+[system-09]: flowcharts/system/ba-system-flowchart-2009.pdf
+[system-10]: flowcharts/system/ba-system-flowchart-2010.pdf
+[system-11]: flowcharts/system/ba-system-flowchart-2011.pdf
+[system-12]: flowcharts/system/ba-system-flowchart-2012.pdf
 
-[web-08]: flowcharts/ba-web-2008.pdf
-[web-09]: flowcharts/ba-web-2009.pdf
-[web-10]: flowcharts/ba-web-2010.pdf
-[web-11]: flowcharts/ba-web-2011.pdf
-[web-12]: flowcharts/ba-web-2012.pdf
+[web-08]: flowcharts/web/ba-web-flowchart-2008.pdf
+[web-09]: flowcharts/web/ba-web-flowchart-2009.pdf
+[web-10]: flowcharts/web/ba-web-flowchart-2010.pdf
+[web-11]: flowcharts/web/ba-web-flowchart-2011.pdf
+[web-12]: flowcharts/web/ba-web-flowchart-2012.pdf
 
 [flowchart-06-07]: Computer_systems_flowchart_2006_2007.pdf
 
