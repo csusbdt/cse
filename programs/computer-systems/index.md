@@ -72,11 +72,6 @@ Program requirements change from year to year. Students need to complete course 
   - [Game Development Option, 2007/08][game-07]
   - [Graphics Programming Option, 2007/08][graphics-07]
 
-### Program Information, 2006/2007
-
-- [Program description, 2006/2007][description-06-07]
-- [Flowchart of Course Dependencies, 2006/2007][flowchart-06]
-
 ### Elective Coursework Application Forms
 
 - [Interdisciplinary Coursework Application Form][inter-app]
@@ -141,7 +136,7 @@ The graduates of the Computer Systems program will have the following characteri
   </tbody>
 </table>
 <caption>
-  * Declared computer engineering majors in Fall quarter of designated year. </br>
+  * Declared computer systems majors in Fall quarter of designated year. </br>
   ** Annual graduations starting from Fall quarter of designated year. </br>
   Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
 </caption>
@@ -149,12 +144,14 @@ The graduates of the Computer Systems program will have the following characteri
 
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
+[inter-07]: flowcharts/inter/ba-inter-flowchart-2007.pdf
 [inter-08]: flowcharts/inter/ba-inter-flowchart-2008.pdf
 [inter-09]: flowcharts/inter/ba-inter-flowchart-2009.pdf
 [inter-10]: flowcharts/inter/ba-inter-flowchart-2010.pdf
 [inter-11]: flowcharts/inter/ba-inter-flowchart-2011.pdf
 [inter-12]: flowcharts/inter/ba-inter-flowchart-2012.pdf
 
+[game-07]: flowcharts/game/ba-game-flowchart-2007.pdf
 [game-08]: flowcharts/game/ba-game-flowchart-2008.pdf
 [game-09]: flowcharts/game/ba-game-flowchart-2009.pdf
 [game-10]: flowcharts/game/ba-game-flowchart-2010.pdf
@@ -162,25 +159,26 @@ The graduates of the Computer Systems program will have the following characteri
 [game-12]: flowcharts/game/ba-game-flowchart-2012.pdf
 [game-13]: flowcharts/game/ba-game-flowchart-2013.pdf
 
+[graphics-07]: flowcharts/graphics/ba-graphics-flowchart-2007.pdf
 [graphics-08]: flowcharts/graphics/ba-graphics-flowchart-2008.pdf
 [graphics-09]: flowcharts/graphics/ba-graphics-flowchart-2009.pdf
 [graphics-10]: flowcharts/graphics/ba-graphics-flowchart-2010.pdf
 [graphics-11]: flowcharts/graphics/ba-graphics-flowchart-2011.pdf
 [graphics-12]: flowcharts/graphics/ba-graphics-flowchart-2012.pdf
 
+[system-07]: flowcharts/system/ba-system-flowchart-2007.pdf
 [system-08]: flowcharts/system/ba-system-flowchart-2008.pdf
 [system-09]: flowcharts/system/ba-system-flowchart-2009.pdf
 [system-10]: flowcharts/system/ba-system-flowchart-2010.pdf
 [system-11]: flowcharts/system/ba-system-flowchart-2011.pdf
 [system-12]: flowcharts/system/ba-system-flowchart-2012.pdf
 
+[web-07]: flowcharts/web/ba-web-flowchart-2007.pdf
 [web-08]: flowcharts/web/ba-web-flowchart-2008.pdf
 [web-09]: flowcharts/web/ba-web-flowchart-2009.pdf
 [web-10]: flowcharts/web/ba-web-flowchart-2010.pdf
 [web-11]: flowcharts/web/ba-web-flowchart-2011.pdf
 [web-12]: flowcharts/web/ba-web-flowchart-2012.pdf
-
-[flowchart-06-07]: Computer_systems_flowchart_2006_2007.pdf
 
 [description-12-14]: ../bs_computer_science/Computer_science_requirements_2012_2014.pdf
 [description-11-12]: ../bs_computer_science/Computer_science_requirements_2011_2012.pdf
