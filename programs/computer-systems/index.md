@@ -124,6 +124,29 @@ The graduates of the Computer Systems program will have the following characteri
 - An ability to use current techniques, skills, and tools necessary for computing practice.
 - An ability to apply design and development principles in the construction of software systems of varying complexity.
 
+### Enrollment and Graduations
+
+<table class="enrollment">
+  <thead>
+    <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
+  </thead>
+  <tbody>
+    <tr> <td>2007</td> <td>105</td> <td>16</td> </tr>
+    <tr> <td>2008</td> <td> 90</td> <td>16</td> </tr>
+    <tr> <td>2009</td> <td>107</td> <td>17</td> </tr>
+    <tr> <td>2010</td> <td>100</td> <td>16</td> </tr>
+    <tr> <td>2011</td> <td>129</td> <td>23</td> </tr>
+    <tr> <td>2012</td> <td>160</td> <td>21</td> </tr>
+    <tr> <td>2013</td> <td>139</td> <td>NA</td> </tr>
+  </tbody>
+</table>
+<caption>
+  * Declared computer engineering majors in Fall quarter of designated year. </br>
+  ** Annual graduations starting from Fall quarter of designated year. </br>
+  Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
+</caption>
+
+
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
 [inter-08]: flowcharts/inter/ba-inter-flowchart-2008.pdf

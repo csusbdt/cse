@@ -69,6 +69,29 @@ By the time of graduation, student learning outcomes should include the followin
 - A knowledge of contemporary issues
 - An ability to use the techniques, skills, and modern engineering tools necessary for engineering practice
 
+### Enrollment and Graduations
+
+<table class="enrollment">
+  <thead>
+    <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
+  </thead>
+  <tbody>
+    <tr> <td>2007</td> <td>13</td> <td>-</td> </tr>
+    <tr> <td>2008</td> <td>67</td> <td>-</td> </tr>
+    <tr> <td>2009</td> <td>110</td> <td>3</td> </tr>
+    <tr> <td>2010</td> <td>123</td> <td>5</td> </tr>
+    <tr> <td>2011</td> <td>163</td> <td>7</td> </tr>
+    <tr> <td>2012</td> <td>240</td> <td>12</td> </tr>
+    <tr> <td>2013</td> <td>276</td> <td>NA</td> </tr>
+  </tbody>
+</table>
+<caption>
+  * Declared computer engineering majors in Fall quarter of designated year. </br>
+  ** Annual graduations starting from Fall quarter of designated year. </br>
+  Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
+</caption>
+
+
 [abet]: http://abet.org/
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
