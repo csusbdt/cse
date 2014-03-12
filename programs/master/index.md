@@ -29,12 +29,15 @@ The program is designed to help students develop analytical, problem solving and
 
 ### Mission Statement
 
+TODO
 
 ### Program Educational Objectives
 
+TODO
 
 ### Student Learning Outcomes
 
+TODO
 
 ### Enrollment and Graduations
 
