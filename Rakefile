@@ -6,7 +6,7 @@ SASS_DIR  = "assets/sass"
 CSS_DIR   = "assets/css"
 
 SERVE_CMD = "jekyll serve --watch"
-SASS_CMD  = "sass --trace --watch #{SASS_DIR}:#{CSS_DIR}"
+SASS_CMD  = "sass --watch #{SASS_DIR}:#{CSS_DIR}"
 
 desc "Alias for 'rake list'"
 task :default => [:list]
