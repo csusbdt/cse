@@ -3,9 +3,7 @@ layout: default
 title: School of Computer Science &amp; Engineering
 ---
 
-## Bachelor of Arts in Computer Systems
-
-### Overview
+## Bachelor of Arts in __Computer Systems__
 
 The Bachelor of Arts (BA) in Computer Systems program emphasizes the application of principles to practical problem solving in a domain of interest. Students complete a core set of foundation courses and courses in one of the following concentrations: web programming, system administration, game development, graphics programming. Students also have the ability to combine the study of computer systems with another field of study through the general interdisciplinary option.
 

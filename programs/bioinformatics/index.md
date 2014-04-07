@@ -8,9 +8,7 @@ nav:
       desc: What it is
 ---
 
-## Bachelor of Science in Bioinformatics
-
-### Overview
+## Bachelor of Science in __Bioinformatics__
 
 Bioinformatics is the interdisciplinary study of biology and biochemical systems using mathematics and computer science. It involves the use of computers and statistics to make sense out of large amounts of data that are accumulating from high-throughput biological and chemical experiments, such as sequencing of whole gnomes, DNA microarray chips, two-hybrid experiments, and tandem mass spectrometry.
 

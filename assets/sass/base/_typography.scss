@@ -48,11 +48,14 @@ h1 {
 
 h2 {
     font-weight: 500;
+    color: $color-0;
+    line-height: 1.3em;
 }
 
 h3 {
+    font-family: $font-family-serif;
+    margin-top: 1em;
     margin-bottom: .5em;
-    color: $color-0;
     font-weight: 500;
 }
 

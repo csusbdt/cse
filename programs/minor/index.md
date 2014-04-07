@@ -8,9 +8,7 @@ nav:
       desc: What it is
 ---
 
-## Minor in Computer Science
-
-### Overview
+## Minor in __Computer Science__
 
 The minor in computer science provides students with a foundation of knowledge and skills that are in demand in many areas of career paths. In particular, students with a minor in computer science will have skills that can be used in entry level jobs that involve computer programming and technical support.
 

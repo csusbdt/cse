@@ -1,8 +1,18 @@
 .header {
-    padding: 2em 0 2em;
+    padding: 1em 1.5em 1.5em;
 
     .logo {
         display: block;
-        text-align: center;
+        text-align: left;
+        @include font-size($font-size-h3);
+
+        @media (min-width: $screen-sm-min) {
+            @include font-size($font-size-h2);
+        }
+
+        @media (min-width: $screen-md-min) {
+            @include font-size($font-size-h1);
+            text-align: center;
+        }
     }
 }

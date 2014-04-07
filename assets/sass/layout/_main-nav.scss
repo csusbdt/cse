@@ -1,21 +1,32 @@
+
+
 #main-nav {
     margin: 0;
     padding: 0;
 }
 
     .banner-options {
-        @include span-columns(3 of 12);
-        border-right: 1px solid rgba(0,0,0,.15);
-        height: 3.5em;
+        // @include span-columns(3 of 12);
+        border-right: 1px solid $color-0-t3;
+    }
+
+    .banner-options,
+    .site-nav-title {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        height: 3em;
+        text-align: center;
 
         .text-button {
-            padding: 1em 0;
+            padding: .8em 0;
         }
     }
 
     .site-nav {
-        @include span-columns(9 of 12);
-        @include omega();
+        // @include span-columns(9 of 12);
+        // @include omega();
+        display: none;
 
         ul,
         li {

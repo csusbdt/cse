@@ -11,6 +11,6 @@ nav:
       desc: Another one
 ---
 
-## Page Title
+## Welcome to __The Homepage__
 
 Temporary page content.

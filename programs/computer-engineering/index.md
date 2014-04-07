@@ -8,9 +8,7 @@ nav:
       desc: What it is
 ---
 
-## Bachelor of Science in Computer Engineering
-
-### Overview
+## Bachelor of Science in __Computer Engineering__
 
 The Bachelor of Science (BS) in Computer Engineering program covers areas of electrical engineering and computer science that are relevant to the design of microprocessors, computers and other electronic digital systems.
 

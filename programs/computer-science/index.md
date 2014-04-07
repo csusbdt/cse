@@ -8,9 +8,7 @@ nav:
       desc: What it is
 ---
 
-## Bachelor of Science in Computer Science
-
-### Overview
+## Bachelor of Science in <strong>Computer Science</strong>
 
 The Bachelor of Science in Computer Science program emphasizes the traditional study of Computer Science, with an emphasis on mathematical rigor, theoretical foundations and computer architecture. The BS Computer Science program is accredited by [ABET][abet].
 
@@ -72,7 +70,7 @@ By the time of graduation, student learning outcomes should include the followin
 
 ### Enrollment and Graduations
 
-<table class="enrollment">
+<table class="enrollment table-striped table-bordered">
   <thead>
     <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
   </thead>

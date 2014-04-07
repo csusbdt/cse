@@ -8,9 +8,7 @@ nav:
       desc: What it is
 ---
 
-## Master of Science in Computer Science
-
-### Overview
+## Master of Science in __Computer Science__
 
 The Master of Science in Computer Science degree program provides students with academic and professional opportunities at three levels. At the first level, the program allows individuals with a baccalaureate degree in computer science (or a related field) to broaden their knowledge of the subject as well as strengthen their professional marketability and increase their earning potential. At the second level, the M.S. in Computer Science program can be an avenue for career change to computer science for those who have degrees and employment in other fields. Lastly, at the third level, the M.S. in Computer Science program provides individuals a strong foundation for graduate study at the doctoral level.
 

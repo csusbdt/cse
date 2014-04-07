@@ -10,13 +10,17 @@
                 Campus Site
             </button>
         </div>
-        <!--
         <span class='site-nav-title'>
-            Navigation
-            <span class='icon icon-arrow-down'></span>
+            <button type='button'
+                    id='nav-toggle'
+                    class='text-button js-nav-toggle'
+                    data-toggle='open'
+                    data-target='#site-nav'>
+                Navigation
+                <span class='icon icon-arrow-down'></span>
+            </button>
         </span>
-        -->
-        <nav class='site-nav'>
+        <nav class='site-nav' id='site-nav'>
             <ul>
                 <li class='site-nav-item dropdown'>
                     <a class='nav-parent' data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/programs' title='Degree Programs'>

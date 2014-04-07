@@ -1,8 +1,12 @@
 .sidebar {
-    @include span-columns(3 of 12);
-    border-right: 1px solid rgba(0,0,0,.15);
-    margin-top: -2em;
-    padding-top: 3em;
+    display: none;
+
+    @media (min-width: $screen-md-min) {
+        @include span-columns(3 of 12);
+        border-right: 1px solid rgba(0,0,0,.15);
+        margin-top: -2em;
+        padding-top: 2em;
+    }
 }
 
     .sidebar-content {
