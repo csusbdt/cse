@@ -7,11 +7,20 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 
+    @media (min-width: $screen-md-min) {
+        @include font-size($font-size-h6);
+        line-height: .75em;
+    }
+
     strong {
         text-transform: none;
         display: block;
         @include font-size($font-size-h2);
         letter-spacing: 0;
         color: $color-1;
+
+        @media (min-width: $screen-md-min) {
+            @include font-size($font-size-h1);
+        }
     }
 }
