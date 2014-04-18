@@ -85,11 +85,11 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 [archive]: ../computer-systems-archive/
 [outcomes]: computer-systems-objectives-and-outcomes.pdf
 
-[inter-app]: /resources/forms/ba_computer_systems/interdisciplinary-coursework-2011-present.pdf
-[web-app]: /resources/forms/ba_computer_systems/web-coursework-2012-present.pdf
-[game-app-12-13]: /resources/forms/ba_computer_systems/game-coursework-2012-2013.pdf
-[game-app-13-14]: /resources/forms/ba_computer_systems/game-coursework-2013-present.pdf
-[graphics-app]: /resources/forms/ba_computer_systems/graphics-coursework-2012-present.pdf
+[inter-app]: forms/interdisciplinary-coursework-2011-present.pdf
+[web-app]: forms/web-coursework-2012-present.pdf
+[game-app-12-13]: forms/game-coursework-2012-2013.pdf
+[game-app-13-14]: forms/game-coursework-2013-present.pdf
+[graphics-app]: forms/graphics-coursework-2012-present.pdf
 
 [yearly-schedule]: /docs/Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
