@@ -8,25 +8,17 @@ nav:
       desc: What it is
 ---
 
-## Bachelor of Science in __Bioinformatics__
+## Bachelor of Science in <strong>Bioinformatics</strong>
 
 Bioinformatics is the interdisciplinary study of biology and biochemical systems using mathematics and computer science. It involves the use of computers and statistics to make sense out of large amounts of data that are accumulating from high-throughput biological and chemical experiments, such as sequencing of whole gnomes, DNA microarray chips, two-hybrid experiments, and tandem mass spectrometry.
-
-There are three different approaches to bioinformatics:
-
-- Tool building: creating new programs and methods for analyzing and organizing data.
-- Tool using: using existing programs and data to answer interesting questions about biology.
-- Tool maintenance: setting up databases, translating biologists questions into ones that programs can answer, keeping the tools working and the databases up to date.
-- The main goal of the degree is to prepare the students for graduate studies in bioinformatics. A secondary goal is to provide students with relevant skills that will be useful for research and development in the growing biotechnology industries.
-
-The bioinformatics degree program is jointly administered by the Department of Biology, Department of Chemistry and Biochemistry, and the Department of Computer Science and Engineering.
-
-Program requirements change from year to year. Students need to complete course requirements according to the academic year they last declared their major. This information is included on the [PAWS Report][paws].
+The bioinformatics degree program is jointly administered by the Department of Computer Science and Engineering, the Department of Biology and the Department of Chemistry and Biochemistry.
 
 ### Program Information
 
 - [Program Description][description]
 - [Flowchart of Course Dependencies][flowchart]
+
+Program requirements change from year to year. Students need to complete course requirements according to the academic year they last declared their major. This information is included on the [PAWS Report][paws].
 
 ### Additional Resources
 
@@ -41,21 +33,11 @@ Students meet with a faculty adviser at least once per year for the purpose of r
 
 ### Mission Statement
 
-TODO
-
-### Program Educational Objectives
-
-TODO
-
-### Student Learning Outcomes
-
-By the time of graduation, student learning outcomes should include the following.
-
-TODO
+The main goal of the bioinfrmatics degree is to prepare students for graduate studies in bioinformatics. A secondary goal is to provide students with relevant skills that will be useful for research and development in the growing biotechnology industries.
 
 ### Enrollment and Graduations
 
-<table class="enrollment">
+<table class="enrollment table-striped table-bordered">
   <thead>
     <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
   </thead>
@@ -69,8 +51,8 @@ TODO
   </tbody>
 </table>
 <caption>
-  * Declared bioinformatics majors in Fall quarter of designated year. </br>
-  ** Annual graduations starting from Fall quarter of designated year. </br>
+  * Declared bioinformatics majors in Fall quarter of designated year. <br>
+  ** Annual graduations starting from Fall quarter of designated year. <br>
   Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
 </caption>
 

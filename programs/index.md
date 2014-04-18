@@ -17,7 +17,13 @@ nav:
 ## Programs
 
 - [Bachelor of Science in Computer Science][bs-cs]
+- [Bachelor of Science in Computer Engineering][bs-ce]
+- [Bachelor of Science in Bioinformatics][bio]
 - [Bachelor of Arts in Computer Systems][ba-cs]
+- [Master of Science in Computer Science][ms]
 
 [bs-cs]: computer-science/
+[bs-ce]: computer-engineering/
+[bio]: bioinformatics/
 [ba-cs]: computer-systems/
+[ms]: master/
