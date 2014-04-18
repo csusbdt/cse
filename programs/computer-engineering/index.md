@@ -16,16 +16,10 @@ Program requirements change from year to year. Students need to complete course 
 
 ### Program Information
 
-- [Program Description 2012/13 - 2013/14][description-12-14]
-- [Flowchart of Course Dependencies 2012/13 - 2013/14][flowchart-12-14]
-- [Program Description 2011/12][description-11-12]
-- [Flowchart of Course Dependencies 2011/12][flowchart-11-12]
-- [Program Description 2010/11][description-10-11]
-- [Flowchart of Course Dependencies 2010/11][flowchart-10-11]
-- [Program Description 2009/10][description-09-10]
-- [Flowchart of Course Dependencies 2009/10][flowchart-09-10]
-- [Program Description 2008/09][description-08-09]
-- [Flowchart of Course Dependencies 2008/09][flowchart-08-09]
+- [Program Description 2012/13 - 2013/14][description]
+- [Flowchart of Course Dependencies 2012/13 - 2013/14][flowchart]
+- [Descriptions and Flowcharts for Prior Years][archive]
+- [Program Objectives and Student Outcomes][outcomes]
 
 ### Additional Resources
 
@@ -43,33 +37,9 @@ Students meet with a faculty adviser at least once per year for the purpose of r
 
 The mission of the computer engineering degree program is to provide all its students with a complete foundation in the theoretical and practical underpinnings of computer engineering strengthened through hands-on learning. The program will provide students with the design, analysis, reasoning, and communication skills necessary to pursue a meaningful career in computer engineering, or related fields. Program stakeholders will foster relationships with industry to increase student learning through collaborative projects that benefit society. The program will engage students in active, fundamental and applied research that enables them to pursue advanced degrees and contribute to the growing body of computer engineering knowledge.
 
-### Program Educational Objectives
-
-Students graduated from the B.S. in Computer Engineering program at CSUSB will attain the following educational obectives within a few years after graduation.
-
-- Establish a successful career utilizing their education in computer engineering or engage in advanced studies.
-- Communicate effectively in both written and oral forms across all levels of engineering processes.
-- Engage in life-long learning to stay current with their profession as it changes.
-- Demonstrate professional competence, integrety and responsibility in diverse work environments.
-
-### Student Learning Outcomes
-
-By the time of graduation, student learning outcomes should include the following.
-
-- An ability to apply knowledge of mathematics, science, and engineering
-- An ability to design and conduct experiments, as well as to analyze and interpret data
-- An ability to design a system, component, or process to meet desired needs within realistic constraints such as economic, environmental, social, political, ethical, health and safety, manufacturability, and sustainability
-- An ability to function on multidisciplinary teams
-- An ability to identify, formulate, and solve engineering problems
-- An understanding of professional and ethical responsibility
-- An ability to communicate effectively the broad education necessary to understand the impact of engineering solutions in a global, economic, environmental, and societal context
-- A recognition of the need for, and an ability to engage in life-long learning
-- A knowledge of contemporary issues
-- An ability to use the techniques, skills, and modern engineering tools necessary for engineering practice
-
 ### Enrollment and Graduations
 
-<table class="enrollment">
+<table class="enrollment table-striped table-bordered">
   <thead>
     <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
   </thead>
@@ -84,8 +54,8 @@ By the time of graduation, student learning outcomes should include the followin
   </tbody>
 </table>
 <caption>
-  * Declared computer engineering majors in Fall quarter of designated year. </br>
-  ** Annual graduations starting from Fall quarter of designated year. </br>
+  * Declared computer engineering majors in Fall quarter of designated year. <br>
+  ** Annual graduations starting from Fall quarter of designated year. <br>
   Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
 </caption>
 
@@ -93,17 +63,10 @@ By the time of graduation, student learning outcomes should include the followin
 [abet]: http://abet.org/
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
-[flowchart-12-14]: flowcharts/ce-flowchart-2012.pdf
-[flowchart-11-12]: flowcharts/ce-flowchart-2011.pdf
-[flowchart-10-11]: flowcharts/ce-flowchart-2010.pdf
-[flowchart-09-10]: flowcharts/ce-flowchart-2009.pdf
-[flowchart-08-09]: flowcharts/ce-flowchart-2008.pdf
-
-[description-12-14]: descriptions/ce-description-2012.pdf
-[description-11-12]: descriptions/ce-description-2011.pdf
-[description-10-11]: descriptions/ce-description-2010.pdf
-[description-09-10]: descriptions/ce-description-2009.pdf
-[description-08-09]: descriptions/ce-description-2008.pdf
+[flowchart]: ce-flowchart-2012.pdf
+[description]: ce-description-2012.pdf
+[archive]: ../computer-engineering-archive/
+[outcomes]: computer-engineering-objectives-and-outcomes.pdf
 
 [yearly-schedule]: /docs/Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
