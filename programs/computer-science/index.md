@@ -12,14 +12,14 @@ nav:
 
 The Bachelor of Science in Computer Science program emphasizes the traditional study of Computer Science, with an emphasis on mathematical rigor, theoretical foundations and computer architecture. The BS Computer Science program is accredited by [ABET][abet].
 
-Program requirements change from year to year. Students need to complete course requirements according to the academic year they last declared their major. This information is included on the [PAWS Report][paws].
-
 ### Program Information
 
 - [Program Description 2012/13 - 2013/14][description]
 - [Flowchart of Course Dependencies 2012/13 - 2013/14][flowchart]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
+
+Program requirements change from year to year. Students need to complete course requirements according to the academic year they last declared their major. This information is included on the [PAWS Report][paws].
 
 ### Additional Resources
 

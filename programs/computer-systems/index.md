@@ -12,8 +12,6 @@ nav:
 
 The Bachelor of Arts (BA) in Computer Systems program emphasizes the application of principles to practical problem solving in a domain of interest. Students complete a core set of foundation courses and courses in one of the following concentrations: web programming, system administration, game development, graphics programming. Students also have the ability to combine the study of computer systems with another field of study through the general interdisciplinary option.
 
-Program requirements change from year to year. Students need to complete course requirements according to the academic year they last declared their major. This information is included on the [PAWS Report][paws].
-
 ### Program Information 
 
 - [Program description, 2012/2014][description-12-14]
@@ -24,6 +22,8 @@ Program requirements change from year to year. Students need to complete course 
 - [Flowchart of Course Dependencies for the Graphics Programming Option, 2012/14][graphics-12]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
+
+Program requirements change from year to year. Students need to complete course requirements according to the academic year they last declared their major. This information is included on the [PAWS Report][paws].
 
 ### Elective Coursework Application Forms
 

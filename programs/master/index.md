@@ -8,7 +8,7 @@ nav:
       desc: What it is
 ---
 
-## Master of Science in __Computer Science__
+## Master of Science in <strong>Computer Science</strong>
 
 The Master of Science in Computer Science degree program provides students with academic and professional opportunities at three levels. At the first level, the program allows individuals with a baccalaureate degree in computer science (or a related field) to broaden their knowledge of the subject as well as strengthen their professional marketability and increase their earning potential. At the second level, the M.S. in Computer Science program can be an avenue for career change to computer science for those who have degrees and employment in other fields. Lastly, at the third level, the M.S. in Computer Science program provides individuals a strong foundation for graduate study at the doctoral level.
 
@@ -39,7 +39,7 @@ TODO
 
 ### Enrollment and Graduations
 
-<table class="enrollment">
+<table class="enrollment table-striped table-bordered">
   <thead>
     <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
   </thead>
@@ -54,8 +54,8 @@ TODO
   </tbody>
 </table>
 <caption>
-  * Master's degree program enrollments in Fall quarter of designated year. </br>
-  ** Annual graduations starting from Fall quarter of designated year. </br>
+  * Master's degree program enrollments in Fall quarter of designated year. <br>
+  ** Annual graduations starting from Fall quarter of designated year. <br>
   Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
 </caption>
 
