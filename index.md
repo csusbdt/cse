@@ -13,4 +13,8 @@ nav:
 
 ## Welcome to __The Homepage__
 
-Temporary page content.
+- [Programs](programs/)
+- [Resources](resources/)
+- [Faculty and Staff](people/)
+- [Contact](contact/)
+
