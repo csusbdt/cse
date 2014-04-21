@@ -1,0 +1,5 @@
+.inline-nav {
+    ul {
+        @extend .inline-list-spaces;
+    }
+}
