@@ -1,11 +1,19 @@
 .nav-bar-container {
-    @include reset-display();
+    @include row(display);
+
+    &:after {
+        @include reset-all();
+    }
 }
 
 .nav-bar {
     @include outer-container();
     @include row(table);
     border-bottom: 1px solid $color-0-t3;
+    border-left: 1px solid $color-0-t3;
+    border-right: 1px solid $color-0-t3;
+    border-bottom-left-radius: $border-radius-base;
+    border-bottom-right-radius: $border-radius-base;
     position: relative;
     background-color: #fff;
 
@@ -18,7 +26,7 @@
     a {
         display: block;
         line-height: 1.5em;
-        padding: 1.2em 0 1em 0;
+        padding: 1.2em 0 1em;
         text-decoration: none;
 
         [class^="icon-"],
@@ -31,7 +39,7 @@
         }
 
         .icon-left  { margin-right: .5em; }
-        .icon-right { margin-left: .5em;  }
+        .icon-right { margin-left:  .5em; }
 
         &:hover,
         &:focus {

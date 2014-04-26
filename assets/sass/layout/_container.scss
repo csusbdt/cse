@@ -1,3 +1,5 @@
 .container {
     @include outer-container();
+    @include reset-all();
+    @include row(block);
 }
