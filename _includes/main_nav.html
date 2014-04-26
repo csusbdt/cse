@@ -1,34 +1,23 @@
-<section class='nav-bar' id='main-nav'>
-    <div class='nav-bar-content'>
-        <div class='banner-options'>
-            <button type='button'
-                    id='banner-toggle'
-                    class='text-button js-banner-toggle'
-                    data-toggle='collapse'
-                    data-target='#banner'>
-                <span class='icon icon-arrow-up'></span>
-                Campus Site
-            </button>
+<section class='nav-bar-container'>
+    <nav class='nav-bar' id='main-nav-bar'>
+        <div class='nav-bar-segment'>
+            <a href='#' class='nav-bar-trigger'>
+                <span class='icon-arrow-left icon-left'></span>
+                Campus
+            </a>
         </div>
-        <span class='site-nav-title'>
-            <button type='button'
-                    id='nav-toggle'
-                    class='text-button js-nav-toggle'
-                    data-toggle='open'
-                    data-target='#site-nav'>
+        <div class='nav-bar-segment'>
+            <a id='main-nav-trigger' href='#' class='nav-bar-trigger' data-target='main-nav'>
                 Navigation
-                <span class='icon icon-arrow-down'></span>
-            </button>
-        </span>
-        <nav class='site-nav' id='site-nav'>
-            <ul>
-                <li class='site-nav-item dropdown'>
-                    <a class='nav-parent' data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/programs' title='Degree Programs'>
-                        <span class='icon icon-files'></span>
+                <span class='icon-arrow-down icon-right'></span>
+            </a>
+            <ul class='nav-bar-sub-nav' id='main-nav'>
+                <li class='nav-bar-item'>
+                    <a href='{% if site.safe %}/cse{% endif %}/programs' title='Degree Programs'>
                         Degree Programs
                     </a>
-                    <ul class='dropdown-menu'>
-                        <li class='dropdown-header'>Undergraduate</li>
+                    <ul class='nav-bar-dropdown'>
+                        <li class='nav-bar-dropdown-header'>Undergraduate</li>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/programs/computer-science' title='BS in Computer Science'>
                                 BS in Computer Science
@@ -60,7 +49,7 @@
                             </a>
                         </li>
                         <li class='divider'></li>
-                        <li class='dropdown-header'>Graduate</li>
+                        <li class='nav-bar-dropdown-header'>Graduate</li>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/programs/master' title='MS in Computer Science'>
                                 MS in Computer Science
@@ -68,13 +57,12 @@
                         </li>
                     </ul>
                 </li>
-                <li class='site-nav-item dropdown'>
-                    <a class='nav-parent' data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/info' title='Department Information'>
-                        <span class='icon icon-mug'></span>
+                <li class='nav-bar-item'>
+                    <a href='{% if site.safe %}/cse{% endif %}/info' title='Department Information'>
                         Department Info
                     </a>
-                    <ul class='dropdown-menu'>
-                        <li class='dropdown-header'>Faculty and Staff</li>
+                    <ul class='nav-bar-dropdown'>
+                        <li class='nav-bar-dropdown-header'>Faculty and Staff</li>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/faculty/full-time' title='Full Time Faculty'>
                                 Full Time Faculty
@@ -118,12 +106,11 @@
                         </li>
                     </ul>
                 </li>
-                <li class='site-nav-item dropdown'>
-                    <a class='nav-parent' data-toggle='dropdown' href='{% if site.safe %}/cse{% endif %}/resources' title='Student Resources'>
-                        <span class='icon icon-list'></span>
+                <li class='nav-bar-item'>
+                    <a href='{% if site.safe %}/cse{% endif %}/resources' title='Student Resources'>
                         Student Resources
                     </a>
-                    <ul class='dropdown-menu'>
+                    <ul class='nav-bar-dropdown'>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/forms' title='Forms'>
                                 Forms
@@ -157,6 +144,6 @@
                     </ul>
                 </li>
             </ul>
-        </nav>
-    </div>
+        </div> <!-- /.nav-bar-segment -->
+    </nav> <!-- /.nav-bar -->
 </section>

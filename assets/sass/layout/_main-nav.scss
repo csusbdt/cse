@@ -1,101 +1,95 @@
-
-
-#main-nav {
-    margin: 0;
-    padding: 0;
+.nav-bar-container {
+    @include reset-display();
+    background-color: #fff;
 }
 
-    .banner-options {
-        // @include span-columns(3 of 12);
-        border-right: 1px solid $color-0-t3;
+.nav-bar {
+    @include outer-container();
+    @include row(table);
+    border-bottom: 1px solid $color-0-t3;
+    position: relative;
+
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
     }
 
-    .banner-options,
-    .site-nav-title {
-        width: 50%;
-        display: inline-block;
-        float: left;
-        height: 3em;
-        text-align: center;
+    a {
+        display: block;
+        line-height: 1.5em;
+        padding: 1.2em 0 1em 0;
+        text-decoration: none;
 
-        .text-button {
-            padding: .8em 0;
+        [class^="icon-"],
+        [class*=" icon-"] {
+            @include font-size($font-size-h4);
+            line-height: 1em;
+            position: relative;
+            top: 2px;
+            color: rgba(0,0,0,.5);
+        }
+
+        .icon-left  { margin-right: .5em; }
+        .icon-right { margin-left: .5em;  }
+
+        &:hover,
+        &:focus {
+            color: #000;
+            background-color: $color-0;
+            @include linear-gradient(to bottom, #fff, #fbfbfb);
+            border: 1px solid $color-0-t3;
+            margin: -1px;
+        }
+    }
+}
+
+    .nav-bar-segment {
+        @include span-columns(6 of 12);
+        @include omega(2n);
+        @include pad(0);
+        height: 3em;
+
+        &:nth-child(2n+1) {
+            border-right: 1px solid rgba(0,0,0,.05);
+        }
+
+        a {
+            padding-left: 2em;
+            padding-right: 2em;
         }
     }
 
-    .site-nav {
-        // @include span-columns(9 of 12);
-        // @include omega();
+    .nav-bar-sub-nav {
         display: none;
 
-        ul,
-        li {
-            margin: 0;
-            padding: 0;
-        }
-    }
+        &.js-visible {
+            position: absolute;
+            top: 3.7em;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            display: block;
+            border-bottom: 1px solid rgba(0,0,0,.25);
+            box-shadow: 0 1px 2px rgba(0,0,0,.15);
 
-        .site-nav-item {
-            @include span-columns(3 of 9);
-            @include omega(3n);
-            height: 3.5em;
-
-            ul {
-                display: none;
-            }
-
-            .nav-parent {
-                height: 3.5em;
-                display: block;
-                padding: 1em 0;
-                color: $color-0;
-                text-decoration: none;
-                text-align: center;
-                position: relative;
-
-                &:hover,
-                &:focus,
-                &:active {
-                    color: $color-1;
-
-                    &:after {
-                        content: "";
-                        position: absolute;
-                        bottom: 0;
-                        left: 50%;
-                        width: 0;
-                        height: 0;
-                        border-bottom: .35em solid $color-1;
-                        border-left: .35em solid transparent;
-                        border-right: .35em solid transparent;
-                        margin-left: -.175em;
-                    }
-
-                    .icon {
-                        color: $color-1;
-                    }
-                }
-            }
-
-            .dropdown-header,
-            .dropdown-menu a {
-                padding: .5em 1em;
-            }
-
-            .dropdown-menu a {
-                text-decoration: none;
+            a {
+                color: #000;
+                border-top: 1px solid rgba(0,0,0,.1);
 
                 &:hover,
                 &:focus {
-                    background: $color-3-t3;
+                    background: $color-1;
+                    border: 0;
+                    border-top: 1px solid rgba(0,0,0,.1);
+                    border-bottom: 1px solid rgba(0,0,0,.1);
+                    margin: 0 0 -1px 0;
+                    color: #fff;
                 }
             }
+        }
+    }
 
-            .icon {
-                display: inline-block;
-                margin-right: .5em;
-                color: $color-0-t1;
-                vertical-align: -1px;
-                -webkit-font-smoothing: antialiased;
-            }
+        .nav-bar-dropdown {
+            display: none;
         }
