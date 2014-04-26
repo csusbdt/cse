@@ -2,4 +2,8 @@
     ul {
         @extend .inline-list-spaces;
     }
+
+    & .small {
+        @include font-size($font-size-micro);
+    }
 }

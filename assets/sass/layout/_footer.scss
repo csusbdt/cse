@@ -1,5 +1,5 @@
 .footer {
-    background: #222;
+    background: #000;
     color: #fff;
     padding: 1.5em;
     -webkit-font-smoothing: antialiased;
@@ -16,7 +16,48 @@
     }
 
     nav {
-        border-bottom: 1px solid rgba(255,255,255,.1);
+        border-bottom: 1px solid rgba(255,255,255,.15);
         margin-bottom: 1.5em;
+
+        .small a {
+            color: rgba(255,255,255,.5);
+
+            &:hover,
+            &:focus {
+                color: $color-3;
+            }
+        }
     }
+
+    .meta {
+        a {
+            text-decoration: underline;
+        }
+    }
+
+        .campus-logo,
+        .address,
+        .contact {
+            display: inline;
+        }
+
+        .campus-logo {
+            margin-right: 1em;
+            margin-top: .333em;
+        }
+
+        .campus-logo,
+        .address {
+            float: left;
+        }
+
+        .address,
+        .contact {
+            @include font-size($font-size-milli);
+            font-style: normal;
+        }
+
+        .contact {
+            float: right;
+        }
 }
