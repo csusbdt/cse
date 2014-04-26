@@ -29,6 +29,14 @@ blockquote {
     margin: 0 0 1em;
 }
 
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+    outline: 0;
+}
+
 table,
 dl,
 figure {
