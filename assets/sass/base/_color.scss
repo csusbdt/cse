@@ -1,5 +1,13 @@
 body {
-	background: $color-bg;
+	background: $color-bg url(/assets/img/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    -webkit-filter: grayscale(10%),
+            blur(10px);
+    filter: grayscale(10%),
+            blur(10px);
 	color: $color-0;
 }
 

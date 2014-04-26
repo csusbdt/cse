@@ -22,7 +22,7 @@
           <div class='container'>
             <aside class='sidebar'>
                 <div class='sidebar-content'>
-                    <p>{{ page.description }}</p>
+                    <p class='sidebar-description'>{{ page.description }}</p>
                 </div>
 
                 {% if page.nav %}
@@ -33,7 +33,7 @@
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}{{ item.url }}'>
                                 {{ item.title }}
-                                <span>{{ item.desc }}</span>
+                                <span class='pill'>{{ item.desc }}</span>
                             </a>
                         </li>
                         {% endfor %}

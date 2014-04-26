@@ -7,44 +7,32 @@
         padding: 0;
     }
 
-    li {
-        border-bottom: 1px solid rgba(0,0,0,.15);
-
-        &:first-child {
-            border-top: 1px solid rgba(0,0,0,.15);
-        }
-    }
-
     a {
         display: block;
-        padding: 1em 2em 1em 0;
+        padding: .75em 1em 0;
         color: $color-0;
         text-decoration: none;
         position: relative;
+        font-weight: 700;
 
         &:hover,
         &:focus {
             color: $color-1;
-
-            span {
-                background: $color-1;
-            }
         }
 
-        span {
-            position: absolute;
-            top: 1.5em;
-            right: 2em;
-            padding: .1em 1em;
-            border-radius: 5em;
-            color: #fff;
+        .pill {
             @include font-size($font-size-micro);
-            background: $color-0-t2;
+            margin-left: .5em;
+            color: $color-0-t2;
+            font-weight: 500;
         }
     }
 }
 
     .vertical-nav-title {
         display: block;
-        padding: .5em 2em .5em 0;
+        padding: 1em 2em .25em 0;
+        font-weight: 500;
+        color: rgba(0,0,0,.5);
+        border-top: 1px solid $color-0-t3;
     }
