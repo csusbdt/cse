@@ -1,14 +1,6 @@
-.nav-bar-container {
-    @include row(display);
-
-    &:after {
-        @include reset-all();
-    }
-}
-
 .nav-bar {
     @include outer-container();
-    @include row(table);
+    display: table;
     border-bottom: 1px solid $color-0-t3;
     border-left: 1px solid $color-0-t3;
     border-right: 1px solid $color-0-t3;
@@ -53,8 +45,7 @@
 }
 
     .nav-bar-segment {
-        @include span-columns(6 of 12);
-        @include omega(2n);
+        display: table-cell;
         @include pad(0);
         height: 3em;
 
