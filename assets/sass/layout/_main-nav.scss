@@ -1,6 +1,5 @@
 .nav-bar-container {
     @include reset-display();
-    background-color: #fff;
 }
 
 .nav-bar {
@@ -8,6 +7,7 @@
     @include row(table);
     border-bottom: 1px solid $color-0-t3;
     position: relative;
+    background-color: #fff;
 
     ul,
     li {
