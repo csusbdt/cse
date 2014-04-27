@@ -5,15 +5,18 @@
     var NavToggle = {
         // Separating the things I'm referencing from when I'm referencing them.
         settings: {
+            nav: $("#main-nav"),
             navTrigger: $("#main-nav-trigger"),
-            nav: $("#main-nav")
+            navTriggerIcon: $("#main-nav-trigger span")
         },
 
         // The initialization function.
-        init: function() {
+        init: function () {
             self = this.settings;
             self.navTrigger.click(function (e) {
                 self.nav.toggleClass("js-visible");
+                self.navTriggerIcon.toggleClass("icon-arrow-down");
+                self.navTriggerIcon.toggleClass("icon-arrow-up");
                 e.preventDefault();
             });
         }
