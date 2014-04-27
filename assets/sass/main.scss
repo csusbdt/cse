@@ -225,7 +225,6 @@ $close-quote:    null;
 @import 'module/lede';
 @import 'module/logo';
 @import 'module/quote';
-@import 'module/nav-bar';
 @import 'module/table-bordered';
 @import 'module/table-caption-top';
 @import 'module/table-condensed';
@@ -251,8 +250,8 @@ $close-quote:    null;
  * State
  */
 
-@import 'state/dropdown';
-
+// @import 'state/dropdown';
+@import 'state/nav-bar';
 
 
 
