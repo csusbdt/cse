@@ -7,12 +7,7 @@
 
         @media (min-width: $screen-md-min) {
             background: url("/cse/assets/img/content-bg.png") 219px 0 repeat-y;
-            padding: 2em 1.5em 8em;
-        }
-
-        @media (min-width: $screen-lg-min) {
-            padding-left: 0;
-            padding-right: 0;
+            padding: 2em 0 8em;
         }
     }
 }
