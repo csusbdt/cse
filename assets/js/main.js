@@ -11,6 +11,9 @@ $("#main-nav-trigger").click(function (e) {
 
 /**
  * Conditional loading of resources.
+ *
+ * NOTE: Smaller screen devices will still download the image currently. This is
+ * simply a test to show that the conditional loading logic works.
  */
 window.addEventListener("resize", function() {
   if (Modernizr.mq('only screen and (min-width: 700px)')) {
