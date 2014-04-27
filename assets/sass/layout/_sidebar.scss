@@ -1,7 +1,7 @@
 .sidebar {
     display: none;
 
-    @media (min-width: $screen-md-min) {
+    @media (min-width: $screen-lg-min) {
         @include span-columns(3 of 12);
         margin-top: -2em;
         padding-top: 2em;

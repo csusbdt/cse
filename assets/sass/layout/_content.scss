@@ -5,7 +5,7 @@
     .container {
         padding: 1.5em;
 
-        @media (min-width: $screen-md-min) {
+        @media (min-width: $screen-lg-min) {
             background: url("/cse/assets/img/content-bg.png") 219px 0 repeat-y;
             padding: 2em 0 8em;
         }
