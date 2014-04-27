@@ -1,13 +1,5 @@
 body {
-	background: $color-bg url("/cse/assets/img/bg.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-    -webkit-filter: grayscale(10%),
-            blur(10px);
-    filter: grayscale(10%),
-            blur(10px);
+    background-color: $color-bg;
 	color: $color-0;
 }
 
