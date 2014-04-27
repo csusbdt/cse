@@ -17,7 +17,7 @@
         display: block;
         @include font-size($font-size-h2);
         letter-spacing: 0;
-        color: $color-1;
+        color: $color-0;
 
         @media (min-width: $screen-md-min) {
             @include font-size($font-size-h1);

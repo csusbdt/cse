@@ -35,29 +35,37 @@
         }
     }
 
-        .campus-logo,
         .address,
         .contact {
             display: inline;
-        }
-
-        .campus-logo {
-            margin-right: 1em;
-            margin-top: .333em;
-        }
-
-        .campus-logo,
-        .address {
-            float: left;
-        }
-
-        .address,
-        .contact {
             @include font-size($font-size-milli);
             font-style: normal;
         }
 
+        .campus-logo,
+        .address,
         .contact {
-            float: right;
+            display: block;
+
+            @media screen and (min-width: $screen-md-min) {
+                display: inline;
+                float: left;
+            }
+        }
+
+        .contact {
+            @media screen and (min-width: $screen-md-min) {
+                float: right;
+            }
+        }
+
+        .campus-logo {
+            display: none;
+            margin-right: 1em;
+            margin-top: .333em;
+
+            @media screen and (min-width: $screen-md-min) {
+                display: inline;
+            }
         }
 }

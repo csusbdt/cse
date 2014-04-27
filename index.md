@@ -11,7 +11,7 @@ nav:
       desc: Another one
 ---
 
-## Welcome to __The Homepage__
+## Welcome to __The Department__
 
 - [Programs](programs/)
 - [Resources](resources/)
