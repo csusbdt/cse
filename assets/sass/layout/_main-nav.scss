@@ -131,6 +131,14 @@
                     margin: 0 -1px;
                     color: #000;
                 }
+
+                &.last-link {
+                    &:hover,
+                    &:focus {
+                        border-right: 0;
+                        margin-right: 0;
+                    }
+                }
             }
         }
     }
