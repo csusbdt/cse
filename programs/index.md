@@ -14,7 +14,7 @@ nav:
       desc: Easiest
 ---
 
-## Programs
+## Listing of Official __Degree Programs__
 
 - [Bachelor of Science in Computer Science][bs-cs]
 - [Bachelor of Science in Computer Engineering][bs-ce]
