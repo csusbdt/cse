@@ -122,10 +122,10 @@
 
                 [class^="icon-"],
                 [class*=" icon-"] {
-                    @include font-size($font-size-base);
+                    @include font-size($font-size-h5);
                     line-height: 1em;
                     position: relative;
-                    top: 2px;
+                    top: 1px;
                     color: rgba(0,0,0,.5);
                     -webkit-font-smoothing: antialiased;
                     -moz-osx-font-smoothing: grayscale;
