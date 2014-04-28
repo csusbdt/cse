@@ -26,11 +26,13 @@ var Responsive = {
     var self = this.settings;
     if (Modernizr.mq("only screen and (min-width: 960px)")) {
       self.campusTrigger.attr("href", "#");
+      self.campusTrigger.text("Collapse banner");
       self.campusTriggerIcon.removeClass("icon-arrow-left");
       self.campusTriggerIcon.addClass("icon-arrow-up");
       self.dropdownLink.attr("data-toggle", "dropdown");
     } else {
       self.campusTrigger.attr("href", "http://csusb.edu");
+      self.campusTrigger.text("Campus");
       self.campusTriggerIcon.removeClass("icon-arrow-up");
       self.campusTriggerIcon.addClass("icon-arrow-left");
       self.dropdownLink.attr("data-toggle", "");
