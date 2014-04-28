@@ -37,26 +37,25 @@ var Responsive = {
   }
 };
 
-var Desktop = {
-  init: function () {
-    var items = document.querySelectorAll('.media-query-dependent');
-    var index = items.length;
-    var current = null;
-    var attribute = null;
-    while (index--) {
-      current = items[index];
-      if (current.dataset.media && window.matchMedia(current.dataset.media).matches) {
-        for (attribute in current.dataset) {
-          if (attribute !== 'media') {
-            current.setAttribute(attribute, current.dataset[attribute]);
-          }
+(function(){
+  var queries = document.
+                querySelectorAll('.media-query-dependent'),
+      all = queries.length,
+      cur = null,
+      attr = null;
+  while (all--) {
+    cur = queries[all];
+    if (cur.dataset.media &&
+        window.matchMedia(cur.dataset.media).matches) {
+      for (attr in cur.dataset) {
+        if (attr !== 'media') {
+          cur.setAttribute(attr, cur.dataset[attr]);
         }
       }
     }
   }
-};
+}());
 
 NavToggle.init();
 Responsive.init();
-Desktop.init();
 
