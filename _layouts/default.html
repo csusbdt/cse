@@ -19,12 +19,6 @@
         <!-- Main site CSS -->
         <link rel="stylesheet"
               href='{% if site.safe %}/cse{% endif %}/assets/css/main.css'>
-
-        <!-- Desktop-only CSS (w/ conditional loading to avoid large mobile downloads) -->
-        <link rel="stylesheet"
-              class="media-query-dependent"
-              data-media="screen and (min-width: 960px)"
-              data-href="{% if site.safe %}/cse{% endif %}/assets/css/desktop.css">
     </head>
     <body>
 
