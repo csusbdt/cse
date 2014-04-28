@@ -122,6 +122,7 @@
 
                 [class^="icon-"],
                 [class*=" icon-"] {
+                    @include font-size($font-size-base);
                     line-height: 1em;
                     position: relative;
                     top: 2px;
