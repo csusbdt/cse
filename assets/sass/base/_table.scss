@@ -2,6 +2,7 @@ table {
     width: 100%;
     overflow-x: scroll;
     caption-side: bottom;
+    white-space: no-wrap;
 
     caption {
         @include font-size($font-size-milli);
@@ -17,6 +18,7 @@ table {
 
 tr {
     border-bottom: 1px solid #ccc;
+    display: inline-block;
 }
 
 th {
