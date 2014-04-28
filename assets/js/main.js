@@ -16,15 +16,19 @@ var NavToggle = {
 };
 
 var Responsive = {
+  settings: {
+    body: $("body"),
+    campusTrigger: $("#campus-trigger"),
+    dropdownLink: $(".dropdown > a")
+  },
   respond: function () {
-    if (Modernizr.mq("only screen and (min-width: 700px)")) {
-      $("body").addClass("background-image");
-      $("#campus-trigger").attr("href", "#");
-      $(".dropdown > a").attr("data-toggle", "dropdown");
+    var self = this.settings;
+    if (Modernizr.mq("only screen and (min-width: 960px)")) {
+      self.campusTrigger.attr("href", "#");
+      self.dropdownLink.attr("data-toggle", "dropdown");
     } else {
-      $("body").removeClass("background-image");
-      $("#campus-trigger").attr("href", "http://csusb.edu");
-      $(".dropdown > a").attr("data-toggle", "");
+      self.campusTrigger.attr("href", "http://csusb.edu");
+      self.dropdownLink.attr("data-toggle", "");
     }
   },
   init: function () {
@@ -33,6 +37,26 @@ var Responsive = {
   }
 };
 
+var Desktop = {
+  init: function () {
+    var queries = document.querySelectorAll('.media-query-dependent');
+    var all = queries.length;
+    var cur = null;
+    var attr = null;
+    while (all--) {
+      cur = queries[all];
+      if (cur.dataset.media && window.matchMedia(cur.dataset.media).matches) {
+        for (attr in cur.dataset) {
+          if (attr !== 'media') {
+            cur.setAttribute(attr, cur.dataset[attr]);
+          }
+        }
+      }
+    }
+  }
+};
+
 NavToggle.init();
 Responsive.init();
+Desktop.init();
 

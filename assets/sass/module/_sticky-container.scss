@@ -1,0 +1,8 @@
+.sticky-container {
+    position: relative;
+
+    > .vertical-nav {
+        position: sticky;
+        top: 0;
+    }
+}

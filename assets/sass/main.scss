@@ -225,6 +225,7 @@ $close-quote:    null;
 @import 'module/lede';
 @import 'module/logo';
 @import 'module/quote';
+@import 'module/sticky-container';
 @import 'module/table-bordered';
 @import 'module/table-caption-top';
 @import 'module/table-condensed';
@@ -236,7 +237,6 @@ $close-quote:    null;
  * Layout
  */
 
-@import 'layout/body';
 @import 'layout/campus-banner';
 @import 'layout/container';
 @import 'layout/content';
