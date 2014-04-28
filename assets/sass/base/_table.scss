@@ -15,8 +15,8 @@ table {
 }
 
 thead {
+    display: block;
     float: left;
-    display: inline;
 
     @media screen and (min-width: $screen-md-min) {
         display: block;
