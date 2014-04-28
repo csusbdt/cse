@@ -124,11 +124,12 @@
                 [class*=" icon-"] {
                     @include font-size($font-size-base);
                     line-height: 1em;
-                    position: static;
+                    position: relative;
+                    top: 1px;
                     color: rgba(0,0,0,.5);
                     -webkit-font-smoothing: antialiased;
                     -moz-osx-font-smoothing: grayscale;
-                    margin-right: .25em;
+                    margin-right: .333em;
                 }
 
                 &:hover,
