@@ -95,6 +95,12 @@
             }
         }
 
+        #campus-trigger {
+            i {
+                font-style: normal;
+            }
+        }
+
         #main-nav-trigger {
             @media screen and (min-width: $screen-lg-min) {
                 display: none;
