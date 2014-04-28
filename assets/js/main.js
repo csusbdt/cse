@@ -19,12 +19,15 @@ var Responsive = {
   settings: {
     body: $("body"),
     campusTrigger: $("#campus-trigger"),
+    campusTriggerIcon: $("#campus-trigger span"),
     dropdownLink: $(".dropdown > a")
   },
   respond: function () {
     var self = this.settings;
     if (Modernizr.mq("only screen and (min-width: 960px)")) {
       self.campusTrigger.attr("href", "#");
+      self.campusTriggerIcon.removeClass("icon-arrow-left");
+      self.campusTriggerIcon.addClass("icon-arrow-up");
       self.dropdownLink.attr("data-toggle", "dropdown");
     } else {
       self.campusTrigger.attr("href", "http://csusb.edu");
