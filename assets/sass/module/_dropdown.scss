@@ -19,7 +19,8 @@
         border-top: 1px solid rgba(0,0,0,.25);
         box-shadow: 1px 0 0 0 rgba(0,0,0,.25),
                    -1px 0 0 0 rgba(0,0,0,.25),
-                    0 1px 0 0 rgba(0,0,0,.25);
+                    0 1px 0 0 rgba(0,0,0,.25),
+                    0 3px 5px rgba(0,0,0,.15);
     }
 
         .dropdown-menu .divider {
@@ -41,8 +42,8 @@
                 .dropdown-menu > li > a:hover,
                 .dropdown-menu > li > a:focus {
                     text-decoration: none;
-                    color: $color-1;
-                    background: #f7f7f7;
+                    color: #000;
+                    background: $color-3-t2;
                     margin: 0;
                     border: 0;
                 }
