@@ -37,24 +37,21 @@ var Responsive = {
   }
 };
 
-(function(){
-  var queries = document.
-                querySelectorAll('.media-query-dependent'),
-      all = queries.length,
-      cur = null,
-      attr = null;
-  while (all--) {
-    cur = queries[all];
-    if (cur.dataset.media &&
-        window.matchMedia(cur.dataset.media).matches) {
-      for (attr in cur.dataset) {
-        if (attr !== 'media') {
-          cur.setAttribute(attr, cur.dataset[attr]);
-        }
+var queries = document.querySelectorAll('.media-query-dependent');
+var all = queries.length;
+var current = null;
+var attr = null;
+while (all--) {
+  current = queries[all];
+  if (current.dataset.media &&
+      window.matchMedia(current.dataset.media).matches) {
+    for (attr in current.dataset) {
+      if (attr !== 'media') {
+        current.setAttribute(attr, current.dataset[attr]);
       }
     }
   }
-}());
+}
 
 NavToggle.init();
 Responsive.init();
