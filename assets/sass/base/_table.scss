@@ -1,5 +1,10 @@
-table {
+.table-wrap {
     width: 100%;
+}
+
+table {
+    max-width: 100%;
+    overflow-x: scroll;
     caption-side: bottom;
 
     caption {

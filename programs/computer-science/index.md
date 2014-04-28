@@ -39,57 +39,27 @@ The mission of the Bachelor of Science degree in Computer Science is to provide 
 
 ### Enrollment and Graduations
 
-<table class="enrollment">
-  <thead>
-    <tr>
-      <th>Year</th>
-      <th>Enrollment*</th>
-      <th>Graduations**</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2007</td>
-      <td>161</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <td>2008</td>
-      <td>160</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <td>2009</td>
-      <td>143</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <td>2010</td>
-      <td>140</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <td>2011</td>
-      <td>153</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <td>2012</td>
-      <td>169</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <td>2013</td>
-      <td>222</td>
-      <td>NA</td>
-    </tr>
-  </tbody>
-</table>
-<caption>
-  * Declared computer science majors in Fall quarter of designated year. <br>
-  ** Annual graduations starting from Fall quarter of designated year. <br>
-  Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
-</caption>
+<div class='table-wrap'>
+  <table class="enrollment">
+    <thead>
+      <tr><th>Year</th><th>Enrollment*</th><th>Graduations**</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>2007</td><td>161</td><td>17</td></tr>
+      <tr><td>2008</td><td>160</td><td>17</td></tr>
+      <tr><td>2009</td><td>143</td><td>18</td></tr>
+      <tr><td>2010</td><td>140</td><td>18</td></tr>
+      <tr><td>2011</td><td>153</td><td>16</td></tr>
+      <tr><td>2012</td><td>169</td><td>22</td></tr>
+      <tr><td>2013</td><td>222</td><td>NA</td></tr>
+    </tbody>
+  </table>
+  <caption>
+    * Declared computer science majors in Fall quarter of designated year. <br>
+    ** Annual graduations starting from Fall quarter of designated year. <br>
+    Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
+  </caption>
+</div>
 
 [abet]: http://abet.org/
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
