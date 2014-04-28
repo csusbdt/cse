@@ -1,5 +1,5 @@
 .header {
-    padding: 2em 1em;
+    padding: 2em 1.5em;
 
     @media screen and (min-width: $screen-md-min) {
         padding-top: 4em;
@@ -10,6 +10,7 @@
         display: block;
         text-align: left;
         @include font-size($font-size-h3);
+        letter-spacing: .5px;
 
         @media (min-width: $screen-sm-min) {
             @include font-size($font-size-h2);
