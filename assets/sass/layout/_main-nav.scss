@@ -65,6 +65,17 @@
 
                 &:nth-child(1) {
                     width: 25%;
+
+                    a:hover,
+                    a:focus {
+                        background: #fbfbfb;
+                        text-shadow: 0 0 0 transparent;
+                        border: 0;
+                        border-top: .25em solid $color-1;
+                        padding-top: .95em;
+                        margin: 0;
+                        color: #000;
+                    }
                 }
 
                 &:nth-child(2) {
@@ -134,22 +145,13 @@
 
                 &:hover,
                 &:focus {
-                    background: #fff;
-                    @include linear-gradient(to bottom, #fff, #f7f7f7);
+                    background: #fbfbfb;
                     text-shadow: 0 0 0 transparent;
                     border: 0;
-                    border-left: 1px solid rgba(0,0,0,.05);
-                    border-right: 1px solid rgba(0,0,0,.05);
-                    margin: 0 -1px;
+                    border-top: .25em solid $color-1;
+                    padding-top: .95em;
+                    margin: 0;
                     color: #000;
-                }
-
-                &.last-link {
-                    &:hover,
-                    &:focus {
-                        border-right: 0;
-                        margin-right: 0;
-                    }
                 }
             }
         }
