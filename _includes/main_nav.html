@@ -12,11 +12,11 @@
                 <span class='icon-arrow-down icon-right'></span>
             </a>
             <ul class='nav-bar-sub-nav' id='main-nav'>
-                <li class='nav-bar-item'>
-                    <a href='{% if site.safe %}/cse{% endif %}/programs'>
+                <li class='nav-bar-item dropdown'>
+                    <a href='{% if site.safe %}/cse{% endif %}/programs' data-toggle='dropdown'>
                         Degree Programs
                     </a>
-                    <ul class='nav-bar-dropdown'>
+                    <ul class='nav-bar-dropdown dropdown-menu'>
                         <li class='nav-bar-dropdown-header'>Undergraduate</li>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/programs/computer-science'>
@@ -57,11 +57,11 @@
                         </li>
                     </ul>
                 </li>
-                <li class='nav-bar-item'>
-                    <a href='{% if site.safe %}/cse{% endif %}/info'>
+                <li class='nav-bar-item dropdown'>
+                    <a href='{% if site.safe %}/cse{% endif %}/info' data-toggle='dropdown'>
                         Department Info
                     </a>
-                    <ul class='nav-bar-dropdown'>
+                    <ul class='nav-bar-dropdown dropdown-menu'>
                         <li class='nav-bar-dropdown-header'>Faculty and Staff</li>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/faculty/full-time'>
@@ -106,11 +106,11 @@
                         </li>
                     </ul>
                 </li>
-                <li class='nav-bar-item'>
-                    <a href='{% if site.safe %}/cse{% endif %}/resources' class='last-link'>
+                <li class='nav-bar-item dropdown'>
+                    <a href='{% if site.safe %}/cse{% endif %}/resources' class='last-link' data-toggle='dropdown'>
                         Student Resources
                     </a>
-                    <ul class='nav-bar-dropdown'>
+                    <ul class='nav-bar-dropdown dropdown-menu'>
                         <li>
                             <a href='{% if site.safe %}/cse{% endif %}/forms'>
                                 Forms

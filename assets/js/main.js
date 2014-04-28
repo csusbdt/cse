@@ -19,10 +19,12 @@ var Responsive = {
   respond: function () {
     if (Modernizr.mq("only screen and (min-width: 700px)")) {
       $("body").addClass("background-image");
-      $("#campus-trigger").href = "#";
+      $("#campus-trigger").attr("href", "#");
+      $(".dropdown > a").attr("data-toggle", "dropdown");
     } else {
       $("body").removeClass("background-image");
-      $("#campus-trigger").href = "http://csusb.edu";
+      $("#campus-trigger").attr("href", "http://csusb.edu");
+      $(".dropdown > a").attr("data-toggle", "");
     }
   },
   init: function () {
