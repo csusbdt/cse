@@ -1,7 +1,6 @@
 table {
     width: 100%;
     caption-side: bottom;
-    white-space: no-wrap;
 
     caption {
         @include font-size($font-size-milli);
@@ -15,8 +14,18 @@ table {
     }
 }
 
+thead {
+    float: left;
+    display: inline;
+
+    @media screen and (min-width: $screen-md-min) {
+        display: block;
+    }
+}
+
 tbody {
     overflow-x: auto;
+    white-space: no-wrap;
 }
 
 tr {
