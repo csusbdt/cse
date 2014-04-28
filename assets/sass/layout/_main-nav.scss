@@ -1,6 +1,5 @@
 .nav-bar {
     @include outer-container();
-    display: table;
     box-shadow: 1px 0 0 0 rgba(0,0,0,.25),
                -1px 0 0 0 rgba(0,0,0,.25),
                 0 1px 0 0 rgba(0,0,0,.25);
@@ -37,15 +36,17 @@
         &:focus {
             color: #000;
             background-color: $color-0;
-            @include linear-gradient(to bottom, #fff, #fbfbfb);
+            @include linear-gradient(to bottom, #fff, #f7f7f7);
         }
     }
 }
 
     .nav-bar-segment {
-        display: table-cell;
+        width: 50%;
+        float: left;
+        display: inline-block;
         @include pad(0);
-        height: 3em;
+        height: 3.7em;
 
         &:nth-child(2n+1) {
             border-right: 1px solid rgba(0,0,0,.05);
@@ -56,6 +57,27 @@
             padding-right: 2em;
         }
     }
+
+        .nav-bar-segment {
+            @media screen and (min-width: $screen-lg-min) {
+                float: left;
+                display: inline;
+
+                &:nth-child(1) {
+                    width: 25%;
+                }
+
+                &:nth-child(2) {
+                    width: 75%;
+                }
+            }
+        }
+
+        #main-nav-trigger {
+            @media screen and (min-width: $screen-lg-min) {
+                display: none;
+            }
+        }
 
     .nav-bar-sub-nav {
         display: none;
@@ -86,8 +108,41 @@
                 color: #fff;
             }
         }
+
+        @media screen and (min-width: $screen-lg-min) {
+            width: 100%;
+            display: block;
+            height: 3.7em;
+            position: static;
+            box-shadow: 0 0 0 0 transparent;
+            border-bottom: 0;
+
+            a {
+                border-top: 0;
+
+                &:hover,
+                &:focus {
+                    background: #fff;
+                    @include linear-gradient(to bottom, #fff, #f7f7f7);
+                    text-shadow: 0 0 0 transparent;
+                    border: 0;
+                    border-left: 1px solid rgba(0,0,0,.05);
+                    border-right: 1px solid rgba(0,0,0,.05);
+                    margin: 0 -1px;
+                    color: #000;
+                }
+            }
+        }
     }
 
-        .nav-bar-dropdown {
-            display: none;
+        .nav-bar-item {
+            @media screen and (min-width: $screen-lg-min) {
+                width: 33.333%;
+                float: left;
+                display: inline;
+            }
         }
+
+            .nav-bar-dropdown {
+                display: none;
+            }
