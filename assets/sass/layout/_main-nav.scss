@@ -120,6 +120,17 @@
             a {
                 border-top: 0;
 
+                [class^="icon-"],
+                [class*=" icon-"] {
+                    line-height: 1em;
+                    position: relative;
+                    top: 2px;
+                    color: rgba(0,0,0,.5);
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    margin-right: .5em;
+                }
+
                 &:hover,
                 &:focus {
                     background: #fff;
