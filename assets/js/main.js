@@ -26,7 +26,7 @@ var Responsive = {
   respond: function () {
     var self = this.settings;
     if (Modernizr.mq("only screen and (min-width: 960px)")) {
-      self.campusTrigger.attr("href", "#");
+      this.settings.campusTrigger.attr("href", "#");
       self.campusTriggerContent.text("Collapse banner");
       self.campusTriggerIcon.removeClass("icon-arrow-left");
       self.campusTriggerIcon.addClass("icon-arrow-up");
@@ -68,4 +68,8 @@ var Desktop = {
 NavToggle.init();
 Responsive.init();
 Desktop.init();
+
+$(function() {
+  FastClick.attach(document.body);
+});
 
