@@ -39,7 +39,7 @@ The mission of the Bachelor of Science degree in Computer Science is to provide 
 
 ### Enrollment and Graduations
 
-<table class="enrollment table-striped table-bordered">
+<table class="enrollment">
   <thead>
     <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
   </thead>
