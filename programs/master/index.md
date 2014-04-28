@@ -39,7 +39,7 @@ TODO
 
 ### Enrollment and Graduations
 
-<table class="enrollment table-striped table-bordered">
+<table class="enrollment">
   <thead>
     <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
   </thead>

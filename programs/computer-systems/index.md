@@ -12,7 +12,7 @@ nav:
 
 The Bachelor of Arts (BA) in Computer Systems program emphasizes the application of principles to practical problem solving in a domain of interest. Students complete a core set of foundation courses and courses in one of the following concentrations: web programming, system administration, game development, graphics programming. Students also have the ability to combine the study of computer systems with another field of study through the general interdisciplinary option.
 
-### Program Information 
+### Program Information
 
 - [Program description, 2012/2014][description-12-14]
 - [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2012/14][inter-12]
@@ -52,7 +52,7 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 
 ### Enrollment and Graduations
 
-<table class="enrollment table-striped table-bordered">
+<table class="enrollment">
   <thead>
     <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
   </thead>
