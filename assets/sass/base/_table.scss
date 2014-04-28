@@ -1,6 +1,5 @@
 table {
     width: 100%;
-    overflow-x: scroll;
     caption-side: bottom;
     white-space: no-wrap;
 
@@ -14,6 +13,10 @@ table {
         border-radius: 4px;
         margin: .5em 0 0 0;
     }
+}
+
+tbody {
+    overflow-x: auto;
 }
 
 tr {
