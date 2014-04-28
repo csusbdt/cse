@@ -33,7 +33,7 @@ var Responsive = {
       self.dropdownLink.attr("data-toggle", "dropdown");
     } else {
       self.campusTrigger.attr("href", "http://csusb.edu");
-      self.campusTriggerContent.text("Campus");
+      self.campusTriggerContent.text("To Campus");
       self.campusTriggerIcon.removeClass("icon-arrow-up");
       self.campusTriggerIcon.addClass("icon-arrow-left");
       self.dropdownLink.attr("data-toggle", "");
