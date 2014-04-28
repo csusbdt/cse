@@ -65,14 +65,7 @@ var Desktop = {
   }
 };
 
-var NoDelay = {
-  init: function () {
-    FastClick.attach(document.body);
-  }
-};
-
 NavToggle.init();
 Responsive.init();
 Desktop.init();
-NoDelay.init();
 

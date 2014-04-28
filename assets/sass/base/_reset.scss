@@ -13,6 +13,11 @@ summary {
     display: block;
 }
 
+html {
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+}
+
 audio,
 canvas,
 video {
