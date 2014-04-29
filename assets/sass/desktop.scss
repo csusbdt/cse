@@ -1,5 +1,7 @@
+@import 'config/variables';
+
 body {
-    background: #777 url("/cse/assets/img/big-bg.png") no-repeat center center fixed;
+    background: #777 url("#{$root_directory}/assets/img/big-bg.png") no-repeat center center fixed;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;

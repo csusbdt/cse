@@ -1,205 +1,36 @@
-/*------------------------------------*
-    $CONTENTS
- *------------------------------------*/
-
 /**
- * CONTENTS............You're reading it!
- * UTILITIES IMPORT....Import useful utilities.
- * NEAT................Variables for Bourbon Neat.
- * LIBRARY IMPORT......Import external libraries.
- * BOX SIZING..........Set the global box sizing type.
- * COLORS..............Variables defining site colors.
- * FONT SIZES..........Variables defining font sizes.
- * FONT FAMILIES.......Variables defining font stacks.
- * BREAKPOINTS.........Media Query breakpoint values.
- * ROUNDED CORNERS.....Rounded corners for various sizes.
- * BUTTONS.............Variables for buttons in various sizes and states.
- * QUOTES..............Global quotation settings.
- * IMPORTS.............Import the other stylesheets.
+ * Utilities
  */
-
-
-
-
-
-/*------------------------------------*
-    $UTILITIES IMPORT
- *------------------------------------*/
-
-@import 'util/convert';
 @import 'util/font-size';
 @import 'util/opentype';
 
 
-
-
-
-/*------------------------------------*
-    $NEAT
- *------------------------------------*/
-
-$max-width: 60em;
-$gutter: 2em;
-
-
-
-
-
-/*------------------------------------*
-    $LIBRARY IMPORT
- *------------------------------------*/
-
+/**
+ * Bourbon
+ */
 @import 'lib/bourbon/bourbon';
+
+/**
+ * Configuration
+ */
+@import 'config/variables';
+
+
+/**
+ * Neat
+ */
 @import 'lib/neat/neat';
+
+
+/**
+ * Responsive Tables
+ */
 @import 'lib/responsive-tables';
 
-
-
-
-
-/*------------------------------------*
-    $BOX SIZING
- *------------------------------------*/
-
-$box-sizing: border-box;
-
-
-
-
-
- /*------------------------------------*
-    $COLORS
- *------------------------------------*/
-
-$color-bg:    #777;
-
-// Text color
-$color-0:     #444;
-$color-0-t1:  tint($color-0, 25%);
-$color-0-t2:  tint($color-0, 50%);
-$color-0-t3:  tint($color-0, 75%);
-
-// Light blue
-$color-1:     #4E98D9;
-$color-1-t1:  tint($color-1, 25%);
-$color-1-t2:  tint($color-1, 50%);
-$color-1-t3:  tint($color-1, 75%);
-
-// Dark blue
-$color-2:     #0065BD;
-$color-2-t1:  tint($color-2, 25%);
-$color-2-t2:  tint($color-2, 50%);
-$color-2-t3:  tint($color-2, 75%);
-
-// Yellow
-$color-3:     #FFE36F;
-$color-3-t1:  tint($color-3, 25%);
-$color-3-t2:  tint($color-3, 50%);
-$color-3-t3:  tint($color-3, 75%);
-
-// Red
-$color-4:     #FF7771;
-$color-4-t1:  tint($color-4, 25%);
-$color-4-t2:  tint($color-4, 50%);
-$color-4-t3:  tint($color-4, 75%);
-
-// Beige
-$color-5:     #FFF6EB;
-$color-5-t1:  tint($color-5, 25%);
-$color-5-t2:  tint($color-5, 50%);
-$color-5-t3:  tint($color-5, 75%);
-
-
-
-
-
-/*------------------------------------*
-    $FONT SIZES
- *------------------------------------*/
-
-$font-size-base:    16px!default;
-
-$line-height-base:  px(1.5)!default;    // 24 / 16
-
-$font-size-giga:    px(4)!default;      // 64 / 16
-$font-size-mega:    px(3.5)!default;    // 56 / 16
-$font-size-kilo:    px(3)!default;      // 48 / 16
-
-$font-size-h1:      px(2.5)!default;    // 40 / 16
-$font-size-h2:      px(2)!default;      // 32 / 16
-$font-size-h3:      px(1.75)!default;   // 28 / 16
-$font-size-h4:      px(1.25)!default;   // 20 / 16
-$font-size-h5:      px(1.125)!default;  // 18 / 16
-$font-size-h6:      px(1)!default;      // 16 / 16
-
-$font-size-text:    px(1)!default;      // 16 / 16
-
-$font-size-milli:   px(0.875)!default;  // 14 / 16
-$font-size-micro:   px(0.75)!default;   // 12 / 16
-
-
-
-
-
-/*------------------------------------*
-    $FONT FAMILIES
- *------------------------------------*/
-
-$font-family-sans:  "Source Sans Pro", $helvetica;
-$font-family-serif: "Playfair Display", $georgia;
-$font-family-mono:  Consolas, Monaco, "Andale Mono", monospace;
-
-
-
-
-
-/*------------------------------------*
-    $BREAKPOINTS
- *------------------------------------*/
-
-$screen-sm-min: px(36);
-$screen-md-min: px(46);
-$screen-lg-min: px(60);
-
-
-
-
-
-/*------------------------------------*
-    $ROUNDED CORNERS
- *------------------------------------*/
-
-$border-radius-base:  4px;
-
-
-
-
-
- /*------------------------------------*
-    $QUOTES
- *------------------------------------*/
-
-$english-quotes: true!default;
-$open-quote:     null;
-$close-quote:    null;
-
-@if $english-quotes != true {
-    $open-quote:  \00AB;
-    $close-quote: \00BB;
-}
-
-
-
-
-
-/*------------------------------------*
-    $IMPORTS
- *------------------------------------*/
 
 /**
  * Base
  */
-
 @import 'base/reset';
 @import 'base/box-sizing';
 @import 'base/typography';
@@ -214,11 +45,9 @@ $close-quote:    null;
 /**
  * Modules
  */
-
 @import 'module/amp';
 @import 'module/button';
 @import 'module/dropdown';
-@import 'module/form';
 @import 'module/head-bar';
 @import 'module/inline-list';
 @import 'module/inline-nav';
@@ -237,8 +66,6 @@ $close-quote:    null;
 /**
  * Layout
  */
-
-@import 'layout/campus-banner';
 @import 'layout/container';
 @import 'layout/content';
 @import 'layout/header';
@@ -251,12 +78,4 @@ $close-quote:    null;
 /**
  * State
  */
-
 @import 'state/nav-bar';
-
-
-
-
-
-
-
