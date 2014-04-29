@@ -26,7 +26,7 @@ var Responsive = {
   respond: function () {
     var self = this.settings;
     if (Modernizr.mq("only screen and (min-width: 960px)")) {
-      this.settings.campusTrigger.attr("href", "#");
+      self.campusTrigger.attr("href", "#");
       self.campusTriggerContent.text("Collapse banner");
       self.campusTriggerIcon.removeClass("icon-arrow-left");
       self.campusTriggerIcon.addClass("icon-arrow-up");
