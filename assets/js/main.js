@@ -24,24 +24,22 @@ var Responsive = {
     dropdownLink: $(".dropdown > a")
   },
   respond: function () {
-    var self = this.settings;
     if (Modernizr.mq("only screen and (min-width: 960px)")) {
-      self.campusTrigger.attr("href", "#");
-      self.campusTriggerContent.text("Collapse banner");
-      self.campusTriggerIcon.removeClass("icon-arrow-left");
-      self.campusTriggerIcon.addClass("icon-arrow-up");
-      self.dropdownLink.attr("data-toggle", "dropdown");
+      this.settings.campusTrigger.attr("href", "#");
+      this.settings.campusTriggerContent.text("Collapse banner");
+      this.settings.campusTriggerIcon.removeClass("icon-arrow-left");
+      this.settings.campusTriggerIcon.addClass("icon-arrow-up");
+      this.settings.dropdownLink.attr("data-toggle", "dropdown");
     } else {
-      self.campusTrigger.attr("href", "http://csusb.edu");
-      self.campusTriggerContent.text("To Campus");
-      self.campusTriggerIcon.removeClass("icon-arrow-up");
-      self.campusTriggerIcon.addClass("icon-arrow-left");
-      self.dropdownLink.attr("data-toggle", "");
+      this.settings.campusTrigger.attr("href", "http://csusb.edu");
+      this.settings.campusTriggerContent.text("To Campus");
+      this.settings.campusTriggerIcon.removeClass("icon-arrow-up");
+      this.settings.campusTriggerIcon.addClass("icon-arrow-left");
+      this.settings.dropdownLink.attr("data-toggle", "");
     }
   },
   init: function () {
     this.respond();
-    window.addEventListener("resize", this.respond, true);
   }
 };
 
@@ -66,7 +64,16 @@ var Desktop = {
 };
 
 NavToggle.init();
+
 Responsive.init();
+var resize_timer = null;
+$(window).resize(function() {
+  if (resize_timer != null) window.clearTimeout(resize_timer);
+  resize_timer = window.setTimeout(function() {
+    Responsive.respond();
+  }, 200);
+});
+
 Desktop.init();
 
 $(function() {
