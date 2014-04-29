@@ -1,6 +1,6 @@
 ---
 layout: default
-title: School of Computer Science &amp; Engineering
+title: Computer Science Certificate
 description: Offered by the School of CSE, the minor in Computer Science provide a practical foundation in the theory and practice of computer science.
 nav:
     - title: Overview

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: School of Computer Science &amp; Engineering
+title: Computer Science MS
 description: A graduate degree offered by the School of CSE, the MS in Computer Science extends the study of theoretical and applied computer science beyond the bachelor's degree level.
 nav:
     - title: Overview
