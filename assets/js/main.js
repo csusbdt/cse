@@ -68,7 +68,9 @@ NavToggle.init();
 Responsive.init();
 var resize_timer = null;
 $(window).resize(function() {
-  if (resize_timer != null) window.clearTimeout(resize_timer);
+  if (resize_timer != null) {
+    window.clearTimeout(resize_timer);
+  }
   resize_timer = window.setTimeout(function() {
     Responsive.respond();
   }, 200);

@@ -96,6 +96,10 @@
         }
 
         #campus-trigger {
+            @media screen and (min-width: $screen-lg-min) {
+                text-align: center;
+            }
+
             i {
                 font-style: normal;
             }
