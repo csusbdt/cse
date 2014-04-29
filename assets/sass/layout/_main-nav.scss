@@ -8,6 +8,11 @@
     width: 100%;
     background-color: #fff;
 
+    @media screen and (min-width: $screen-lg-min) {
+        border-bottom-left-radius: $border-radius-base;
+        border-bottom-right-radius: $border-radius-base;
+    }
+
     ul,
     li {
         margin: 0;
@@ -184,3 +189,15 @@
             .nav-bar-dropdown {
                 display: none;
             }
+
+        .first-item {
+            @media screen and (min-width: $screen-lg-min) {
+                border-bottom-left-radius: $border-radius-base;
+            }
+        }
+
+        .last-item {
+            @media screen and (min-width: $screen-lg-min) {
+                border-bottom-right-radius: $border-radius-base;
+            }
+        }
