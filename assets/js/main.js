@@ -25,14 +25,14 @@ var Responsive = {
   },
   respond: function () {
     if (Modernizr.mq("only screen and (min-width: 960px)")) {
-      this.settings.campusTrigger.attr("href", "#");
       this.settings.campusTriggerContent.text("Collapse banner");
+      this.settings.campusTrigger.attr("href", "#");
       this.settings.campusTriggerIcon.removeClass("icon-arrow-left");
       this.settings.campusTriggerIcon.addClass("icon-arrow-up");
       this.settings.dropdownLink.attr("data-toggle", "dropdown");
     } else {
-      this.settings.campusTrigger.attr("href", "http://csusb.edu");
       this.settings.campusTriggerContent.text("To Campus");
+      this.settings.campusTrigger.attr("href", "http://csusb.edu");
       this.settings.campusTriggerIcon.removeClass("icon-arrow-up");
       this.settings.campusTriggerIcon.addClass("icon-arrow-left");
       this.settings.dropdownLink.attr("data-toggle", "");
