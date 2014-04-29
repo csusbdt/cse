@@ -120,7 +120,7 @@
     .nav-bar-sub-nav {
         display: none;
         position: absolute;
-        top: 4em;
+        top: 3.7em;
         left: 0;
         right: 0;
         background-color: #fff;
@@ -156,6 +156,7 @@
             width: 100%;
             display: block;
             height: 3.7em;
+            top: 4em;
             position: static;
             box-shadow: 0 0 0 0 transparent;
             border-bottom: 0;
