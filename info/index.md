@@ -9,6 +9,7 @@ description: The full listing of majors, minors, and certificates offered by the
 __Faculty and Staff__
 
 - [Full-Time Faculty](../faculty/full-time/)
+- [Emeritus Faculty](../faculty/emeritus/)
 - [Part-Time Faculty](../faculty/part-time/)
 - [Staff](../staff/)
 
