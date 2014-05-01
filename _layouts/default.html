@@ -12,18 +12,18 @@
         </title>
         <meta name='viewport' content='width=device-width'>
 
-        <script src="{% if site.safe %}/cse{% endif %}/assets/js/vendor/modernizr-2.7.2.min.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/vendor/modernizr-2.7.2.min.js"></script>
 
         <link rel='stylesheet'
               href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic|Source+Sans+Pro:400,400italic,700,700italic'>
 
         <link rel="stylesheet"
-              href='{% if site.safe %}/cse{% endif %}/assets/css/main.css'>
+              href='{{ site.baseurl }}/assets/css/main.css'>
 
         <link rel="stylesheet"
               class="media-query-dependent"
               data-media="screen and (min-width: 960px)"
-              data-href="{% if site.safe %}/cse{% endif %}/assets/css/desktop.css">
+              data-href="{{ site.baseurl }}/assets/css/desktop.css">
     </head>
     <body>
 
@@ -46,7 +46,7 @@
                         <ul>
                             {% for item in page.nav %}
                             <li>
-                                <a href='{% if site.safe %}/cse{% endif %}{{ item.url }}'>
+                                <a href='{{ site.baseurl }}{{ item.url }}'>
                                     {{ item.title }}
                                     <span class='pill'>{{ item.desc }}</span>
                                 </a>
@@ -71,11 +71,11 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script>
             window.jQuery || document.write(
-                '<script src="{% if site.safe %}/cse{% endif %}/assets/js/vendor/jquery-2.1.0.min.js"><\/script>'
+                '<script src="{{ site.baseurl }}/assets/js/vendor/jquery-2.1.0.min.js"><\/script>'
             )
         </script>
-        <script src="{% if site.safe %}/cse{% endif %}/assets/js/plugins.js"></script>
-        <script src="{% if site.safe %}/cse{% endif %}/assets/js/main.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

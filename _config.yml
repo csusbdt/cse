@@ -1,6 +1,10 @@
 name: School of Computer Science &amp; Engineering
 markdown: kramdown
+input: GFM
 pygments: true
 encoding: UTF-8
 timezone: America/Los_Angeles
 exclude: [ README.md ]
+baseurl: /cse
+safe: true
+
