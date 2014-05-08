@@ -21,3 +21,10 @@ nav:
 | Event Coordinator   | Ammar Al Sibai   |
 | Webmaster           | Mike Korcha      |
 
+### IEEE Club
+
+TBD
+
+### STEM Club
+
+TBD
