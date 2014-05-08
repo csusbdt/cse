@@ -4,6 +4,6 @@
     }
 
     & .small {
-        @include font-size($font-size-micro);
+        @include font-size($font-size-milli);
     }
 }

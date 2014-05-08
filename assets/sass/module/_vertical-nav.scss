@@ -8,31 +8,42 @@
     }
 
     a {
+        margin-right: .5em;
         display: block;
-        padding: .75em 1em 0;
+        padding: .25em .75em;
         color: $color-0;
         text-decoration: none;
         position: relative;
-        font-weight: 700;
+        border-top-left-radius: $border-radius-base;
+        border-bottom-left-radius: $border-radius-base;
 
         &:hover,
         &:focus {
-            color: $color-1;
-        }
+            color: #222;
+            background: $color-3-t1;
 
-        .pill {
-            @include font-size($font-size-micro);
-            margin-left: .5em;
-            color: $color-0-t2;
-            font-weight: 500;
+            &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: -1em;
+                width: 0;
+                height: 0;
+                border-left: 1em solid $color-3-t1;
+                border-top: 1em solid transparent;
+                border-bottom: 1em solid transparent;
+            }
         }
     }
 }
 
     .vertical-nav-title {
         display: block;
-        padding: 1em 2em .25em 0;
-        font-weight: 500;
+        text-transform: lowercase;
+        font-variant: small-caps;
+        letter-spacing: .05em;
+        padding: 1em 2em .5em 0;
+        font-weight: 700;
         color: rgba(0,0,0,.5);
         border-top: 1px solid $color-0-t3;
     }
