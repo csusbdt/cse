@@ -3,9 +3,16 @@ layout: default
 title: Computer Engineering BS
 description: One of three BS degrees offered by the School of CSE, the BS in Computer Science is a 4-year degree with a combined focus on programming and theory.
 nav:
-    - title: Overview
-      url: /#overview
-      desc: What it is
+    - title: Program Information
+      url: "#program-information"
+    - title: Additional Resources
+      url: "#additional-resources"
+    - title: Advising Policy
+      url: "#advising-policy"
+    - title: Mission Statement
+      url: "#mission-statement"
+    - title: Enrollment &amp; Graduations
+      url: "#enrollment-and-graduations"
 ---
 
 ## Bachelor of Science in __Computer Engineering__

@@ -3,9 +3,16 @@ layout: default
 title: Computer Systems BA
 description: The Bachelor of Arts in Computer Science is a 4-year degree focused on applied computing in the context of a specific application area.
 nav:
-    - title: Overview
-      url: /#overview
-      desc: What it is
+    - title: Program Information
+      url: "#program-information"
+    - title: Additional Resources
+      url: "#additional-resources"
+    - title: Advising Policy
+      url: "#advising-policy"
+    - title: Mission Statement
+      url: "#mission-statement"
+    - title: Enrollment &amp; Graduations
+      url: "#enrollment-and-graduations"
 ---
 
 ## Bachelor of Arts in <strong>Computer Systems</strong>

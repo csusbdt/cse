@@ -3,9 +3,16 @@ layout: default
 title: Bioinformatics BS
 description: One of three BS degrees offered by the School of CSE, the BS in Bioinformatics is a 4-year degree that integrates knowledge from biology, chemistry and computer science.
 nav:
-    - title: Overview
-      url: /#overview
-      desc: What it is
+    - title: Program Information
+      url: "#program-information"
+    - title: Additional Resources
+      url: "#additional-resources"
+    - title: Advising Policy
+      url: "#advising-policy"
+    - title: Mission Statement
+      url: "#mission-statement"
+    - title: Enrollment &amp; Graduations
+      url: "#enrollment-and-graduations"
 ---
 
 ## Bachelor of Science in <strong>Bioinformatics</strong>
