@@ -1,0 +1,13 @@
+#campusWrapper {
+    display: block !important;
+}
+
+    #campusWrapper #campusLinks {
+        padding: 0 !important;
+    }
+
+    #campusWrapper #keyword {
+        -moz-box-sizing: content-box !important;
+             box-sizing: content-box !important;
+        padding-left: 4px !important;
+    }

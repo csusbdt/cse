@@ -1,0 +1,281 @@
+#banner-hook,
+#banner-hook:before,
+#banner-hook:after {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 6em;
+}
+
+#university-banner.banner-container {
+    width: 100%;
+    display: block;
+    background: #0065bd;
+    color: #fff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-shadow: rgba(0,0,0,.25) 0 1px 1px;
+    font-size: 16px;
+    line-height: 1.5em;
+    height: 6em;
+    margin-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    #university-banner.banner-container a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        #university-banner.banner-container a:hover,
+        #university-banner.banner-container a:focus {
+            text-decoration: underline;
+        }
+
+        #university-banner.banner-container a,
+        #university-banner.banner-container a:link,
+        #university-banner.banner-container a:visited,
+        #university-banner.banner-container a:hover,
+        #university-banner.banner-container a:focus,
+        #university-banner.banner-container a:active {
+            outline: none;
+        }
+
+    #university-banner.banner-container input {
+        vertical-align: middle;
+        border: 0;
+        margin: 0 0 0 18px;
+        padding: 0;
+        height: 23px;
+        padding: 5.5px 3px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    #university-banner.banner-container button {
+        margin: 0;
+        padding: 0;
+        padding-left: .5em;
+        padding-right: .5em;
+        height: 23px;
+        background: #f7f7f7;
+        border: 0;
+        margin-left: -3px;
+        border-left: 1px solid #ccc;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-appearance: button;
+    }
+
+        #university-banner.banner-container button:active {
+            background: #eee;
+        }
+
+        #university-banner.banner-container input[type="search"] {
+            -webkit-appearance: textfield;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+
+    #university-banner .banner-content {
+        width: 940px;
+        display: block;
+        margin: 0 auto;
+        clear: both;
+        padding: 1em 0 0;
+        height: 6em;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        #university-banner .banner-content:before,
+        #university-banner .banner-content:after {
+            content: " ";
+            display: table;
+        }
+
+        #university-banner .banner-content:after {
+            clear: both;
+        }
+
+        #university-banner .banner-logo,
+        #university-banner .banner-nav {
+            float: left;
+            display: inline;
+            height: 6em;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-bottom: 0;
+        }
+
+        #university-banner .banner-logo {
+            width: 220px;
+            margin-right: 20px;
+            height: 5em;
+            overflow-x: visible;
+            overflow-y: hidden;
+        }
+
+            #university-banner .banner-logo-img {
+                margin-top: -.5em;
+                margin-left: -1em;
+                width: 217px;
+                height: 90px;
+                margin-bottom: 0;
+            }
+
+        #university-banner .banner-nav {
+            width: 700px;
+            margin-bottom: 0;
+        }
+
+            #university-banner .banner-sub-nav {
+                height: 2.6em;
+                padding-bottom: 1em;
+                margin-bottom: .5em;
+                border-bottom: 1px solid rgba(255,255,255,.2);
+                font-size: .75em;
+                line-height: 1.5em;
+                font-family: Helvetica, Arial, sans-serif;
+                font-weight: 500;
+            }
+
+                #university-banner .banner-sub-text {
+                    display: inline-block;
+                    width: 380px;
+                    margin-right: 20px;
+                }
+
+                #university-banner .banner-label {
+                    color: #fff;
+                    color: rgba(255,255,255,.6667);
+                }
+
+                #university-banner .banner-date {
+                    margin-right: 40px;
+                }
+
+                #university-banner .banner-search {
+                    width: 300px;
+                }
+
+                    #university-banner .banner-search form {
+                        display: inline;
+                        position: relative;
+                        top: -3px;
+                    }
+
+                        #university-banner .banner-search form label {
+                            vertical-align: -3px;
+                        }
+
+            #university-banner .banner-main-nav {
+                height: 4em;
+                margin-bottom: 0;
+            }
+
+                #university-banner .banner-nav ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+
+                    #university-banner .banner-nav li {
+                        margin: 0;
+                        padding: 0;
+                        margin-left: 1.35em;
+                        float: left;
+                        display: inline;
+                    }
+
+                        #university-banner .banner-nav li:first-child {
+                            margin-left: 0;
+                        }
+
+                    #university-banner .banner-main-nav a {
+                        display: inline-block;
+                        padding: .5em 0;
+                        letter-spacing: 1px;
+                        font-weight: 400;
+                        margin-bottom: 0;
+                    }
+
+                    #university-banner .js-triggered {
+                        position: relative;
+                    }
+
+                        #university-banner .js-triggered:after {
+                            content: "";
+                            width: 0;
+                            height: 0;
+                            position: absolute;
+                            bottom: -3px;
+                            left: 50%;
+                            margin-left: -.175em;
+                            border-bottom: .35em solid #fff;
+                            border-left: .35em solid transparent;
+                            border-right: .35em solid transparent;
+                        }
+
+                    #university-banner .submenu {
+                        display: none;
+                        position: absolute;
+                        top: 6em;
+                        left: 0;
+                        right: 0;
+                        background: #fff;
+                        border-bottom: 1px solid rgba(0,0,0,.3);
+                        z-index: 100000;
+                    }
+
+                        #university-banner .submenu.js-visible {
+                            display: block;
+                        }
+
+                        #university-banner .submenu-content {
+                            width: 940px;
+                            margin: .5em auto;
+                        }
+
+                            #university-banner .submenu-content:before,
+                            #university-banner .submenu-content:after {
+                                content: " ";
+                                display: table;
+                            }
+
+                            #university-banner .submenu-content:after {
+                                clear: both;
+                            }
+
+                        #university-banner .submenu li {
+                            font-size: .75em;
+                            line-height: 1.5em;
+                            font-family: Helvetica, Arial, sans-serif;
+                            font-weight: 500;
+                            margin: 0;
+                            display: block;
+                            width: 25%;
+                        }
+
+                            #university-banner .submenu a {
+                                display: block;
+                                padding: .75em 1em .5em;
+                                color: #333;
+                                text-shadow: none;
+                                letter-spacing: 0;
+                                border-radius: 4px;
+                            }
+
+                                #university-banner .submenu a:hover,
+                                #university-banner .submenu a:focus {
+                                    background: #eee;
+                                    text-decoration: none;
+                                }
+
+                                #university-banner .submenu a:active {
+                                    background: #ccc;
+                                }
