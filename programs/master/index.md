@@ -3,12 +3,19 @@ layout: default
 title: Computer Science MS
 description: A graduate degree offered by the School of CSE, the MS in Computer Science extends the study of theoretical and applied computer science beyond the bachelor's degree level.
 nav:
-    - title: Overview
-      url: /#overview
-      desc: What it is
+    - title: Program Information
+      url: "#program-information"
+    - title: Additional Resources
+      url: "#additional-resources"
+    - title: Advising Policy
+      url: "#advising-policy"
+    - title: Mission Statement
+      url: "#mission-statement"
+    - title: Enrollment &amp; Graduations
+      url: "#enrollment-and-graduations"
 ---
 
-## Master of Science in <strong>Computer Science</strong>
+## Master of Science in __Computer Science__
 
 The Master of Science in Computer Science degree program provides students with academic and professional opportunities at three levels. At the first level, the program allows individuals with a baccalaureate degree in computer science (or a related field) to broaden their knowledge of the subject as well as strengthen their professional marketability and increase their earning potential. At the second level, the M.S. in Computer Science program can be an avenue for career change to computer science for those who have degrees and employment in other fields. Lastly, at the third level, the M.S. in Computer Science program provides individuals a strong foundation for graduate study at the doctoral level.
 
