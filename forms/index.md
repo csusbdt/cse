@@ -32,7 +32,7 @@ nav:
 
 ## Microsoft Academic Alliance (MSDNAA) Development Tools (move to misc)
 
-[MSDNAA Student Use Form][msdnaa]
+- [MSDNAA Student Use Form][msdnaa]
 
 [msdnaa]: StudentUse.pdf 
 
@@ -71,25 +71,25 @@ nav:
 <li><!--a href="cse_690/PreliminaryMastersProjectProposalTemplate.doc"-->Preliminary Master's Project Proposal<!--/a--></li> 
 <li><!--a href="cse_690/FinalMastersProjectProposalTemplate.doc"-->Project Proposal (generic format)<!--/a--></li> 
 <li><!--a href="cse_690/IEEE_SRS.doc"-->Project Proposal (IEEE standard format)<!--/a--></li> 
-<li><a href="cse_690/ChangeofAdvisorRequestForm2.pdf">Change of Adviser Request Form</a></li> 
-<li><a href="cse_690/ChangeofMasterOptionRequestForm.pdf">Change of Master Option Request Form</a></li> 
-<li><a href="cse_690/presentation_announcement_template_690.doc">Presentation Announcement Template</a></li> 
+<li><a href="ChangeofAdvisorRequestForm2.pdf">Change of Adviser Request Form</a></li> 
+<li><a href="ChangeofMasterOptionRequestForm.pdf">Change of Master Option Request Form</a></li> 
+<li><a href="presentation_announcement_template_690.doc">Presentation Announcement Template</a></li> 
 </ul> 
 
 <h2>CSE 695 Graduate Independent Study</h2> 
 
 <ul> 
-<li><a href="cse_695/CSCI_695.pdf">Graduate Independent Study Application Form</a></li> 
-<li><a href="cse_695/grad-indep-study-proposal-template.pdf">Graduate Independent Study Proposal Template</a></li> 
-<li><a href="misc/presentation_announcement_template.rtf">Presentation Announcement Template</a></li> 
+<li><a href="CSCI_695.pdf">Graduate Independent Study Application Form</a></li> 
+<li><a href="grad-indep-study-proposal-template.pdf">Graduate Independent Study Proposal Template</a></li> 
+<li><a href="presentation_announcement_template.rtf">Presentation Announcement Template</a></li> 
 </ul>
 
 <h2>CSE 699 Master's Thesis</h2>
  
 <ul> 
-<li><a href="cse_699/ChangeofAdvisorRequestForm2.pdf">Change of Adviser Request Form</a></li> 
-<li><a href="cse_699/ChangeofMasterOptionRequestForm.pdf">Change of Master Option Request Form</a></li>
-<li><a href="cse_699/presentation_announcement_template_699.doc">Presentation Announcement Template</a></li> 
+<li><a href="ChangeofAdvisorRequestForm2.pdf">Change of Adviser Request Form</a></li> 
+<li><a href="ChangeofMasterOptionRequestForm.pdf">Change of Master Option Request Form</a></li>
+<li><a href="presentation_announcement_template_699.doc">Presentation Announcement Template</a></li> 
 </ul> 
 
 <h2>BA Computer Systems, Elective Coursework Application Forms</h2>
@@ -100,20 +100,17 @@ you may need to complete one of the following elective coursework application fo
 </p>
  
 <ul> 
-<li><a href="/resources/forms/ba_computer_systems/interdisciplinary-coursework-2011-present.pdf">Interdisciplinary Coursework Application Form, AY 2011/12 to 2013/14</a></li> 
-<li><a href="/resources/forms/ba_computer_systems/web-coursework-2012-present.pdf">Web Programming Coursework Application Form, AY 2012/13 to 2013/14</a></li> 
-<li><a href="/resources/forms/ba_computer_systems/game-coursework-2012-2013.pdf">Game Development Coursework Application Form, AY 2012-2013</a></li> 
-<li><a href="/resources/forms/ba_computer_systems/game-coursework-2013-present.pdf">Game Development Coursework Application Form, AY 2013-2014</a></li> 
-<li><a href="/resources/forms/ba_computer_systems/graphics-coursework-2012-present.pdf">Graphics Programming Coursework Application Form, AY 2012/13 to 2013/14</a></li> 
+<li><a href="../programs/computer-systems/forms/interdisciplinary-coursework-2011-present.pdf">Interdisciplinary Coursework Application Form, AY 2011/12 to 2013/14</a></li> 
+<li><a href="../programs/computer-systems/forms/web-coursework-2012-present.pdf">Web Programming Coursework Application Form, AY 2012/13 to 2013/14</a></li> 
+<li><a href="../programs/computer-systems/forms/game-coursework-2012-2013.pdf">Game Development Coursework Application Form, AY 2012-2013</a></li> 
+<li><a href="../programs/computer-systems/forms/game-coursework-2013-present.pdf">Game Development Coursework Application Form, AY 2013-2014</a></li> 
+<li><a href="../programs/computer-systems/forms/graphics-coursework-2012-present.pdf">Graphics Programming Coursework Application Form, AY 2012/13 to 2013/14</a></li> 
 </ul>
 
 <h2>Miscellaneous</h2> 
 
 <ul> 
 <li><a href="misc/project_machine_request_form.pdf">Project Machine Request Form</a></li> 
-<!--
-<li><a href="misc/equipment_sign_out_sheet.pdf">Equipment Sign-Out Sheet</a></li>
---> 
 <li><a href="misc/EquipmentCheckoutForm.pdf">Laboratory Equipment/Device Checkout Form</a></li> 
 </ul> 
 
