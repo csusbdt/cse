@@ -1,13 +1,49 @@
-#campusWrapper {
-    display: block !important;
+body {
+    padding-top: 88px !important;
 }
 
+#campusBanner,
+#campusWrapper {
+    display: block !important;
+    height: 88px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+    #campusLogo {
+        height: 88px !important;
+        overflow: hidden !important;
+        margin-bottom: 0 !important;
+
+        a {
+            display: inline-block !important;
+            height: 88 !important;
+            overflow-y: hidden !important;
+        }
+    }
+
     #campusWrapper #campusLinks {
-        padding: 0 !important;
+        padding: 3px 0 0 0 !important;
+        margin: 0 !important;
+    }
+
+    #campusWrapper #searchBar {
+        margin-top: 0 !important;
+        margin-bottom: 10px !important;
+
+        label {
+            vertical-align: -1px !important;
+        }
+
+        button {
+            position: relative !important;
+            top: -3px !important;
+        }
     }
 
     #campusWrapper #keyword {
         -moz-box-sizing: content-box !important;
              box-sizing: content-box !important;
         padding-left: 4px !important;
+        width: 149px !important;
     }
