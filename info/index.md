@@ -4,7 +4,7 @@ title: School of Computer Science &amp; Engineering
 description: The full listing of majors, minors, and certificates offered by the School of CSE.
 ---
 
-## __Information__ about the School of Computer Science &amp; Engineering
+## An Assortment of __Department Information__
 
 __Faculty and Staff__
 

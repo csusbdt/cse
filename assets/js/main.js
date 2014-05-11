@@ -2,8 +2,6 @@ var BannerLoader = {
   init: function () {
     if (Modernizr.mq("only screen and (min-width: 960px)")) {
       document.write("<script src='http://csusb.edu/banner'></script>");
-    } else {
-      document.body.style.padding = "0";
     }
   }
 };
