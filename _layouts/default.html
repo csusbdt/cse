@@ -27,33 +27,28 @@
     </head>
     <body>
 
-        {% include main_nav.html %}
+        {% include nav.html %}
+        {% include header.html %}
 
-        <div class='container'>
-          {% include main_header.html %}
-        </div>
         <div class='content'>
           <div class='container'>
             <aside class='sidebar'>
                 <div class='sidebar-content'>
                     <p class='sidebar-description'>{{ page.description }}</p>
                 </div>
-
                 {% if page.nav %}
-                <div class='sticky-container'>
-                    <nav class='vertical-nav'>
-                        <strong class='vertical-nav-title'>Table of Contents</strong>
-                        <ul>
-                            {% for item in page.nav %}
-                            <li>
-                                <a href='{{ site.baseurl }}{{ item.url }}'>
-                                    {{ item.title }}
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </nav>
-                </div>
+                <nav class='vertical-nav'>
+                    <strong class='vertical-nav-title'>
+                        Table of Contents
+                    </strong>
+                    <ul>
+                        {% for item in page.nav %}
+                        <li><a href='{{ site.baseurl }}{{ item.url }}'>
+                            {{ item.title }}
+                        </a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
                 {% endif %}
             </aside>
             <main class='main'>
@@ -62,9 +57,7 @@
           </div>
         </div>
 
-        {% include main_footer.html %}
-
-        </div> <!-- /.container -->
+        {% include footer.html %}
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
@@ -76,11 +69,6 @@
         <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
         <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 
-        <!-- <script src="{{ site.baseurl }}/banner/banner.js"></script> -->
-
-        <script src="http://csusb.edu/banner"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

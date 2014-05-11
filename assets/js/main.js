@@ -63,6 +63,8 @@ var Desktop = {
   }
 };
 
+document.write("<script src='http://csusb.edu/banner'></script>");
+
 NavToggle.init();
 
 Responsive.init();
