@@ -1,0 +1,7 @@
+.third-wrap .third {
+    @media screen and (min-width: $screen-lg-min) {
+        @include span-columns(3 of 9);
+        @include omega(3n);
+        margin-bottom: 2em;
+    }
+}
