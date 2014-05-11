@@ -3,6 +3,7 @@ var BannerLoader = {
     if (sessionStorage.getItem("csusb-banner-collapsed") == null &&
         Modernizr.mq("only screen and (min-width: 960px)")) {
       document.write("<script src='http://csusb.edu/banner'></script>");
+      $("body").addClass("js-banner-visible-body");
     }
   }
 };
@@ -91,13 +92,13 @@ var Desktop = {
   }
 };
 
-
 var FastClickLoader = {
   init: function () {
     window.onload = FastClick.attach(document.body);
   }
 };
 
+sessionStorage.removeItem("csusb-banner-collapsed");
 
 BannerLoader.init();
 NavToggle.init();
