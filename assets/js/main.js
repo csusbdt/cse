@@ -1,6 +1,7 @@
 var BannerLoader = {
   init: function () {
-    if (Modernizr.mq("only screen and (min-width: 960px)")) {
+    if (sessionStorage.getItem("csusb-banner-collapsed") == null &&
+        Modernizr.mq("only screen and (min-width: 960px)")) {
       document.write("<script src='http://csusb.edu/banner'></script>");
     }
   }
@@ -40,12 +41,18 @@ var Responsive = {
       this.settings.campusTriggerIcon.removeClass("icon-arrow-left");
       this.settings.campusTriggerIcon.addClass("icon-arrow-up");
       this.settings.dropdownLink.attr("data-toggle", "dropdown");
+      this.settings.campusTrigger.click(function (e) {
+        sessionStorage.setItem("csusb-banner-collapsed", true);
+        $("#campusBanner").addClass("js-banner-hidden");
+        $("body").addClass("js-banner-hidden-body");
+      });
     } else {
       this.settings.campusTriggerContent.text("To Campus");
       this.settings.campusTrigger.attr("href", "http://csusb.edu");
       this.settings.campusTriggerIcon.removeClass("icon-arrow-up");
       this.settings.campusTriggerIcon.addClass("icon-arrow-left");
       this.settings.dropdownLink.attr("data-toggle", "");
+      this.settings.campusTrigger.unbind("click");
     }
   },
   init: function () {
