@@ -1,5 +1,7 @@
 body {
-    padding-top: 88px !important;
+    @media screen and (min-width: $screen-lg-min) {
+        padding-top: 88px !important;
+    }
 }
 
 #campusBanner,

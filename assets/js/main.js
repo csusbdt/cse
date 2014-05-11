@@ -1,3 +1,14 @@
+var BannerLoader = {
+  init: function () {
+    if (Modernizr.mq("only screen and (min-width: 960px)")) {
+      document.write("<script src='http://csusb.edu/banner'></script>");
+    } else {
+      document.body.style.padding = "0";
+    }
+  }
+};
+
+
 var NavToggle = {
   settings: {
     nav: $("#main-nav"),
@@ -14,6 +25,7 @@ var NavToggle = {
     });
   }
 };
+
 
 var Responsive = {
   settings: {
@@ -40,8 +52,19 @@ var Responsive = {
   },
   init: function () {
     this.respond();
+
+    var resize_timer = null;
+    $(window).resize(function() {
+      if (resize_timer !== null) {
+        window.clearTimeout(resize_timer);
+      }
+      resize_timer = window.setTimeout(function() {
+        Responsive.respond();
+      }, 200);
+    });
   }
 };
+
 
 var Desktop = {
   init: function () {
@@ -63,24 +86,17 @@ var Desktop = {
   }
 };
 
-document.write("<script src='http://csusb.edu/banner'></script>");
 
-NavToggle.init();
-
-Responsive.init();
-var resize_timer = null;
-$(window).resize(function() {
-  if (resize_timer !== null) {
-    window.clearTimeout(resize_timer);
+var FastClickLoader = {
+  init: function () {
+    window.onload = FastClick.attach(document.body);
   }
-  resize_timer = window.setTimeout(function() {
-    Responsive.respond();
-  }, 200);
-});
+};
 
+
+BannerLoader.init();
+NavToggle.init();
+Responsive.init();
 Desktop.init();
-
-$(function() {
-  FastClick.attach(document.body);
-});
+FastClickLoader.init();
 
