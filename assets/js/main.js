@@ -21,15 +21,15 @@ Banner = (function() {
   Banner.prototype.hidden = "banner-hidden";
 
   Banner.prototype.isHidden = function() {
-    return storage.getItem(this.hidden) !== null;
+    return sessionStorage.getItem(this.hidden) !== null;
   };
 
   Banner.prototype.toggle = function() {
     this.banner.toggleClass("js-banner-visible");
     if (this.isHidden()) {
-      return storage.removeItem(this.hidden);
+      return sessionStorage.removeItem(this.hidden);
     } else {
-      return storage.setItem(this.hidden, true);
+      return sessionStorage.setItem(this.hidden, true);
     }
   };
 

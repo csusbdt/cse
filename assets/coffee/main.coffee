@@ -28,14 +28,14 @@ class Banner
   hidden: "banner-hidden"
 
   isHidden: ->
-    storage.getItem(@hidden) isnt null
+    sessionStorage.getItem(@hidden) isnt null
 
   toggle: ->
     @banner.toggleClass("js-banner-visible")
     if @isHidden()
-      storage.removeItem(@hidden)
+      sessionStorage.removeItem(@hidden)
     else
-      storage.setItem(@hidden, true)
+      sessionStorage.setItem(@hidden, true)
 
   constructor: ->
     if !@isHidden() and environment.isDesktop()
@@ -125,6 +125,9 @@ class DesktopContent
         elem.setAttribute("href", elem.dataset.href)
 
 
+##
+# Load everything.
+##
 environment    = new Environment()
 banner         = new Banner()
 campusTrigger  = new CampusTrigger()

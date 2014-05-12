@@ -6,10 +6,11 @@ SASS_DIR   = "assets/sass"
 CSS_DIR    = "assets/css"
 COFFEE_DIR = "assets/coffee"
 JS_DIR     = "assets/js"
+JS_MAIN    = "main.js"
 
 SERVE_CMD  = "jekyll serve --watch"
 SASS_CMD   = "sass --watch #{SASS_DIR}:#{CSS_DIR}"
-COFFEE_CMD = "coffee --watch --bare --no-header -o #{JS_DIR} -c #{COFFEE_DIR}"
+COFFEE_CMD = "coffee --watch --bare --no-header --compile --output #{JS_DIR} #{COFFEE_DIR}"
 
 desc "Alias for 'rake list'"
 task :default => [:list]
