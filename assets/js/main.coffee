@@ -116,10 +116,8 @@ class Navigation
 # 'desktop-only' by changing all data-* attributes into standard attributes.
 ##
 class DesktopContent
-  id: "js-desktop-only"
-
   getDesktopContent: ->
-    [].slice.call(document.querySelectorAll("." + @id))
+    [].slice.call(document.querySelectorAll(".js-desktop-only"))
 
   constructor: ->
     if environment.isDesktop()

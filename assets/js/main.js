@@ -140,10 +140,8 @@ Navigation = (function() {
 })();
 
 DesktopContent = (function() {
-  DesktopContent.prototype.id = "js-desktop-only";
-
   DesktopContent.prototype.getDesktopContent = function() {
-    return [].slice.call(document.querySelectorAll("." + this.id));
+    return [].slice.call(document.querySelectorAll(".js-desktop-only"));
   };
 
   function DesktopContent() {
