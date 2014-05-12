@@ -1,4 +1,4 @@
-var Banner, CampusTrigger, DesktopContent, Dropdown, Environment, Navigation, banner, desktopContent, environment, navigation;
+var Banner, DesktopContent, Environment, Navigation, banner, desktopContent, environment, navigation;
 
 Environment = (function() {
   Environment.prototype.isDesktop = function() {
@@ -14,108 +14,92 @@ Environment = (function() {
 })();
 
 Banner = (function() {
-  Banner.prototype.hidden = "banner-hidden";
+  Banner.prototype.trigger = $("#campus-trigger");
 
-  Banner.prototype.loaded = false;
+  Banner.prototype.icon = $("#campus-trigger span");
 
-  Banner.prototype.isHidden = function() {
-    return sessionStorage.getItem(this.hidden) !== null;
-  };
+  Banner.prototype.content = $("#campus-trigger i");
 
-  Banner.prototype.toggle = function() {
-    this.insertBanner();
-    $("#campusBanner").toggleClass("js-banner-hidden");
-    if (this.isHidden()) {
-      return sessionStorage.removeItem(this.hidden);
-    } else {
-      return sessionStorage.setItem(this.hidden, true);
-    }
-  };
+  Banner.prototype.inserted = false;
 
-  Banner.prototype.insertBanner = function() {
-    if (!this.loaded) {
-      this.loaded = true;
-      return document.write("<script src='http://csusb.edu/banner'></script>");
-    }
-  };
+  Banner.prototype.storage_id = "banner-hidden";
 
   function Banner() {
-    if (!this.isHidden() && environment.isDesktop()) {
-      this.insertBanner();
+    if (environment.isDesktop) {
+      if (this.isHidden()) {
+        this.setTriggerActive();
+      } else {
+        this.insertBanner();
+        this.setTriggerInactive();
+      }
+    } else {
+      this.unsetTrigger();
     }
   }
 
-  return Banner;
+  Banner.prototype.isHidden = function() {
+    return sessionStorage.getItem(this.storage_id) !== null;
+  };
 
-})();
-
-CampusTrigger = (function() {
-  function CampusTrigger() {}
-
-  CampusTrigger.prototype.trigger = $("#campus-trigger");
-
-  CampusTrigger.prototype.icon = $("#campus-trigger span");
-
-  CampusTrigger.prototype.content = $("#campus-trigger i");
-
-  CampusTrigger.prototype.isActive = false;
-
-  CampusTrigger.prototype.active = function() {
+  Banner.prototype.triggerToActive = function() {
     this.content.text("Expand banner");
     return this.icon.removeClass("icon-arrow-up").addClass("icon-arrow-down");
   };
 
-  CampusTrigger.prototype.inactive = function() {
+  Banner.prototype.triggerToInactive = function() {
     this.content.text("Collapse banner");
     return this.icon.removeClass("icon-arrow-down").addClass("icon-arrow-up");
   };
 
-  CampusTrigger.prototype.clicked = function() {
-    if (this.isActive) {
-      this.inactive();
-    } else {
-      this.active();
-    }
-    return this.isActive = !this.isActive;
+  Banner.prototype.setTriggerEvent = function() {
+    return this.trigger.click((function(_this) {
+      return function(e) {
+        _this.toggle();
+        return e.preventDefault;
+      };
+    })(this));
   };
 
-  CampusTrigger.prototype.setState = function(state) {
-    if (state === 'desktop') {
-      this.content.text("Collapse banner");
-      this.trigger.attr("href", "#");
-      this.icon.removeClass("icon-arrow-left").addClass("icon-arrow-up");
-      return this.trigger.click((function(_this) {
-        return function(e) {
-          banner.toggle();
-          _this.clicked();
-          return e.preventDefault();
-        };
-      })(this));
-    } else {
-      this.content.text("To Campus");
-      this.trigger.attr("href", "http://csusb.edu");
-      return this.icon.removeClass("icon-arrow-up").addClass("icon-arrow-left");
-    }
+  Banner.prototype.setTriggerActive = function() {
+    this.trigger.attr("href", "#");
+    this.content.text("Expand banner");
+    this.icon.removeClass("icon-arrow-left").addClass("icon-arrow-down");
+    return this.setTriggerEvent();
   };
 
-  return CampusTrigger;
+  Banner.prototype.setTriggerInactive = function() {
+    this.trigger.attr("href", "#");
+    this.content.text("Collapse banner");
+    this.icon.removeClass("icon-arrow-left").addClass("icon-arrow-up");
+    return this.setTriggerEvent();
+  };
 
-})();
+  Banner.prototype.unsetTrigger = function() {
+    this.trigger.attr("href", "http://csusb.edu");
+    this.content.text("To Campus");
+    return this.icon.removeClass("icon-arrow-up").addClass("icon-arrow-left");
+  };
 
-Dropdown = (function() {
-  function Dropdown() {}
-
-  Dropdown.prototype.trigger = $(".dropdown > a");
-
-  Dropdown.prototype.setState = function(state) {
-    if (state === 'desktop') {
-      return this.trigger.attr("data-toggle", "dropdown");
+  Banner.prototype.toggle = function() {
+    $("#campusBanner").toggleClass("js-banner-hidden");
+    if (this.isHidden()) {
+      if (!this.inserted) {
+        this.insertBanner();
+      }
+      sessionStorage.removeItem(this.storage_id);
+      return this.triggerToInactive();
     } else {
-      return this.trigger.attr("data-toggle", "");
+      sessionStorage.setItem(this.storage_id, true);
+      return this.triggerToActive();
     }
   };
 
-  return Dropdown;
+  Banner.prototype.insertBanner = function() {
+    document.write("<script src='http://csusb.edu/banner'></script>");
+    return this.inserted = true;
+  };
+
+  return Banner;
 
 })();
 
@@ -126,13 +110,24 @@ Navigation = (function() {
 
   Navigation.prototype.icon = $("#main-nav-trigger span");
 
+  Navigation.prototype.dropdown = {
+    trigger: $(".dropdown > a"),
+    setState: function(state) {
+      if (state === 'desktop') {
+        return this.trigger.dataset.toggle = "dropdown";
+      } else {
+        return this.trigger.dataset.toggle = "";
+      }
+    }
+  };
+
   Navigation.prototype.setNavigationTrigger = function() {
     return this.trigger.click((function(_this) {
       return function(e) {
         _this.nav.toggleClass("js-visible");
         _this.icon.toggleClass("icon-arrow-down");
         _this.icon.toggleClass("icon-arrow-up");
-        return e.preventDefault();
+        return e.preventDefault;
       };
     })(this));
   };
@@ -143,7 +138,7 @@ Navigation = (function() {
   };
 
   Navigation.prototype.updateState = function() {
-    this.setState(environment.isDesktop() ? 'desktop' : 'mobile');
+    return this.setState(environment.isDesktop ? 'desktop' : 'mobile');
   };
 
   Navigation.prototype.setResizeListener = function(callback) {
@@ -160,13 +155,11 @@ Navigation = (function() {
   };
 
   function Navigation() {
-    this.campusTrigger = new CampusTrigger();
-    this.dropdown = new Dropdown();
-    this.setNavigationTrigger();
-    this.updateState();
+    this.setNavigationTrigger;
+    this.updateState;
     this.setResizeListener((function(_this) {
       return function() {
-        return _this.updateState();
+        return _this.updateState;
       };
     })(this));
   }
@@ -182,8 +175,8 @@ DesktopContent = (function() {
 
   function DesktopContent() {
     var elem, _i, _len, _ref;
-    if (environment.isDesktop()) {
-      _ref = this.getDesktopContent();
+    if (environment.isDesktop) {
+      _ref = this.getDesktopContent;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         elem = _ref[_i];
         elem.setAttribute("href", elem.dataset.href);
@@ -195,12 +188,10 @@ DesktopContent = (function() {
 
 })();
 
-sessionStorage.removeItem("banner-hidden");
+environment = new Environment;
 
-environment = new Environment();
+banner = new Banner;
 
-banner = new Banner();
+navigation = new Navigation;
 
-navigation = new Navigation();
-
-desktopContent = new DesktopContent();
+desktopContent = new DesktopContent;

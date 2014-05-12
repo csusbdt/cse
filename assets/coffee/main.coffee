@@ -6,11 +6,11 @@
 # the site more responsive to user input on mobile devices.
 ##
 class Environment
-  isDesktop: ->
-    Modernizr.mq("only screen and (min-width: 960px)")
+    isDesktop: ->
+        Modernizr.mq("only screen and (min-width: 960px)")
 
-  constructor: ->
-    window.onload = FastClick.attach(document.body)
+    constructor: ->
+        window.onload = FastClick.attach(document.body)
 
 
 ##
@@ -18,77 +18,68 @@ class Environment
 # the banner is toggled.
 ##
 class Banner
-  hidden: "banner-hidden"
-  loaded: false
+    trigger:    $("#campus-trigger")
+    icon:       $("#campus-trigger span")
+    content:    $("#campus-trigger i")
+    inserted:   false
+    storage_id: "banner-hidden"
 
-  isHidden: ->
-    sessionStorage.getItem(@hidden) isnt null
+    constructor: ->
+        if environment.isDesktop
+            if @isHidden()
+                @setTriggerActive()
+            else
+                @insertBanner()
+                @setTriggerInactive()
+        else
+            @unsetTrigger()
 
-  toggle: ->
-    @insertBanner()
-    $("#campusBanner").toggleClass("js-banner-hidden")
-    if @isHidden()
-      sessionStorage.removeItem(@hidden)
-    else
-      sessionStorage.setItem(@hidden, true)
+    isHidden: ->
+        sessionStorage.getItem(@storage_id) isnt null
 
-  insertBanner: ->
-    if not @loaded
-      @loaded = true
-      document.write("<script src='http://csusb.edu/banner'></script>")
+    triggerToActive: ->
+        @content.text("Expand banner")
+        @icon.removeClass("icon-arrow-up").addClass("icon-arrow-down")
 
-  constructor: ->
-    if not @isHidden() and environment.isDesktop()
-      @insertBanner()
+    triggerToInactive: ->
+        @content.text("Collapse banner")
+        @icon.removeClass("icon-arrow-down").addClass("icon-arrow-up")
 
+    setTriggerEvent: ->
+        @trigger.click (e) =>
+            @toggle()
+            e.preventDefault
 
-##
-# Trigger for the CSUSB link and banner closure.
-##
-class CampusTrigger
-  trigger: $("#campus-trigger")
-  icon: $("#campus-trigger span")
-  content: $("#campus-trigger i")
-  isActive: false
+    setTriggerActive: ->
+        @trigger.attr("href", "#")
+        @content.text("Expand banner")
+        @icon.removeClass("icon-arrow-left").addClass("icon-arrow-down")
+        @setTriggerEvent()
 
-  active: ->
-    @content.text("Expand banner")
-    @icon.removeClass("icon-arrow-up").addClass("icon-arrow-down")
+    setTriggerInactive: ->
+        @trigger.attr("href", "#")
+        @content.text("Collapse banner")
+        @icon.removeClass("icon-arrow-left").addClass("icon-arrow-up")
+        @setTriggerEvent()
 
-  inactive: ->
-    @content.text("Collapse banner")
-    @icon.removeClass("icon-arrow-down").addClass("icon-arrow-up")
+    unsetTrigger: ->
+        @trigger.attr("href", "http://csusb.edu")
+        @content.text("To Campus")
+        @icon.removeClass("icon-arrow-up").addClass("icon-arrow-left")
 
-  clicked: ->
-    if @isActive then @inactive() else @active()
-    @isActive = not @isActive
+    toggle: ->
+        $("#campusBanner").toggleClass("js-banner-hidden")
+        if @isHidden()
+            if not @inserted then @insertBanner()
+            sessionStorage.removeItem(@storage_id)
+            @triggerToInactive()
+        else
+            sessionStorage.setItem(@storage_id, true)
+            @triggerToActive()
 
-  setState: (state) ->
-    if state is 'desktop'
-      @content.text("Collapse banner")
-      @trigger.attr("href", "#")
-      @icon.removeClass("icon-arrow-left").addClass("icon-arrow-up")
-      @trigger.click (e) =>
-        banner.toggle()
-        @clicked()
-        e.preventDefault()
-    else
-      @content.text("To Campus")
-      @trigger.attr("href", "http://csusb.edu")
-      @icon.removeClass("icon-arrow-up").addClass("icon-arrow-left")
-
-
-##
-# Desktop navigation dropdown.
-##
-class Dropdown
-  trigger: $(".dropdown > a")
-
-  setState: (state) ->
-    if state is 'desktop'
-      @trigger.attr("data-toggle", "dropdown")
-    else
-      @trigger.attr("data-toggle", "")
+    insertBanner: ->
+        document.write("<script src='http://csusb.edu/banner'></script>")
+        @inserted = true
 
 
 ##
@@ -96,38 +87,44 @@ class Dropdown
 # appropriately.
 ##
 class Navigation
-  nav: $("#main-nav")
-  trigger: $("#main-nav-trigger")
-  icon: $("#main-nav-trigger span")
+    nav:     $("#main-nav")
+    trigger: $("#main-nav-trigger")
+    icon:    $("#main-nav-trigger span")
 
-  setNavigationTrigger: ->
-    @trigger.click (e) =>
-      @nav.toggleClass("js-visible")
-      @icon.toggleClass("icon-arrow-down")
-      @icon.toggleClass("icon-arrow-up")
-      e.preventDefault()
+    dropdown:
+        trigger: $(".dropdown > a")
 
-  setState: (state) ->
-    @campusTrigger.setState(state)
-    @dropdown.setState(state)
+        setState: (state) ->
+            if state is 'desktop'
+                @trigger.dataset.toggle = "dropdown"
+            else
+                @trigger.dataset.toggle = ""
 
-  updateState: ->
-    @setState(if environment.isDesktop() then 'desktop' else 'mobile')
-    return
+    setNavigationTrigger: ->
+        @trigger.click (e) =>
+            @nav.toggleClass("js-visible")
+            @icon.toggleClass("icon-arrow-down")
+            @icon.toggleClass("icon-arrow-up")
+            e.preventDefault
 
-  setResizeListener: (callback) ->
-    timer = null
-    $(window).resize () =>
-      if timer isnt null then window.clearTimeout(timer)
-      timer = window.setTimeout callback, 200
+    setState: (state) ->
+        @campusTrigger.setState(state)
+        @dropdown.setState(state)
 
-  constructor: ->
-    @campusTrigger = new CampusTrigger()
-    @dropdown = new Dropdown()
-    @setNavigationTrigger()
-    @updateState()
-    @setResizeListener () =>
-      @updateState()
+    updateState: ->
+        @setState(if environment.isDesktop then 'desktop' else 'mobile')
+
+    setResizeListener: (callback) ->
+        timer = null
+        $(window).resize  =>
+            if timer isnt null then window.clearTimeout(timer)
+            timer = window.setTimeout callback, 200
+
+    constructor: ->
+        @setNavigationTrigger
+        @updateState
+        @setResizeListener =>
+            @updateState
 
 
 ##
@@ -135,23 +132,20 @@ class Navigation
 # 'desktop-only' by changing all data-* attributes into standard attributes.
 ##
 class DesktopContent
-  getDesktopContent: ->
-    [].slice.call(document.querySelectorAll(".js-desktop-only"))
+    getDesktopContent: ->
+        [].slice.call(document.querySelectorAll(".js-desktop-only"))
 
-  constructor: ->
-    if environment.isDesktop()
-      for elem in @getDesktopContent()
-        elem.setAttribute("href", elem.dataset.href)
+    constructor: ->
+        if environment.isDesktop
+            for elem in @getDesktopContent
+                elem.setAttribute("href", elem.dataset.href)
 
-
-# For testing
-sessionStorage.removeItem("banner-hidden")
 
 ##
 # Load everything.
 ##
-environment    = new Environment()
-banner         = new Banner()
-navigation     = new Navigation()
-desktopContent = new DesktopContent()
+environment    = new Environment
+banner         = new Banner
+navigation     = new Navigation
+desktopContent = new DesktopContent
 
