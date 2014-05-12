@@ -140,23 +140,19 @@ Navigation = (function() {
 })();
 
 DesktopContent = (function() {
-  DesktopContent.prototype.id = ".js-desktop-only";
+  DesktopContent.prototype.id = "js-desktop-only";
 
   DesktopContent.prototype.getDesktopContent = function() {
-    return Array.prototype.slice.call(document.querySelectorAll(this.id));
+    return [].slice.call(document.querySelectorAll("." + this.id));
   };
 
   function DesktopContent() {
-    var attribute, elem, elements, _i, _j, _len, _len1, _ref;
+    var elem, _i, _len, _ref;
     if (environment.isDesktop()) {
-      elements = this.getDesktopContent();
-      for (_i = 0, _len = elements.length; _i < _len; _i++) {
-        elem = elements[_i];
-        _ref = elem.dataset;
-        for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
-          attribute = _ref[_j];
-          elem.setAttribute(attribute, elem.dataset[attribute]);
-        }
+      _ref = this.getDesktopContent();
+      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+        elem = _ref[_i];
+        elem.setAttribute("href", elem.dataset.href);
       }
     }
   }

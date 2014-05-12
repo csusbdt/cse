@@ -12,10 +12,10 @@ storage = sessionStorage
 # the site more responsive to user input on mobile devices.
 ##
 class Environment
-  isDesktop: () ->
-    return Modernizr.mq("only screen and (min-width: 960px)")
+  isDesktop: ->
+    Modernizr.mq("only screen and (min-width: 960px)")
 
-  constructor: () ->
+  constructor: ->
     window.onload = FastClick.attach(document.body)
 
 
@@ -27,17 +27,17 @@ class Banner
   banner: $("#campusBanner")
   hidden: "banner-hidden"
 
-  isHidden: () ->
+  isHidden: ->
     storage.getItem(@hidden) isnt null
 
-  toggle: () ->
+  toggle: ->
     @banner.toggleClass("js-banner-visible")
     if @isHidden()
       storage.removeItem(@hidden)
     else
       storage.setItem(@hidden, true)
 
-  constructor: () ->
+  constructor: ->
     if !@isHidden() and environment.isDesktop()
       document.write("<script src='http://csusb.edu/banner'></script>")
 
@@ -83,7 +83,7 @@ class Navigation
   trigger: $("#main-nav-trigger")
   icon: $("#main-nav-trigger span")
 
-  setNavigationTrigger: () ->
+  setNavigationTrigger: ->
     @trigger.click (e) =>
       @nav.toggleClass("js-visible")
       @icon.toggleClass("icon-arrow-down")
@@ -94,7 +94,7 @@ class Navigation
     campusTrigger.setState(state)
     dropdown.setState(state)
 
-  updateState: () ->
+  updateState: ->
     @setState(if environment.isDesktop() then 'desktop' else 'mobile')
     return
 
@@ -104,7 +104,7 @@ class Navigation
       if timer isnt null then window.clearTimeout(timer)
       timer = window.setTimeout callback, 200
 
-  constructor: () ->
+  constructor: ->
     @setNavigationTrigger()
     @updateState()
     @setResizeListener () =>
@@ -116,17 +116,15 @@ class Navigation
 # 'desktop-only' by changing all data-* attributes into standard attributes.
 ##
 class DesktopContent
-  id: ".js-desktop-only"
+  id: "js-desktop-only"
 
-  getDesktopContent: () ->
-    Array.prototype.slice.call(document.querySelectorAll(@id))
+  getDesktopContent: ->
+    [].slice.call(document.querySelectorAll("." + @id))
 
-  constructor: () ->
+  constructor: ->
     if environment.isDesktop()
-      elements = @getDesktopContent()
-      for elem in elements
-        for attribute in elem.dataset
-          elem.setAttribute(attribute, elem.dataset[attribute])
+      for elem in @getDesktopContent()
+        elem.setAttribute("href", elem.dataset.href)
 
 
 environment    = new Environment()
