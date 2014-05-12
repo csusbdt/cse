@@ -6,8 +6,7 @@
 # the site more responsive to user input on mobile devices.
 ##
 class Environment
-    isDesktop: ->
-        Modernizr.mq("only screen and (min-width: 960px)")
+    isDesktop: Modernizr.mq("only screen and (min-width: 960px)")
 
     constructor: ->
         window.onload = FastClick.attach(document.body)
@@ -78,7 +77,7 @@ class Banner
             @triggerToActive()
 
     insertBanner: ->
-        document.write("<script src='http://csusb.edu/banner'></script>")
+        document.write("<script src='http://www.csusb.edu/banner'></script>")
         @inserted = true
 
 

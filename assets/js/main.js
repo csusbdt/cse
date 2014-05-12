@@ -1,9 +1,7 @@
 var Banner, DesktopContent, Environment, Navigation, banner, desktopContent, environment, navigation;
 
 Environment = (function() {
-  Environment.prototype.isDesktop = function() {
-    return Modernizr.mq("only screen and (min-width: 960px)");
-  };
+  Environment.prototype.isDesktop = Modernizr.mq("only screen and (min-width: 960px)");
 
   function Environment() {
     window.onload = FastClick.attach(document.body);
@@ -95,7 +93,7 @@ Banner = (function() {
   };
 
   Banner.prototype.insertBanner = function() {
-    document.write("<script src='http://csusb.edu/banner'></script>");
+    document.write("<script src='http://www.csusb.edu/banner'></script>");
     return this.inserted = true;
   };
 
