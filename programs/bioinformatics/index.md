@@ -64,13 +64,10 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
 </caption>
 
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
-
 [description]: descriptions/bi_description_2012_2014.pdf
 [flowchart]: flowcharts/bi_flowchart_2012_2014.pdf
-
-[yearly-schedule]: /docs/Yearly_schedule_of_courses.pdf
+[yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
 [assist]: http://www.assist.org/
 [forms]: /cse
-
 

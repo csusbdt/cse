@@ -72,7 +72,7 @@ TODO
 [description]: descriptions/ms_description_2012_2014.pdf
 [flowchart]: flowcharts/ms_flowchart_2012_2014.pdf
 
-[yearly-schedule]: /docs/Yearly_schedule_of_courses.pdf
+[yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
 [forms]: /cse
 

@@ -16,9 +16,9 @@ nav:
 - [Tutoring][tutoring]
 - [MSDNAA][msdnaa]
 
-[forms]: /forms
-[courses]: /course-schedule
-[clubs]: /clubs
-[labs]: /labs
-[tutoring]: /tutoring
-[msdnaa]: /msdnaa
+[forms]: ../forms
+[courses]: ../programs/Yearly_schedule_of_courses.pdf
+[clubs]: ../clubs
+[labs]: ../labs
+[tutoring]: ../labs/#tutoring
+[msdnaa]: ../labs/#msdnaa

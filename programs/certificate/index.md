@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Computer Science Certificate
-description: Offered by the School of CSE, the minor in Computer Science provide a practical foundation in the theory and practice of computer science.
+description: Offered by the School of CSE, the certificate in Computer Systems and Programming provides a basic foundation in computing that could prove useful in one's career.
 nav:
     - title: Program Information
       url: "#program-information"
@@ -9,9 +9,9 @@ nav:
       url: "#additional-resources"
 ---
 
-## Minor in __Computer Science__
+## Certificate in __Computer Systems and Programming__
 
-The minor in computer science provides students with a foundation of knowledge and skills that are in demand in many areas of career paths. In particular, students with a minor in computer science will have skills that can be used in entry level jobs that involve computer programming and technical support.
+The aim of the certificate program is to improve the employment opportunities for students. With the certificate, a student will be capable of programming in one or more computer languages.
 
 Degree requirements may be adjusted from one academic year to the next. Generally, students fulfill the requirements of the university catalog published in the year they declare their major. However, students have the option of fulfilling the requirements of any subsequent year catalog.
 
@@ -24,12 +24,8 @@ Degree requirements may be adjusted from one academic year to the next. Generall
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
 - [Course Transfer System (assist.org)][assist]
-- [Forms and Templates][forms]
-
-[paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
 [description]: descriptions/minor_description_2012_2014.pdf
-
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
 [assist]: http://www.assist.org/
