@@ -174,7 +174,7 @@ DesktopContent = (function() {
   function DesktopContent() {
     var elem, _i, _len, _ref;
     if (environment.isDesktop) {
-      _ref = this.getDesktopContent;
+      _ref = this.getDesktopContent();
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         elem = _ref[_i];
         elem.setAttribute("href", elem.dataset.href);

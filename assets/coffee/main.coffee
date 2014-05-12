@@ -136,7 +136,7 @@ class DesktopContent
 
     constructor: ->
         if environment.isDesktop
-            for elem in @getDesktopContent
+            for elem in @getDesktopContent()
                 elem.setAttribute("href", elem.dataset.href)
 
 
