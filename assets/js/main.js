@@ -40,17 +40,23 @@ Banner = (function() {
   Banner.prototype.inserted = false;
 
   function Banner() {
+    if (environment.isDesktop() && !this.isHidden()) {
+      this.insertBanner();
+    }
+    this.updateTrigger();
+  }
+
+  Banner.prototype.updateTrigger = function() {
     if (environment.isDesktop()) {
       if (this.isHidden()) {
-        this.setTriggerActive();
+        return this.setTriggerActive();
       } else {
-        this.insertBanner();
-        this.setTriggerInactive();
+        return this.setTriggerInactive();
       }
     } else {
-      this.unsetTrigger();
+      return this.unsetTrigger();
     }
-  }
+  };
 
   Banner.prototype.isHidden = function() {
     return sessionStorage.getItem(this.text.storage_id) !== null;
@@ -160,9 +166,10 @@ Navigation = (function() {
 
   Navigation.prototype.setState = function(state) {
     if (state === this.text.desktop_mode) {
+      banner.updateTrigger();
       return this.setDesktopDropdown();
     } else if (state === this.text.mobile_mode) {
-      banner.constructor();
+      banner.updateTrigger();
       return this.setMobileDropdown();
     } else {
       return console.error(this.text.error_msg);
@@ -205,8 +212,12 @@ Navigation = (function() {
 })();
 
 DesktopContent = (function() {
+  DesktopContent.prototype.text = {
+    id_class: ".js-desktop-only"
+  };
+
   DesktopContent.prototype.getDesktopContent = function() {
-    return [].slice.call(document.querySelectorAll(".js-desktop-only"));
+    return [].slice.call(document.querySelectorAll(this.text.id_class));
   };
 
   function DesktopContent() {

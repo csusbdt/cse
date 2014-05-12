@@ -40,11 +40,14 @@ class Banner
     inserted:        false
 
     constructor: ->
+        if environment.isDesktop() and not @isHidden() then @insertBanner()
+        @updateTrigger()
+
+    updateTrigger: ->
         if environment.isDesktop()
             if @isHidden()
                 @setTriggerActive()
             else
-                @insertBanner()
                 @setTriggerInactive()
         else
             @unsetTrigger()
@@ -133,9 +136,10 @@ class Navigation
 
     setState: (state) ->
         if state is @text.desktop_mode
+            banner.updateTrigger()
             @setDesktopDropdown()
         else if state is @text.mobile_mode
-            banner.constructor()
+            banner.updateTrigger()
             @setMobileDropdown()
         else
             console.error(@text.error_msg)
@@ -164,8 +168,11 @@ class Navigation
 # 'desktop-only' by changing all data-* attributes into standard attributes.
 ##
 class DesktopContent
+    text:
+        id_class: ".js-desktop-only"
+
     getDesktopContent: ->
-        [].slice.call(document.querySelectorAll(".js-desktop-only"))
+        [].slice.call(document.querySelectorAll(@text.id_class))
 
     constructor: ->
         if environment.isDesktop()
