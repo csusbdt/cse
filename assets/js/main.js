@@ -76,21 +76,21 @@ Banner = (function() {
   };
 
   Banner.prototype.setTriggerActive = function() {
-    this.trigger.href = this.text.desktop_link;
+    this.trigger.attr("href", this.text.desktop_link);
     this.content.text(this.text.collapsed_text);
     this.icon.removeClass(this.text.mobile_arrow).addClass(this.text.collapsed_arrow);
     return this.setTriggerEvent();
   };
 
   Banner.prototype.setTriggerInactive = function() {
-    this.trigger.href = this.text.desktop_link;
+    this.trigger.attr("href", this.text.desktop_link);
     this.content.text(this.text.expanded_text);
     this.icon.removeClass(this.text.mobile_arrow).addClass(this.text.expanded_arrow);
     return this.setTriggerEvent();
   };
 
   Banner.prototype.unsetTrigger = function() {
-    this.trigger.href = this.text.mobile_link;
+    this.trigger.attr("href", this.text.mobile_link);
     this.content.text(this.text.mobile_text);
     this.icon.removeClass(this.text.collapsed_arrow).removeClass(this.text.expanded_arrow);
     return this.icon.addClass(this.text.mobile_arrow);

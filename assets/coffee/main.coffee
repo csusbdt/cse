@@ -66,19 +66,19 @@ class Banner
             e.preventDefault
 
     setTriggerActive: ->
-        @trigger.href = @text.desktop_link
+        @trigger.attr("href", @text.desktop_link)
         @content.text(@text.collapsed_text)
         @icon.removeClass(@text.mobile_arrow).addClass(@text.collapsed_arrow)
         @setTriggerEvent()
 
     setTriggerInactive: ->
-        @trigger.href = @text.desktop_link
+        @trigger.attr("href", @text.desktop_link)
         @content.text(@text.expanded_text)
         @icon.removeClass(@text.mobile_arrow).addClass(@text.expanded_arrow)
         @setTriggerEvent()
 
     unsetTrigger: ->
-        @trigger.href = @text.mobile_link
+        @trigger.attr("href", @text.mobile_link)
         @content.text(@text.mobile_text)
         @icon.removeClass(@text.collapsed_arrow).removeClass(@text.expanded_arrow)
         @icon.addClass(@text.mobile_arrow)
