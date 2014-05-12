@@ -1,7 +1,9 @@
 var Banner, DesktopContent, Environment, Navigation, banner, desktopContent, environment, navigation;
 
 Environment = (function() {
-  Environment.prototype.isDesktop = Modernizr.mq("only screen and (min-width: 960px)");
+  Environment.prototype.isDesktop = function() {
+    return Modernizr.mq("only screen and (min-width: 960px)");
+  };
 
   function Environment() {
     window.onload = FastClick.attach(document.body);
@@ -23,7 +25,7 @@ Banner = (function() {
   Banner.prototype.storage_id = "banner-hidden";
 
   function Banner() {
-    if (environment.isDesktop) {
+    if (environment.isDesktop()) {
       if (this.isHidden()) {
         this.setTriggerActive();
       } else {
@@ -108,18 +110,17 @@ Navigation = (function() {
 
   Navigation.prototype.icon = $("#main-nav-trigger span");
 
-  Navigation.prototype.dropdown = {
-    trigger: $(".dropdown > a"),
-    setState: function(state) {
-      if (state === 'desktop') {
-        return this.trigger.dataset.toggle = "dropdown";
-      } else {
-        return this.trigger.dataset.toggle = "";
-      }
-    }
+  Navigation.prototype.dropdown = $(".dropdown > a");
+
+  Navigation.prototype.setDesktopDropdown = function() {
+    return this.dropdown.attr("data-toggle", "dropdown");
   };
 
-  Navigation.prototype.setNavigationTrigger = function() {
+  Navigation.prototype.setMobileDropdown = function() {
+    return this.dropdown.attr("data-toggle", "");
+  };
+
+  Navigation.prototype.setTriggerEvent = function() {
     return this.trigger.click((function(_this) {
       return function(e) {
         _this.nav.toggleClass("js-visible");
@@ -131,12 +132,18 @@ Navigation = (function() {
   };
 
   Navigation.prototype.setState = function(state) {
-    this.campusTrigger.setState(state);
-    return this.dropdown.setState(state);
+    if (state === "desktop") {
+      return this.setMobileDropdown();
+    } else if (state === "mobile") {
+      banner.constructor();
+      return this.setMobileDropdown();
+    } else {
+      return console.error("Invalid window state.");
+    }
   };
 
   Navigation.prototype.updateState = function() {
-    return this.setState(environment.isDesktop ? 'desktop' : 'mobile');
+    return this.setState(environment.isDesktop() ? 'desktop' : 'mobile');
   };
 
   Navigation.prototype.setResizeListener = function(callback) {
@@ -153,11 +160,11 @@ Navigation = (function() {
   };
 
   function Navigation() {
-    this.setNavigationTrigger;
-    this.updateState;
+    this.setTriggerEvent();
+    this.updateState();
     this.setResizeListener((function(_this) {
       return function() {
-        return _this.updateState;
+        return _this.updateState();
       };
     })(this));
   }
@@ -173,7 +180,7 @@ DesktopContent = (function() {
 
   function DesktopContent() {
     var elem, _i, _len, _ref;
-    if (environment.isDesktop) {
+    if (environment.isDesktop()) {
       _ref = this.getDesktopContent();
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         elem = _ref[_i];

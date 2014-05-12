@@ -6,7 +6,8 @@
 # the site more responsive to user input on mobile devices.
 ##
 class Environment
-    isDesktop: Modernizr.mq("only screen and (min-width: 960px)")
+    isDesktop: ->
+        Modernizr.mq("only screen and (min-width: 960px)")
 
     constructor: ->
         window.onload = FastClick.attach(document.body)
@@ -24,7 +25,7 @@ class Banner
     storage_id: "banner-hidden"
 
     constructor: ->
-        if environment.isDesktop
+        if environment.isDesktop()
             if @isHidden()
                 @setTriggerActive()
             else
@@ -86,20 +87,18 @@ class Banner
 # appropriately.
 ##
 class Navigation
-    nav:     $("#main-nav")
-    trigger: $("#main-nav-trigger")
-    icon:    $("#main-nav-trigger span")
+    nav:      $("#main-nav")
+    trigger:  $("#main-nav-trigger")
+    icon:     $("#main-nav-trigger span")
+    dropdown: $(".dropdown > a")
 
-    dropdown:
-        trigger: $(".dropdown > a")
+    setDesktopDropdown: ->
+        @dropdown.attr("data-toggle", "dropdown")
 
-        setState: (state) ->
-            if state is 'desktop'
-                @trigger.dataset.toggle = "dropdown"
-            else
-                @trigger.dataset.toggle = ""
+    setMobileDropdown: ->
+        @dropdown.attr("data-toggle", "")
 
-    setNavigationTrigger: ->
+    setTriggerEvent: ->
         @trigger.click (e) =>
             @nav.toggleClass("js-visible")
             @icon.toggleClass("icon-arrow-down")
@@ -107,11 +106,16 @@ class Navigation
             e.preventDefault
 
     setState: (state) ->
-        @campusTrigger.setState(state)
-        @dropdown.setState(state)
+        if state is "desktop"
+            @setMobileDropdown()
+        else if state is "mobile"
+            banner.constructor()
+            @setMobileDropdown()
+        else
+            console.error("Invalid window state.")
 
     updateState: ->
-        @setState(if environment.isDesktop then 'desktop' else 'mobile')
+        @setState(if environment.isDesktop() then 'desktop' else 'mobile')
 
     setResizeListener: (callback) ->
         timer = null
@@ -120,10 +124,10 @@ class Navigation
             timer = window.setTimeout callback, 200
 
     constructor: ->
-        @setNavigationTrigger
-        @updateState
+        @setTriggerEvent()
+        @updateState()
         @setResizeListener =>
-            @updateState
+            @updateState()
 
 
 ##
@@ -135,7 +139,7 @@ class DesktopContent
         [].slice.call(document.querySelectorAll(".js-desktop-only"))
 
     constructor: ->
-        if environment.isDesktop
+        if environment.isDesktop()
             for elem in @getDesktopContent()
                 elem.setAttribute("href", elem.dataset.href)
 
