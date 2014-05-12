@@ -1,8 +1,10 @@
 var Banner, DesktopContent, Environment, Navigation, banner, desktopContent, environment, navigation;
 
 Environment = (function() {
+  Environment.prototype.min_width = "960px";
+
   Environment.prototype.isDesktop = function() {
-    return Modernizr.mq("only screen and (min-width: 960px)");
+    return Modernizr.mq("only screen and (min-width: " + this.min_width + ")");
   };
 
   function Environment() {
@@ -14,6 +16,21 @@ Environment = (function() {
 })();
 
 Banner = (function() {
+  Banner.prototype.text = {
+    storage_id: "banner-hidden",
+    mobile_text: "To Campus",
+    collapsed_text: "Expand banner",
+    expanded_text: "Collapse banner",
+    mobile_arrow: "icon-arrow-left",
+    collapsed_arrow: "icon-arrow-down",
+    expanded_arrow: "icon-arrow-up",
+    desktop_link: "#",
+    mobile_link: "http://csusb.edu",
+    banner_id: "#campusBanner",
+    hidden_class: "js-banner-hidden",
+    banner_url: "http://www.csusb.edu/banner"
+  };
+
   Banner.prototype.trigger = $("#campus-trigger");
 
   Banner.prototype.icon = $("#campus-trigger span");
@@ -21,8 +38,6 @@ Banner = (function() {
   Banner.prototype.content = $("#campus-trigger i");
 
   Banner.prototype.inserted = false;
-
-  Banner.prototype.storage_id = "banner-hidden";
 
   function Banner() {
     if (environment.isDesktop()) {
@@ -38,17 +53,17 @@ Banner = (function() {
   }
 
   Banner.prototype.isHidden = function() {
-    return sessionStorage.getItem(this.storage_id) !== null;
+    return sessionStorage.getItem(this.text.storage_id) !== null;
   };
 
   Banner.prototype.triggerToActive = function() {
-    this.content.text("Expand banner");
-    return this.icon.removeClass("icon-arrow-up").addClass("icon-arrow-down");
+    this.content.text(this.text.collapsed_text);
+    return this.icon.removeClass(this.text.expanded_arrow).addClass(this.text.collapsed_arrow);
   };
 
   Banner.prototype.triggerToInactive = function() {
-    this.content.text("Collapse banner");
-    return this.icon.removeClass("icon-arrow-down").addClass("icon-arrow-up");
+    this.content.text(this.text.expanded_text);
+    return this.icon.removeClass(this.text.collapsed_arrow).addClass(this.text.expanded_arrow);
   };
 
   Banner.prototype.setTriggerEvent = function() {
@@ -61,41 +76,42 @@ Banner = (function() {
   };
 
   Banner.prototype.setTriggerActive = function() {
-    this.trigger.attr("href", "#");
-    this.content.text("Expand banner");
-    this.icon.removeClass("icon-arrow-left").addClass("icon-arrow-down");
+    this.trigger.href = this.text.desktop_link;
+    this.content.text(this.text.collapsed_text);
+    this.icon.removeClass(this.text.mobile_arrow).addClass(this.text.collapsed_arrow);
     return this.setTriggerEvent();
   };
 
   Banner.prototype.setTriggerInactive = function() {
-    this.trigger.attr("href", "#");
-    this.content.text("Collapse banner");
-    this.icon.removeClass("icon-arrow-left").addClass("icon-arrow-up");
+    this.trigger.href = this.text.desktop_link;
+    this.content.text(this.text.expanded_text);
+    this.icon.removeClass(this.text.mobile_arrow).addClass(this.text.expanded_arrow);
     return this.setTriggerEvent();
   };
 
   Banner.prototype.unsetTrigger = function() {
-    this.trigger.attr("href", "http://csusb.edu");
-    this.content.text("To Campus");
-    return this.icon.removeClass("icon-arrow-up").addClass("icon-arrow-left");
+    this.trigger.href = this.text.mobile_link;
+    this.content.text(this.text.mobile_text);
+    this.icon.removeClass(this.text.collapsed_arrow).removeClass(this.text.expanded_arrow);
+    return this.icon.addClass(this.text.mobile_arrow);
   };
 
   Banner.prototype.toggle = function() {
-    $("#campusBanner").toggleClass("js-banner-hidden");
+    $(this.text.banner_id).toggleClass(this.text.hidden_class);
     if (this.isHidden()) {
       if (!this.inserted) {
         this.insertBanner();
       }
-      sessionStorage.removeItem(this.storage_id);
+      sessionStorage.removeItem(this.text.storage_id);
       return this.triggerToInactive();
     } else {
-      sessionStorage.setItem(this.storage_id, true);
+      sessionStorage.setItem(this.text.storage_id, true);
       return this.triggerToActive();
     }
   };
 
   Banner.prototype.insertBanner = function() {
-    document.write("<script src='http://www.csusb.edu/banner'></script>");
+    document.write("<script src='" + this.text.banner_url + "'></script>");
     return this.inserted = true;
   };
 

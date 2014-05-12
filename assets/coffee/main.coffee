@@ -6,8 +6,10 @@
 # the site more responsive to user input on mobile devices.
 ##
 class Environment
+    min_width: "960px"
+
     isDesktop: ->
-        Modernizr.mq("only screen and (min-width: 960px)")
+        Modernizr.mq("only screen and (min-width: #{@min_width})")
 
     constructor: ->
         window.onload = FastClick.attach(document.body)
@@ -18,11 +20,24 @@ class Environment
 # the banner is toggled.
 ##
 class Banner
-    trigger:    $("#campus-trigger")
-    icon:       $("#campus-trigger span")
-    content:    $("#campus-trigger i")
-    inserted:   false
-    storage_id: "banner-hidden"
+    text:
+        storage_id:      "banner-hidden"
+        mobile_text:     "To Campus"
+        collapsed_text:  "Expand banner"
+        expanded_text:   "Collapse banner"
+        mobile_arrow:    "icon-arrow-left"
+        collapsed_arrow: "icon-arrow-down"
+        expanded_arrow:  "icon-arrow-up"
+        desktop_link:    "#"
+        mobile_link:     "http://csusb.edu"
+        banner_id:       "#campusBanner"
+        hidden_class:    "js-banner-hidden"
+        banner_url:      "http://www.csusb.edu/banner"
+
+    trigger:         $("#campus-trigger")
+    icon:            $("#campus-trigger span")
+    content:         $("#campus-trigger i")
+    inserted:        false
 
     constructor: ->
         if environment.isDesktop()
@@ -35,15 +50,15 @@ class Banner
             @unsetTrigger()
 
     isHidden: ->
-        sessionStorage.getItem(@storage_id) isnt null
+        sessionStorage.getItem(@text.storage_id) isnt null
 
     triggerToActive: ->
-        @content.text("Expand banner")
-        @icon.removeClass("icon-arrow-up").addClass("icon-arrow-down")
+        @content.text(@text.collapsed_text)
+        @icon.removeClass(@text.expanded_arrow).addClass(@text.collapsed_arrow)
 
     triggerToInactive: ->
-        @content.text("Collapse banner")
-        @icon.removeClass("icon-arrow-down").addClass("icon-arrow-up")
+        @content.text(@text.expanded_text)
+        @icon.removeClass(@text.collapsed_arrow).addClass(@text.expanded_arrow)
 
     setTriggerEvent: ->
         @trigger.click (e) =>
@@ -51,34 +66,35 @@ class Banner
             e.preventDefault
 
     setTriggerActive: ->
-        @trigger.attr("href", "#")
-        @content.text("Expand banner")
-        @icon.removeClass("icon-arrow-left").addClass("icon-arrow-down")
+        @trigger.href = @text.desktop_link
+        @content.text(@text.collapsed_text)
+        @icon.removeClass(@text.mobile_arrow).addClass(@text.collapsed_arrow)
         @setTriggerEvent()
 
     setTriggerInactive: ->
-        @trigger.attr("href", "#")
-        @content.text("Collapse banner")
-        @icon.removeClass("icon-arrow-left").addClass("icon-arrow-up")
+        @trigger.href = @text.desktop_link
+        @content.text(@text.expanded_text)
+        @icon.removeClass(@text.mobile_arrow).addClass(@text.expanded_arrow)
         @setTriggerEvent()
 
     unsetTrigger: ->
-        @trigger.attr("href", "http://csusb.edu")
-        @content.text("To Campus")
-        @icon.removeClass("icon-arrow-up").addClass("icon-arrow-left")
+        @trigger.href = @text.mobile_link
+        @content.text(@text.mobile_text)
+        @icon.removeClass(@text.collapsed_arrow).removeClass(@text.expanded_arrow)
+        @icon.addClass(@text.mobile_arrow)
 
     toggle: ->
-        $("#campusBanner").toggleClass("js-banner-hidden")
+        $(@text.banner_id).toggleClass(@text.hidden_class)
         if @isHidden()
             if not @inserted then @insertBanner()
-            sessionStorage.removeItem(@storage_id)
+            sessionStorage.removeItem(@text.storage_id)
             @triggerToInactive()
         else
-            sessionStorage.setItem(@storage_id, true)
+            sessionStorage.setItem(@text.storage_id, true)
             @triggerToActive()
 
     insertBanner: ->
-        document.write("<script src='http://www.csusb.edu/banner'></script>")
+        document.write("<script src='#{@text.banner_url}'></script>")
         @inserted = true
 
 
