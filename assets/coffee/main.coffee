@@ -123,7 +123,7 @@ class Navigation
 
     setState: (state) ->
         if state is "desktop"
-            @setMobileDropdown()
+            @setDesktopDropdown()
         else if state is "mobile"
             banner.constructor()
             @setMobileDropdown()

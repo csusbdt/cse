@@ -149,7 +149,7 @@ Navigation = (function() {
 
   Navigation.prototype.setState = function(state) {
     if (state === "desktop") {
-      return this.setMobileDropdown();
+      return this.setDesktopDropdown();
     } else if (state === "mobile") {
       banner.constructor();
       return this.setMobileDropdown();
