@@ -1,168 +1,178 @@
-/**
- * Saves me a little bit of typing.
- */
-var storage = sessionStorage;
+var Banner, CampusTrigger, DesktopContent, Dropdown, Environment, Navigation, banner, campusTrigger, desktopContent, dropdown, environment, navigation, storage;
 
+storage = sessionStorage;
 
-/**
- * Used for checking whether the device is big enough to receive desktop things.
- * It's a little hackish, but it works. This media query equates with
- * $screen-lg-min in the SASS code. If that gets changed, this needs to be
- * changed too. It also attaches FastClick to the window's onload event to make
- * the site more responsive to user input on mobile devices.
- * @type {Object}
- */
-var environment = {
-  isDesktop: function () {
+Environment = (function() {
+  Environment.prototype.isDesktop = function() {
     return Modernizr.mq("only screen and (min-width: 960px)");
-  },
+  };
 
-  load: function () {
+  function Environment() {
     window.onload = FastClick.attach(document.body);
   }
-};
 
+  return Environment;
 
-/**
- * Maintains the state of the banner, and makes the appropriate changes whenever
- * the banner is toggled.
- * @type {Object}
- */
-var banner = {
-  banner: $("#campusBanner"),
-  hidden: "banner-hidden",
+})();
 
-  isHidden: function () {
+Banner = (function() {
+  Banner.prototype.banner = $("#campusBanner");
+
+  Banner.prototype.hidden = "banner-hidden";
+
+  Banner.prototype.isHidden = function() {
     return storage.getItem(this.hidden) !== null;
-  },
+  };
 
-  toggle: function () {
+  Banner.prototype.toggle = function() {
     this.banner.toggleClass("js-banner-visible");
     if (this.isHidden()) {
-      storage.removeItem(this.hidden);
+      return storage.removeItem(this.hidden);
     } else {
-      storage.setItem(this.hidden, true);
+      return storage.setItem(this.hidden, true);
     }
-  },
+  };
 
-  load: function () {
+  function Banner() {
     if (!this.isHidden() && environment.isDesktop()) {
       document.write("<script src='http://csusb.edu/banner'></script>");
     }
   }
-};
 
+  return Banner;
 
-/**
- * Trigger for the CSUSB link and banner closure.
- * @type {Object}
- */
-var campusTrigger = {
-  trigger: $("#campus-trigger"),
-  icon: $("#campus-trigger span"),
-  content: $("#campus-trigger i"),
+})();
 
-  setState: function (state) {
-    if (state == 'desktop') {
+CampusTrigger = (function() {
+  function CampusTrigger() {}
+
+  CampusTrigger.prototype.trigger = $("#campus-trigger");
+
+  CampusTrigger.prototype.icon = $("#campus-trigger span");
+
+  CampusTrigger.prototype.content = $("#campus-trigger i");
+
+  CampusTrigger.prototype.setState = function(state) {
+    if (state === 'desktop') {
       this.content.text("Collapse banner");
       this.trigger.attr("href", "#");
-      this.icon.removeClass("icon-arrow-left").addClass("icon-arrow-up");
+      return this.icon.removeClass("icon-arrow-left").addClass("icon-arrow-up");
     } else {
       this.content.text("To Campus");
       this.trigger.attr("href", "http://csusb.edu");
-      this.icon.removeClass("icon-arrow-up").addClass("icon-arrow-left");
+      return this.icon.removeClass("icon-arrow-up").addClass("icon-arrow-left");
     }
-  }
-};
+  };
 
+  return CampusTrigger;
 
-/**
- * Desktop navigation dropdown.
- * @type {Object}
- */
-var dropdown = {
-  trigger: $(".dropdown > a"),
+})();
 
-  setState: function (state) {
+Dropdown = (function() {
+  function Dropdown() {}
+
+  Dropdown.prototype.trigger = $(".dropdown > a");
+
+  Dropdown.prototype.setState = function(state) {
     if (state === 'desktop') {
-      this.trigger.attr("data-toggle", "dropdown");
+      return this.trigger.attr("data-toggle", "dropdown");
     } else {
-      this.trigger.attr("data-toggle", "");
+      return this.trigger.attr("data-toggle", "");
     }
-  }
-}
+  };
 
+  return Dropdown;
 
-/**
- * Maintains the state of the navigation, and handles changes in window size
- * appropriately.
- * @type {Object}
- */
-var navigation = {
-  nav: $("#main-nav"),
-  trigger: $("main-nav-trigger"),
-  icon: ("#main-nav-trigger span"),
+})();
 
-  setNavigationTrigger: function () {
-    this.trigger.click(function (e) {
-      this.nav.toggleClass("js-visible");
-      this.icon.toggleClass("icon-arrow-down").toggleClass("icon-arrow-up");
-      e.preventDefault();
-    });
-  },
+Navigation = (function() {
+  Navigation.prototype.nav = $("#main-nav");
 
-  setState: function (state) {
+  Navigation.prototype.trigger = $("#main-nav-trigger");
+
+  Navigation.prototype.icon = $("#main-nav-trigger span");
+
+  Navigation.prototype.setNavigationTrigger = function() {
+    return this.trigger.click((function(_this) {
+      return function(e) {
+        _this.nav.toggleClass("js-visible");
+        _this.icon.toggleClass("icon-arrow-down");
+        _this.icon.toggleClass("icon-arrow-up");
+        return e.preventDefault();
+      };
+    })(this));
+  };
+
+  Navigation.prototype.setState = function(state) {
     campusTrigger.setState(state);
-    dropdown.setState(state);
-  },
+    return dropdown.setState(state);
+  };
 
-  updateState: function () {
+  Navigation.prototype.updateState = function() {
     this.setState(environment.isDesktop() ? 'desktop' : 'mobile');
-  },
+  };
 
-  setResizeListener: function (callback) {
-    var timer = null;
-    $(window).resize(function() {
-      if (timer !== null) window.clearTimeout(timer);
-      timer = window.setTimeout(callback, 200);
-    });
-  },
+  Navigation.prototype.setResizeListener = function(callback) {
+    var timer;
+    timer = null;
+    return $(window).resize((function(_this) {
+      return function() {
+        if (timer !== null) {
+          window.clearTimeout(timer);
+        }
+        return timer = window.setTimeout(callback, 200);
+      };
+    })(this));
+  };
 
-  load: function () {
+  function Navigation() {
     this.setNavigationTrigger();
     this.updateState();
-    this.setResizeListener(this.updateState);
+    this.setResizeListener((function(_this) {
+      return function() {
+        return _this.updateState();
+      };
+    })(this));
   }
-};
 
+  return Navigation;
 
-/**
- * If the environment is a desktop environment, loads all content marked
- * 'desktop-only' by changing all data-* attributes into standard attributes.
- * @type {Object}
- */
-var desktopContent = {
-  id: ".js-desktop-only",
+})();
 
-  getDesktopContent: function () {
+DesktopContent = (function() {
+  DesktopContent.prototype.id = ".js-desktop-only";
+
+  DesktopContent.prototype.getDesktopContent = function() {
     return Array.prototype.slice.call(document.querySelectorAll(this.id));
-  },
+  };
 
-  load: function () {
+  function DesktopContent() {
+    var attribute, elem, elements, _i, _j, _len, _len1, _ref;
     if (environment.isDesktop()) {
-      var elements = this.getDesktopContent();
-      for (var elem in elements) {
-        for (attribute in elem.dataset) {
+      elements = this.getDesktopContent();
+      for (_i = 0, _len = elements.length; _i < _len; _i++) {
+        elem = elements[_i];
+        _ref = elem.dataset;
+        for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
+          attribute = _ref[_j];
           elem.setAttribute(attribute, elem.dataset[attribute]);
         }
       }
     }
   }
-};
 
+  return DesktopContent;
 
-environment.load();
-banner.load();
-navigation.load();
-desktopContent.load();
+})();
 
+environment = new Environment();
+
+banner = new Banner();
+
+campusTrigger = new CampusTrigger();
+
+dropdown = new Dropdown();
+
+navigation = new Navigation();
+
+desktopContent = new DesktopContent();
