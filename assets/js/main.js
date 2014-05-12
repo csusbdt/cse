@@ -13,8 +13,6 @@ var storage = sessionStorage;
  * @type {Object}
  */
 var environment = {
-  body: $("body"),
-
   isDesktop: function () {
     return Modernizr.mq("only screen and (min-width: 960px)");
   },
@@ -40,7 +38,11 @@ var banner = {
 
   toggle: function () {
     this.banner.toggleClass("js-banner-visible");
-    this.isHidden() ? storage.removeItem(this.hidden) : storage.setItem(this.hidden, true);
+    if (this.isHidden()) {
+      storage.removeItem(this.hidden);
+    } else {
+      storage.setItem(this.hidden, true);
+    }
   },
 
   load: function () {
@@ -51,34 +53,42 @@ var banner = {
 };
 
 
+/**
+ * Trigger for the CSUSB link and banner closure.
+ * @type {Object}
+ */
 var campusTrigger = {
   trigger: $("#campus-trigger"),
   icon: $("#campus-trigger span"),
   content: $("#campus-trigger i"),
 
-  setDesktop: function () {
-    content.text("Collapse banner");
-    trigger.attr("href", "#");
-    icon.removeClass("icon-arrow-left").addClass("icon-arrow-up");
-  },
-
-  setMobile: function () {
-    content.text("To Campus");
-    trigger.attr("href", "http://csusb.edu");
-    icon.removeClass("icon-arrow-up").addClass("icon-arrow-left");
+  setState: function (state) {
+    if (state == 'desktop') {
+      this.content.text("Collapse banner");
+      this.trigger.attr("href", "#");
+      this.icon.removeClass("icon-arrow-left").addClass("icon-arrow-up");
+    } else {
+      this.content.text("To Campus");
+      this.trigger.attr("href", "http://csusb.edu");
+      this.icon.removeClass("icon-arrow-up").addClass("icon-arrow-left");
+    }
   }
 };
 
 
+/**
+ * Desktop navigation dropdown.
+ * @type {Object}
+ */
 var dropdown = {
   trigger: $(".dropdown > a"),
 
-  setDesktop: function () {
-    trigger.attr("data-toggle", "dropdown");
-  }
-
-  setMobile: function () {
-    trigger.attr("data-toggle", "");
+  setState: function (state) {
+    if (state === 'desktop') {
+      this.trigger.attr("data-toggle", "dropdown");
+    } else {
+      this.trigger.attr("data-toggle", "");
+    }
   }
 }
 
@@ -101,22 +111,16 @@ var navigation = {
     });
   },
 
-  setDesktop: function () {
-    campusTrigger.setDesktop();
-    dropdown.setDesktop();
-  },
-
-  setMobile: function () {
-    campusTrigger.setMobile();
-    dropdown.setMobile();
+  setState: function (state) {
+    campusTrigger.setState(state);
+    dropdown.setState(state);
   },
 
   updateState: function () {
-    environment.isDesktop() ? this.setDesktop : this.setMobile;
+    this.setState(environment.isDesktop() ? 'desktop' : 'mobile');
   },
 
   setResizeListener: function (callback) {
-    if (typeof delay !== "number") return;
     var timer = null;
     $(window).resize(function() {
       if (timer !== null) window.clearTimeout(timer);
