@@ -19,11 +19,11 @@ nav:
 
 | Position            | Officer          |
 |:--------------------|:-----------------|
-| President           | Andrew Brinker   |
-| Vice President      | Anthony Sterrett |
-| Treasurer           | Dylan Allbee     |
+| President           | Dylan Allbee     |
+| Vice President      | Andrew Brinker   |
+| Treasurer           | Beverly Abadines |
 | Secretary           | Abigail Legg     |
-| Information Officer | Juan Nevares     |
+| Information Officer | Anthony Sterrett |
 | Event Coordinator   | Ammar Al Sibai   |
 | Webmaster           | Mike Korcha      |
 
