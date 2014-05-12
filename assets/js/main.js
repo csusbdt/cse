@@ -120,6 +120,17 @@ Banner = (function() {
 })();
 
 Navigation = (function() {
+  Navigation.prototype.text = {
+    desktop_dropdown: "dropdown",
+    mobile_dropdown: "",
+    nav_class: "js-visible",
+    active_arrow: "icon-arrow-up",
+    inactive_arrow: "icon-arrow-down",
+    desktop_mode: "desktop",
+    mobile_mode: "mobile",
+    error_msg: "Invalid window state."
+  };
+
   Navigation.prototype.nav = $("#main-nav");
 
   Navigation.prototype.trigger = $("#main-nav-trigger");
@@ -129,37 +140,41 @@ Navigation = (function() {
   Navigation.prototype.dropdown = $(".dropdown > a");
 
   Navigation.prototype.setDesktopDropdown = function() {
-    return this.dropdown.attr("data-toggle", "dropdown");
+    return this.dropdown.attr("data-toggle", this.text.desktop_dropdown);
   };
 
   Navigation.prototype.setMobileDropdown = function() {
-    return this.dropdown.attr("data-toggle", "");
+    return this.dropdown.attr("data-toggle", this.text.mobile_dropdown);
   };
 
   Navigation.prototype.setTriggerEvent = function() {
     return this.trigger.click((function(_this) {
       return function(e) {
-        _this.nav.toggleClass("js-visible");
-        _this.icon.toggleClass("icon-arrow-down");
-        _this.icon.toggleClass("icon-arrow-up");
+        _this.nav.toggleClass(_this.text.nav_class);
+        _this.icon.toggleClass(_this.text.inactive_arrow);
+        _this.icon.toggleClass(_this.text.active_arrow);
         return e.preventDefault;
       };
     })(this));
   };
 
   Navigation.prototype.setState = function(state) {
-    if (state === "desktop") {
+    if (state === this.text.desktop_mode) {
       return this.setDesktopDropdown();
-    } else if (state === "mobile") {
+    } else if (state === this.text.mobile_mode) {
       banner.constructor();
       return this.setMobileDropdown();
     } else {
-      return console.error("Invalid window state.");
+      return console.error(this.text.error_msg);
     }
   };
 
   Navigation.prototype.updateState = function() {
-    return this.setState(environment.isDesktop() ? 'desktop' : 'mobile');
+    if (environment.isDesktop()) {
+      return this.setState(this.text.desktop_mode);
+    } else {
+      return this.setState(this.text.mobile_mode);
+    }
   };
 
   Navigation.prototype.setResizeListener = function(callback) {

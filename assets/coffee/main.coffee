@@ -103,35 +103,48 @@ class Banner
 # appropriately.
 ##
 class Navigation
+    text:
+        desktop_dropdown: "dropdown"
+        mobile_dropdown:  ""
+        nav_class:        "js-visible"
+        active_arrow:     "icon-arrow-up"
+        inactive_arrow:   "icon-arrow-down"
+        desktop_mode:     "desktop"
+        mobile_mode:      "mobile"
+        error_msg:        "Invalid window state."
+
     nav:      $("#main-nav")
     trigger:  $("#main-nav-trigger")
     icon:     $("#main-nav-trigger span")
     dropdown: $(".dropdown > a")
 
     setDesktopDropdown: ->
-        @dropdown.attr("data-toggle", "dropdown")
+        @dropdown.attr("data-toggle", @text.desktop_dropdown)
 
     setMobileDropdown: ->
-        @dropdown.attr("data-toggle", "")
+        @dropdown.attr("data-toggle", @text.mobile_dropdown)
 
     setTriggerEvent: ->
         @trigger.click (e) =>
-            @nav.toggleClass("js-visible")
-            @icon.toggleClass("icon-arrow-down")
-            @icon.toggleClass("icon-arrow-up")
+            @nav.toggleClass(@text.nav_class)
+            @icon.toggleClass(@text.inactive_arrow)
+            @icon.toggleClass(@text.active_arrow)
             e.preventDefault
 
     setState: (state) ->
-        if state is "desktop"
+        if state is @text.desktop_mode
             @setDesktopDropdown()
-        else if state is "mobile"
+        else if state is @text.mobile_mode
             banner.constructor()
             @setMobileDropdown()
         else
-            console.error("Invalid window state.")
+            console.error(@text.error_msg)
 
     updateState: ->
-        @setState(if environment.isDesktop() then 'desktop' else 'mobile')
+        if environment.isDesktop()
+            @setState(@text.desktop_mode)
+        else
+            @setState(@text.mobile_mode)
 
     setResizeListener: (callback) ->
         timer = null
