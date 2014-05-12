@@ -1,10 +1,4 @@
 ##
-# Saves me a little bit of typing.
-##
-storage = sessionStorage
-
-
-##
 # Used for checking whether the device is big enough to receive desktop things.
 # It's a little hackish, but it works. This media query equates with
 # $screen-lg-min in the SASS code. If that gets changed, this needs to be
@@ -24,22 +18,28 @@ class Environment
 # the banner is toggled.
 ##
 class Banner
-  banner: $("#campusBanner")
   hidden: "banner-hidden"
+  loaded: false
 
   isHidden: ->
     sessionStorage.getItem(@hidden) isnt null
 
   toggle: ->
-    @banner.toggleClass("js-banner-visible")
+    @insertBanner()
+    $("#campusBanner").toggleClass("js-banner-hidden")
     if @isHidden()
       sessionStorage.removeItem(@hidden)
     else
       sessionStorage.setItem(@hidden, true)
 
-  constructor: ->
-    if !@isHidden() and environment.isDesktop()
+  insertBanner: ->
+    if not @loaded
+      @loaded = true
       document.write("<script src='http://csusb.edu/banner'></script>")
+
+  constructor: ->
+    if not @isHidden() and environment.isDesktop()
+      @insertBanner()
 
 
 ##
@@ -49,12 +49,29 @@ class CampusTrigger
   trigger: $("#campus-trigger")
   icon: $("#campus-trigger span")
   content: $("#campus-trigger i")
+  isActive: false
+
+  active: ->
+    @content.text("Expand banner")
+    @icon.removeClass("icon-arrow-up").addClass("icon-arrow-down")
+
+  inactive: ->
+    @content.text("Collapse banner")
+    @icon.removeClass("icon-arrow-down").addClass("icon-arrow-up")
+
+  clicked: ->
+    if @isActive then @inactive() else @active()
+    @isActive = not @isActive
 
   setState: (state) ->
     if state is 'desktop'
       @content.text("Collapse banner")
       @trigger.attr("href", "#")
       @icon.removeClass("icon-arrow-left").addClass("icon-arrow-up")
+      @trigger.click (e) =>
+        banner.toggle()
+        @clicked()
+        e.preventDefault()
     else
       @content.text("To Campus")
       @trigger.attr("href", "http://csusb.edu")
@@ -91,8 +108,8 @@ class Navigation
       e.preventDefault()
 
   setState: (state) ->
-    campusTrigger.setState(state)
-    dropdown.setState(state)
+    @campusTrigger.setState(state)
+    @dropdown.setState(state)
 
   updateState: ->
     @setState(if environment.isDesktop() then 'desktop' else 'mobile')
@@ -105,6 +122,8 @@ class Navigation
       timer = window.setTimeout callback, 200
 
   constructor: ->
+    @campusTrigger = new CampusTrigger()
+    @dropdown = new Dropdown()
     @setNavigationTrigger()
     @updateState()
     @setResizeListener () =>
@@ -125,13 +144,14 @@ class DesktopContent
         elem.setAttribute("href", elem.dataset.href)
 
 
+# For testing
+sessionStorage.removeItem("banner-hidden")
+
 ##
 # Load everything.
 ##
 environment    = new Environment()
 banner         = new Banner()
-campusTrigger  = new CampusTrigger()
-dropdown       = new Dropdown()
 navigation     = new Navigation()
 desktopContent = new DesktopContent()
 

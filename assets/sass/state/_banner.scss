@@ -1,10 +1,9 @@
-#campusBanner.js-banner-hidden {
-    position: absolute;
-    top: -88px;
-    @include transition(top .2s ease-in);
-}
+#campusBanner {
+    @include transition(.1s margin-top ease);
 
-
-.js-banner-visible-body {
-    padding-top: 88px !important;
+    &.js-banner-hidden {
+        position: relative !important;
+        margin-top: -88px !important;
+        @include transition(.1s margin-top ease);
+    }
 }
