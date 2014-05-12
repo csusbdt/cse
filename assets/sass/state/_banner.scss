@@ -8,8 +8,3 @@
 .js-banner-visible-body {
     padding-top: 88px !important;
 }
-
-.js-banner-hidden-body {
-    padding-top: 0 !important;
-    @include transition(padding-top .2s ease-in);
-}

@@ -1,11 +1,10 @@
 body {
-    @media screen and (min-width: $screen-lg-min) {
-        padding-top: 0 !important;
-    }
+    padding-top: 0 !important;
 }
 
 #campusBanner,
 #campusWrapper {
+    position: static !important;
     display: block !important;
     height: 88px !important;
     padding: 0 !important;
