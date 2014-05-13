@@ -171,8 +171,6 @@ Navigation = (function() {
     } else if (state === this.text.mobile_mode) {
       banner.updateTrigger();
       return this.setMobileDropdown();
-    } else {
-      return console.error(this.text.error_msg);
     }
   };
 

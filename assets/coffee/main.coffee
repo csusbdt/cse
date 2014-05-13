@@ -141,8 +141,6 @@ class Navigation
         else if state is @text.mobile_mode
             banner.updateTrigger()
             @setMobileDropdown()
-        else
-            console.error(@text.error_msg)
 
     updateState: ->
         if environment.isDesktop()
