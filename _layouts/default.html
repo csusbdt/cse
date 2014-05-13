@@ -36,7 +36,7 @@
                     </strong>
                     <ul>
                         {% for item in page.nav %}
-                        <li><a href='{{ site.baseurl }}{{ item.url }}'>
+                        <li><a href="{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}{{ item.url }}">
                             {{ item.title }}
                         </a></li>
                         {% endfor %}
