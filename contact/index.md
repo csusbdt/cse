@@ -4,29 +4,19 @@ title: School of Computer Science &amp; Engineering
 description: Computer science is the scientific and practical approach to computation and its applications.
 nav:
     - title: Phone 
-      url: /#phone
-      desc: How to reach us by phone.
+      url: /contact/#main-phone-number
     - title: Address
-      url: /#address
-      desc: How to mail something to us.
+      url: /contact/#mailing-address
     - title: Location
-      url: /#location
-      desc: How to find us.
+      url: /contact/#location
     - title: Director
-      url: /#director
-      desc: Dr. Kerstin Voigt
+      url: /contact/#director
     - title: Administrative Support
-      url: /#admin-support
-      desc: Who to see for help with issues related to course enrollment and degree major requirements.
+      url: /contact/#administrative-support
     - title: Technical Support
-      url: /#tech-support
-      desc: Who to see for help with lab issues.
+      url: /contact/#technical-support
     - title: Graduate Program Coordinators
-      url: /#grad-program
-      desc: Who to see if you are a graduate student.
-    - title: 
-      url: /#
-      desc: 
+      url: /contact/#graduate-program-coordinators
 ---
 
 # Contact Information
