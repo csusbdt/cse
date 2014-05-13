@@ -4,11 +4,11 @@ title: Student Organizations
 description: The CSE Club, IEEE Student Chapter, and STEM Club provide academic and professional opportunities to students in the School of Computer Science and Engineering.
 nav:
     - title: CSE Club
-      url: "/clubs/#cse-club"
+      url: "#cse-club"
     - title: IEEE Student Chapter
-      url: "/clubs/#ieee-student-chapter"
+      url: "#ieee-student-chapter"
     - title: STEM Club
-      url: "/clubs/#stem-club"
+      url: "#stem-club"
 ---
 
 ## Listing of current __Student Organizations__

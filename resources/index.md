@@ -4,7 +4,7 @@ title: Resources
 description: Useful tools and information for students in the School of CSE
 nav:
     - title: Majors
-      url: /#majors
+      url: "#majors"
 ---
 
 ## An assortment of __Resources__

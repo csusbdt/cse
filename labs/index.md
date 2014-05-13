@@ -3,14 +3,14 @@ layout: default
 title: School of Computer Science &amp; Engineering
 description: Hours of operation, tutoring and other information related to working in the CSE labs.
 nav:
-    - title: Hours 
-      url: /labs/#open-hours
-    - title: Tutoring 
-      url: /labs/#tutoring
-    - title: Remote Access 
-      url: /labs/#how-to-access-the-lab-computers-remotely
-    - title: Microsoft Academic Alliance 
-      url: /labs/#microsoft-academic-alliance
+    - title: Hours
+      url: "#open-hours"
+    - title: Tutoring
+      url: "#tutoring"
+    - title: Remote Access
+      url: "#how-to-access-the-lab-computers-remotely"
+    - title: Microsoft Academic Alliance
+      url: "#microsoft-academic-alliance"
 ---
 
 # The CSE Labs
@@ -22,7 +22,7 @@ nav:
 ## Tutoring
 
 - [Help Desk Schedule](Help_desk_schedule.pdf)
-- [Tutor Schedule](Tutor_Schedule.pdf) 
+- [Tutor Schedule](Tutor_Schedule.pdf)
 - [CSE Club Tutoring Schedule](http://cse-club.com/#tutoring)
 
 ## How to Access the Lab Computers Remotely
@@ -32,13 +32,13 @@ nav:
 
 ## Microsoft Academic Alliance
 
-If you are enrolled in a computer science course, you are eligible to obtain many 
-Microsoft development tools free of charge for academic use. These tools include 
-Visual Studio, SQL Server, Windows Server, Visio, and others. You can install these tools 
+If you are enrolled in a computer science course, you are eligible to obtain many
+Microsoft development tools free of charge for academic use. These tools include
+Visual Studio, SQL Server, Windows Server, Visio, and others. You can install these tools
 on a laptop or home computer.
 
-Complete an [MSDNAA Student Use Form][msdnaa-form] and submit it at the help desk. After the 
-help desk creates your account, you will be able to log into the 
+Complete an [MSDNAA Student Use Form][msdnaa-form] and submit it at the help desk. After the
+help desk creates your account, you will be able to log into the
 [MSDN Academic Alliance Software Center][msdnaa-site] and download Microsoft development tools.
 
 [msdnaa-form]: ../labs/MSDNAAStudentUse.pdf
