@@ -103,7 +103,7 @@ Banner = (function() {
       this.trigger.click((function(_this) {
         return function(e) {
           _this.toggle();
-          return e.preventDefault;
+          return e.preventDefault();
         };
       })(this));
       return this.attached = true;

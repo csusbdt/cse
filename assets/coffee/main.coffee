@@ -91,7 +91,7 @@ class Banner
         if not @attached?
             @trigger.click (e) =>
                 @toggle()
-                e.preventDefault
+                e.preventDefault()
             @attached = true
 
     toggle: ->
