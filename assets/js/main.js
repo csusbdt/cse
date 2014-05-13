@@ -1,4 +1,4 @@
-var Banner, DesktopContent, Environment, Navigation, banner, desktopContent, environment, navigation;
+var Banner, DesktopContent, Environment, Navigation, banner, desktopContent, environment, load, navigation;
 
 Environment = (function() {
   Environment.prototype.min_width = "960px";
@@ -28,7 +28,7 @@ Banner = (function() {
     mobile_link: "http://csusb.edu",
     banner_id: "#campusBanner",
     hidden_class: "js-banner-hidden",
-    banner_url: "http://www.csusb.edu/banner"
+    banner_url: "http://www.csusb.edu/banner/"
   };
 
   Banner.prototype.trigger = $("#campus-trigger");
@@ -125,8 +125,10 @@ Banner = (function() {
   };
 
   Banner.prototype.insertBanner = function() {
-    document.write("<script src='" + this.text.banner_url + "'></script>");
-    return this.inserted = true;
+    if (!this.inserted) {
+      document.write("<script src='" + this.text.banner_url + "'></script>");
+      return this.inserted = true;
+    }
   };
 
   return Banner;
@@ -233,6 +235,8 @@ DesktopContent = (function() {
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         elem = _ref[_i];
         elem.setAttribute("href", elem.dataset.href);
+        elem.removeAttribute("data-href");
+        elem.removeAttribute("class");
       }
     }
   }
@@ -240,6 +244,39 @@ DesktopContent = (function() {
   return DesktopContent;
 
 })();
+
+load = function(scripts) {
+  var first_script, pending_scripts, script, src, stateChange, _results;
+  pending_scripts = [];
+  first_script = document.scripts[0];
+  stateChange = function() {
+    var pending_script, _results;
+    _results = [];
+    while (pending_scripts[0] && pending_scripts[0].readyState === 'loaded') {
+      pending_script = pending_scripts.shift();
+      pending_script.onreadystatechange = null;
+      _results.push(first_script.parentNode.insertBefore(pending_script, first_script));
+    }
+    return _results;
+  };
+  _results = [];
+  while (src = scripts.shift()) {
+    if ('async' in first_script) {
+      script = document.createElement('script');
+      script.async = false;
+      script.src = src;
+      _results.push(document.head.appendChild(script));
+    } else if (first_script.readyState) {
+      script = document.createElement('script');
+      pending_scripts.push(script);
+      script.onreadystatechange = stateChange;
+      _results.push(script.src = src);
+    } else {
+      _results.push(document.write("<script src='" + src + "' defer></script>"));
+    }
+  }
+  return _results;
+};
 
 environment = new Environment;
 

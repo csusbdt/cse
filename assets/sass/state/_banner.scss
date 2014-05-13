@@ -1,5 +1,8 @@
 div#campusBanner {
+    @include transition(.2s margin-top ease);
+
     &.js-banner-hidden {
         margin-top: -88px !important;
+        @include transition(.2s margin-top ease);
     }
 }

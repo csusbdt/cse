@@ -32,7 +32,7 @@ class Banner
         mobile_link:     "http://csusb.edu"
         banner_id:       "#campusBanner"
         hidden_class:    "js-banner-hidden"
-        banner_url:      "http://www.csusb.edu/banner"
+        banner_url:      "http://www.csusb.edu/banner/"
 
     trigger:         $("#campus-trigger")
     icon:            $("#campus-trigger span")
@@ -106,8 +106,9 @@ class Banner
             @triggerToActive()
 
     insertBanner: ->
-        document.write("<script src='#{@text.banner_url}'></script>")
-        @inserted = true
+        if not @inserted
+            document.write("<script src='#{@text.banner_url}'></script>")
+            @inserted = true
 
 
 ##
@@ -185,6 +186,37 @@ class DesktopContent
         if environment.isDesktop()
             for elem in @getDesktopContent()
                 elem.setAttribute("href", elem.dataset.href)
+                elem.removeAttribute("data-href")
+                elem.removeAttribute("class")
+
+
+##
+# Cross-browser synchronous script-loading, as described on HTML5 Rocks.
+# www.html5rocks.com/en/tutorials/speed/script-loading/
+##
+load = (scripts) ->
+    pending_scripts = []
+    first_script    = document.scripts[0]
+
+    stateChange = ->
+        while pending_scripts[0] and pending_scripts[0].readyState is 'loaded'
+            pending_script = pending_scripts.shift()
+            pending_script.onreadystatechange = null
+            first_script.parentNode.insertBefore(pending_script, first_script)
+
+    while src = scripts.shift()
+        if 'async' of first_script
+            script = document.createElement('script')
+            script.async = false
+            script.src = src
+            document.head.appendChild(script)
+        else if first_script.readyState
+            script = document.createElement('script')
+            pending_scripts.push(script)
+            script.onreadystatechange = stateChange
+            script.src = src
+        else
+            document.write("<script src='#{src}' defer></script>")
 
 
 # sessionStorage.removeItem("banner-hidden")
