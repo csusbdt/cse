@@ -40,7 +40,8 @@ class Banner
     inserted:        false
 
     constructor: ->
-        if environment.isDesktop() and not @isHidden() then @insertBanner()
+        if environment.isDesktop() and not @isHidden()
+            @insertBanner()
         @updateTrigger()
 
     updateTrigger: ->
@@ -52,44 +53,52 @@ class Banner
         else
             @unsetTrigger()
 
+    setTriggerActive: ->
+        @trigger.prop("href", @text.desktop_link)
+        @content.text(@text.collapsed_text)
+        @icon.removeClass(@text.mobile_arrow)
+        @icon.addClass(@text.collapsed_arrow)
+        @setTriggerEvent()
+
+    setTriggerInactive: ->
+        @trigger.prop("href", @text.desktop_link)
+        @content.text(@text.expanded_text)
+        @icon.removeClass(@text.mobile_arrow)
+        @icon.addClass(@text.expanded_arrow)
+        @setTriggerEvent()
+
+    unsetTrigger: ->
+        @trigger.prop("href", @text.mobile_link)
+        @content.text(@text.mobile_text)
+        @icon.removeClass(@text.collapsed_arrow)
+        @icon.removeClass(@text.expanded_arrow)
+        @icon.addClass(@text.mobile_arrow)
+
     isHidden: ->
         sessionStorage.getItem(@text.storage_id) isnt null
 
     triggerToActive: ->
         @content.text(@text.collapsed_text)
-        @icon.removeClass(@text.expanded_arrow).addClass(@text.collapsed_arrow)
+        @icon.removeClass(@text.expanded_arrow)
+        @icon.addClass(@text.collapsed_arrow)
 
     triggerToInactive: ->
         @content.text(@text.expanded_text)
-        @icon.removeClass(@text.collapsed_arrow).addClass(@text.expanded_arrow)
+        @icon.removeClass(@text.collapsed_arrow)
+        @icon.addClass(@text.expanded_arrow)
 
     setTriggerEvent: ->
-        @trigger.click (e) =>
-            @toggle()
-            e.preventDefault
-
-    setTriggerActive: ->
-        @trigger.attr("href", @text.desktop_link)
-        @content.text(@text.collapsed_text)
-        @icon.removeClass(@text.mobile_arrow).addClass(@text.collapsed_arrow)
-        @setTriggerEvent()
-
-    setTriggerInactive: ->
-        @trigger.attr("href", @text.desktop_link)
-        @content.text(@text.expanded_text)
-        @icon.removeClass(@text.mobile_arrow).addClass(@text.expanded_arrow)
-        @setTriggerEvent()
-
-    unsetTrigger: ->
-        @trigger.attr("href", @text.mobile_link)
-        @content.text(@text.mobile_text)
-        @icon.removeClass(@text.collapsed_arrow).removeClass(@text.expanded_arrow)
-        @icon.addClass(@text.mobile_arrow)
+        if not @attached?
+            @trigger.click (e) =>
+                @toggle()
+                e.preventDefault
+            @attached = true
 
     toggle: ->
         $(@text.banner_id).toggleClass(@text.hidden_class)
         if @isHidden()
-            if not @inserted then @insertBanner()
+            if not @inserted
+                @insertBanner()
             sessionStorage.removeItem(@text.storage_id)
             @triggerToInactive()
         else
@@ -122,10 +131,10 @@ class Navigation
     dropdown: $(".dropdown > a")
 
     setDesktopDropdown: ->
-        @dropdown.attr("data-toggle", @text.desktop_dropdown)
+        @dropdown.prop("data-toggle", @text.desktop_dropdown)
 
     setMobileDropdown: ->
-        @dropdown.attr("data-toggle", @text.mobile_dropdown)
+        @dropdown.prop("data-toggle", @text.mobile_dropdown)
 
     setTriggerEvent: ->
         @trigger.click (e) =>
@@ -177,6 +186,8 @@ class DesktopContent
             for elem in @getDesktopContent()
                 elem.setAttribute("href", elem.dataset.href)
 
+
+# sessionStorage.removeItem("banner-hidden")
 
 ##
 # Load everything.
