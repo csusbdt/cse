@@ -1,7 +1,7 @@
 ---
 layout: default
 title: School of Computer Science &amp; Engineering
-description: This is an example page description. Each page will have a description similar to this.
+description: Computer science is the scientific and practical approach to computation and its applications.
 nav:
     - title: Programs
       url: programs

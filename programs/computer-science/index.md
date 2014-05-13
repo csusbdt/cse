@@ -17,7 +17,7 @@ nav:
 
 ## Bachelor of Science in <strong>Computer Science</strong>
 
-The Bachelor of Science in Computer Science program emphasizes the traditional study of Computer Science, with an emphasis on mathematical rigor, theoretical foundations and computer architecture. The BS Computer Science program is accredited by [ABET][abet].
+The Bachelor of Science in Computer Science program emphasizes the traditional study of computer science, with an emphasis on mathematical rigor, theoretical foundations and computer architecture. The BS Computer Science program is accredited by [ABET][abet].
 
 ### Program Information
 

@@ -18,7 +18,7 @@ nav:
 ## Bachelor of Science in <strong>Bioinformatics</strong>
 
 Bioinformatics is the interdisciplinary study of biology and biochemical systems using mathematics and computer science. It involves the use of computers and statistics to make sense out of large amounts of data that are accumulating from high-throughput biological and chemical experiments, such as sequencing of whole gnomes, DNA microarray chips, two-hybrid experiments, and tandem mass spectrometry.
-The bioinformatics degree program is jointly administered by the Department of Computer Science and Engineering, the Department of Biology and the Department of Chemistry and Biochemistry.
+The bioinformatics degree program is jointly administered by the School of Computer Science and Engineering, the Department of Biology and the Department of Chemistry and Biochemistry.
 
 ### Program Information
 
