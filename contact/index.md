@@ -3,30 +3,20 @@ layout: default
 title: School of Computer Science &amp; Engineering
 description: Computer science is the scientific and practical approach to computation and its applications.
 nav:
-    - title: Phone 
-      url: /#phone
-      desc: How to reach us by phone.
+    - title: Phone
+      url: "#phone"
     - title: Address
-      url: /#address
-      desc: How to mail something to us.
+      url: "#address"
     - title: Location
-      url: /#location
-      desc: How to find us.
+      url: "#location"
     - title: Director
-      url: /#director
-      desc: Dr. Kerstin Voigt
+      url: "#director"
     - title: Administrative Support
-      url: /#admin-support
-      desc: Who to see for help with issues related to course enrollment and degree major requirements.
+      url: "#admin-support"
     - title: Technical Support
-      url: /#tech-support
-      desc: Who to see for help with lab issues.
-    - title: Graduate Program Coordinators
-      url: /#grad-program
-      desc: Who to see if you are a graduate student.
-    - title: 
-      url: /#
-      desc: 
+      url: "#tech-support"
+    - title: Graduate Coordinators
+      url: "#grad-program"
 ---
 
 # Contact Information
@@ -63,7 +53,7 @@ Ms. Monica Latimer <br>
 Administrative Support Assistant I <br>
 Office: JB 307 <br>
 Phone: (909) 537-5326 <br>
-Email: mlatimer@csusb.edu 
+Email: mlatimer@csusb.edu
 
 Ms. Alice Martinez <br>
 Administrative Support Coordinator II <br>
@@ -91,7 +81,7 @@ Dr. Josephine Mendoza <br>
 Professor and Graduate Program Coordinator <br>
 Office: JB 342 <br>
 Phone: (909) 537-5331 <br>
-Email: jmendoza@csusb.edu 
+Email: jmendoza@csusb.edu
 
 Dr. Haiyan Qiao <br>
 Associate Professor and Graduate Admissions Coordinator <br>

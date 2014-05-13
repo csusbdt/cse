@@ -4,11 +4,11 @@ title: School of Computer Science &amp; Engineering
 description: This is an example page description. Each page will have a description similar to this.
 nav:
     - title: Programs
-      url: /programs
+      url: programs
     - title: Resources
-      url: /resources
+      url: resources
     - title: Contact
-      url: /contact
+      url: contact
 ---
 
 ## Welcome to __The School of CSE__
