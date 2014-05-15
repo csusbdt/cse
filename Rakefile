@@ -8,7 +8,7 @@ COFFEE_DIR = "assets/coffee"
 JS_DIR     = "assets/js"
 JS_MAIN    = "main.js"
 
-SERVE_CMD  = "jekyll serve --watch"
+SERVE_CMD  = "bundle exec jekyll serve --watch"
 SASS_CMD   = "sass --watch #{SASS_DIR}:#{CSS_DIR}"
 COFFEE_CMD = "coffee --watch --bare --no-header --compile --output #{JS_DIR} #{COFFEE_DIR}"
 
