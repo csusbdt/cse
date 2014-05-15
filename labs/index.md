@@ -13,24 +13,24 @@ nav:
       url: "#microsoft-academic-alliance"
 ---
 
-# The CSE Labs
+## Current CSE __Lab Information__
 
-##  Open Hours
+###  Open Hours
 
 - [Open Lab Hours](Lab_hours.pdf)
 
-## Tutoring
+### Tutoring
 
 - [Help Desk Schedule](Help_desk_schedule.pdf)
 - [Tutor Schedule](Tutor_Schedule.pdf)
 - [CSE Club Tutoring Schedule](http://cse-club.com/#tutoring)
 
-## How to Access the Lab Computers Remotely
+### How to Access the Lab Computers Remotely
 
 - [Mac and Linux](SSHX11ForwardingTutorial-non-Windows.pdf)
 - [Windows](SSHX11ForwardingTutorial-Windows.pdf)
 
-## Microsoft Academic Alliance
+### Microsoft Academic Alliance
 
 If you are enrolled in a computer science course, you are eligible to obtain many
 Microsoft development tools free of charge for academic use. These tools include
