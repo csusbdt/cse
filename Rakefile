@@ -15,6 +15,11 @@ COFFEE_CMD = "coffee --watch --bare --no-header --compile --output #{JS_DIR} #{C
 desc "Alias for 'rake list'"
 task :default => [:list]
 
+desc "Install the necessary dependencies."
+task :install do
+  system "bundle install"
+end
+
 desc "Serve the site on localhost and watch for SASS changes."
 task :serve, [:style] do |task, args|
   args.with_defaults(:style => "compressed")
