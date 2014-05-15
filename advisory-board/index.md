@@ -4,7 +4,7 @@ title: School of Computer Science &amp; Engineering
 description: Comprised of members of the business community, these individuals meet with School representatives to discuss the relevancy of the curriculum and related issues.<hr>While it is well enough to leave footprints on the sands of time, it is even more important to make sure they point in a commendable direction.<br>&mdash; James Branch Cabell
 ---
 
-# Industry Advisory Board
+## Members of the __Industry Advisory Board__
 
 __Amro Albanna__ <br>
 Chairman and CEO <br>
