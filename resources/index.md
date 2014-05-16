@@ -12,6 +12,7 @@ description: Useful tools and information for students in the School of CSE
 - [Lab Hours and Information][labs]
 - [Tutoring][tutoring]
 - [MSDNAA][msdnaa]
+- [Class Section Listing][sections]
 
 [forms]: ../forms
 [courses]: ../programs/Yearly_schedule_of_courses.pdf
@@ -19,3 +20,5 @@ description: Useful tools and information for students in the School of CSE
 [labs]: ../labs
 [tutoring]: ../labs/#tutoring
 [msdnaa]: ../labs/#msdnaa
+[sections]: http://info001.csusb.edu/schedule/astra/schedule.jsp
+
