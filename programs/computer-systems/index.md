@@ -45,7 +45,6 @@ Program requirements change from year to year. Students need to complete course 
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
 - [ASSIST (online student-transfer information system)][assist]
-- [CSCI 482 Senior Interdisciplinary Project][senior-project]
 
 ### Advising Policy
 
