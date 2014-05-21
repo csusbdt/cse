@@ -112,13 +112,11 @@ Depending on the academic year in which you last declared your major,
 you may need to complete one of the following elective coursework application forms.
 </p>
 
-<ul>
-<li><a href="../programs/computer-systems/interdisciplinary-coursework-2011-present.pdf">Interdisciplinary Coursework Application Form, AY 2011/12 to 2013/14</a></li>
-<li><a href="../programs/computer-systems/web-coursework-2012-present.pdf">Web Programming Coursework Application Form, AY 2012/13 to 2013/14</a></li>
-<li><a href="../programs/computer-systems/game-coursework-2012-2013.pdf">Game Development Coursework Application Form, AY 2012-2013</a></li>
-<li><a href="../programs/computer-systems/game-coursework-2013-present.pdf">Game Development Coursework Application Form, AY 2013-2014</a></li>
-<li><a href="../programs/computer-systems/graphics-coursework-2012-present.pdf">Graphics Programming Coursework Application Form, AY 2012/13 to 2013/14</a></li>
-</ul>
+- [Interdisciplinary Coursework Application Form][inter-app]
+- [Web Programming Coursework Application Form][web-app]
+- [Game Development Coursework Application Form, AY 2012-2013 and earlier][game-app-12-13]
+- [Game Development Coursework Application Form, AY 2013-2014 and later][game-app-13-14]
+- [Graphics Programming Coursework Application Form][graphics-app]
 
 ### Miscellaneous
 
@@ -127,4 +125,10 @@ you may need to complete one of the following elective coursework application fo
 <li><a href="misc/EquipmentCheckoutForm.pdf">Laboratory Equipment/Device Checkout Form</a></li>
 <li><a href="../labs/MSDNAAStudentUse.pdf">Microsoft Academic Alliance Development Tools Student Use Form</a></li>
 </ul>
+
+[inter-app]: ../programs/computer-systems/forms/interdisciplinary-coursework-2011-present.pdf
+[web-app]: ../programs/computer-systems/forms/web-coursework-2012-present.pdf
+[game-app-12-13]: ../programs/computer-systems/forms/game-coursework-2012-2013.pdf
+[game-app-13-14]: ../programs/computer-systems/forms/game-coursework-2013-present.pdf
+[graphics-app]: ../programs/computer-systems/forms/graphics-coursework-2012-present.pdf
 
