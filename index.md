@@ -1,7 +1,7 @@
 ---
 layout: default
 title: School of Computer Science &amp; Engineering
-description: Computer science is the scientific and practical approach to computation and its applications.
+description: Students may study for the BS or MS in Computer Science, the BS in Computer Engineering, the BS in Bioinformatics, or the BA in Computer Systems.
 nav:
     - title: Faculty
       url: faculty/full-time/

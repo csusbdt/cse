@@ -1,7 +1,7 @@
 ---
 layout: default
 title: School of Computer Science &amp; Engineering
-description: While it is well enough to leave footprints on the sands of time, it is even more important to make sure they point in a commendable direction. – James Branch Cabell
+description: The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time. - Tom Cargill
 ---
 
 ## Listing of __Staff__
