@@ -16,8 +16,8 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Wednesday, June 11, JB 359
 
-  2:00 - 3:00 Martin Calvert <br>
-  3:30 - 4:00 Daniel Urbach <br>
+  2:00 - 2:30 Martin Calvert <br>
+  2:30 - 3:00 Daniel Urbach <br>
   4:00 - 4:30 James Small
 
 
