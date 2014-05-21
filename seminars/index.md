@@ -14,6 +14,13 @@ description: Schedule of public presentations hosted by the School of CSE.
 
   3:00 -  3:30 Gerren Willis
 
+### Wednesday, June 11, JB 359
+
+  2:00 - 3:00 Martin Calvert <br>
+  3:30 - 4:00 Daniel Urbach <br>
+  4:00 - 4:30 James Small
+
+
 ### Friday, June 13, JB 359
 
   1:00 -  1:30 [Chad Barensfeld](2014-spring/Barensfeld-1.pdf) <br>
