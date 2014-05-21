@@ -15,6 +15,7 @@ nav:
 
 ## Welcome to __The School of CSE__
 
+<!--
 __CSE Description A__
 
 The School of Computer Science and Engineering educates students 
@@ -30,6 +31,7 @@ Students may study for the BS or MS in Computer Science, the BS in Computer Engi
 the BA in Computer Systems, or the BS in Bioinformatics.
 
 __CSE Description B__
+-->
 
 The School of Computer Science and Engineering educates students in the disciplines of computing theory and machinery, and teaches them to apply their knowledge in a socially responsible way. The School educates students in the intellectual basis of the field, including issues of computability, information theory, and engineering, as well as the technology. Our graduates can design and implement the technology of computing and data communications with a deep understanding of the bases upon which these technologies rest. In addition to preparing professional workers for industry, we educate those students who wish to pursue an advanced degree or career in academic or industrial research.
 Students may study for the BS or MS in Computer Science, the BS in Computer Engineering, 
