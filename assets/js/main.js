@@ -113,10 +113,10 @@ Banner = (function() {
   Banner.prototype.toggle = function() {
     $(this.text.banner_id).toggleClass(this.text.hidden_class);
     if (this.isHidden()) {
-      if (!this.inserted) {
-        this.insertBanner();
-      }
       sessionStorage.removeItem(this.text.storage_id);
+      if (!this.inserted) {
+        location.reload();
+      }
       return this.triggerToInactive();
     } else {
       sessionStorage.setItem(this.text.storage_id, true);

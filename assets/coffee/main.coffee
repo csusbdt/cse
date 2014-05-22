@@ -97,9 +97,9 @@ class Banner
     toggle: ->
         $(@text.banner_id).toggleClass(@text.hidden_class)
         if @isHidden()
-            if not @inserted
-                @insertBanner()
             sessionStorage.removeItem(@text.storage_id)
+            if not @inserted
+                location.reload()
             @triggerToInactive()
         else
             sessionStorage.setItem(@text.storage_id, true)
