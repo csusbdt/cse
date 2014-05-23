@@ -18,7 +18,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
   2:00 - 2:30 Martin Calvert <br>
   2:30 - 3:00 [Daniel Urbach](2014-spring/daniel_urbach.pdf) <br>
-  3:00 - 3:30 James Small    <br>
+  3:00 - 3:30 [James Small](2014-spring/JamesSmall.pdf)      <br>
   3:30 - 4:00 Robert Rojas   <br>
 
 ### Thursday, June 12, JB 359
