@@ -32,18 +32,6 @@ The program is designed to help students develop analytical, problem solving and
 - [CSUSB Catalogs][catalog]
 - [Forms and Templates][forms]
 
-### Mission Statement
-
-TODO
-
-### Program Educational Objectives
-
-TODO
-
-### Student Learning Outcomes
-
-TODO
-
 ### Enrollment and Graduations
 
 <table class="enrollment">
