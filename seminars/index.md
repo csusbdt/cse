@@ -8,17 +8,18 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Thursday, May 1, JB 391
 
-  3:00 -  3:50  [Joy Ogbanje](2014-spring/Ogbanje.pdf)
+  3:00 -  3:50  [Joy Ogbanje](2014-spring/Ogbanje.pdf) <br>
 
 ### Friday, June 6, JB 359
 
-  3:00 -  3:30 Gerren Willis
+  3:00 -  3:30 Gerren Willis <br>
 
 ### Wednesday, June 11, JB 359
 
   2:00 - 2:30 Martin Calvert <br>
   2:30 - 3:00 [Daniel Urbach](2014-spring/daniel_urbach.pdf) <br>
-  3:00 - 3:30 James Small
+  3:00 - 3:30 James Small    <br>
+  3:30 - 4:00 Robert Rojas   <br>
 
 
 ### Friday, June 13, JB 359
