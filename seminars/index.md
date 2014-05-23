@@ -30,7 +30,7 @@ description: Schedule of public presentations hosted by the School of CSE.
   1:00 -  1:30 [Chad Barensfeld](2014-spring/Barensfeld-1.pdf) <br>
   1:30 -  2:00 [Chad Barensfeld](2014-spring/Barensfeld-2.pdf) <br>
   2:00 -  2:30 [Maurice Njuguna](2014-spring/Njuguna.pdf)      <br>
-  2:30 -  3:00 Zachary Fuller                                  <br>
+  2:30 -  3:00 [Zachary Fuller](2014-spring/zachary-fuller-2014-06-13.pdf)    <br>
   3:00 -  3:30 [Jonathan Gomez](2014-spring/Jonathan_Gomez_CSE595_Flyer.pdf)  <br>
   3:30 -  4:00 [Jonathan Gomez](2014-spring/Jonathan_Gomez_CSE482_Flyer.pdf)  <br>
 
