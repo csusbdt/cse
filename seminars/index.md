@@ -21,6 +21,9 @@ description: Schedule of public presentations hosted by the School of CSE.
   3:00 - 3:30 James Small    <br>
   3:30 - 4:00 Robert Rojas   <br>
 
+### Thursday, June 12, JB 359
+
+  2:00 - 2:30 Steve Hergert <br>
 
 ### Friday, June 13, JB 359
 
