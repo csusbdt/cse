@@ -60,7 +60,7 @@ nav:
 <ul>
 <li><a href="CSE-482-project-application-form.pdf">CSE 482 Project Application Form</a></li>
 <li><a href="CSE-482-project-evaluation-form.pdf">CSE 482 Project Evaluation Form</a></li>
-<li><a href="presentation_announcement_template.rtf">Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template_482.rtf">Presentation Announcement Template</a></li>
 </ul>
 
 ### CSE 575 Internship in Computer Science
@@ -68,14 +68,14 @@ nav:
 <ul>
 <li><a href="UndergraduateInternshipCriteria.pdf">CSE 575 Internship Criteria Form </a></li>
 <li><a href="InternshipForm.pdf">CSE 575 Internship Form </a></li>
-<li><a href="presentation_announcement_template.rtf">Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template_575.rtf">Presentation Announcement Template</a></li>
 </ul>
 
 ### CSE 595 Undergraduate Independent Study
 
 <ul>
 <li><a href="CSCI_595.pdf">CSE 595 Application Form</a></li>
-<li><a href="presentation_announcement_template.rtf">Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template_595.rtf">Presentation Announcement Template</a></li>
 </ul>
 
 ### CSE 690 Master's Project
