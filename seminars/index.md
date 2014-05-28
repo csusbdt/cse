@@ -10,6 +10,11 @@ description: Schedule of public presentations hosted by the School of CSE.
 
   3:00 -  3:50  [Joy Ogbanje](2014-spring/Ogbanje.pdf) <br>
 
+### Thursday, June 5, JB 146
+
+ 12:00 - 12:30 [Gerardo Parker](2014-spring/parker.pdf) <br>
+ 12:30 -  1:00 [Jonathan Cabe](2014-spring/jonathan-cabe.pdf) <br>
+
 ### Friday, June 6, JB 359
 
   2:30 -  3:00 Luis Montano <br>
@@ -28,6 +33,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Friday, June 13, JB 359
 
+ 12:30 -  1:00 [Jose Inzunza](2014-spring/jose-inzunza-2014-06-13.pdf) <br>
   1:00 -  1:30 [Chad Barensfeld](2014-spring/Barensfeld-1.pdf) <br>
   1:30 -  2:00 [Chad Barensfeld](2014-spring/Barensfeld-2.pdf) <br>
   2:00 -  2:30 [Maurice Njuguna](2014-spring/Njuguna.pdf)      <br>
