@@ -30,6 +30,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 ### Thursday, June 12, JB 359
 
   2:00 - 2:30 Steve Hergert <br>
+  2:30 - 3:00 Darryn Jones <br>
 
 ### Friday, June 13, JB 359
 
