@@ -10,6 +10,10 @@ description: Schedule of public presentations hosted by the School of CSE.
 
   3:00 -  3:50  [Joy Ogbanje](2014-spring/Ogbanje.pdf) <br>
 
+### Wednesday, June 4, JB 360
+
+  4:30 -  5:00 [William Elder](2014-spring/william-elder.pdf) <br>
+
 ### Thursday, June 5, JB 146
 
  12:00 - 12:30 [Gerardo Parker](2014-spring/parker.pdf) <br>
@@ -18,7 +22,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 ### Friday, June 6, JB 359
 
   2:30 -  3:00 Luis Montano <br>
-  3:00 -  3:30 Gerren Willis <br>
+  3:00 -  3:30 Gerren Willis(2014-spring/gerren-willis.pdf) <br>
 
 ### Wednesday, June 11, JB 359
 
