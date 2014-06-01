@@ -44,7 +44,7 @@ Program requirements change from year to year. Students need to complete course 
 
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
-- [ASSIST (online student-transfer information system)][assist]
+- [Transfer Students][transfer]
 
 ### Advising Policy
 
@@ -99,6 +99,6 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
-[assist]: http://www.assist.org/
+[transfer]: ../../transfer/
 [senior-project]: cse_482/
 

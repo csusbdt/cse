@@ -32,7 +32,7 @@ Program requirements change from year to year. Students need to complete course 
 
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
-- [Course Transfer System (assist.org)][assist]
+- [Transfer Students][transfer]
 - [Typical 4-Year Sequence][roadmap]
 - [Forms and Templates][forms]
 
@@ -77,7 +77,7 @@ The mission of the computer engineering degree program is to provide all its stu
 
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
-[assist]: http://www.assist.org/
+[transfer]: ../../transfer/
 [roadmap]: Roadmap_bs_4_years.pdf
 [forms]: /cse
 

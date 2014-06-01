@@ -8,9 +8,10 @@ description: Resources for students transferring to CSUSB.
 
 __Norco College__
 
-- [2012-2013 Academic Year Guide to Transferable Units: Norco College to CSUSB Computing Programs, 1 of 2][norco-guide-1]
-- [2012-2013 Academic Year Guide to Transferable Units: Norco College to CSUSB Computing Programs, 2 of 2][norco-guide-2]
-- [Example Completion of 4-Year Degree Program: Associate's Degree and Certificate in Game Programming (Norco College) Bachelor's Degree in Computer System, General Interdisciplinary Option (CSUSB)][norco-game]
+- Guide to Transferable Units: Norco College to CSUSB Computing Programs
+    - [Part 1 of 2][norco-guide-1]
+    - [Part 2 of 2][norco-guide-2]
+- [Associate's Degree and Certificate in Game Programming (Norco College)][norco-game]
 - [Course Transfer System][assist]
 
 __Other California Institutions__
