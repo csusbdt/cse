@@ -22,7 +22,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 ### Friday, June 6, JB 359
 
   2:30 -  3:00 Luis Montano <br>
-  3:00 -  3:30 Gerren Willis(2014-spring/gerren-willis.pdf) <br>
+  3:00 -  3:30 [Gerren Willis](2014-spring/gerren-willis.pdf) <br>
 
 ### Wednesday, June 11, JB 359
 
