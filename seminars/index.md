@@ -26,7 +26,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Wednesday, June 11, JB 359
 
-  2:00 - 2:30 Martin Calvert <br>
+  2:00 - 2:30 [Martin Calvert](martin-calvert.pdf) <br>
   2:30 - 3:00 [Daniel Urbach](2014-spring/daniel_urbach.pdf) <br>
   3:00 - 3:30 [James Small](2014-spring/JamesSmall.pdf)      <br>
   3:30 - 4:00 Robert Rojas   <br>
@@ -47,6 +47,5 @@ description: Schedule of public presentations hosted by the School of CSE.
   3:00 -  3:30 [Jonathan Gomez](2014-spring/Jonathan_Gomez_CSE595_Flyer.pdf)  <br>
   3:30 -  4:00 [Jonathan Gomez](2014-spring/Jonathan_Gomez_CSE482_Flyer.pdf)  <br>
   3:30 -  4:00 Ryan Redy <br>
-
 
 
