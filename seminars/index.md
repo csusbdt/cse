@@ -48,6 +48,6 @@ description: Schedule of public presentations hosted by the School of CSE.
   2:30 -  3:00 [Zachary Fuller](2014-spring/zachary-fuller-2014-06-13.pdf)    <br>
   3:00 -  3:30 [Jonathan Gomez](2014-spring/Jonathan_Gomez_CSE595_Flyer.pdf)  <br>
   3:30 -  4:00 [Jonathan Gomez](2014-spring/Jonathan_Gomez_CSE482_Flyer.pdf)  <br>
-  3:30 -  4:00 Ryan Redy <br>
+  3:30 -  4:00 Ryan Rady <br>
 
 
