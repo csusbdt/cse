@@ -23,6 +23,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
  10:30 - 11:00 Enrique Carbajal Jr. <br>
  11:00 - 11:30 [Michelle Irish](2014-spring/michelle-irish.pdf) <br>
+  1:00 -  1:30 [Mohammad-Al-Hijjawi](2014-spring/Mohammad-Al-Hijjawi.pdf) <br>
   2:30 -  3:00 Luis Montano <br>
   3:00 -  3:30 [Gerren Willis](2014-spring/gerren-willis.pdf) <br>
 
