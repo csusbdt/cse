@@ -21,7 +21,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Friday, June 6, JB 359
 
- 10:30 - 11:00 Enrique Carbajal Jr. <br>
+ 10:30 - 11:00 [Enrique Carbajal Jr.](2014-spring/Enrique-Carbajal.pdf) <br>
  11:00 - 11:30 [Michelle Irish](2014-spring/michelle-irish.pdf) <br>
   1:00 -  1:30 [Mohammad-Al-Hijjawi](2014-spring/Mohammad-Al-Hijjawi.pdf) <br>
   2:30 -  3:00 Luis Montano <br>
