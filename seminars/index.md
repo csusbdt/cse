@@ -39,6 +39,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Thursday, June 12, JB 359
 
+ 12:30 - 1:00 [Matthew Hawkins](2014-spring/matt-hawkins.pdf) <br>
   1:00 - 1:30 [Regie Felix](2014-spring/regie-felix.pdf) <br>
   2:00 - 2:30 [Steve Hergert](2014-spring/steve-hergert.pdf) <br>
   2:30 - 3:00 [Darryn Jones](2014-spring/darryn-jones.pdf) <br>
