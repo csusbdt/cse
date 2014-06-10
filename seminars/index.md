@@ -49,6 +49,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Friday, June 13, JB 359
 
+ 11:30 - 12:00 [Alex Krause](2014-spring/alex-krause.pdf) <br>
  12:30 -  1:00 [Jose Inzunza](2014-spring/jose-inzunza-1.pdf) <br>
   1:00 -  1:30 [Chad Barensfeld](2014-spring/Barensfeld-1.pdf) <br>
   1:30 -  2:00 [Chad Barensfeld](2014-spring/Barensfeld-2.pdf) <br>
