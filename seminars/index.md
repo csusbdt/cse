@@ -23,11 +23,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
  10:30 - 11:00 [Enrique Carbajal Jr.](2014-spring/Enrique-Carbajal.pdf) <br>
  11:00 - 11:30 [Michelle Irish](2014-spring/michelle-irish.pdf) <br>
- 12:00 - 12:30 [Eric Becker](2014-spring/eric-becker.pdf) <br>
- 12:00 - 12:30 [Valerie Becker](2014-spring/valerie-becker.pdf) <br>
   1:00 -  1:30 [Mohammad-Al-Hijjawi](2014-spring/Mohammad-Al-Hijjawi.pdf) <br>
-  1:30 -  2:00  <br>
-  1:30 -  2:00  <br>
   2:30 -  3:00 [Luis Montano](2014-spring/luis-montano.pdf) <br>
   3:00 -  3:30 [Gerren Willis](2014-spring/gerren-willis.pdf) <br>
 
@@ -41,6 +37,8 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Thursday, June 12, JB 359
 
+ 12:00 - 12:30 [Eric Becker](2014-spring/eric-becker.pdf) <br>
+ 12:00 - 12:30 [Valerie Becker](2014-spring/valerie-becker.pdf) <br>
  12:30 - 1:00 [Matthew Hawkins](2014-spring/matt-hawkins.pdf) <br>
   1:00 - 1:30 [Regie Felix](2014-spring/regie-felix.pdf) <br>
   2:00 - 2:30 [Steve Hergert](2014-spring/steve-hergert.pdf) <br>
