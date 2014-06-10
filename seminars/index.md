@@ -44,8 +44,8 @@ description: Schedule of public presentations hosted by the School of CSE.
   2:00 - 2:30 [Steve Hergert](2014-spring/steve-hergert.pdf) <br>
   2:30 - 3:00 [Darryn Jones](2014-spring/darryn-jones.pdf) <br>
   3:00 - 3:30 [David Bowman](2014-spring/david-bowman.pdf) <br>
-  3:30 - 4:00 Rana Tabel <br>
-  4:00 - 4:30 Rana Tabel <br>
+  3:30 - 4:00 [Rana Tabel](2014-spring/rana-tabel-1.pdf) <br>
+  4:00 - 4:30 [Rana Tabel](2014-spring/rana-tabel-2.pdf) <br>
 
 ### Friday, June 13, JB 359
 
