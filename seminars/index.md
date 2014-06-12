@@ -49,7 +49,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Friday, June 13, JB 359
 
-  9:00 -  9:30 [Carlos Maldonado](2014-spring/Carlos-Maldonado.pdf)
+  9:00 -  9:30 [Carlos Maldonado](2014-spring/Carlos-Maldonado.pdf) <br>
  11:30 - 12:00 [Alex Krause](2014-spring/alex-krause.pdf) <br>
  12:30 - 12:30 [Jose Inzunza](2014-spring/jose-inzunza-1.pdf) <br>
  12:45 -  1:00 [Jose Inzunza](2014-spring/jose-inzunza-2014-06-13.pdf) <br>
