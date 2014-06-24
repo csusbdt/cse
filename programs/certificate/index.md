@@ -23,12 +23,12 @@ Degree requirements may be adjusted from one academic year to the next. Generall
 
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
-- [Course Transfer System (assist.org)][assist]
+- [Transfer Students][transfer]
 
 [description]: descriptions/minor_description_2012_2014.pdf
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
-[assist]: http://www.assist.org/
+[transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [forms]: /cse
 
 

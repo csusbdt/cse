@@ -99,6 +99,6 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
-[transfer]: ../../transfer/
+[transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [senior-project]: cse_482/
 

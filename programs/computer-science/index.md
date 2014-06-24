@@ -76,7 +76,7 @@ The mission of the Bachelor of Science degree in Computer Science is to provide 
 
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
-[transfer]: ../../transfer/
+[transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [roadmap]: Roadmap_bs_4_years.pdf
 [forms]: ../../forms/
 

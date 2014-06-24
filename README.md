@@ -1,3 +1,9 @@
+## Testing
+
+To test local changes, run the following:
+
+    jekyll -w serve
+
 ## Proxy Setup
 
 The proxy is complicated because the site is under /cse/ on github
