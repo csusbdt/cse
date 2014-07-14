@@ -81,7 +81,7 @@ Email: dturner<img style="height: 1em; vertical-align: middle" src="../../assets
 <div class='third'>
 <img src="photos/Kerstin_Voigt.jpg" alt="Dr. Kerstin Voigt" /><br />
 <a href="http://cse.csusb.edu/voigt">Dr. Kerstin Voigt</a><br />
-Director and Associate Professor<br />
+Director and Professor<br />
 Office: JB 349<br />
 Phone: (909) 537-5333<br />
 Email: kvoigt<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
