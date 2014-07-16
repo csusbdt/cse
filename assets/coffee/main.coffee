@@ -118,7 +118,6 @@ class Banner
 class Navigation
     text:
         desktop_dropdown: "dropdown"
-        mobile_dropdown:  ""
         nav_class:        "js-visible"
         active_arrow:     "icon-arrow-up"
         inactive_arrow:   "icon-arrow-down"
@@ -129,13 +128,13 @@ class Navigation
     nav:      $("#main-nav")
     trigger:  $("#main-nav-trigger")
     icon:     $("#main-nav-trigger span")
-    dropdown: $(".dropdown > a")
+    dropdown: $(".js-dropdown-hook")
 
     setDesktopDropdown: ->
-        @dropdown.prop("data-toggle", @text.desktop_dropdown)
+        @dropdown.attr("data-toggle", @text.desktop_dropdown)
 
     setMobileDropdown: ->
-        @dropdown.prop("data-toggle", @text.mobile_dropdown)
+        @dropdown.removeAttr("data-toggle")
 
     setTriggerEvent: ->
         @trigger.click (e) =>
@@ -188,35 +187,6 @@ class DesktopContent
                 elem.setAttribute("href", elem.dataset.href)
                 elem.removeAttribute("data-href")
                 elem.removeAttribute("class")
-
-
-##
-# Cross-browser synchronous script-loading, as described on HTML5 Rocks.
-# www.html5rocks.com/en/tutorials/speed/script-loading/
-##
-load = (scripts) ->
-    pending_scripts = []
-    first_script    = document.scripts[0]
-
-    stateChange = ->
-        while pending_scripts[0] and pending_scripts[0].readyState is 'loaded'
-            pending_script = pending_scripts.shift()
-            pending_script.onreadystatechange = null
-            first_script.parentNode.insertBefore(pending_script, first_script)
-
-    while src = scripts.shift()
-        if 'async' of first_script
-            script = document.createElement('script')
-            script.async = false
-            script.src = src
-            document.head.appendChild(script)
-        else if first_script.readyState
-            script = document.createElement('script')
-            pending_scripts.push(script)
-            script.onreadystatechange = stateChange
-            script.src = src
-        else
-            document.write("<script src='#{src}' defer></script>")
 
 
 # sessionStorage.removeItem("banner-hidden")

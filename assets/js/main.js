@@ -1,4 +1,4 @@
-var Banner, DesktopContent, Environment, Navigation, banner, desktopContent, environment, load, navigation;
+var Banner, DesktopContent, Environment, Navigation, banner, desktopContent, environment, navigation;
 
 Environment = (function() {
   Environment.prototype.min_width = "960px";
@@ -138,7 +138,6 @@ Banner = (function() {
 Navigation = (function() {
   Navigation.prototype.text = {
     desktop_dropdown: "dropdown",
-    mobile_dropdown: "",
     nav_class: "js-visible",
     active_arrow: "icon-arrow-up",
     inactive_arrow: "icon-arrow-down",
@@ -153,14 +152,14 @@ Navigation = (function() {
 
   Navigation.prototype.icon = $("#main-nav-trigger span");
 
-  Navigation.prototype.dropdown = $(".dropdown > a");
+  Navigation.prototype.dropdown = $(".js-dropdown-hook");
 
   Navigation.prototype.setDesktopDropdown = function() {
-    return this.dropdown.prop("data-toggle", this.text.desktop_dropdown);
+    return this.dropdown.attr("data-toggle", this.text.desktop_dropdown);
   };
 
   Navigation.prototype.setMobileDropdown = function() {
-    return this.dropdown.prop("data-toggle", this.text.mobile_dropdown);
+    return this.dropdown.removeAttr("data-toggle");
   };
 
   Navigation.prototype.setTriggerEvent = function() {
@@ -244,39 +243,6 @@ DesktopContent = (function() {
   return DesktopContent;
 
 })();
-
-load = function(scripts) {
-  var first_script, pending_scripts, script, src, stateChange, _results;
-  pending_scripts = [];
-  first_script = document.scripts[0];
-  stateChange = function() {
-    var pending_script, _results;
-    _results = [];
-    while (pending_scripts[0] && pending_scripts[0].readyState === 'loaded') {
-      pending_script = pending_scripts.shift();
-      pending_script.onreadystatechange = null;
-      _results.push(first_script.parentNode.insertBefore(pending_script, first_script));
-    }
-    return _results;
-  };
-  _results = [];
-  while (src = scripts.shift()) {
-    if ('async' in first_script) {
-      script = document.createElement('script');
-      script.async = false;
-      script.src = src;
-      _results.push(document.head.appendChild(script));
-    } else if (first_script.readyState) {
-      script = document.createElement('script');
-      pending_scripts.push(script);
-      script.onreadystatechange = stateChange;
-      _results.push(script.src = src);
-    } else {
-      _results.push(document.write("<script src='" + src + "' defer></script>"));
-    }
-  }
-  return _results;
-};
 
 environment = new Environment;
 
