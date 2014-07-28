@@ -62,6 +62,6 @@ The program is designed to help students develop analytical, problem solving and
 
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
-[forms]: /cse
+[forms]: ../../forms/
 
 
