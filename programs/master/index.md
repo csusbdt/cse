@@ -28,6 +28,7 @@ The program is designed to help students develop analytical, problem solving and
 
 ### Additional Resources
 
+- [Application Procedure][application-procedure]
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
 - [Forms and Templates][forms]
@@ -57,6 +58,7 @@ The program is designed to help students develop analytical, problem solving and
 [abet]: http://abet.org/
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
+[application-procedure]: ../master-application/
 [description]: descriptions/ms_description_2012_2014.pdf
 [flowchart]: flowcharts/ms_flowchart_2012_2014.pdf
 
