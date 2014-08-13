@@ -21,8 +21,8 @@ The Bachelor of Science in Computer Science program emphasizes the traditional s
 
 ### Program Information
 
-- [Program Description 2012/13 - 2013/14][description]
-- [Flowchart of Course Dependencies 2012/13 - 2013/14][flowchart]
+- [Program Description 2014/15][description]
+- [Flowchart of Course Dependencies 2014/15][flowchart]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
 
@@ -31,7 +31,6 @@ Program requirements change from year to year. Students need to complete course 
 ### Additional Resources
 
 - [Yearly Schedule of Courses][yearly-schedule]
-- [CSUSB Catalogs][catalog]
 - [Transfer Students][transfer]
 - [Typical 4-Year Sequence][roadmap]
 - [Forms and Templates][forms]
@@ -69,13 +68,12 @@ The mission of the Bachelor of Science degree in Computer Science is to provide 
 [abet]: http://abet.org/
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
-[description]: cs_description_2012_2014.pdf
-[flowchart]: cs_flowchart_2012_2014.pdf
+[description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-science-bs/
+[flowchart]: cs_flowchart_2014_2015.pdf
 [archive]: ../computer-science-archive/
 [outcomes]: computer-science-objectives-and-outcomes.pdf
 
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
-[catalog]: http://catalog.csusb.edu/
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [roadmap]: Roadmap_bs_4_years.pdf
 [forms]: ../../forms/
