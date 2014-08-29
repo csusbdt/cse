@@ -21,12 +21,12 @@ The Bachelor of Arts (BA) in Computer Systems program emphasizes the application
 
 ### Program Information
 
-- [Program description, 2012/2014][description-12-14]
-- [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2012/14][inter-12]
-- [Flowchart of Course Dependencies for the Web Programming Option, 2012/14][web-12]
-- [Flowchart of Course Dependencies for the System Administrator Option, 2012/14][system-12]
-- [Flowchart of Course Dependencies for the Game Development Option, 2013/14][game-13]
-- [Flowchart of Course Dependencies for the Graphics Programming Option, 2012/14][graphics-12]
+- [Program description, 2014/2015][description]
+- [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2014/15][flowchart-inter]
+- [Flowchart of Course Dependencies for the Web Programming Option, 2012/14][flowchart-web]
+- [Flowchart of Course Dependencies for the System Administrator Option, 2012/14][flowchart-system]
+- [Flowchart of Course Dependencies for the Game Development Option, 2013/14][flowchart-game]
+- [Flowchart of Course Dependencies for the Graphics Programming Option, 2012/14][flowchart-graphics]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
 
@@ -81,12 +81,12 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
-[inter-12]: flowcharts/ba-inter-flowchart-2012.pdf
-[game-13]: flowcharts/ba-game-flowchart-2013.pdf
-[graphics-12]: flowcharts/ba-graphics-flowchart-2012.pdf
-[system-12]: flowcharts/ba-system-flowchart-2012.pdf
-[web-12]: flowcharts/ba-web-flowchart-2012.pdf
-[description-12-14]: ../computer-science/cs_description_2012_2014.pdf
+[description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-systems-ba/
+[flowchart-inter]: ../computer-systems-archive/flowcharts/inter/ba-inter-flowchart-2014.pdf
+[flowchart-game]: ../computer-systems-archive/flowcharts/game/ba-game-flowchart-2014.pdf
+[flowchart-graphics]: ../computer-systems-archive/flowcharts/graphics/ba-graphics-flowchart-2014.pdf
+[flowchart-system]: ../computer-systems-archive/flowcharts/system/ba-system-flowchart-2014.pdf
+[flowchart-web]: ../computer-systems-archive/flowcharts/web/ba-web-flowchart-2014.pdf
 
 [archive]: ../computer-systems-archive/
 [outcomes]: computer-systems-objectives-and-outcomes.pdf
