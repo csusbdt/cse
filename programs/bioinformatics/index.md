@@ -25,6 +25,7 @@ The bioinformatics degree program is jointly administered by the School of Compu
 - [Program Description][description]
 - [Flowchart of Course Dependencies][flowchart]
 - [Descriptions and Flowcharts for Prior Years][archive]
+- [Program Objectives and Student Outcomes][outcomes]
 
 Program requirements change from year to year. Students need to complete course requirements according to the academic year they last declared their major. This information is included on the [PAWS Report][paws].
 
@@ -72,4 +73,5 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
 [catalog]: http://catalog.csusb.edu/
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [forms]: /cse
+[outcomes]: bioinformatics-objectives-and-outcomes.pdf
 
