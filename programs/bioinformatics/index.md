@@ -24,6 +24,7 @@ The bioinformatics degree program is jointly administered by the School of Compu
 
 - [Program Description][description]
 - [Flowchart of Course Dependencies][flowchart]
+- [Descriptions and Flowcharts for Prior Years][archive]
 
 Program requirements change from year to year. Students need to complete course requirements according to the academic year they last declared their major. This information is included on the [PAWS Report][paws].
 
@@ -63,10 +64,10 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
   Source: <a href="http://ir.csusb.edu/">CSUSB Office of Institutional Research</a>
 </caption>
 
+[archive]: ../bioinformatics-archive/
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 [description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/biology/bioinformatics-bs/
-[description_2012]: descriptions/bi_description_2012_2014.pdf
-[flowchart]: flowcharts/bi_flowchart_2012_2014.pdf
+[flowchart]: ../bioinformatics-archive/flowcharts/bi_flowchart_2014_2015.pdf
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html
