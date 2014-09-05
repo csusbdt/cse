@@ -28,7 +28,7 @@
           <dia:boolean val="false"/>
         </dia:attribute>
         <dia:attribute name="scaling">
-          <dia:real val="0.39828997850418091"/>
+          <dia:real val="0.39843842387199402"/>
         </dia:attribute>
         <dia:attribute name="fitto">
           <dia:boolean val="true"/>
@@ -792,7 +792,7 @@ Physics I    #</dia:string>
         <dia:point val="14.7448,8.75721"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="14.6756,8.68808;19.1974,11.6426"/>
+        <dia:rectangle val="14.6757,8.68808;19.1974,11.6426"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="14.7448,8.75721"/>
@@ -820,7 +820,7 @@ Physics I    #</dia:string>
         <dia:point val="14.6198,12.6243"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="14.55,12.5546;19.4309,16.0572"/>
+        <dia:rectangle val="14.5501,12.5546;19.4309,16.0572"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="14.6198,12.6243"/>
@@ -1459,7 +1459,7 @@ Discrete      #</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="44.9904,16.7752"/>
+            <dia:point val="44.9903,16.7752"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -2019,7 +2019,7 @@ Gen Chem#</dia:string>
         <dia:point val="5.54161,41.9755"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="5.54161,41.2097;63.0574,44.2098"/>
+        <dia:rectangle val="5.54161,41.233;63.0341,44.1633"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2414,7 +2414,7 @@ Circ Des Ana#</dia:string>
         <dia:point val="16.1842,5.68557"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="16.1842,4.53563;49.1791,6.03794"/>
+        <dia:rectangle val="16.1842,4.57057;49.1442,5.96807"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2447,12 +2447,12 @@ Circ Des Ana#</dia:string>
         <dia:point val="28.0167,47.9"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.0167,47.5158;33.0734,48.0184"/>
+        <dia:rectangle val="28.0167,47.5158;33.2059,48.0184"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Revision Aug 28, 2013-dt#</dia:string>
+            <dia:string>#Revision Sept 5, 2014 - dt#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -2577,7 +2577,7 @@ Circ Des Ana#</dia:string>
         <dia:point val="44.9904,18.2802"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="44.9207,18.2106;49.5189,20.5642"/>
+        <dia:rectangle val="44.9208,18.2106;49.5189,20.5642"/>
       </dia:attribute>
       <dia:attribute name="bez_points">
         <dia:point val="44.9904,18.2802"/>
@@ -2721,7 +2721,7 @@ Num Comp#</dia:string>
         <dia:point val="1.90363,13.6068"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="0.640525,13.5373;18.8729,38.5988"/>
+        <dia:rectangle val="0.64053,13.5373;18.8729,38.5988"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="1.90363,13.6068"/>
@@ -3217,7 +3217,7 @@ Sustain ED#</dia:string>
         <dia:point val="58.556,28.755"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="58.1941,28.705;58.9178,30.8118"/>
+        <dia:rectangle val="58.1942,28.705;58.9178,30.8118"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="58.556,28.755"/>
@@ -3245,7 +3245,7 @@ Sustain ED#</dia:string>
         <dia:point val="58.556,33.3"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="58.1941,33.25;58.9178,35.1343"/>
+        <dia:rectangle val="58.1942,33.25;58.9178,35.1343"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="58.556,33.3"/>

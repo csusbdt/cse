@@ -4,4 +4,5 @@ _site
 *.sublime-project
 *.sublime-workspace
 Gemfile.lock
+*~
 
