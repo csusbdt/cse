@@ -19,7 +19,7 @@ nav:
       url: "#grad-program"
 ---
 
-# Department __Contact Information__
+## Department __Contact Information__
 
 ## Main Phone Number
 
