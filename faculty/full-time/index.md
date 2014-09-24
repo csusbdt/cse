@@ -70,6 +70,15 @@ Email: hqiao<img style="height: 1em; vertical-align: middle" src="../../assets/i
 </div>
 
 <div class='third'>
+<img src="photos/blank.jpg" alt="Dr. Qinquan Sun" style="width: 100px" /><br />
+<a href="http://cse.csusb.edu/qsun">Dr. Qinquan</a><br />
+Assistant Professor<br />
+Office: JB 3??<br />
+Phone: (909) 537-???<br />
+Email: qsun<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
+</div>
+
+<div class='third'>
 <img src="photos/David_Turner.jpg" alt="Dr. David A. Turner" style="width: 100px" /><br />
 <a href="http://cse.csusb.edu/turner">Dr. David A. Turner</a><br />
 Professor<br />
@@ -85,6 +94,15 @@ Director and Professor<br />
 Office: JB 349<br />
 Phone: (909) 537-5333<br />
 Email: kvoigt<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
+</div>
+
+<div class='third'>
+<img src="photos/blank.jpg" alt="Dr. Zhenping Wu" style="width: 100px" /><br />
+<a href="http://cse.csusb.edu/zwu">Dr. Zhenping Wu</a><br />
+Assistant Professor<br />
+Office: JB 3??<br />
+Phone: (909) 537-???<br />
+Email: zwu<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
 </div>
 
 <div class='third'>

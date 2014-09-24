@@ -37,3 +37,8 @@ The School of Computer Science and Engineering educates students in the discipli
 Students may study for the BS or MS in Computer Science, the BS in Computer Engineering, 
 the BS in Bioinformatics, or the BA in Computer Systems.
 
+The Bachelor of Science in Computer Science and the Bachelor of Science in Computer Engineering programs are both accredited by [ABET][abet].
+
+[abet]: http://abet.org/
+
+
