@@ -59,7 +59,7 @@ The program is designed to help students develop analytical, problem solving and
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
 [application-procedure]: ../master-application/
-[description]: descriptions/ms_description_2012_2014.pdf
+[description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-science-ms/
 [flowchart]: flowcharts/ms_flowchart_2012_2014.pdf
 
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
