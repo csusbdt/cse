@@ -69,7 +69,7 @@ The mission of the Bachelor of Science degree in Computer Science is to provide 
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
 [description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-science-bs/
-[flowchart]: cs_flowchart_2014_2015.pdf
+[flowchart]: ../computer-science-archive/flowcharts/cs_flowchart_2014_2015.pdf
 [archive]: ../computer-science-archive/
 [outcomes]: computer-science-objectives-and-outcomes.pdf
 
