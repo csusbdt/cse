@@ -97,11 +97,11 @@ Email: kvoigt<img style="height: 1em; vertical-align: middle" src="../../assets/
 </div>
 
 <div class='third'>
-<img src="photos/blank.jpg" alt="Dr. Zhenping Wu" style="width: 100px" /><br />
-<a href="http://cse.csusb.edu/zwu">Dr. Zhenping Wu</a><br />
+<img src="photos/blank.jpg" alt="Dr. Zhenging Wu" style="width: 100px" /><br />
+<a href="http://cse.csusb.edu/zwu">Dr. Zhengping Wu</a><br />
 Assistant Professor<br />
-Office: JB 3??<br />
-Phone: (909) 537-???<br />
+Office: JB 339<br />
+Phone: (909) 537-5333<br />
 Email: zwu<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
 </div>
 
