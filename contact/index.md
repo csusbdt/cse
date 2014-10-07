@@ -44,7 +44,7 @@ San Bernardino, CA 92407
 Dr. Kerstin Voigt <br>
 Director and Associate Professor <br>
 Office: JB 307 <br>
-Phone: (909) 537-5333 <br>
+Phone: (909) 537-5326 <br>
 Email: kvoigt@csusb.edu
 
 ## Administrative Support
