@@ -9,6 +9,10 @@ nav:
 
 ## CSE Seminars __Fall Quarter 2014__
 
+### Monday, Oct 13, JB 359
+
+ 10:30 - 11:00  [Gerren Willis](2014-fall/gerren_willis_2014_10_13.pdf) <br>
+
 ### Friday, Oct 3, JB 359
 
  11:30 - 12:00  [Zhou Yu](2014-fall/yu_zhou_2014_10_03.pdf) <br>
