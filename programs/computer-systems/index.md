@@ -42,6 +42,7 @@ Program requirements change from year to year. Students need to complete course 
 
 ### Additional Resources
 
+- [Courses][courses]
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
 - [Transfer Students][transfer]
@@ -101,4 +102,5 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 [catalog]: http://catalog.csusb.edu/
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [senior-project]: cse_482/
+[courses]: http://bulletin.csusb.edu/coursesaz/cse/
 

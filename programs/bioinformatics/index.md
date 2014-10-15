@@ -31,6 +31,7 @@ Program requirements change from year to year. Students need to complete course 
 
 ### Additional Resources
 
+- [Courses][courses]
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
 - [Transfer Students][transfer]
@@ -74,4 +75,5 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [forms]: /cse
 [outcomes]: bioinformatics-objectives-and-outcomes.pdf
+[courses]: http://bulletin.csusb.edu/coursesaz/cse/
 

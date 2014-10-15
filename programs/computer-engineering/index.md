@@ -30,6 +30,7 @@ Program requirements change from year to year. Students need to complete course 
 
 ### Additional Resources
 
+- [Courses][courses]
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
 - [Transfer Students][transfer]
@@ -80,4 +81,5 @@ The mission of the computer engineering degree program is to provide all its stu
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [roadmap]: Roadmap_bs_4_years.pdf
 [forms]: /cse
+[courses]: http://bulletin.csusb.edu/coursesaz/cse/
 

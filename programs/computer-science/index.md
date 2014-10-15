@@ -30,7 +30,9 @@ Program requirements change from year to year. Students need to complete course 
 
 ### Additional Resources
 
+- [Courses][courses]
 - [Yearly Schedule of Courses][yearly-schedule]
+- [CSUSB Catalogs][catalog]
 - [Transfer Students][transfer]
 - [Typical 4-Year Sequence][roadmap]
 - [Forms and Templates][forms]
@@ -77,4 +79,5 @@ The mission of the Bachelor of Science degree in Computer Science is to provide 
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html
 [roadmap]: Roadmap_bs_4_years.pdf
 [forms]: ../../forms/
+[courses]: http://bulletin.csusb.edu/coursesaz/cse/
 
