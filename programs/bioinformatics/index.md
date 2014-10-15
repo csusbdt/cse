@@ -33,7 +33,7 @@ Program requirements change from year to year. Students need to complete course 
 
 - [Courses][courses]
 - [Yearly Schedule of Courses][yearly-schedule]
-- [CSUSB Catalogs][catalog]
+- [CSUSB Catalogs of Previous Years][catalog]
 - [Transfer Students][transfer]
 - [Forms and Templates][forms]
 
