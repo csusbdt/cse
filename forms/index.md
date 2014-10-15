@@ -121,8 +121,8 @@ you may need to complete one of the following elective coursework application fo
 ### Miscellaneous
 
 <ul>
-<li><a href="misc/project_machine_request_form.pdf">Project Machine Request Form</a></li>
-<li><a href="misc/EquipmentCheckoutForm.pdf">Laboratory Equipment/Device Checkout Form</a></li>
+<li><a href="project_machine_request_form.pdf">Project Machine Request Form</a></li>
+<li><a href="EquipmentCheckoutForm.pdf">Laboratory Equipment/Device Checkout Form</a></li>
 <li><a href="../labs/MSDNAAStudentUse.pdf">Microsoft Academic Alliance Development Tools Student Use Form</a></li>
 </ul>
 
