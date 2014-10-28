@@ -17,4 +17,7 @@ nav:
 
  11:30 - 12:00  [Zhou Yu](2014-fall/yu_zhou_2014_10_03.pdf) <br>
 
+### Wednesday, Oct 29, JB 389
+
+ 12:00 -  1:00 Nii Tackie <br>
 
