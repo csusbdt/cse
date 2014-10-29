@@ -19,5 +19,5 @@ nav:
 
 ### Wednesday, Oct 29, JB 389
 
- 12:00 -  1:00 Nii Tackie <br>
+ 12:00 -  1:00 [Nii Tackie](2014-fall/Nii_Tackie.pdf) <br>
 
