@@ -17,7 +17,7 @@ __Other Information__
 
 - [Industry Advisory Board](../advisory-board/)
 - [Contact Information](../contact/)
-- [Office Hours](../office-hours)
+- [Office Hours](../faculty/OfficeHours.pdf)
 - [About the School](../about/)
 - [Archive](../archive/)
 
