@@ -21,3 +21,8 @@ nav:
 
  12:00 -  1:00 [Nii Tackie](2014-fall/Nii_Tackie.pdf) <br>
 
+### Tuesday, Nov 18, JB 360
+
+ 12:00 - 12:30 [Jennifer Waterson](2014-fall/jennifer-waterson.pdf) <br>
+
+
