@@ -21,3 +21,12 @@ nav:
 
  12:00 -  1:00 [Nii Tackie](2014-fall/Nii_Tackie.pdf) <br>
 
+### Friday, Nov 7, Various rooms
+
+ 9:00 -  2:15 [CSE Annual Open House Event](2014-fall/open-house.pdf)
+
+### Tuesday, Nov 18, JB 360
+
+ 12:00 - 12:30 [Jennifer Waterson](2014-fall/jennifer-waterson.pdf) <br>
+
+
