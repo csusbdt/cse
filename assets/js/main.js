@@ -4,7 +4,7 @@ Environment = (function() {
   Environment.prototype.min_width = "960px";
 
   Environment.prototype.isDesktop = function() {
-    return Modernizr.mq("only screen and (min-width: " + this.min_width + ")");
+    return Modernizr.mq("only screen and (min-width: " + this.min_width + ") and (min-resolution: 2dppx)");
   };
 
   function Environment() {
