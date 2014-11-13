@@ -23,7 +23,11 @@ nav:
 
 ### Friday, Nov 7, Various rooms
 
- 9:00 -  2:15 [CSE Annual Open House Event](2014-fall/open-house.pdf)
+  9:00 -  2:15 [CSE Annual Open House Event](2014-fall/open-house.pdf) <br>
+
+### Monday, Nov 17, JB 358
+
+  3:00 -  3:30 [Mahmuda Mahmud](2014-fall/mahmuda-mahmud.pdf) <br>
 
 ### Tuesday, Nov 18, JB 360
 
