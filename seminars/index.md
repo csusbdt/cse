@@ -33,4 +33,9 @@ nav:
 
  12:00 - 12:30 [Jennifer Waterson](2014-fall/jennifer-waterson.pdf) <br>
 
+### Friday, Dec 5, JB 359
+
+  2:30 - 2:45 [Michael Swedo](2014-fall/michael-swedo-595a.pdf) <br>
+  2:45 - 3:00 [Michael Swedo](2014-fall/michael-swedo-595b.pdf) <br>
+  3:00 - 3:30 [Michael Swedo](2014-fall/michael-swedo-482.pdf) <br>
 
