@@ -35,7 +35,10 @@ nav:
 
 ### Friday, Dec 5, JB 359
 
-  2:30 - 2:45 [Michael Swedo](2014-fall/michael-swedo-595a.pdf) <br>
-  2:45 - 3:00 [Michael Swedo](2014-fall/michael-swedo-595b.pdf) <br>
+ 11:30 - 11:45 [Anthony Thap](2014-fall/anthony_thap_575.pdf) <br>
+ 11:45 - 12:00 [Anthony Thap](2014-fall/anthony_thap_575.pdf) <br>
+<br>
+  2:30 -  2:45 [Michael Swedo](2014-fall/michael-swedo-595a.pdf) <br>
+  2:45 -  3:00 [Michael Swedo](2014-fall/michael-swedo-595b.pdf) <br>
   3:00 - 3:30 [Michael Swedo](2014-fall/michael-swedo-482.pdf) <br>
 
