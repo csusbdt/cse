@@ -25,7 +25,7 @@ Degree requirements may be adjusted from one academic year to the next. Generall
 - [CSUSB Catalogs][catalog]
 - [Transfer Students][transfer]
 
-[description]: descriptions/minor_description_2012_2014.pdf
+[description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-systems-programming-certificate/
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html
