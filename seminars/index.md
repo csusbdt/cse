@@ -40,5 +40,6 @@ nav:
 <br>
   2:30 -  2:45 [Michael Swedo](2014-fall/michael-swedo-595a.pdf) <br>
   2:45 -  3:00 [Michael Swedo](2014-fall/michael-swedo-595b.pdf) <br>
-  3:00 - 3:30 [Michael Swedo](2014-fall/michael-swedo-482.pdf) <br>
+  3:00 -  3:30 [Michael Swedo](2014-fall/michael-swedo-482.pdf) <br>
+  3:30 -  4:00 [Ryan Rady](2014-fall/ryan_rady.pdf) <br>
 
