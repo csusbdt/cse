@@ -43,6 +43,10 @@ nav:
   3:00 -  3:30 [Michael Swedo](2014-fall/michael-swedo-482.pdf) <br>
   3:30 -  4:00 [Ryan Rady](2014-fall/ryan_rady.pdf) <br>
 
+### Tuesday, Dec 9, JB 359
+
+ 12:00 - 12:30 [Tanusha Muthavarapu](2014-fall/Tanusha-Muthavarapu.pdf) <br>
+
 ### Thursday, Dec 11, JB 359
 
   5:00 -  5:30 [A. Sean Lopez](2014-fall/a-sean-lopez.pdf) <br>
