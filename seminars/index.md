@@ -43,3 +43,12 @@ nav:
   3:00 -  3:30 [Michael Swedo](2014-fall/michael-swedo-482.pdf) <br>
   3:30 -  4:00 [Ryan Rady](2014-fall/ryan_rady.pdf) <br>
 
+### Thursday, Dec 11, JB 359
+
+  5:00 -  5:30 [A. Sean Lopez](2014-fall/a-sean-lopez.pdf) <br>
+
+### Friday, Dec 12, JB 359
+
+  1:00 -  1:15 [Jose Inzunza](2014-fall/jose-inzunza-482.pdf) <br>
+  1:15 -  1:30 [Jose Inzunza](2014-fall/jose-inzunza-695.pdf) <br>
+
