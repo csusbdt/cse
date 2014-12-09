@@ -49,6 +49,7 @@ nav:
 
 ### Thursday, Dec 11, JB 359
 
+ 11:00 - 11:30 [Nikhil Desari](2014-fall/Nikhil-Desari.pdf) <br>
   5:00 -  5:30 [A. Sean Lopez](2014-fall/a-sean-lopez.pdf) <br>
 
 ### Friday, Dec 12, JB 359
