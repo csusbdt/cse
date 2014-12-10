@@ -56,4 +56,5 @@ nav:
 
   1:00 -  1:15 [Jose Inzunza](2014-fall/jose-inzunza-482.pdf) <br>
   1:15 -  1:30 [Jose Inzunza](2014-fall/jose-inzunza-695.pdf) <br>
+  3:00 -  3:30 [Luis Campos](2014-fall/luis-campos.pdf) <br>
 
