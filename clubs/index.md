@@ -23,7 +23,7 @@ nav:
 | Vice President      | Andrew Brinker   |
 | Treasurer           | Beverly Abadines |
 | Secretary           | Abigail Legg     |
-| Information Officer | Anthony Sterrett |
+| Information Officer | Joshua Weston    |
 | Event Coordinator   | Ammar Al Sibai   |
 | Webmaster           | Mike Korcha      |
 
