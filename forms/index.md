@@ -86,7 +86,8 @@ nav:
 <li><!--a href="cse_690/IEEE_SRS.doc"-->Project Proposal (IEEE standard format)<!--/a--></li>
 <li><a href="ChangeofAdvisorRequestForm2.pdf">Change of Adviser Request Form</a></li>
 <li><a href="ChangeofMasterOptionRequestForm.pdf">Change of Master Option Request Form</a></li>
-<li><a href="presentation_announcement_template_690.doc">Presentation Announcement Template</a></li>
+<li><a href="Masters-Project-Proposal-Presentation-FlyerTemplate-2012.doc">Proposal Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template_690.doc">Final Presentation Announcement Template</a></li>
 </ul>
 
 ### CSE 695 Graduate Independent Study
