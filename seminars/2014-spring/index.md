@@ -2,6 +2,9 @@
 layout: default
 title: School of Computer Science &amp; Engineering
 description: Schedule of public presentations hosted by the School of CSE.
+nav:
+    - title: Current Quarter
+      url: "../"
 ---
 
 ## CSE Seminars __Spring Quarter 2014__
