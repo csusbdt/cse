@@ -27,8 +27,10 @@ nav:
 
 ### How to Access the Lab Computers Remotely
 
-- [Mac and Linux](SSHX11ForwardingTutorial-non-Windows.pdf)
-- [Windows](SSHX11ForwardingTutorial-Windows.pdf)
+- [VNC Instructions for Windows](VNC%20simple%20windows.pdf)
+- [VNC Instructions for OS X](VNC%20simple%20osx.pdf)
+- [VNC Instructions for Linux](VNC%20simple%20linux.pdf)
+- [Combined VNC Instructions for Windows, OS X and Linux](VNC%20over%20SSH%20Tunneling%20simple.pdf)
 
 ### Microsoft Academic Alliance
 
