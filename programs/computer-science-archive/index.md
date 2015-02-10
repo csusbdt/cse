@@ -34,7 +34,7 @@ in the computer science major prior to the current academic year.
 [flowchart-12-14]: flowcharts/cs_flowchart_2012_2014.pdf
 
 [description-11-12]: descriptions/cs_description_2011_2012.pdf
-[flowchart-11-12]: flowcharts/cs_flowcharts_2011_2012.pdf
+[flowchart-11-12]: flowcharts/cs_flowchart_2011_2012.pdf
 
 [description-10-11]: descriptions/cs_description_2010_2011.pdf
 [flowchart-10-11]: Computer_science_2010_2011.pdf
