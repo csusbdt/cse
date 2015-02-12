@@ -34,7 +34,6 @@ Program requirements change from year to year. Students need to complete course 
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs of Previous Years][catalog]
 - [Transfer Students][transfer]
-- [Typical 4-Year Sequence][roadmap]
 - [Forms and Templates][forms]
 
 ### Advising Policy
