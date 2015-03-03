@@ -15,3 +15,6 @@ nav:
 
   1:30 -  2:00 [Ivo Tantamango](2015-winter/ivo-tantamango.pdf) <br>
 
+### Friday, March 27, 2015, JB 359
+
+ 12:00 - 12:30 [Claudia Tristan](2015-winter/claudia-tristan.pdf) <br>
