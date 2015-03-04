@@ -19,4 +19,5 @@ nav:
 
  12:00 - 12:30 [Claudia Tristan](2015-winter/claudia-tristan.pdf) <br>
  12:30 -  1:00 [Deanna Sulli](2015-winter/deanna-sulli.pdf) <br>
+  1:00 -  1:30 [Michael Garaysi](2015-winter/michael-garaysi.pdf) <br>
 
