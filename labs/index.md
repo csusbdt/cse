@@ -28,6 +28,7 @@ nav:
 ### How to Access the Lab Computers Remotely
 
 - [VNC Instructions for Windows](VNC-windows.pdf)
+- [X11 Forwarding on Windows with Cygwin](X11ForwardingOnWindowsUsingCygwin.pdf)
 - [VNC Instructions for OS X](VNC-osx.pdf)
 - [VNC Instructions for Linux](VNC-linux.pdf)
 - [Combined VNC Instructions for Windows, OS X and Linux](VNC-combined.pdf)
