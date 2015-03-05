@@ -15,6 +15,10 @@ nav:
 
   1:30 -  2:00 [Ivo Tantamango](2015-winter/ivo-tantamango.pdf) <br>
 
+### Wednesday, March 11, 2015, JB 389/391
+
+ 12:00 -  1:00 [Abdullah Abualhamayl](2015-winter/abdullah-abualhamayl.pdf) <br>
+
 ### Friday, March 27, 2015, JB 359
 
  12:00 - 12:30 [Claudia Tristan](2015-winter/claudia-tristan.pdf) <br>
