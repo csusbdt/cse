@@ -25,4 +25,5 @@ nav:
  12:30 -  1:00 [Deanna Sulli](2015-winter/deanna-sulli.pdf) <br>
   1:00 -  1:30 [Michael Garaysi](2015-winter/michael-garaysi.pdf) <br>
   1:30 -  2:00 [Ashraf Dauodi](2015-winter/ashraf-dauodi.pdf) <br>
+  2:00 -  2:30 [Saxon Loster](2015-winter/saxon-loster.pdf) <br>
 
