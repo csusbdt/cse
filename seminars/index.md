@@ -19,6 +19,10 @@ nav:
 
  12:00 -  1:00 [Abdullah Abualhamayl](2015-winter/abdullah-abualhamayl.pdf) <br>
 
+### Thursday, March 12, 2015, JB 389/391
+
+  2:00 -  2:30 [Srinivas Bonthu](2015-winter/srinivas-bonthu.pdf) <br>
+
 ### Friday, March 27, 2015, JB 359
 
  12:00 - 12:30 [Claudia Tristan](2015-winter/claudia-tristan.pdf) <br>
