@@ -30,4 +30,5 @@ nav:
   1:00 -  1:30 [Michael Garaysi](2015-winter/michael-garaysi.pdf) <br>
   1:30 -  2:00 [Ashraf Dauodi](2015-winter/ashraf-dauodi.pdf) <br>
   2:00 -  2:30 [Saxon Loster](2015-winter/saxon-loster.pdf) <br>
+  2:30 -  3:00 [David Bowman](2015-winter/david-bowman.pdf) <br>
 
