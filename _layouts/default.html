@@ -25,6 +25,9 @@
 
         <div class='content'>
           <div class='container'>
+            <main class='main'>
+              {{ content }}
+            </main>
             <aside class='sidebar'>
                 <div class='sidebar-content'>
                     <p class='sidebar-description'>{{ page.description }}</p>
@@ -44,9 +47,6 @@
                 </nav>
                 {% endif %}
             </aside>
-            <main class='main'>
-              {{ content }}
-            </main>
           </div>
         </div>
 
