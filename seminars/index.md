@@ -23,6 +23,10 @@ nav:
 
   2:00 -  2:30 [Srinivas Bonthu](2015-winter/srinivas-bonthu.pdf) <br>
 
+### Wednesday, March 18, 2015, JB 389/391
+
+  1:00 -  2:00 [rayan-albarakati](2015-winter/rayan-albarakati.pdf) <br>
+
 ### Friday, March 27, 2015, JB 359
 
  12:00 - 12:30 [Claudia Tristan](2015-winter/claudia-tristan.pdf) <br>
