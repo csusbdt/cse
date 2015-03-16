@@ -25,7 +25,11 @@ nav:
 
 ### Wednesday, March 18, 2015, JB 389/391
 
-  1:00 -  2:00 [rayan-albarakati](2015-winter/rayan-albarakati.pdf) <br>
+  1:00 -  2:00 [Rayan Albarakati](2015-winter/rayan-albarakati.pdf) <br>
+
+### Wednesday, March 25, 2015, JB 359
+
+  2:00 -  2:30 [Gerren Willis](2015-winter/gerren-willis.pdf) <br>
 
 ### Friday, March 27, 2015, JB 359
 
