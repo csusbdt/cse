@@ -27,6 +27,10 @@ nav:
 
   1:00 -  2:00 [Rayan Albarakati](2015-winter/rayan-albarakati.pdf) <br>
 
+### Tuesday, March 24, 2015, JB 389/391
+
+ 11:00 - 12:00 [Rigoberto Solorio](2015-winter/rigoberto-solorio.pdf) <br>
+
 ### Wednesday, March 25, 2015, JB 359
 
   2:00 -  2:30 [Gerren Willis](2015-winter/gerren-willis.pdf) <br>
