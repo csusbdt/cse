@@ -38,6 +38,7 @@ nav:
 ### Thursday, March 26, 2015, JB 359
 
   9:00 -  9:30 [Eric Kloba](2015-winter/eric-kloba.pdf) <br>
+  7:00 -  7:30 [Matthew Hanna](2015-winter/matthew-hanna.pdf) <br>
 
 ### Friday, March 27, 2015, JB 359
 
