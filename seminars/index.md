@@ -35,6 +35,10 @@ nav:
 
   2:00 -  2:30 [Gerren Willis](2015-winter/gerren-willis.pdf) <br>
 
+### Thursday, March 26, 2015, JB 359
+
+  9:00 -  9:30 [Eric Kloba](2015-winter/eric-kloba.pdf) <br>
+
 ### Friday, March 27, 2015, JB 359
 
  12:00 - 12:30 [Claudia Tristan](2015-winter/claudia-tristan.pdf) <br>
