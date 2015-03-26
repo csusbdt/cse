@@ -48,4 +48,5 @@ nav:
   1:30 -  2:00 [Ashraf Dauodi](2015-winter/ashraf-dauodi.pdf) <br>
   2:00 -  2:30 [Saxon Loster](2015-winter/saxon-loster.pdf) <br>
   2:30 -  3:00 [David Bowman](2015-winter/david-bowman.pdf) <br>
-
+  3:00 -  3:15 [Rana Tabel](2015-winter/rana-tabel-1.pdf) <br>
+  3:15 -  3:30 [Rana Tabel](2015-winter/rana-tabel-2.pdf) <br>
