@@ -19,12 +19,12 @@ nav:
 
 | Position            | Officer          |
 |:--------------------|:-----------------|
-| President           | Dylan Allbee     |
-| Vice President      | Andrew Brinker   |
+| President           | Shannon Weston   |
+| Vice President      | Ruben Casteneda  |
 | Treasurer           | Beverly Abadines |
-| Secretary           | Abigail Legg     |
-| Information Officer | Joshua Weston    |
-| Event Coordinator   | Ammar Al Sibai   |
+| Secretary           | Keaton Boardman  |
+| Information Officer | Richard Quon     |
+| Event Coordinator   | Alejandro Lazo   |
 | Webmaster           | Mike Korcha      |
 
 Faculty Advisers: Dr. Arturo Concepcion and Dr. David Turner
