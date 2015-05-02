@@ -27,6 +27,7 @@ nav:
 
 ### How to Access the Lab Computers Remotely
 
+- [SSH X11 Forwarding - Running GUI Applications remotely](SSHX11ForwardingTutorial.pdf)
 - [VNC Instructions for Windows](VNC-windows.pdf)
 - [X11 Forwarding on Windows with Cygwin](X11ForwardingOnWindowsUsingCygwin.pdf)
 - [VNC Instructions for OS X](VNC-osx.pdf)
