@@ -69,7 +69,7 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
 [archive]: ../bioinformatics-archive/
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 [description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/biology/bioinformatics-bs/
-[flowchart]: ../bioinformatics-archive/flowcharts/bi_flowchart_2014_2015.pdf
+[flowchart]: ../bioinformatics-archive/flowcharts/bi_flowchart_2015_2016.pdf
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
 [catalog]: http://catalog.csusb.edu/
 [transfer]: http://web1.assist.org/web-assist/CSUSB.html

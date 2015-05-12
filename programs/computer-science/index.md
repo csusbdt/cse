@@ -21,8 +21,8 @@ The Bachelor of Science in Computer Science program emphasizes the traditional s
 
 ### Program Information
 
-- [Program Description 2014/15][description]
-- [Flowchart of Course Dependencies 2014/15][flowchart]
+- [Program Description 2015/16][description]
+- [Flowchart of Course Dependencies 2015/16][flowchart]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
 
@@ -71,7 +71,7 @@ The mission of the Bachelor of Science degree in Computer Science is to provide 
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
 [description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-science-bs/
-[flowchart]: ../computer-science-archive/flowcharts/cs_flowchart_2014_2015.pdf
+[flowchart]: ../computer-science-archive/flowcharts/cs_flowchart_2015_2016.pdf
 [archive]: ../computer-science-archive/
 [outcomes]: computer-science-objectives-and-outcomes.pdf
 
