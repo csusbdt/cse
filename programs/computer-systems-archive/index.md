@@ -12,6 +12,16 @@ nav:
 This page contains archived information relevant to students who enrolled
 in the computer engineering major prior to the current academic year.
 
+### Program Information, 2014/2015
+
+<!--
+- [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2014/15][inter-14]
+- [Flowchart of Course Dependencies for the Web Programming Option, 2014/15][web-14]
+- [Flowchart of Course Dependencies for the System Administrator Option, 2014/15][system-14]
+-->
+- [Flowchart of Course Dependencies for the Game Development Option, 2014/15][game-14]
+- [Flowchart of Course Dependencies for the Graphics Programming Option, 2014/15][graphics-14]
+
 ### Program Information, 2012/2014
 
 - [Program description, 2012/2014][description-12-14]
@@ -87,6 +97,7 @@ in the computer engineering major prior to the current academic year.
 [game-11]: flowcharts/game/ba-game-flowchart-2011.pdf
 [game-12]: flowcharts/game/ba-game-flowchart-2012.pdf
 [game-13]: flowcharts/game/ba-game-flowchart-2013.pdf
+[game-14]: flowcharts/game/ba-game-flowchart-2014.pdf
 
 [graphics-07]: flowcharts/graphics/ba-graphics-flowchart-2007.pdf
 [graphics-08]: flowcharts/graphics/ba-graphics-flowchart-2008.pdf
@@ -94,6 +105,7 @@ in the computer engineering major prior to the current academic year.
 [graphics-10]: flowcharts/graphics/ba-graphics-flowchart-2010.pdf
 [graphics-11]: flowcharts/graphics/ba-graphics-flowchart-2011.pdf
 [graphics-12]: flowcharts/graphics/ba-graphics-flowchart-2012.pdf
+[graphics-14]: flowcharts/graphics/ba-graphics-flowchart-2014.pdf
 
 [system-07]: flowcharts/system/ba-system-flowchart-2007.pdf
 [system-08]: flowcharts/system/ba-system-flowchart-2008.pdf

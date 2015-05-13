@@ -21,12 +21,12 @@ The Bachelor of Arts (BA) in Computer Systems program emphasizes the application
 
 ### Program Information
 
-- [Program description, 2014/2015][description]
+- [Program description, 2015/2016][description]
 - [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2014/15][flowchart-inter]
 - [Flowchart of Course Dependencies for the Web Programming Option, 2014/15][flowchart-web]
 - [Flowchart of Course Dependencies for the System Administrator Option, 2014/15][flowchart-system]
-- [Flowchart of Course Dependencies for the Game Development Option, 2014/15][flowchart-game]
-- [Flowchart of Course Dependencies for the Graphics Programming Option, 2014/15][flowchart-graphics]
+- [Flowchart of Course Dependencies for the Game Development Option, 2015/16][flowchart-game]
+- [Flowchart of Course Dependencies for the Graphics Programming Option, 2015/16][flowchart-graphics]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
 
@@ -84,8 +84,8 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 
 [description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-systems-ba/
 [flowchart-inter]: ../computer-systems-archive/flowcharts/inter/ba-inter-flowchart-2014.pdf
-[flowchart-game]: ../computer-systems-archive/flowcharts/game/ba-game-flowchart-2014.pdf
-[flowchart-graphics]: ../computer-systems-archive/flowcharts/graphics/ba-graphics-flowchart-2014.pdf
+[flowchart-game]: ../computer-systems-archive/flowcharts/game/ba-game-flowchart-2015.pdf
+[flowchart-graphics]: ../computer-systems-archive/flowcharts/graphics/ba-graphics-flowchart-2015.pdf
 [flowchart-system]: ../computer-systems-archive/flowcharts/system/ba-system-flowchart-2014.pdf
 [flowchart-web]: ../computer-systems-archive/flowcharts/web/ba-web-flowchart-2014.pdf
 
