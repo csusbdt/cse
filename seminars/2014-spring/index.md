@@ -47,21 +47,21 @@ nav:
   2:00 - 2:30 [Steve Hergert](steve-hergert.pdf) <br>
   2:30 - 3:00 [Darryn Jones](darryn-jones.pdf) <br>
   3:00 - 3:30 [David Bowman](david-bowman.pdf) <br>
-  3:30 - 4:00 [Rana Tabel](rana-tabel-1.pdf) <br>
-  4:00 - 4:30 [Rana Tabel](rana-tabel-2.pdf) <br>
+  3:30 - 4:00 [Rana Tabel, 1](rana-tabel-1.pdf) <br>
+  4:00 - 4:30 [Rana Tabel, 2](rana-tabel-2.pdf) <br>
 
 ### Friday, June 13, JB 359
 
   9:00 -  9:30 [Carlos Maldonado](Carlos-Maldonado.pdf) <br>
  11:30 - 12:00 [Alex Krause](alex-krause.pdf) <br>
- 12:30 - 12:30 [Jose Inzunza](jose-inzunza-1.pdf) <br>
- 12:45 -  1:00 [Jose Inzunza](jose-inzunza-2014-06-13.pdf) <br>
-  1:00 -  1:30 [Chad Barensfeld](Barensfeld-1.pdf) <br>
-  1:30 -  2:00 [Chad Barensfeld](Barensfeld-2.pdf) <br>
+ 12:30 - 12:30 [Jose Inzunza, 1](jose-inzunza-1.pdf) <br>
+ 12:45 -  1:00 [Jose Inzunza, 2](jose-inzunza-2014-06-13.pdf) <br>
+  1:00 -  1:30 [Chad Barensfeld, 1](Barensfeld-1.pdf) <br>
+  1:30 -  2:00 [Chad Barensfeld, 2](Barensfeld-2.pdf) <br>
   2:00 -  2:30 [Maurice Njuguna](Njuguna.pdf)      <br>
   2:30 -  3:00 [Zachary Fuller](zachary-fuller-2014-06-13.pdf)    <br>
-  3:00 -  3:30 [Jonathan Gomez](Jonathan_Gomez_CSE595_Flyer.pdf)  <br>
-  3:30 -  4:00 [Jonathan Gomez](Jonathan_Gomez_CSE482_Flyer.pdf)  <br>
+  3:00 -  3:30 [Jonathan Gomez, 1](Jonathan_Gomez_CSE595_Flyer.pdf)  <br>
+  3:30 -  4:00 [Jonathan Gomez, 2](Jonathan_Gomez_CSE482_Flyer.pdf)  <br>
   3:30 -  4:00 [Ryan Rady](ryan-rady.pdf) <br>
 
 

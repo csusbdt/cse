@@ -35,12 +35,12 @@ nav:
 
 ### Friday, Dec 5, JB 359
 
- 11:30 - 11:45 [Anthony Thap](anthony_thap_575.pdf) <br>
- 11:45 - 12:00 [Anthony Thap](anthony_thap_575.pdf) <br>
+ 11:30 - 11:45 [Anthony Thap, 482](anthony_thap_482.pdf) <br>
+ 11:45 - 12:00 [Anthony Thap, 575](anthony_thap_575.pdf) <br>
 <br>
-  2:30 -  2:45 [Michael Swedo](michael-swedo-595a.pdf) <br>
-  2:45 -  3:00 [Michael Swedo](michael-swedo-595b.pdf) <br>
-  3:00 -  3:30 [Michael Swedo](michael-swedo-482.pdf) <br>
+  2:30 -  2:45 [Michael Swedo, 595a](michael-swedo-595a.pdf) <br>
+  2:45 -  3:00 [Michael Swedo, 595b](michael-swedo-595b.pdf) <br>
+  3:00 -  3:30 [Michael Swedo, 482](michael-swedo-482.pdf) <br>
   3:30 -  4:00 [Ryan Rady](ryan_rady.pdf) <br>
 
 ### Tuesday, Dec 9, JB 359
@@ -54,7 +54,7 @@ nav:
 
 ### Friday, Dec 12, JB 359
 
-  1:00 -  1:15 [Jose Inzunza](jose-inzunza-482.pdf) <br>
-  1:15 -  1:30 [Jose Inzunza](jose-inzunza-695.pdf) <br>
+  1:00 -  1:15 [Jose Inzunza, 482](jose-inzunza-482.pdf) <br>
+  1:15 -  1:30 [Jose Inzunza, 695](jose-inzunza-695.pdf) <br>
   3:00 -  3:30 [Luis Campos](luis-campos.pdf) <br>
 

@@ -32,11 +32,11 @@ nav:
 ### Masters Degree Application
 
 - Application form
-    - [PDF format][ms-app-pdf]
-    - [MS-WORD format][ms-app-doc]
+    - [Application Form in PDF format][ms-app-pdf]
+    - [Application Form in MS-WORD format][ms-app-doc]
 - Letter of recommendation template
-    - [PDF format][ms-rec-pdf]
-    - [MS-WORD format][ms-rec-doc]
+    - [Letter of recommendation template in PDF format][ms-rec-pdf]
+    - [Letter of recommendation template in MS-WORD format][ms-rec-doc]
 
 ### Masters Degree Completion
 
@@ -68,14 +68,14 @@ nav:
 <ul>
 <li><a href="UndergraduateInternshipCriteria.pdf">CSE 575 Internship Criteria Form </a></li>
 <li><a href="InternshipForm.pdf">CSE 575 Internship Form </a></li>
-<li><a href="presentation_announcement_template_575.rtf">Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template_575.rtf">CSE 575 Presentation Announcement Template</a></li>
 </ul>
 
 ### CSE 595 Undergraduate Independent Study
 
 <ul>
 <li><a href="CSCI_595.pdf">CSE 595 Application Form</a></li>
-<li><a href="presentation_announcement_template_595.rtf">Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template_595.rtf">CSE 595 Presentation Announcement Template</a></li>
 </ul>
 
 ### CSE 690 Master's Project
@@ -84,10 +84,10 @@ nav:
 <li><!--a href="cse_690/PreliminaryMastersProjectProposalTemplate.doc"-->Preliminary Master's Project Proposal<!--/a--></li>
 <li><!--a href="cse_690/FinalMastersProjectProposalTemplate.doc"-->Project Proposal (generic format)<!--/a--></li>
 <li><!--a href="cse_690/IEEE_SRS.doc"-->Project Proposal (IEEE standard format)<!--/a--></li>
-<li><a href="ChangeofAdvisorRequestForm2.pdf">Change of Adviser Request Form</a></li>
+<li><a href="ChangeofAdvisorRequestForm2.pdf">Change of Project Adviser Request Form</a></li>
 <li><a href="ChangeofMasterOptionRequestForm.pdf">Change of Master Option Request Form</a></li>
-<li><a href="Masters-Project-Proposal-Presentation-FlyerTemplate-2012.doc">Proposal Presentation Announcement Template</a></li>
-<li><a href="presentation_announcement_template_690.doc">Final Presentation Announcement Template</a></li>
+<li><a href="Masters-Project-Proposal-Presentation-FlyerTemplate-2012.doc">Masters Proposal Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template_690.doc">Masters Final Presentation Announcement Template</a></li>
 </ul>
 
 ### CSE 695 Graduate Independent Study
@@ -95,15 +95,15 @@ nav:
 <ul>
 <li><a href="CSCI_695.pdf">Graduate Independent Study Application Form</a></li>
 <li><a href="grad-indep-study-proposal-template.pdf">Graduate Independent Study Proposal Template</a></li>
-<li><a href="presentation_announcement_template.rtf">Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template.rtf">Graduate Independent Study Presentation Announcement Template</a></li>
 </ul>
 
 ### CSE 699 Master's Thesis
 
 <ul>
-<li><a href="ChangeofAdvisorRequestForm2.pdf">Change of Adviser Request Form</a></li>
+<li><a href="ChangeofAdvisorRequestForm2.pdf">Change of Thesis Adviser Request Form</a></li>
 <li><a href="ChangeofMasterOptionRequestForm.pdf">Change of Master Option Request Form</a></li>
-<li><a href="presentation_announcement_template_699.doc">Presentation Announcement Template</a></li>
+<li><a href="presentation_announcement_template_699.doc">Thesis Presentation Announcement Template</a></li>
 </ul>
 
 ### BA Computer Systems, Elective Coursework Application Forms
