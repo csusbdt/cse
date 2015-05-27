@@ -61,7 +61,7 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 
 <table class="enrollment">
   <thead>
-    <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
+    <tr> <th scope="col">Year</th> <th scope="col">Enrollment*</th> <th scope="col">Graduations**</th> </tr>
   </thead>
   <tbody>
     <tr> <td>2007</td> <td>105</td> <td>16</td> </tr>

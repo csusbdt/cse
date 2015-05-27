@@ -48,7 +48,7 @@ The mission of the computer engineering degree program is to provide all its stu
 
 <table class="enrollment">
   <thead>
-    <tr> <th>Year</th> <th>Enrollment*</th> <th>Graduations**</th> </tr>
+    <tr> <th scope="col">Year</th> <th scope="col">Enrollment*</th> <th scope="col">Graduations**</th> </tr>
   </thead>
   <tbody>
     <tr> <td>2007</td> <td>13</td> <td>-</td> </tr>
