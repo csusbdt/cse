@@ -96,8 +96,8 @@ Club Email: csusbstem@gmail.com
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Position</th>
-      <th style="text-align: left">Officer</th>
+      <th style="text-align: left" scope="row">Position</th>
+      <th style="text-align: left" scope="row">Officer</th>
     </tr>
   </thead>
   <tbody>

@@ -37,7 +37,7 @@ The program is designed to help students develop analytical, problem solving and
 
 <table class="enrollment">
   <thead>
-    <tr> <th scope="column">Year</th> <th scope="column">Enrollment*</th> <th scope="column">Graduations**</th> </tr>
+    <tr> <th scope="col">Year</th> <th scope="col">Enrollment*</th> <th scope="col">Graduations**</th> </tr>
   </thead>
   <tbody>
     <tr> <td>2007</td> <td>63</td> <td>21</td> </tr>
