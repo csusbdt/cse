@@ -14,11 +14,9 @@ in the computer engineering major prior to the current academic year.
 
 ### Program Information, 2014/2015
 
-<!--
 - [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2014/15][inter-14]
 - [Flowchart of Course Dependencies for the Web Programming Option, 2014/15][web-14]
 - [Flowchart of Course Dependencies for the System Administrator Option, 2014/15][system-14]
--->
 - [Flowchart of Course Dependencies for the Game Development Option, 2014/15][game-14]
 - [Flowchart of Course Dependencies for the Graphics Programming Option, 2014/15][graphics-14]
 
@@ -83,6 +81,7 @@ in the computer engineering major prior to the current academic year.
 [inter-10]: flowcharts/inter/ba-inter-flowchart-2010.pdf
 [inter-11]: flowcharts/inter/ba-inter-flowchart-2011.pdf
 [inter-12]: flowcharts/inter/ba-inter-flowchart-2012.pdf
+[inter-14]: flowcharts/inter/ba-inter-flowchart-2014.pdf
 
 [game-07]: flowcharts/game/ba-game-flowchart-2007.pdf
 [game-08]: flowcharts/game/ba-game-flowchart-2008.pdf
@@ -107,6 +106,7 @@ in the computer engineering major prior to the current academic year.
 [system-10]: flowcharts/system/ba-system-flowchart-2010.pdf
 [system-11]: flowcharts/system/ba-system-flowchart-2011.pdf
 [system-12]: flowcharts/system/ba-system-flowchart-2012.pdf
+[system-14]: flowcharts/system/ba-system-flowchart-2014.pdf
 
 [web-07]: flowcharts/web/ba-web-flowchart-2007.pdf
 [web-08]: flowcharts/web/ba-web-flowchart-2008.pdf
@@ -114,5 +114,6 @@ in the computer engineering major prior to the current academic year.
 [web-10]: flowcharts/web/ba-web-flowchart-2010.pdf
 [web-11]: flowcharts/web/ba-web-flowchart-2011.pdf
 [web-12]: flowcharts/web/ba-web-flowchart-2012.pdf
+[web-14]: flowcharts/web/ba-web-flowchart-2014.pdf
 
 
