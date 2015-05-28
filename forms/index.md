@@ -40,14 +40,14 @@ nav:
 
 ### Masters Degree Completion
 
-- See [Graduate Studies Forms Page][grad-forms].
+- See [Graduate Studies][grad-forms].
 - See below for forms and templates for specific courses in the graduate program.
 
 [ms-app-doc]: MS_Application_Form.doc
 [ms-app-pdf]: MS_Application_Form.pdf
 [ms-rec-doc]: MS_Reference_Form.doc
 [ms-rec-pdf]: MS_Reference_Form.pdf
-[grad-forms]: http://gradstudies.csusb.edu/currentStudents/forms.htm
+[grad-forms]: http://gradstudies.csusb.edu/
 
 ### CSE 399 Community Service Project
 

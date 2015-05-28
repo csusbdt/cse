@@ -24,7 +24,6 @@ in the computer engineering major prior to the current academic year.
 
 ### Program Information, 2012/2014
 
-- [Program description, 2012/2014][description-12-14]
 - Flowcharts of Course Dependencies, 2012/14
   - [General Interdisciplinary Option, 2012/14][inter-12]
   - [Web Programming Option, 2012/14][web-12]
@@ -35,7 +34,6 @@ in the computer engineering major prior to the current academic year.
 
 ### Program Information, 2011/2012
 
-- [Program description, 2011/12][description-11-12]
 - Flowcharts of Course Dependencies, 2011/12
   - [General Interdisciplinary Option, 2011/12][inter-11]
   - [Web Programming Option, 2011/12][web-11]
@@ -45,7 +43,6 @@ in the computer engineering major prior to the current academic year.
 
 ### Program Information, 2010/2011
 
-- [Program description, 2010/11][description-10-11]
 - Flowcharts of Course Dependencies, 2010/11
   - [General Interdisciplinary Option, 2010/11][inter-10]
   - [Web Programming Option, 2010/11][web-10]
@@ -55,7 +52,6 @@ in the computer engineering major prior to the current academic year.
 
 ### Program Information, 2009/2010
 
-- [Program description, 2009/10][description-09-10]
 - Flowcharts of Course Dependencies, 2009/10
   - [General Interdisciplinary Option, 2009/10][inter-09]
   - [Web Programming Option, 2009/10][web-09]
@@ -65,7 +61,6 @@ in the computer engineering major prior to the current academic year.
 
 ### Program Information, 2008/2009
 
-- [Program description, 2008/09][description-08-09]
 - Flowcharts of Course Dependencies, 2008/09
   - [General Interdisciplinary Option, 2008/09][inter-08]
   - [Web Programming Option, 2008/09][web-08]
@@ -75,7 +70,6 @@ in the computer engineering major prior to the current academic year.
 
 ### Program Information, 2007/2008
 
-- [Program description, 2007/08][description-07-08]
 - Flowcharts of Course Dependencies, 2007/08
   - [General Interdisciplinary Option, 2007/08][inter-07]
   - [Web Programming Option, 2007/08][web-07]
@@ -121,11 +115,4 @@ in the computer engineering major prior to the current academic year.
 [web-11]: flowcharts/web/ba-web-flowchart-2011.pdf
 [web-12]: flowcharts/web/ba-web-flowchart-2012.pdf
 
-[description-12-14]: ../computer-science-archive/descriptions/cs_description_2012_2014.pdf
-[description-11-12]: ../computer-science-archive/descriptions/cs_description_2011_2012.pdf
-[description-10-11]: ../computer-science-archive/descriptions/cs_description_2010_2011.pdf
-[description-09-10]: ../computer-science-archive/descriptions/cs_description_2009_2010.pdf
-[description-08-09]: ../computer-science-archive/descriptions/cs_description_2008_2009.pdf
-[description-07-08]: ../computer-science-archive/descriptions/cs_description_2007_2008.pdf
-[description-06-07]: Computer_science_requirements_2006_2007.pdf
 

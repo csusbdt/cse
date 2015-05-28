@@ -48,4 +48,4 @@ nav:
   2:00 -  2:30 [Saxon Loster](saxon-loster.pdf) <br>
   2:30 -  3:00 [David Bowman](david-bowman.pdf) <br>
   3:00 -  3:15 [Rana Tabel, 1](rana-tabel-1.pdf) <br>
-  3:15 -  3:30 [Rana Tabel, 1](rana-tabel-2.pdf) <br>
+  3:15 -  3:30 [Rana Tabel, 2](rana-tabel-2.pdf) <br>

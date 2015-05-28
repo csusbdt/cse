@@ -18,6 +18,4 @@ __Other Information__
 - [Industry Advisory Board.](../advisory-board/)
 - [Contact Information.](../contact/)
 - [Office Hours.](../faculty/OfficeHours.pdf)
-- [About the School.](../about/)
-- [Archive.](../archive/)
 
