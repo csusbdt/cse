@@ -2,23 +2,6 @@
     <footer class='container'>
         <nav class='inline-nav'>
             <ul>
-<!--
-                <li>
-                    <a href='{% if site.safe %}/cse{% endif %}/programs'>
-                        Degree&nbsp;Programs
-                    </a>
-                </li>
-                <li>
-                    <a href='{% if site.safe %}/cse{% endif %}/info'>
-                        Department&nbsp;Info
-                    </a>
-                </li>
-                <li>
-                    <a href='{% if site.safe %}/cse{% endif %}/resources'>
-                        Student&nbsp;Resources
-                    </a>
-                </li>
--->
                 <li class='small'>
                     <a href='http://www.microsoft.com/downloads/results.aspx?pocId=4289AE77-4CBA-4A75-86F3-9FF96F68E491'>
                         MS&nbsp;Office&nbsp;Viewers
@@ -47,7 +30,7 @@
             </ul>
         </nav>
         <section class='meta'>
-            <img alt='csusb logo' class='campus-logo' src='{% if site.safe %}/cse{% endif %}/assets/img/university_logo.png'>
+            <img alt='csusb logo' class='campus-logo' src='{% unless site.safe %}/cse{% endunless %}/assets/img/university_logo.png'>
             <address class='address'>
                 California State University, San Bernardino<br>
                 5500 University Parkway, San Bernardino CA 92407-2318

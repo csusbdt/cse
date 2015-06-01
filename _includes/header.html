@@ -3,7 +3,7 @@
         <h1 class='logo' id='header-logo'>
             <!--a href='{{ site.baseurl }}/' href='Return to home.'-->
             <!-- Commented out to pass accessiblity scan. -->
-            <a href='{{ site.baseurl }}/'>
+            <a href='/{% unless site.safe %}cse{% endunless %}'>
                 School of Computer Science <span class='amp'>&amp;</span>&nbsp;Engineering
             </a>
         </h1>
