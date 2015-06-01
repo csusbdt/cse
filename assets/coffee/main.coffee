@@ -36,7 +36,7 @@ class Banner
 
     trigger:         $("#campus-trigger")
     icon:            $("#campus-trigger span")
-    content:         $("#campus-trigger i")
+    content:         $("#campus-trigger em")
     inserted:        false
 
     constructor: ->

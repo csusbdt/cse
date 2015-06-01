@@ -35,7 +35,7 @@ Banner = (function() {
 
   Banner.prototype.icon = $("#campus-trigger span");
 
-  Banner.prototype.content = $("#campus-trigger i");
+  Banner.prototype.content = $("#campus-trigger em");
 
   Banner.prototype.inserted = false;
 
@@ -228,11 +228,11 @@ DesktopContent = (function() {
   };
 
   function DesktopContent() {
-    var elem, _i, _len, _ref;
+    var elem, i, len, ref;
     if (environment.isDesktop()) {
-      _ref = this.getDesktopContent();
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        elem = _ref[_i];
+      ref = this.getDesktopContent();
+      for (i = 0, len = ref.length; i < len; i++) {
+        elem = ref[i];
         elem.setAttribute("href", elem.dataset.href);
         elem.removeAttribute("data-href");
         elem.removeAttribute("class");
