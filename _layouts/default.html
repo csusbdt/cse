@@ -18,8 +18,8 @@
         <link rel="stylesheet" href='{{ site.baseurl }}/assets/css/main.css'>
         <link rel="stylesheet" class="js-desktop-only" data-href="{{ site.baseurl }}/assets/css/desktop.css">
         <style>
-            #skip a { 
-                position:absolute; 
+            #skip a {
+                position:absolute;
                 top:auto;
                 width:1px;
                 height:1px;
@@ -54,7 +54,7 @@
                     </strong>
                     <ul>
                         {% for item in page.nav %}
-                        <li><a href="{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}{{ item.url }}">
+                        <li><a href="{% if site.safe %}/cse{% endif %}{{ page.url | replace: 'index.html', '' }}{{ item.url }}">
                             {{ item.title }}
                         </a></li>
                         {% endfor %}
