@@ -7,10 +7,6 @@ nav:
       url: "#program-information"
     - title: Additional Resources
       url: "#additional-resources"
-    - title: Advising Policy
-      url: "#advising-policy"
-    - title: Mission Statement
-      url: "#mission-statement"
     - title: Enrollment &amp; Graduations
       url: "#enrollment-and-graduations"
 ---

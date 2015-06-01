@@ -2,13 +2,6 @@
 layout: default
 title: School of Computer Science &amp; Engineering
 description: Schedule of public presentations hosted by the School of CSE.
-nav:
-    - title: Spring 2014
-      url: "2014-spring/"
-    - title: Fall 2014
-      url: "2014-fall/"
-    - title: Winter 2015
-      url: "2015-winter/"
 ---
 
 ## CSE Seminars __Spring Quarter 2015__
