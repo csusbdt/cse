@@ -17,19 +17,9 @@ nav:
 
 [CSE Club Website](http://cse-club.com/)
 
-<!-- removed to pass accessility scan.
-| Position            | Officer          |
-|:--------------------|:-----------------|
-| President           | Shannon Weston   |
-| Vice President      | Ruben Casteneda  |
-| Treasurer           | Beverly Abadines |
-| Secretary           | Keaton Boardman  |
-| Information Officer | Richard Quon     |
-| Event Coordinator   | Alejandro Lazo   |
-| Webmaster           | Mike Korcha      |
--->
+#### Current Officers
 
-<table>
+<table class='table-condensed'>
   <thead>
     <tr>
       <th style="text-align: left" scope="row">Position</th>
@@ -68,6 +58,158 @@ nav:
   </tbody>
 </table>
 
+#### Officers, 2014-2015
+
+<table class='table-condensed'>
+  <thead>
+    <tr>
+      <th style="text-align: left" scope="row">Position</th>
+      <th style="text-align: left" scope="row">Officer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">President</td>
+      <td style="text-align: left">Dylan Allbee</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Vice President</td>
+      <td style="text-align: left">Andrew Brinker</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Treasurer</td>
+      <td style="text-align: left">Beverly Abadines</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Secretary</td>
+      <td style="text-align: left">Abigail Legg</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Information Officer</td>
+      <td style="text-align: left">Joshua Weston</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Event Coordinator</td>
+      <td style="text-align: left">Ammar Alsibai</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Webmaster</td>
+      <td style="text-align: left">Mike Korcha</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Officers, 2013-2014
+
+<table class='table-condensed'>
+  <thead>
+    <tr>
+      <th style="text-align: left" scope="row">Position</th>
+      <th style="text-align: left" scope="row">Officer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">President</td>
+      <td style="text-align: left">Russell Morgan (Fall-Winter) / Andrew Brinker (Spring)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Vice President</td>
+      <td style="text-align: left">Andrew Brinker (Fall-Winter) / Anthony Sterrett (Spring)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Treasurer</td>
+      <td style="text-align: left">Dylan Allbee</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Secretary</td>
+      <td style="text-align: left">Abigail Legg</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Information Officer</td>
+      <td style="text-align: left">Juan Nevares</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Event Coordinator</td>
+      <td style="text-align: left">Ammar Alsibai</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Webmaster</td>
+      <td style="text-align: left">Mike Korcha</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Officers, 2012-2013
+
+<table class='table-condensed'>
+  <thead>
+    <tr>
+      <th style="text-align: left" scope="row">Position</th>
+      <th style="text-align: left" scope="row">Officer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">President</td>
+      <td style="text-align: left">Avi Misra</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Vice President</td>
+      <td style="text-align: left">Gage Puckett</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Treasurer</td>
+      <td style="text-align: left">Andrew Brinker</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Secretary</td>
+      <td style="text-align: left">Marissa Guido</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Public Relations</td>
+      <td style="text-align: left">Tunji Owolabi</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Officers, 2011-2012
+
+<table class='table-condensed'>
+  <thead>
+    <tr>
+      <th style="text-align: left" scope="row">Position</th>
+      <th style="text-align: left" scope="row">Officer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">President</td>
+      <td style="text-align: left">Yakira Dixon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Vice President</td>
+      <td style="text-align: left">Avi Misra</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Treasurer</td>
+      <td style="text-align: left">Rowen Concepcion</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Secretary</td>
+      <td style="text-align: left">Che Caruthers</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Public Relations</td>
+      <td style="text-align: left">Noah Tetley</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Director</td>
+      <td style="text-align: left">Kanika Bhatt</td>
+    </tr>
+  </tbody>
+</table>
+
 Faculty Advisers: Dr. Arturo Concepcion and Dr. David Turner
 
 ### IEEE Student Chapter
@@ -80,20 +222,7 @@ Faculty Adviser: Dr. Haiyan Xiao
 
 Club Email: csusbstem@gmail.com
 
-<!--
-| Position                 | Officer           |
-|:-------------------------|:------------------|
-| President                | Tunji Owolabi     |
-| Vice President           | Marcos Reyes      |
-| Treasurer                | Tiffany Loh       |
-| Secretary                | Monica Vargas     |
-| Public Relations Officer | Athaddeus Jackson |
-| Information Officer      | Alberto Acevedo   |
-| Event Planner            | Jasmine Mesa      |
-| Webmaster                | Matthew Overduin  |
--->
-
-<table>
+<table class='table-condensed'>
   <thead>
     <tr>
       <th style="text-align: left" scope="row">Position</th>
