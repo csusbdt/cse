@@ -86,7 +86,7 @@ nav:
     </tr>
     <tr>
       <td style="text-align: left">Information Officer</td>
-      <td style="text-align: left">Joshua Weston</td>
+      <td style="text-align: left">Anthony Sterrett (Fall) / Joshua Weston (Winter-Spring)</td>
     </tr>
     <tr>
       <td style="text-align: left">Event Coordinator</td>
