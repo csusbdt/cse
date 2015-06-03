@@ -2414,7 +2414,7 @@ Circ Des Ana#</dia:string>
         <dia:point val="16.1842,5.68557"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="16.1842,4.53563;49.1791,6.03794"/>
+        <dia:rectangle val="16.1842,4.57057;49.1442,5.96807"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2447,12 +2447,12 @@ Circ Des Ana#</dia:string>
         <dia:point val="28.0167,47.9"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.0167,47.5158;33.3759,48.0184"/>
+        <dia:rectangle val="28.0167,47.5158;33.1609,48.0184"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Revision May 12, 2015 - dt#</dia:string>
+            <dia:string>#Revision June 3, 2015 - dt#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -3359,6 +3359,37 @@ Sustain ED#</dia:string>
       <dia:attribute name="valign">
         <dia:enum val="3"/>
       </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - BezierLine" version="0" id="O81">
+      <dia:attribute name="obj_pos">
+        <dia:point val="28.2544,22.7014"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="24.1821,22.648;28.3524,33.195"/>
+      </dia:attribute>
+      <dia:attribute name="bez_points">
+        <dia:point val="28.2544,22.7014"/>
+        <dia:point val="28.55,26.9367"/>
+        <dia:point val="27.5,30.3367"/>
+        <dia:point val="24.1821,33.195"/>
+      </dia:attribute>
+      <dia:attribute name="corner_types">
+        <dia:enum val="0"/>
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="22"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O21" connection="6"/>
+        <dia:connection handle="3" to="O20" connection="4"/>
+      </dia:connections>
     </dia:object>
   </dia:layer>
 </dia:diagram>
