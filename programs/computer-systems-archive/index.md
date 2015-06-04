@@ -66,16 +66,6 @@ in the computer engineering major prior to the current academic year.
   - [Game Development Option, 2008/09][game-08]
   - [Graphics Programming Option, 2008/09][graphics-08]
 
-### Program Information, 2007/2008
-
-- Flowcharts of Course Dependencies, 2007/08
-  - [General Interdisciplinary Option, 2007/08][inter-07]
-  - [Web Programming Option, 2007/08][web-07]
-  - [System Administration Option, 2007/08][system-07]
-  - [Game Development Option, 2007/08][game-07]
-  - [Graphics Programming Option, 2007/08][graphics-07]
-
-[inter-07]: flowcharts/inter/ba-inter-flowchart-2007.pdf
 [inter-08]: flowcharts/inter/ba-inter-flowchart-2008.pdf
 [inter-09]: flowcharts/inter/ba-inter-flowchart-2009.pdf
 [inter-10]: flowcharts/inter/ba-inter-flowchart-2010.pdf
@@ -83,7 +73,6 @@ in the computer engineering major prior to the current academic year.
 [inter-12]: flowcharts/inter/ba-inter-flowchart-2012.pdf
 [inter-14]: flowcharts/inter/ba-inter-flowchart-2014.pdf
 
-[game-07]: flowcharts/game/ba-game-flowchart-2007.pdf
 [game-08]: flowcharts/game/ba-game-flowchart-2008.pdf
 [game-09]: flowcharts/game/ba-game-flowchart-2009.pdf
 [game-10]: flowcharts/game/ba-game-flowchart-2010.pdf
@@ -92,7 +81,6 @@ in the computer engineering major prior to the current academic year.
 [game-13]: flowcharts/game/ba-game-flowchart-2013.pdf
 [game-14]: flowcharts/game/ba-game-flowchart-2014.pdf
 
-[graphics-07]: flowcharts/graphics/ba-graphics-flowchart-2007.pdf
 [graphics-08]: flowcharts/graphics/ba-graphics-flowchart-2008.pdf
 [graphics-09]: flowcharts/graphics/ba-graphics-flowchart-2009.pdf
 [graphics-10]: flowcharts/graphics/ba-graphics-flowchart-2010.pdf
@@ -100,7 +88,6 @@ in the computer engineering major prior to the current academic year.
 [graphics-12]: flowcharts/graphics/ba-graphics-flowchart-2012.pdf
 [graphics-14]: flowcharts/graphics/ba-graphics-flowchart-2014.pdf
 
-[system-07]: flowcharts/system/ba-system-flowchart-2007.pdf
 [system-08]: flowcharts/system/ba-system-flowchart-2008.pdf
 [system-09]: flowcharts/system/ba-system-flowchart-2009.pdf
 [system-10]: flowcharts/system/ba-system-flowchart-2010.pdf
@@ -108,7 +95,6 @@ in the computer engineering major prior to the current academic year.
 [system-12]: flowcharts/system/ba-system-flowchart-2012.pdf
 [system-14]: flowcharts/system/ba-system-flowchart-2014.pdf
 
-[web-07]: flowcharts/web/ba-web-flowchart-2007.pdf
 [web-08]: flowcharts/web/ba-web-flowchart-2008.pdf
 [web-09]: flowcharts/web/ba-web-flowchart-2009.pdf
 [web-10]: flowcharts/web/ba-web-flowchart-2010.pdf
