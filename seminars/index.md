@@ -18,3 +18,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
  11:00 - 11:30 [Abdullah Abualhamayl](2015-spring/abdullah-abualhamayl.pdf) <br>
 
+### Tuesday, June 9, 2015, JB 359
+
+  1:30 -  2:30 [Mehdi Peiravi](2015-spring/mehdi-peiravi.pdf) <br>
+
