@@ -29,7 +29,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 ### Tuesday, June 16, 2015, JB 359
 
   2:00 -  2:30 [Andrew Artz](2015-spring/andrew-artz.pdf) <br>
-  2:30 -  3:00 Kristian Howard <br>
+  2:30 -  3:00 [Kristian Howard](2015-spring/kristian-howard.pdf) <br>
   3:00 -  3:30 [Sally Phang](2015-spring/sally-phang.pdf) <br>
   3:30 -  4:00 [Jonathan Robinson](2015-spring/jonathan-robinson.pdf) <br>
 
