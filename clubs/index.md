@@ -119,7 +119,7 @@ nav:
     </tr>
     <tr>
       <td style="text-align: left">Treasurer</td>
-      <td style="text-align: left">Dylan Allbee</td>
+      <td style="text-align: left">William Elder (Fall) / Dylan Allbee (Winter-Spring)</td>
     </tr>
     <tr>
       <td style="text-align: left">Secretary</td>
