@@ -30,6 +30,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Tuesday, June 16, 2015, JB 359
 
+ 11:30 - 12:00 [David Bowman](2015-spring/david-bowman.pdf) <br>
   3:00 -  3:30 [Sally Phang](2015-spring/sally-phang.pdf) <br>
   3:30 -  4:00 [Jonathan Robinson](2015-spring/jonathan-robinson.pdf) <br>
 
