@@ -34,6 +34,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
 ### Friday, June 19, 2015, JB 359
 
+  1:00 -  1:30 [Renu Mariam Mathew](2015-spring/renu-mariam-mathew.pdf) <br>
   1:30 -  2:00 [Jennifer Waterson](2015-spring/jennifer-waterson.pdf) <br>
   2:00 -  2:30 [Nathan Alvarez](2015-spring/nathan-alvarez.pdf) <br>
 
