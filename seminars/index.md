@@ -26,6 +26,7 @@ description: Schedule of public presentations hosted by the School of CSE.
 
  12:00 - 12:15 [Andrew Artz](2015-spring/andrew-artz.pdf) <br>
  12:15 - 12:30 [Kristian Howard](2015-spring/kristian-howard.pdf) <br>
+  4:00 -  4:30 [Anthony Sterrett](2015-spring/anthony-sterrett.pdf) <br>
 
 ### Tuesday, June 16, 2015, JB 359
 
