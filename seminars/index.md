@@ -10,10 +10,6 @@ description: Schedule of public presentations hosted by the School of CSE.
 
   2:00 -  3:00 [Gerren Willis](2015-spring/gerren-willis.pdf) <br>
 
-### Friday, June 19, 2015, JB 359
-
-  2:00 -  2:30 [Nathan Alvarez](2015-spring/nathan-alvarez.pdf) <br>
-
 ### Friday, June 5, 2015, JB 359
 
  11:00 - 11:30 [Abdullah Abualhamayl](2015-spring/abdullah-abualhamayl.pdf) <br>
@@ -39,6 +35,5 @@ description: Schedule of public presentations hosted by the School of CSE.
 ### Friday, June 19, 2015, JB 359
 
   1:30 -  2:00 [Jennifer Waterson](2015-spring/jennifer-waterson.pdf) <br>
-  2:00 -  2:30 Nathan Alvarez <br>
-
+  2:00 -  2:30 [Nathan Alvarez](2015-spring/nathan-alvarez.pdf) <br>
 
