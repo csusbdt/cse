@@ -17,5 +17,5 @@ nav:
 
 ### Wednesday, August 5, 2015, JB 359
 
-  2:00 -  2:30 [Kakeru Ishii](2015-summer/kakeru-ishii.pdf) <br>
+  4:00 -  4:30 [Kakeru Ishii](2015-summer/kakeru-ishii.pdf) <br>
 
