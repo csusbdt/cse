@@ -71,7 +71,7 @@ Email: hqiao<img style="height: 1em; vertical-align: middle" src="../../assets/i
 
 <div class='third'>
 <img src="photos/Qingquan_Sun.jpg" alt="Dr. Qingquan Sun" style="width: 100px" /><br />
-<!--a href="http://cse.csusb.edu/qsun"-->Dr. Qingquan Sun<!--/a--><br />
+<a href="http://cse.csusb.edu/qsun">Dr. Qingquan Sun</a><br />
 Assistant Professor<br />
 Office: JB 348<br />
 Phone: (909) 537-7437<br />
