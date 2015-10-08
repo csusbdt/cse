@@ -31,7 +31,7 @@ You can also find additional information at the
 To apply to the master's degree program of the School of Computer Science and Engineering
 at California State University San Bernardino, do the following 3 things.
 
-* Have your GRE scores sent to the School of Computer Science and Engineering.
+* Have your GRE scores sent to the School of Computer Science and Engineering. _A total GRE General Exam Score of at least 300 for the Verbal and Quantitative Reasoning sections AND at least in the 70% percentile rank in the Quantitative Reasoning section of the GRE General Exam is required._
 * Have three letters of recommendation sent to the School of Computer Science and Engineering.
     * [Letter of recommendation in MS-WORD][recommendation-doc]
     * [Letter of recommendation in PDF][recommendation-pdf]
