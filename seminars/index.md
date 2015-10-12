@@ -15,7 +15,7 @@ nav:
 
 ## CSE Seminars __Summer Quarter 2015__
 
-### Wednesday, August 5, 2015, JB 359
+### Monday, October 12, 2015, JB 359
 
-  4:00 -  4:30 [Kakeru Ishii](2015-summer/kakeru-ishii.pdf) <br>
+  3:30 -  4:00 [Thanh Ho](2015-fall/thanh-ho.pdf) <br>
 
