@@ -36,6 +36,7 @@ Program requirements change from year to year. Students need to complete course 
 - [CSUSB Catalogs of Previous Years][catalog]
 - [Transfer Students][transfer]
 - [Forms and Templates][forms]
+- [Past Events][events]
 
 ### Advising Policy
 
@@ -57,7 +58,9 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
     <tr> <td>2010</td> <td>7</td> <td>1</td> </tr>
     <tr> <td>2011</td> <td>9</td> <td>1</td> </tr>
     <tr> <td>2012</td> <td>9</td> <td>1</td> </tr>
-    <tr> <td>2013</td> <td>9</td> <td>NA</td> </tr>
+    <tr> <td>2013</td> <td>9</td> <td>N1</td> </tr>
+    <tr> <td>2014</td> <td>17</td> <td>3</td> </tr>
+    <tr> <td>2015</td> <td>13</td> <td>2</td> </tr>
   </tbody>
 </table>
 <caption>
@@ -67,6 +70,7 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
 </caption>
 
 [archive]: ../bioinformatics-archive/
+[events]: ../bioinformatics-events/
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 [description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/biology/bioinformatics-bs/
 [flowchart]: ../bioinformatics-archive/flowcharts/bi_flowchart_2015_2016.pdf
