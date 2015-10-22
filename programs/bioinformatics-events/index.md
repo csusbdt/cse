@@ -18,4 +18,5 @@ description: One of three BS degrees offered by the School of CSE, the BS in Bio
 - [Presentation: Using Free/Open-source software to analyze breathing in neonatal rat pups](2015-06-08-LLUPresentation-rev.pdf)
 - [Segmentation of Light Microscopy Images](BioImage_Summer_2015_Poster.pdf)
 - [Transition from CSUSB to KGI](RegieFelix_BioinformaticsGetTogether.pdf)
+- [Bioinformatics Get-Togeter 2015](bioinfo-get-together-slides-2015.pdf)
 
