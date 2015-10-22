@@ -116,7 +116,8 @@ you may need to complete one of the following elective coursework application fo
 - [Interdisciplinary Coursework Application Form][inter-app]
 - [Web Programming Coursework Application Form][web-app]
 - [Game Development Coursework Application Form, AY 2012-2013 and earlier][game-app-12-13]
-- [Game Development Coursework Application Form, AY 2013-2014 and later][game-app-13-14]
+- [Game Development Coursework Application Form, AY 2013-2014][game-app-13-14]
+- [Game Development Coursework Application Form, AY 2014-2015 and later][game-app-14-present]
 - [Graphics Programming Coursework Application Form][graphics-app]
 
 ### Miscellaneous
@@ -130,6 +131,7 @@ you may need to complete one of the following elective coursework application fo
 [inter-app]: ../programs/computer-systems/forms/interdisciplinary-coursework-2011-present.pdf
 [web-app]: ../programs/computer-systems/forms/web-coursework-2012-present.pdf
 [game-app-12-13]: ../programs/computer-systems/forms/game-coursework-2012-2013.pdf
-[game-app-13-14]: ../programs/computer-systems/forms/game-coursework-2013-present.pdf
+[game-app-13-14]: ../programs/computer-systems/forms/game-coursework-2013-2014.pdf
+[game-app-14-present]: ../programs/computer-systems/forms/game-coursework-2014-present.pdf
 [graphics-app]: ../programs/computer-systems/forms/graphics-coursework-2012-present.pdf
 

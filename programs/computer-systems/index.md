@@ -38,7 +38,7 @@ Program requirements change from year to year. Students need to complete course 
 - [Web Programming Coursework Application Form][web-app]
 - [Game Development Coursework Application Form, AY 2012-2013 and earlier][game-app-12-13]
 - [Game Development Coursework Application Form, AY 2013-2015][game-app-13-14]
-- [Game Development Coursework Application Form, AY 2015][game-app-15]
+- [Game Development Coursework Application Form, AY 2015-present][game-app-15]
 - [Graphics Programming Coursework Application Form][graphics-app]
 
 ### Additional Resources
@@ -96,8 +96,8 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 [inter-app]: forms/interdisciplinary-coursework-2011-present.pdf
 [web-app]: forms/web-coursework-2012-present.pdf
 [game-app-12-13]: forms/game-coursework-2012-2013.pdf
-[game-app-13-14]: forms/game-coursework-2013-present.pdf
-[game-app-15]: forms/game-coursework-2015.pdf
+[game-app-13-14]: forms/game-coursework-2013-2014.pdf
+[game-app-15]: forms/game-coursework-2015-present.pdf
 [graphics-app]: forms/graphics-coursework-2012-present.pdf
 
 [yearly-schedule]: ../Yearly_schedule_of_courses.pdf
