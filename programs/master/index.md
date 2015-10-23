@@ -42,7 +42,8 @@ The program is designed to help students develop analytical, problem solving and
     <tr> <td>2010</td> <td>43</td> <td>12</td> </tr>
     <tr> <td>2011</td> <td>39</td> <td>10</td> </tr>
     <tr> <td>2012</td> <td>32</td> <td>12</td> </tr>
-    <tr> <td>2013</td> <td>29</td> <td>NA</td> </tr>
+    <tr> <td>2013</td> <td>29</td> <td>13</td> </tr>
+    <tr> <td>2014</td> <td>52</td> <td> 7</td> </tr>
   </tbody>
 </table>
 <caption>

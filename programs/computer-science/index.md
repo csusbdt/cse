@@ -58,7 +58,8 @@ The mission of the Bachelor of Science degree in Computer Science is to provide 
     <tr><td>2010</td><td>140</td><td>18</td></tr>
     <tr><td>2011</td><td>153</td><td>16</td></tr>
     <tr><td>2012</td><td>169</td><td>22</td></tr>
-    <tr><td>2013</td><td>222</td><td>NA</td></tr>
+    <tr><td>2013</td><td>222</td><td>22</td></tr>
+    <tr><td>2014</td><td>304</td><td>34</td></tr>
   </tbody>
 </table>
 <caption>

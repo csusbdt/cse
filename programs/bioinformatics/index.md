@@ -53,14 +53,13 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
     <tr> <th scope="col">Year</th> <th scope="col">Enrollment*</th> <th scope="col">Graduations**</th> </tr>
   </thead>
   <tbody>
-    <tr> <td>2008</td> <td>4</td> <td>-</td> </tr>
-    <tr> <td>2009</td> <td>7</td> <td>-</td> </tr>
-    <tr> <td>2010</td> <td>7</td> <td>1</td> </tr>
-    <tr> <td>2011</td> <td>9</td> <td>1</td> </tr>
-    <tr> <td>2012</td> <td>9</td> <td>1</td> </tr>
-    <tr> <td>2013</td> <td>9</td> <td>N1</td> </tr>
-    <tr> <td>2014</td> <td>17</td> <td>3</td> </tr>
-    <tr> <td>2015</td> <td>13</td> <td>2</td> </tr>
+    <tr> <td>2008</td> <td> 4</td> <td>-</td> </tr>
+    <tr> <td>2009</td> <td> 7</td> <td>-</td> </tr>
+    <tr> <td>2010</td> <td> 7</td> <td>1</td> </tr>
+    <tr> <td>2011</td> <td> 9</td> <td>1</td> </tr>
+    <tr> <td>2012</td> <td> 9</td> <td>1</td> </tr>
+    <tr> <td>2013</td> <td> 9</td> <td>2</td> </tr>
+    <tr> <td>2014</td> <td>12</td> <td>2</td> </tr>
   </tbody>
 </table>
 <caption>

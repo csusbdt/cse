@@ -51,13 +51,14 @@ The mission of the computer engineering degree program is to provide all its stu
     <tr> <th scope="col">Year</th> <th scope="col">Enrollment*</th> <th scope="col">Graduations**</th> </tr>
   </thead>
   <tbody>
-    <tr> <td>2007</td> <td>13</td> <td>-</td> </tr>
-    <tr> <td>2008</td> <td>67</td> <td>-</td> </tr>
+    <tr> <td>2007</td> <td> 13</td> <td>-</td> </tr>
+    <tr> <td>2008</td> <td> 67</td> <td>-</td> </tr>
     <tr> <td>2009</td> <td>110</td> <td>3</td> </tr>
     <tr> <td>2010</td> <td>123</td> <td>5</td> </tr>
     <tr> <td>2011</td> <td>163</td> <td>7</td> </tr>
     <tr> <td>2012</td> <td>240</td> <td>12</td> </tr>
-    <tr> <td>2013</td> <td>276</td> <td>NA</td> </tr>
+    <tr> <td>2013</td> <td>276</td> <td>23</td> </tr>
+    <tr> <td>2014</td> <td>309</td> <td>22</td> </tr>
   </tbody>
 </table>
 <caption>
