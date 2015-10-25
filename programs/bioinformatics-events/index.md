@@ -21,5 +21,5 @@ description: One of three BS degrees offered by the School of CSE, the BS in Bio
 - [Bioinformatics Get-Togeter 2015](bioinfo-get-together-slides-2015.pdf)
 - [Time Series Analysis and Machine Learning on Various Dataset](RegieFelix_UCSB2012.pdf)
 - [Verification and Validation of Continuous Glucose Monitoring Devices](RegieFelix_Dexcom2015.pdf)
-- [Transition from CSUSB to KGI](RegieFelix_BioinformaticsGetTogether.pdf)
+- [Modeling Epistatic Interactions Using Machine Learning Techniques](RegieFelix_UCSB2013.pdf)
 
