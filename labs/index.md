@@ -21,8 +21,6 @@ nav:
 
 ### Tutoring
 
-- [Help Desk Schedule](Help_desk_schedule.pdf)
-- [Tutor Schedule](Tutor_Schedule.pdf)
 - [CSE Club Tutoring Schedule](http://cse-club.com/#tutoring)
 
 ### How to Access the Lab Computers Remotely
