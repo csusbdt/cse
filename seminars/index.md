@@ -19,3 +19,7 @@ nav:
 
   3:30 -  4:00 [Thanh Ho](2015-fall/thanh-ho.pdf) <br>
 
+### Monday, November 9, 2015, JB 359
+
+ 11:00 - 12:00 [Fransisco Ron](2015-fall/fransisco-ron.pdf) <br>
+
