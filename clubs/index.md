@@ -7,8 +7,6 @@ nav:
       url: "#cse-club"
     - title: IEEE Student Chapter
       url: "#ieee-student-chapter"
-    - title: STEM Club
-      url: "#stem-club"
 ---
 
 ## Listing of current __Student Organizations__
@@ -218,7 +216,8 @@ Faculty Advisers: Dr. Arturo Concepcion and Dr. David Turner
 
 Faculty Adviser: Dr. Haiyan Xiao
 
-### STEM Club
+<!--
+ STEM Club
 
 Club Email: csusbstem@gmail.com
 
@@ -266,3 +265,5 @@ Club Email: csusbstem@gmail.com
 </table>
 
 Faculty Advisers: Dr. Kerstin Voigt and Dr. Zahid Hasan
+-->
+
