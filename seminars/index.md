@@ -23,3 +23,7 @@ nav:
 
  11:00 - 12:00 [Fransisco Ron](2015-fall/fransisco-ron.pdf) <br>
 
+### Friday, December 4, 2015, JB 359
+
+  1:00 -  1:30 [Nathan Alvarez](2015-fall/nathan-alvarez.pdf) <br>
+
