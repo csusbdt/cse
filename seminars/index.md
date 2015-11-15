@@ -27,3 +27,7 @@ nav:
 
   1:00 -  1:30 [Nathan Alvarez](2015-fall/nathan-alvarez.pdf) <br>
 
+### Tuesday, December 8, 2015, JB 359
+
+  1:30 -  2:00 [Yazhuo Liu](2015-fall/yazhuo-liu.pdf) <br>
+
