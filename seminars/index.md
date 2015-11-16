@@ -26,6 +26,7 @@ nav:
 ### Friday, December 4, 2015, JB 359
 
   1:00 -  1:30 [Nathan Alvarez](2015-fall/nathan-alvarez.pdf) <br>
+  1:30 -  2:00 [Leigh-anna Griswould](2015-fall/leigh-anna-griswould.pdf) <br>
 
 ### Tuesday, December 8, 2015, JB 359
 
