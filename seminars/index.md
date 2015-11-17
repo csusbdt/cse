@@ -13,7 +13,7 @@ nav:
       url: "2014-spring"
 ---
 
-## CSE Seminars __Summer Quarter 2015__
+## CSE Seminars __Fall Quarter 2015__
 
 ### Monday, October 12, 2015, JB 359
 
