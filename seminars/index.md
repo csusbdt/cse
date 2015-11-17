@@ -30,5 +30,6 @@ nav:
 
 ### Tuesday, December 8, 2015, JB 359
 
+  1:00 -  1:30 [Christopher Huber](2015-fall/christopher-huber.pdf) <br>
   1:30 -  2:00 [Yazhuo Liu](2015-fall/yazhuo-liu.pdf) <br>
 
