@@ -27,6 +27,7 @@ nav:
 
   1:00 -  1:30 [Nathan Alvarez](2015-fall/nathan-alvarez.pdf) <br>
   1:30 -  2:00 [Leigh-anna Griswould](2015-fall/leigh-anna-griswould.pdf) <br>
+  2:00 -  2:30 [Kakeru Ishii](2015-fall/kakeru-ishii.pdf) <br>
 
 ### Tuesday, December 8, 2015, JB 359
 
