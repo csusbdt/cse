@@ -1820,12 +1820,12 @@ Elective **#</dia:string>
         <dia:point val="27.2395,42.8785"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="27.2395,42.4892;32.4213,42.9971"/>
+        <dia:rectangle val="27.2395,42.4892;33.6963,42.9971"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Revision May 15, 2015 dt#</dia:string>
+            <dia:string>#Revision November 21, 2015 dt#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -1853,7 +1853,7 @@ Elective **#</dia:string>
         <dia:point val="14.75,4.21595"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="14.75,3.06601;45.4274,4.56832"/>
+        <dia:rectangle val="14.75,3.10095;45.3925,4.49845"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -3076,6 +3076,34 @@ Bio Chm 1#</dia:string>
       <dia:attribute name="valign">
         <dia:enum val="3"/>
       </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O73">
+      <dia:attribute name="obj_pos">
+        <dia:point val="19.4175,14.45"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="19.3477,14.3802;27.0908,19.9698"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="19.4175,14.45"/>
+        <dia:point val="27,19.9"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="22"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O19" connection="6"/>
+        <dia:connection handle="1" to="O6" connection="3"/>
+      </dia:connections>
     </dia:object>
   </dia:layer>
 </dia:diagram>
