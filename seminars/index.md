@@ -25,7 +25,7 @@ nav:
 
 ### Monday, November 30, 2015, JB 359
 
- 11:30 - 12:00 [sandeep-goud-karrey](2015-fall/sandeep-goud-karrey.pdf) <br>
+ 11:30 - 12:00 [Sandeep Goud Karrey](2015-fall/sandeep-goud-karrey.pdf) <br>
 
 ### Friday, December 4, 2015, JB 359
 
