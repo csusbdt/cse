@@ -33,6 +33,7 @@ nav:
   1:30 -  2:00 [Leigh-anna Griswould](2015-fall/leigh-anna-griswould.pdf) <br>
   2:00 -  2:30 [Kakeru Ishii](2015-fall/kakeru-ishii.pdf) <br>
   2:30 -  3:00 Cody Marsh <br>
+  3:00 -  3:30 [Christopher Valdez](2015-fall/christopher-valdez.pdf) <br>
 
 ### Tuesday, December 8, 2015, JB 359
 
