@@ -44,3 +44,7 @@ nav:
   1:00 -  1:30 [Christopher Huber](2015-fall/christopher-huber.pdf) <br>
   1:30 -  2:00 [Yazhuo Liu](2015-fall/yazhuo-liu.pdf) <br>
 
+### Thursday, December 10, 2015, JB 359
+
+  2:00 -  2:30 [Ranjan Khadka](2015-fall/ranjan-khadka.pdf) <br>
+
