@@ -43,6 +43,7 @@ nav:
 
   1:00 -  1:30 [Christopher Huber](2015-fall/christopher-huber.pdf) <br>
   1:30 -  2:00 [Yazhuo Liu](2015-fall/yazhuo-liu.pdf) <br>
+  2:00 -  2:30 [Kevin de la Cueva](2015-fall/kevin-de-la-cueva.pdf) <br>
   2:30 -  3:00 [Ranjan Khadka](2015-fall/ranjan-khadka.pdf) <br>
 
 
