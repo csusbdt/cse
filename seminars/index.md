@@ -39,6 +39,10 @@ nav:
   2:30 -  3:00 [Cody Marsh](2015-fall/cody-marsh.pdf) <br>
   3:00 -  3:30 [Christopher Valdez](2015-fall/christopher-valdez.pdf) <br>
 
+### Thursday, December 7, 2015
+
+ 10:00 - 10:30 Kyle Holley <br>
+
 ### Tuesday, December 8, 2015, JB 359
 
  11:00 - 11:30 [Ismael Sanchez](2015-fall/ismael-sanchez.pdf) <br>
@@ -46,5 +50,5 @@ nav:
   1:30 -  2:00 [Yazhuo Liu](2015-fall/yazhuo-liu.pdf) <br>
   2:00 -  2:30 [Kevin de la Cueva](2015-fall/kevin-de-la-cueva.pdf) <br>
   2:30 -  3:00 [Ranjan Khadka](2015-fall/ranjan-khadka.pdf) <br>
-
+  3:30 -  4:00 [Orlando Rangel](2015-fall/orlando-rangel.pdf) <br>
 
