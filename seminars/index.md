@@ -41,6 +41,7 @@ nav:
 
 ### Tuesday, December 8, 2015, JB 359
 
+ 11:00 - 11:30 [Ismael Sanchez](2015-fall/ismael-sanchez.pdf) <br>
   1:00 -  1:30 [Christopher Huber](2015-fall/christopher-huber.pdf) <br>
   1:30 -  2:00 [Yazhuo Liu](2015-fall/yazhuo-liu.pdf) <br>
   2:00 -  2:30 [Kevin de la Cueva](2015-fall/kevin-de-la-cueva.pdf) <br>
