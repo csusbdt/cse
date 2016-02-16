@@ -23,6 +23,7 @@ The Bachelor of Science (BS) in Computer Engineering program covers areas of ele
 
 - [Program Description 2015/16][description]
 - [Flowchart of Course Dependencies 2015/16][flowchart]
+- [Flowchart of Course Dependencies 2016/17][flowchart2]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
 
@@ -72,6 +73,7 @@ The mission of the computer engineering degree program is to provide all its stu
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
 [flowchart]: ../computer-engineering-archive/flowcharts/ce-flowchart-2015.pdf
+[flowchart2]: ../computer-engineering-archive/flowcharts/ce-flowchart-2016.pdf
 [description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-engineering-bs/
 [archive]: ../computer-engineering-archive/
 [outcomes]: computer-engineering-objectives-and-outcomes.pdf
