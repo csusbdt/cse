@@ -21,3 +21,7 @@ nav:
 
  11:30 - 12:00 [Thanh Ho](2016-winter/thanh-ho.pdf) <br>
 
+### Monday, March 14, 2016, JB 359
+
+ 11:00 - 11:30 [Devin Adams](2016-winter/devin-adams.pdf) <br>
+
