@@ -25,3 +25,7 @@ nav:
 
  11:00 - 11:30 [Devin Adams](2016-winter/devin-adams.pdf) <br>
 
+### Thursday, March 17, 2016, JB 359
+
+  3:30 -  4:00 [Richard Quon](2016-winter/richard-quon.pdf) <br>
+
