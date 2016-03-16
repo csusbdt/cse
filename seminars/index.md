@@ -28,6 +28,7 @@ nav:
 ### Thursday, March 17, 2016, JB 358
 
   3:30 -  4:00 [Richard Quon](2016-winter/richard-quon.pdf) <br>
+  4:30 -  5:00 [Mark Swoope](2016-winter/mark-swoope.pdf) <br>
 
 ### Friday, March 18, 2016, JB 389/391
 
