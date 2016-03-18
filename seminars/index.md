@@ -32,6 +32,7 @@ nav:
 
 ### Friday, March 18, 2016, JB 389/391
 
+ 11:00 - 11:30 [Jorge Gamez, 482](2016-winter/jorge-gamez-482.pdf) <br>
  11:30 - 12:00 [Pablos Robles, 482](2016-winter/pablos-robles-482.pdf) <br>
  12:00 - 12:30 [Pablos Robles, 595](2016-winter/pablos-robles-595.pdf) <br>
  12:30 -  1:00 [Munachiso Ogbuchiekwe](2016-winter/munachiso-ogbuchiekwe.pdf) <br>
