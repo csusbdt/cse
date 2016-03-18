@@ -36,3 +36,7 @@ nav:
  12:00 - 12:30 [Pablos Robles, 595](2016-winter/pablos-robles-595.pdf) <br>
  12:30 -  1:00 [Munachiso Ogbuchiekwe](2016-winter/munachiso-ogbuchiekwe.pdf) <br>
 
+### Friday, March 25, 2016, JB 359
+
+ 12:30 -  1:00 [Andrew Yenalavitch, 482](2016-winter/andrew-yenalavitch-482.pdf) <br>
+
