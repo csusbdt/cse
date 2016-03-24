@@ -43,6 +43,7 @@ nav:
 
 ### Friday, March 25, 2016, JB 359
 
+ 11:00 - 11:30 [Nathan Rittenhouse](2016-winter/nathan-rittenhouse-595.pdf) <br>
  12:30 -  1:00 [Andrew Yenalavitch, 482](2016-winter/andrew-yenalavitch-482.pdf) <br>
   2:30 -  3:00 [Kevin de la Cueva, 595](2016-winter/kevin-de-la-cueva-595.pdf) <br>
 
