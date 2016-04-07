@@ -3,7 +3,7 @@ layout: default
 title: School of Computer Science &amp; Engineering
 description: Schedule of public presentations hosted by the School of CSE.
 nav:
-    - title: Winter 2015
+    - title: Winter 2016
       url: "2016-winter"
     - title: Fall 2015
       url: "2015-fall"
