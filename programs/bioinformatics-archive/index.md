@@ -8,11 +8,11 @@ description: One of three BS degrees offered by the School of CSE, the BS in Bio
 
 This page contains archived information relevant to students who enrolled
 in the bioinformatics major prior to the current academic year.
+In addition to the flowcharts listed here, you can also see the [prior year catalogs](http://catalog.csusb.edu/).
 
 ### Program Information
 
 - [Flowchart of Course Dependencies 2014/15][flowchart-14-15]
-- [Program Description 2012/13 - 2013/14][description-12-14]
 - [Flowchart of Course Dependencies 2012/13 - 2013/14][flowchart-12-14]
 
 [description_2012]: descriptions/bi_description_2012_2014.pdf

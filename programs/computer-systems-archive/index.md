@@ -8,6 +8,7 @@ description: The Bachelor of Arts in Computer Science is a 4-year degree focused
 
 This page contains archived information relevant to students who enrolled
 in the computer engineering major prior to the current academic year.
+In addition to the flowcharts listed here, you can also see the [prior year catalogs](http://catalog.csusb.edu/).
 
 ### Program Information, 2014/2015
 

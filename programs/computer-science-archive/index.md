@@ -11,6 +11,7 @@ in the computer science major prior to the current academic year.
 
 ### Program Information
 
+- [Program Description 2014/15][description-14-15]
 - [Flowchart of Course Dependencies 2014/15][flowchart-14-15]
 - [Program Description 2012/13 - 2013/14][description-12-14]
 - [Flowchart of Course Dependencies 2012/13 - 2013/14][flowchart-12-14]
@@ -23,7 +24,7 @@ in the computer science major prior to the current academic year.
 - [Program Description 2008/09][description-08-09]
 - [Flowchart of Course Dependencies 2008/09][flowchart-08-09]
 
-[description-14-15]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-science-bs/
+[description-14-15]: http://bulletin.csusb.edu/archive/2014-15/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-science-bs/
 [flowchart-14-15]: flowcharts/cs_flowchart_2014_2015.pdf
 
 [description-12-14]: descriptions/cs_description_2012_2014.pdf
