@@ -11,6 +11,8 @@ in the computer science major prior to the current academic year.
 
 ### Program Information
 
+- [Program Description 2015/16][description-15-16]
+- [Flowchart of Course Dependencies 2015/16][flowchart-15-16]
 - [Program Description 2014/15][description-14-15]
 - [Flowchart of Course Dependencies 2014/15][flowchart-14-15]
 - [Program Description 2012/13 - 2013/14][description-12-14]
