@@ -22,11 +22,11 @@ The Bachelor of Arts (BA) in Computer Systems program emphasizes the application
 ### Program Information
 
 - [Program description, 2016/2017][description]
-- [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2015/16][flowchart-inter]
-- [Flowchart of Course Dependencies for the Web Programming Option, 2015/16][flowchart-web]
-- [Flowchart of Course Dependencies for the System Administrator Option, 2015/16][flowchart-system]
-- [Flowchart of Course Dependencies for the Game Development Option, 2015/16][flowchart-game]
-- [Flowchart of Course Dependencies for the Graphics Programming Option, 2015/16][flowchart-graphics]
+- [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2016/17][flowchart-inter]
+- [Flowchart of Course Dependencies for the Web Programming Option, 2016/17][flowchart-web]
+- [Flowchart of Course Dependencies for the System Administrator Option, 2016/17][flowchart-system]
+- [Flowchart of Course Dependencies for the Game Development Option, 2016/17][flowchart-game]
+- [Flowchart of Course Dependencies for the Graphics Programming Option, 2016/17][flowchart-graphics]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
 
