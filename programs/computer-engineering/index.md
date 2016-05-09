@@ -22,7 +22,6 @@ The Bachelor of Science (BS) in Computer Engineering program covers areas of ele
 ### Program Information
 
 - [Program Description 2015/16][description]
-- [Flowchart of Course Dependencies 2015/16][flowchart]
 - [Flowchart of Course Dependencies 2016/17][flowchart2]
 - [Descriptions and Flowcharts for Prior Years][archive]
 - [Program Objectives and Student Outcomes][outcomes]
