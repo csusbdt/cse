@@ -85,11 +85,11 @@ The goal of the BA Computer Systems program is for graduates of the program to p
 [paws]: http://cms.csusb.edu/ehelp/sa/Paws.jsp
 
 [description]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-systems-ba/
-[flowchart-inter]: ../computer-systems-archive/flowcharts/inter/ba-inter-flowchart-2015.pdf
-[flowchart-game]: ../computer-systems-archive/flowcharts/game/ba-game-flowchart-2015.pdf
-[flowchart-graphics]: ../computer-systems-archive/flowcharts/graphics/ba-graphics-flowchart-2015.pdf
-[flowchart-system]: ../computer-systems-archive/flowcharts/system/ba-system-flowchart-2015.pdf
-[flowchart-web]: ../computer-systems-archive/flowcharts/web/ba-web-flowchart-2015.pdf
+[flowchart-inter]: ../computer-systems-archive/flowcharts/inter/ba-inter-flowchart-2016.pdf
+[flowchart-game]: ../computer-systems-archive/flowcharts/game/ba-game-flowchart-2016.pdf
+[flowchart-graphics]: ../computer-systems-archive/flowcharts/graphics/ba-graphics-flowchart-2016.pdf
+[flowchart-system]: ../computer-systems-archive/flowcharts/system/ba-system-flowchart-2016.pdf
+[flowchart-web]: ../computer-systems-archive/flowcharts/web/ba-web-flowchart-2016.pdf
 
 [archive]: ../computer-systems-archive/
 [outcomes]: computer-systems-objectives-and-outcomes.pdf

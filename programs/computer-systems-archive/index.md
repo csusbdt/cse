@@ -10,6 +10,14 @@ This page contains archived information relevant to students who enrolled
 in the computer engineering major prior to the current academic year.
 In addition to the flowcharts listed here, you can also see the [prior year catalogs](http://catalog.csusb.edu/).
 
+### Program Information, 2015/2016
+
+- [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2015/16][inter-15]
+- [Flowchart of Course Dependencies for the Web Programming Option, 2015/16][web-15]
+- [Flowchart of Course Dependencies for the System Administrator Option, 2015/16][system-15]
+- [Flowchart of Course Dependencies for the Game Development Option, 2015/16][game-15]
+- [Flowchart of Course Dependencies for the Graphics Programming Option, 2015/16][graphics-15]
+
 ### Program Information, 2014/2015
 
 - [Flowchart of Course Dependencies for the General Interdisciplinary Option, 2014/15][inter-14]
@@ -70,6 +78,7 @@ In addition to the flowcharts listed here, you can also see the [prior year cata
 [inter-11]: flowcharts/inter/ba-inter-flowchart-2011.pdf
 [inter-12]: flowcharts/inter/ba-inter-flowchart-2012.pdf
 [inter-14]: flowcharts/inter/ba-inter-flowchart-2014.pdf
+[inter-15]: flowcharts/inter/ba-inter-flowchart-2015.pdf
 
 [game-08]: flowcharts/game/ba-game-flowchart-2008.pdf
 [game-09]: flowcharts/game/ba-game-flowchart-2009.pdf
@@ -78,6 +87,7 @@ In addition to the flowcharts listed here, you can also see the [prior year cata
 [game-12]: flowcharts/game/ba-game-flowchart-2012.pdf
 [game-13]: flowcharts/game/ba-game-flowchart-2013.pdf
 [game-14]: flowcharts/game/ba-game-flowchart-2014.pdf
+[game-15]: flowcharts/game/ba-game-flowchart-2015.pdf
 
 [graphics-08]: flowcharts/graphics/ba-graphics-flowchart-2008.pdf
 [graphics-09]: flowcharts/graphics/ba-graphics-flowchart-2009.pdf
@@ -85,6 +95,7 @@ In addition to the flowcharts listed here, you can also see the [prior year cata
 [graphics-11]: flowcharts/graphics/ba-graphics-flowchart-2011.pdf
 [graphics-12]: flowcharts/graphics/ba-graphics-flowchart-2012.pdf
 [graphics-14]: flowcharts/graphics/ba-graphics-flowchart-2014.pdf
+[graphics-15]: flowcharts/graphics/ba-graphics-flowchart-2015.pdf
 
 [system-08]: flowcharts/system/ba-system-flowchart-2008.pdf
 [system-09]: flowcharts/system/ba-system-flowchart-2009.pdf
@@ -92,6 +103,7 @@ In addition to the flowcharts listed here, you can also see the [prior year cata
 [system-11]: flowcharts/system/ba-system-flowchart-2011.pdf
 [system-12]: flowcharts/system/ba-system-flowchart-2012.pdf
 [system-14]: flowcharts/system/ba-system-flowchart-2014.pdf
+[system-15]: flowcharts/system/ba-system-flowchart-2015.pdf
 
 [web-08]: flowcharts/web/ba-web-flowchart-2008.pdf
 [web-09]: flowcharts/web/ba-web-flowchart-2009.pdf
@@ -99,5 +111,6 @@ In addition to the flowcharts listed here, you can also see the [prior year cata
 [web-11]: flowcharts/web/ba-web-flowchart-2011.pdf
 [web-12]: flowcharts/web/ba-web-flowchart-2012.pdf
 [web-14]: flowcharts/web/ba-web-flowchart-2014.pdf
+[web-15]: flowcharts/web/ba-web-flowchart-2015.pdf
 
 

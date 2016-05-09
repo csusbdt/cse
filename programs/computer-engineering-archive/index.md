@@ -12,6 +12,7 @@ in the computer engineering major prior to the current academic year.
 ### Program Information
 
 - [Flowchart of Course Dependencies 2016/17][flowchart-16-17]
+- [Program Description 2015/16][description-15-16]
 - [Flowchart of Course Dependencies 2015/16][flowchart-15-16]
 - [Program Description 2014/15][description-14-15]
 - [Flowchart of Course Dependencies 2014/15][flowchart-14-15]
@@ -35,6 +36,7 @@ in the computer engineering major prior to the current academic year.
 [flowchart-09-10]: flowcharts/ce-flowchart-2009.pdf
 [flowchart-08-09]: flowcharts/ce-flowchart-2008.pdf
 
+[description-15-16]: http://bulletin.csusb.edu/archive/2015-16/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-engineering-bs/
 [description-14-15]: http://bulletin.csusb.edu/archive/2014-15/colleges-schools-departments/natural-sciences/computer-science-engineering/computer-engineering-bs/
 [description-12-14]: descriptions/ce-description-2012.pdf
 [description-11-12]: descriptions/ce-description-2011.pdf
