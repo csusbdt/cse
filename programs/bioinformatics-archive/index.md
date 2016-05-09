@@ -12,16 +12,13 @@ In addition to the flowcharts listed here, you can also see the [prior year cata
 
 ### Program Information
 
+- [Flowchart of Course Dependencies 2015/16][flowchart-15-16]
 - [Flowchart of Course Dependencies 2014/15][flowchart-14-15]
 - [Flowchart of Course Dependencies 2012/13 - 2013/14][flowchart-12-14]
 
-[description_2012]: descriptions/bi_description_2012_2014.pdf
-[flowchart]: flowcharts/bi_flowchart_2012_2014.pdf
-
-[description-14-15]: http://bulletin.csusb.edu/colleges-schools-departments/natural-sciences/biology/bioinformatics-bs/
-[flowchart-14-15]: flowcharts/bi_flowchart_2014_2015.pdf
-
-[description-12-14]: descriptions/bi_description_2012_2014.pdf
 [flowchart-12-14]: flowcharts/bi_flowchart_2012_2014.pdf
+[flowchart-14-15]: flowcharts/bi_flowchart_2014_2015.pdf
+[flowchart-15-16]: flowcharts/bi_flowchart_2015_2016.pdf
+
 
 
