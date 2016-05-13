@@ -27,12 +27,12 @@ Email: amartine<img style="height: 1em; vertical-align: middle" src="../assets/i
 </div>
 
 <div class='third'>
-<p><img src="../faculty/part-time/photos/Empty.gif" alt="Ms. Chingyi (Birdy) Wang" /><br />
-<strong>Ms. Chingyi (Birdy) Wang</strong><br />
+<p><img src="../faculty/part-time/photos/Empty.gif" alt="Mr. Alan Lin" /><br />
+<strong>Mr. Alan Lin</strong><br />
 Information Technical Consultant<br />
 Office: JB 351<br />
 Phone: (909) 537-5430<br />
-Email: bwang<img style="height: 1em; vertical-align: middle" src="../assets/img/arobase.jpg" alt="arobase" />csusb.edu</p>
+Email: alin<img style="height: 1em; vertical-align: middle" src="../assets/img/arobase.jpg" alt="arobase" />csusb.edu</p>
 </div>
 
 <div class='third'>
