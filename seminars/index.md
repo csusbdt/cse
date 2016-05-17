@@ -23,3 +23,11 @@ nav:
 
  12:00 - 12:30 [Ivo Tantamango](2016-spring/ivo-tantamango.pdf) <br>
 
+### Friday, June 10, 2016, JB 359
+
+  1:00 - 1:30 Edgar Panduro     <br>
+  1:30 - 2:00 William Pucket    <br>
+  2:00 - 2:30 Jacob Field       <br>
+  2:30 - 3:00 Abrahim Abdelaziz <br>
+
+
