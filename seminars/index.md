@@ -28,6 +28,6 @@ nav:
   1:00 - 1:30 Edgar Panduro     <br>
   1:30 - 2:00 William Pucket    <br>
   2:00 - 2:30 Jacob Field       <br>
-  2:30 - 3:00 Abrahim Abdelaziz <br>
+  2:30 - 3:00 [Abrahim Abdelaziz](2016-spring/abrahim-abdelaziz-575.pdf) <br>
 
 
