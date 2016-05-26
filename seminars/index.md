@@ -30,4 +30,8 @@ nav:
   2:00 - 2:30 Jacob Field       <br>
   2:30 - 3:00 [Abrahim Abdelaziz](2016-spring/abrahim-abdelaziz-575.pdf) <br>
 
+### Monday, June 13, 2016, JB 359
+
+ 10:00 -10:30 Austin White     <br>
+
 
