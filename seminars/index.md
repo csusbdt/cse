@@ -26,6 +26,7 @@ nav:
 ### Thursday, June 9, 2016, JB 359
 
   1:00 - 1:30 Brandon Saunders     <br>
+  1:30 - 2:00 Sandeep Goud Karrey     <br>
 
 ### Friday, June 10, 2016, JB 359
 
@@ -35,6 +36,7 @@ nav:
   2:00 - 2:30 [Jacob Field](2016-spring/jacob-field-482.pdf)       <br>
   2:30 - 3:00 [Abrahim Abdelaziz](2016-spring/abrahim-abdelaziz-575.pdf) <br>
   3:00 - 3:30 Mark Martinez, Kristian Howard       <br>
+  3:30 - 4:00 Kyle Lovejoy     <br>
 
 ### Monday, June 13, 2016, JB 359
 
@@ -43,6 +45,7 @@ nav:
 
 ### Tuesday, June 14, 2016, JB 359
 
-  1:00 - 1:30 Kyle Lovejoy     <br>
+  1:00 - 1:30 <br>
+  1:30 - 2:00 Tuan Nguyen     <br>
 
 
