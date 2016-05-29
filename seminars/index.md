@@ -37,6 +37,7 @@ nav:
   2:30 - 3:00 [Abrahim Abdelaziz](2016-spring/abrahim-abdelaziz-575.pdf) <br>
   3:00 - 3:30 [Mark Martinez, Kristian Howard](2016-spring/martinez-howard.pdf)       <br>
   3:30 - 4:00 Kyle Lovejoy     <br>
+  4:00 - 4:30 Armando Galvin     <br>
 
 ### Monday, June 13, 2016, JB 359
 
