@@ -23,6 +23,10 @@ nav:
 
  12:00 - 12:30 [Ivo Tantamango](2016-spring/ivo-tantamango.pdf) <br>
 
+### Thursday, June 9, 2016, JB 359
+
+  1:00 - 1:30 Brandon Saunders     <br>
+
 ### Friday, June 10, 2016, JB 359
 
  12:30 - 1:00 James Moseley     <br>
