@@ -26,7 +26,7 @@ nav:
 ### Thursday, June 9, 2016, JB 359
 
   1:00 - 1:30 [Brandon Saunders](2016-spring/brandon-saunders-575.pdf)     <br>
-  1:30 - 2:00 Sandeep Goud Karrey     <br>
+  1:30 - 2:00 [Sandeep Goud Karrey](2016-spring/sandeep-goud-karrey-575.pdf)     <br>
   2:00 - 2:30 Sindhu Hari     <br>
 
 ### Friday, June 10, 2016, JB 359
