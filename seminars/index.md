@@ -27,7 +27,7 @@ nav:
 
   1:00 - 1:30 [Brandon Saunders](2016-spring/brandon-saunders-575.pdf)     <br>
   1:30 - 2:00 [Sandeep Goud Karrey](2016-spring/sandeep-goud-karrey-575.pdf)     <br>
-  2:00 - 2:30 Sindhu Hari     <br>
+  2:00 - 2:30 [Sindhu Hari](2016-spring/sindhu-hari-695.pdf)     <br>
 
 ### Friday, June 10, 2016, JB 359
 
@@ -48,6 +48,6 @@ nav:
 ### Tuesday, June 14, 2016, JB 359
 
   1:00 - 1:30 [Kyle Lovejoy](2016-spring/kyle-lovejoy-482.pdf) <br>
-  1:30 - 2:00 Tuan Nguyen     <br>
+  1:30 - 2:00 [Tuan Nguyen[(2016-spring/tuan-nguyen-696.pdf)     <br>
 
 
