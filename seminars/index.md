@@ -27,10 +27,11 @@ nav:
 
   1:00 - 1:30 [Brandon Saunders](2016-spring/brandon-saunders-575.pdf)     <br>
   1:30 - 2:00 Sandeep Goud Karrey     <br>
+  2:00 - 2:30 Sindhu Hari     <br>
 
 ### Friday, June 10, 2016, JB 359
 
- 12:30 - 1:00 James Moseley     <br>
+ 12:30 - 1:00 [James Moseley](2016-spring/james-moseley-595.pdf)     <br>
   1:00 - 1:30 Edgar Panduro     <br>
   1:30 - 2:00 [William Pucket](2016-spring/william-puckett-482.pdf)    <br>
   2:00 - 2:30 [Jacob Field](2016-spring/jacob-field-482.pdf)       <br>
