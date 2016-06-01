@@ -38,8 +38,8 @@ nav:
   2:00 - 2:30 [Jacob Field](2016-spring/jacob-field-482.pdf)       <br>
   2:30 - 3:00 [Abrahim Abdelaziz](2016-spring/abrahim-abdelaziz-575.pdf) <br>
   3:00 - 3:30 [Mark Martinez, Kristian Howard](2016-spring/martinez-howard.pdf)       <br>
-  3:30 - 4:00      <br>
-  4:00 - 4:30 Armando Galvin     <br>
+  3:30 - 4:00 Armando Galvin     <br>
+  4:00 - 4:30 <br>
 
 ### Monday, June 13, 2016, JB 359
 
