@@ -29,6 +29,7 @@ nav:
   1:30 - 2:00 [Sandeep Goud Karrey](2016-spring/sandeep-goud-karrey-575.pdf)     <br>
   2:00 - 2:30 [Sindhu Hari](2016-spring/sindhu-hari-695.pdf)     <br>
   2:30 - 3:00 Nanjeeth reddy Annam     <br>
+  3:00 - 3:30 Thomas Lipari     <br>
 
 ### Friday, June 10, 2016, JB 359
 
