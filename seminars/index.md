@@ -23,7 +23,11 @@ nav:
 
  12:00 - 12:30 [Ivo Tantamango](2016-spring/ivo-tantamango.pdf) <br>
 
-### Thursday, June 9, 2016, JB 359
+### Wednesday, June 8, 2016, JB 358
+
+ 11:00 - 11:30 [Mark Baltes](2016-spring/mark-baltes-595.pdf)     <br>
+
+### Thursday, June 9, 2016, JB 358
 
   1:00 - 1:30 [Brandon Saunders](2016-spring/brandon-saunders-575.pdf)     <br>
   1:30 - 2:00 [Sandeep Goud Karrey](2016-spring/sandeep-goud-karrey-575.pdf)     <br>
