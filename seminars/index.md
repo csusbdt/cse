@@ -59,5 +59,5 @@ nav:
 
 ### Wednesday, June 15, 2016, JB 359
 
- 11:00 - 11:30 Sean Hamilton <br>
+ 11:00 - 11:30 [Sean Hamilton](sean-hamilton-595.pdf) <br>
 
