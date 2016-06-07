@@ -43,7 +43,7 @@ nav:
   2:00 - 2:30 [Jacob Field](2016-spring/jacob-field-482.pdf)       <br>
   2:30 - 3:00 [Abrahim Abdelaziz](2016-spring/abrahim-abdelaziz-575.pdf) <br>
   3:00 - 3:30 [Mark Martinez, Kristian Howard](2016-spring/martinez-howard.pdf)       <br>
-  3:30 - 4:00 Armando Galvin     <br>
+  3:30 - 4:00 [Armando Galvin](2016-spring/armando-galvan-482.pdf)     <br>
   4:00 - 4:30 <br>
 
 ### Monday, June 13, 2016, JB 359
@@ -57,4 +57,7 @@ nav:
   1:00 -  1:30 [Kyle Lovejoy](2016-spring/kyle-lovejoy-482.pdf) <br>
   1:30 -  2:00 [Tuan Nguyen](2016-spring/tuan-nguyen-696.pdf)     <br>
 
+### Wednesday, June 15, 2016, JB 359
+
+ 11:00 - 11:30 Sean Hamilton <br>
 
