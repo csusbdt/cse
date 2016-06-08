@@ -60,4 +60,6 @@ nav:
 ### Wednesday, June 15, 2016, JB 359
 
  11:00 - 11:30 [Sean Hamilton](2016-spring/sean-hamilton-595.pdf) <br>
+ 11:30 - 12:00 [Mark Martinez](2016-spring/mark-martinez-575.pdf ) <br>
+
 
