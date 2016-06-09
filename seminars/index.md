@@ -50,6 +50,9 @@ nav:
 
  10:00 - 10:30 Austin White     <br>
 
+### Monday, June 13, 2016, JB 358
+
+  4:30 -  5:00 [Jayson Duarte](2016-spring/jayson-duarte-595.pdf)     <br>
 
 ### Tuesday, June 14, 2016, JB 359
 
