@@ -66,5 +66,9 @@ nav:
 
  11:00 - 11:30 [Sean Hamilton](2016-spring/sean-hamilton-595.pdf) <br>
  11:30 - 12:00 [Mark Martinez](2016-spring/mark-martinez-575.pdf ) <br>
+  2:00 -  2:30 [Akshay Dave](2016-spring/akshay-dave-695.pdf ) <br>
 
+### Thursday, June 16, 2016, JB 359
+
+  7:30 -  8:00pm [Josiah Moreno](2016-spring/josiah-moreno-595.pdf) <br>
 
