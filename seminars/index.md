@@ -70,5 +70,6 @@ nav:
 
 ### Thursday, June 16, 2016, JB 359
 
+  1:30 -  2:00   [Louis Hodges](2016-spring/louis-hodges-482.pdf) <br>
   7:30 -  8:00pm [Josiah Moreno](2016-spring/josiah-moreno-595.pdf) <br>
 
