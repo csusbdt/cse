@@ -67,6 +67,9 @@ nav:
  11:00 - 11:30 [Sean Hamilton](2016-spring/sean-hamilton-595.pdf) <br>
  11:30 - 12:00 [Mark Martinez](2016-spring/mark-martinez-575.pdf ) <br>
   2:00 -  2:30 [Akshay Dave](2016-spring/akshay-dave-695.pdf ) <br>
+  4:00 -  4:30 [Khoi Minh Pham](2016-spring/khoi-minh-pham-695.pdf ) <br>
+  4:30 -  5:00 [Jin Yong Doh](2016-spring/jin-yong-doh-595.pdf ) <br>
+  5:00 -  5:30 [Jin Yong Doh](2016-spring/jin-yong-doh-575.pdf ) <br>
 
 ### Thursday, June 16, 2016, JB 358
 
