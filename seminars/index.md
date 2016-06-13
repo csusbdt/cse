@@ -77,5 +77,6 @@ nav:
 
 ### Thursday, June 16, 2016, JB 359
 
+  6:00 -         [Christopher Koenig – Jose Banuelos – Thomas Saldana](2016-spring/koenig-banuelos-saldana-575.pdf) <br>
   7:30 -  8:00pm [Josiah Moreno](2016-spring/josiah-moreno-595.pdf) <br>
 
