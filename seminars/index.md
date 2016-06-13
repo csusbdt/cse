@@ -60,7 +60,7 @@ nav:
  12:00 -  1:00 [Eric Cripps and Kyle Lovejoy](2016-spring/eric-cripps-kyle-lovejoy.pdf) [David Veronin and Casey Vassios](2016-spring/david-veronin-casey-vassios.pdf)<br>
   1:00 -  1:30 <br>
   1:30 -  2:00 [Tuan Nguyen](2016-spring/tuan-nguyen-696.pdf)     <br>
-  2:00 -  2:30 Ahmed Abdellatif <br>
+  2:00 -  2:30 [Ahmed Abdellatif](2016-spring/ahmed-abdellatif-595.pdf) <br>
 
 ### Wednesday, June 15, 2016, JB 359
 
