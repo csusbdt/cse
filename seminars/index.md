@@ -73,7 +73,8 @@ nav:
 
 ### Thursday, June 16, 2016, JB 358
 
-  1:30 -  2:00   [Louis Hodges](2016-spring/louis-hodges-482.pdf) <br>
+  1:30 -  2:00 [Louis Hodges](2016-spring/louis-hodges-482.pdf) <br>
+  2:00 -  2:00 [Pujen Solanki](2016-spring/pujen-solanki-595.pdf) <br>
 
 ### Thursday, June 16, 2016, JB 359
 
