@@ -73,6 +73,7 @@ nav:
 
 ### Thursday, June 16, 2016, JB 358
 
+ 11:00 - 11:30 [Kelsey Merline, Irving De Jesus](2016-spring/merlin-de-jesus.pdf) <br>
   1:30 -  2:00 [Louis Hodges](2016-spring/louis-hodges-482.pdf) <br>
   2:00 -  2:00 [Pujen Solanki](2016-spring/pujen-solanki-595.pdf) <br>
 
