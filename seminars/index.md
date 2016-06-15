@@ -69,7 +69,6 @@ nav:
  11:30 - 12:00 [Mark Martinez](2016-spring/mark-martinez-575.pdf ) <br>
   2:00 -  2:30 [Akshay Dave](2016-spring/akshay-dave-695.pdf ) <br>
   4:00 -  4:30 [Khoi Minh Pham](2016-spring/khoi-minh-pham-695.pdf ) <br>
-  4:30 -  5:00 [Jin Yong Doh](2016-spring/jin-yong-doh-595.pdf ) <br>
   5:00 -  5:30 [Jin Yong Doh](2016-spring/jin-yong-doh-575.pdf ) <br>
 
 ### Thursday, June 16, 2016, JB 358
@@ -80,6 +79,7 @@ nav:
 
 ### Thursday, June 16, 2016, JB 359
 
+  4:40 -  5:10   [Jin Yong Doh](2016-spring/jin-yong-doh-595.pdf ) <br>
   6:00 -         [Christopher Koenig – Jose Banuelos – Thomas Saldana](2016-spring/koenig-banuelos-saldana-575.pdf) <br>
   7:30 -  8:00pm [Josiah Moreno](2016-spring/josiah-moreno-595.pdf) <br>
 
