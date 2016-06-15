@@ -56,7 +56,7 @@ nav:
 
 ### Tuesday, June 14, 2016, JB 359
 
- 10:00 - 10:30 Daniel Lawrence and Xia Vang <br>
+ 10:00 - 10:30 [Daniel Lawrence](2016-spring/daniel-lawrence-482.pdf) <br>
  11:00 - 11:30 [Jaron Patena](2016-spring/jaron-patena-575.pdf) <br>
  12:00 -  1:00 [Eric Cripps and Kyle Lovejoy](2016-spring/eric-cripps-kyle-lovejoy.pdf) [David Veronin and Casey Vassios](2016-spring/david-veronin-casey-vassios.pdf)<br>
   1:00 -  1:30 <br>
