@@ -81,6 +81,6 @@ nav:
 
  10:30 - 11:00   [Jay Huan Ryu](2016-spring/jay-huan-ryu-575.pdf ) <br>
   4:40 -  5:10   [Jin Yong Doh](2016-spring/jin-yong-doh-595.pdf ) <br>
-  6:00 -         [Christopher Koenig – Jose Banuelos – Thomas Saldana](2016-spring/koenig-banuelos-saldana-575.pdf) <br>
+  6:00 -  6:30   [Christopher Koenig – Jose Banuelos – Thomas Saldana](2016-spring/koenig-banuelos-saldana-575.pdf) <br>
   7:30 -  8:00pm [Josiah Moreno](2016-spring/josiah-moreno-595.pdf) <br>
 
