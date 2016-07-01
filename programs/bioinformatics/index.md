@@ -60,6 +60,7 @@ The main goal of the bioinfrmatics degree is to prepare students for graduate st
     <tr> <td>2012</td> <td> 9</td> <td>1</td> </tr>
     <tr> <td>2013</td> <td> 9</td> <td>2</td> </tr>
     <tr> <td>2014</td> <td>12</td> <td>2</td> </tr>
+    <tr> <td>2015</td> <td>9</td> <td>?</td> </tr>
   </tbody>
 </table>
 <caption>

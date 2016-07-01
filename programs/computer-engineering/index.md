@@ -59,6 +59,7 @@ The mission of the computer engineering degree program is to provide all its stu
     <tr> <td>2012</td> <td>240</td> <td>12</td> </tr>
     <tr> <td>2013</td> <td>276</td> <td>23</td> </tr>
     <tr> <td>2014</td> <td>309</td> <td>22</td> </tr>
+    <tr> <td>2015</td> <td>340</td> <td>?</td> </tr>
   </tbody>
 </table>
 <caption>
