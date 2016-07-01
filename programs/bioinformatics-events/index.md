@@ -16,7 +16,7 @@ description: One of three BS degrees offered by the School of CSE, the BS in Bio
 - [Presentation: Using Free/Open-source software to analyze breathing in neonatal rat pups](2015-06-08-LLUPresentation-rev.pdf)
 - [Segmentation of Light Microscopy Images](BioImage_Summer_2014_Poster.pdf)
 - [Transition from CSUSB to KGI](RegieFelix_BioinformaticsGetTogether.pdf)
-- [Bioinformatics Get-Togeter 2015](bioinfo-get-together-slides-2015.pdf)
+- [Bioinformatics Get-Together 2015](bioinfo-get-together-slides-2015.pdf)
 - [Time Series Analysis and Machine Learning on Various Dataset](RegieFelix_UCSB2012.pdf)
 - [Verification and Validation of Continuous Glucose Monitoring Devices](RegieFelix_Dexcom2015.pdf)
 - [Modeling Epistatic Interactions Using Machine Learning Techniques](RegieFelix_UCSB2013.pdf)
