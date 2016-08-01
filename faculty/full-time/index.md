@@ -34,6 +34,15 @@ Email: ernesto<img style="height: 1em; vertical-align: middle" src="../../assets
 </div>
 
 <div class='third'>
+<img src="photos/yunfei-hou.jpg" alt="Dr. Yunfei Hou" /><br />
+<a href="http://cse.csusb.edu/yhou">Dr. Yunfei Hou</a><br />
+Assistant Professor<br />
+Office: TBA<br />
+Phone: TBA<br />
+Email: Yunfei.Hou<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
+</div>
+
+<div class='third'>
 <img src="photos/Yasha_Karant.jpg" alt="Dr. Yasha Karant" style="width: 100px" /><br />
 <a href="http://cse.csusb.edu/ykarant">Dr. Yasha Karant</a><br />
 Professor<br />
