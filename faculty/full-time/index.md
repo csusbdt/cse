@@ -34,7 +34,7 @@ Email: ernesto<img style="height: 1em; vertical-align: middle" src="../../assets
 </div>
 
 <div class='third'>
-<img src="photos/yunfei-hou.jpg" alt="Dr. Yunfei Hou" /><br />
+<img src="photos/Yunfei_Hou.jpg" alt="Dr. Yunfei Hou" /><br />
 <a href="http://cse.csusb.edu/yhou">Dr. Yunfei Hou</a><br />
 Assistant Professor<br />
 Office: TBA<br />
