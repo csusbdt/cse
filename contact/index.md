@@ -41,8 +41,8 @@ San Bernardino, CA 92407
 
 ### Director
 
-Dr. Kerstin Voigt <br>
-Director and Associate Professor <br>
+Dr. David Turner <br>
+Director and Professor <br>
 Office: JB 307 <br>
 Phone: (909) 537-5326 <br>
 Email: kvoigt@csusb.edu
@@ -63,11 +63,11 @@ Email: amartine@csusb.edu
 
 ### Technical Support
 
-Ms. Chingyi (Birdy) Wang <br>
+Mr. Alan Lin <br>
 Information Technology Consultant <br>
 Office: JB 351 <br>
 Phone: (909) 537-5430 <br>
-Email: bwang@csusb.edu
+Email: alin@csusb.edu
 
 Mr. Takenori Tsuruga <br>
 Information Technology Consultant <br>

@@ -21,7 +21,7 @@ Email: khan<img style="height: 1em; vertical-align: middle" src="../../assets/im
 <img src="photos/Peter_Watson.jpg" alt="Mr. Peter Watson" /><br />
 <strong>Mr. Peter Watson</strong><br />
 Lecturer<br />
-Office: JB 336<br />
+Office: JB 542<br />
 Phone: (909) 537-7231<br />
 Email: pwatson<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu
 </div>
@@ -30,7 +30,7 @@ Email: pwatson<img style="height: 1em; vertical-align: middle" src="../../assets
 <img src="photos/Empty.gif" alt="Ms. Kathleen R. Devlin" /><br />
 <strong>Ms. Kathleen R. Devlin</strong><br />
 Lecturer<br />
-Office: JB 336<br />
+Office: JB 542<br />
 Phone: (909) 537-7231<br />
 Email: kdevlin<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
 Web: <a href="http://kdevlin.com/" title="http://kdevlin.com/">http://kdevlin.com/</a>
@@ -40,7 +40,7 @@ Web: <a href="http://kdevlin.com/" title="http://kdevlin.com/">http://kdevlin.co
 <img src="photos/Empty.gif" alt="Ms. Taline Georgiou" /><br />
 <strong>Ms. Taline Georgiou</strong><br />
 Lecturer<br />
-Office: JB 338<br />
+Office: JB 538<br />
 Phone: (909) 537-5332<br />
 Email: tgeorgio<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
 </div>
