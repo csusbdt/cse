@@ -38,7 +38,7 @@ Email: ernesto<img style="height: 1em; vertical-align: middle" src="../../assets
 <a href="https://sites.google.com/site/yunfeihouhomepage/">Dr. Yunfei Hou</a><br />
 Assistant Professor<br />
 Office: JB 336<br />
-Phone: (909) 537-7231<br />
+Phone: (909) 537-3608<br />
 Email: Yunfei.Hou<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br />
 </div>
 
