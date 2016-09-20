@@ -73,7 +73,7 @@ The goal of the BA Computer Systems program is for graduates of the program to p
     <tr> <td>2012</td> <td>160</td> <td>21</td> </tr>
     <tr> <td>2013</td> <td>139</td> <td>23</td> </tr>
     <tr> <td>2014</td> <td>156</td> <td>16</td> </tr>
-    <tr> <td>2015</td> <td>173</td> <td>?</td> </tr>
+    <tr> <td>2015</td> <td>173</td> <td>25</td> </tr>
   </tbody>
 </table>
 <caption>
