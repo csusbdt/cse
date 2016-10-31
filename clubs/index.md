@@ -27,6 +27,43 @@ nav:
   <tbody>
     <tr>
       <td style="text-align: left">President</td>
+      <td style="text-align: left">Sean R Hamilton</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Vice President</td>
+      <td style="text-align: left">Juan Nevares</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Treasurer</td>
+      <td style="text-align: left">Mark Ortiz</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Secretary</td>
+      <td style="text-align: left">Carlos Zepeda</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Information Officer</td>
+      <td style="text-align: left">Joshua Marsden</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Event Coordinator</td>
+      <td style="text-align: left">Arusyak Hovhannesyan</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Officers, 2015-2016
+
+<table class='table-condensed'>
+  <thead>
+    <tr>
+      <th style="text-align: left" scope="row">Position</th>
+      <th style="text-align: left" scope="row">Officer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">President</td>
       <td style="text-align: left">Shannon Weston</td>
     </tr>
     <tr>
