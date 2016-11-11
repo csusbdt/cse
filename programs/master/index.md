@@ -24,7 +24,7 @@ The program is designed to help students develop analytical, problem solving and
 
 ### GRE Requirement
 
-For addmission into the master's degree program, applicants need to satisfy both of
+For admission into the master's degree program, applicants need to satisfy both of
 the following GRE requirements.
 
 - Have a total GRE General Exam Score of at least 300 for the Verbal and Quantitative Reasoning sections. 
