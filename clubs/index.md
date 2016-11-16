@@ -13,29 +13,27 @@ nav:
 
 ### Game Developers Club
 
+Contact: dnguy@coyote.csusb.edu
+
 <table class='table-condensed'>
   <thead>
     <tr>
       <th style="text-align: left" scope="row">Position</th>
       <th style="text-align: left" scope="row">Officer</th>
-      <th style="text-align: left" scope="row">Contact</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: left">President</td>
       <td style="text-align: left">Duc Nguyen</td>
-      <td style="text-align: left">dnguy@coyote.csusb.edu</td>
     </tr>
     <tr>
       <td style="text-align: left">Vice President</td>
       <td style="text-align: left">Marcus Loureiro-Estrada</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align: left">Treasurer</td>
       <td style="text-align: left">Christian Seitz</td>
-      <td></td>
     </tr>
   </tbody>
 </table>
