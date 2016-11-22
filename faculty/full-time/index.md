@@ -20,7 +20,7 @@ Email: concep<img style="height: 1em; vertical-align: middle" src="../../assets/
 <img src="photos/George_Georgiou.jpg" alt="Dr. George M. Georgiou" /><br />
 <a href="http://cse.csusb.edu/georgiou/">Dr. George M. Georgiou</a><br />
 Professor<br />
-Office: JB 307<br />
+Office: JB 338<br />
 Phone: (909) 537-5332<br />
 Email: georgiou<img style="height: 1em; vertical-align: middle" src="../../assets/img/arobase.jpg" alt="arobase" />csusb.edu<br /></div>
 
