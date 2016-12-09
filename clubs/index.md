@@ -13,7 +13,7 @@ nav:
 
 ### Game Developers Club
 
-Contact: dnguy@coyote.csusb.edu
+Contact: GDC.CSUSB@gmail.com
 
 <table class='table-condensed'>
   <thead>
