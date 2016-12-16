@@ -33,6 +33,7 @@ the following GRE requirements.
 ### Additional Resources
 
 - [Application Procedure][application-procedure]
+- [Comprehensive Exam Policy](comprehensive-exam-policy-2016-spring.pdf)
 - [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
 - [Forms and Templates][forms]
