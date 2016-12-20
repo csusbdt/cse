@@ -21,6 +21,8 @@ the BS in Bioinformatics, or the BA in Computer Systems.
 
 The Bachelor of Science in Computer Science and the Bachelor of Science in Computer Engineering programs are both accredited by [ABET][abet].
 
+[Open Faculty Position: Bioinformatics](https://www.governmentjobs.com/careers/csusb/jobs/1614248/computer-science-and-engineering-bioinformatics-assistant-tenure-track)
+
 [abet]: http://abet.org/
 
 
