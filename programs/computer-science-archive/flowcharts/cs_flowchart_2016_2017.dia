@@ -71,19 +71,19 @@
   <dia:layer name="Background" visible="true" active="true">
     <dia:object type="UML - State" version="0" id="O0">
       <dia:attribute name="obj_pos">
-        <dia:point val="33.2757,20.5117"/>
+        <dia:point val="33.6757,20.5117"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.2257,20.4617;38.2257,23.1617"/>
+        <dia:rectangle val="33.6257,20.4617;38.3307,23.1617"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="33.2757,20.5117"/>
+        <dia:point val="33.6757,20.5117"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="4.9000000000000004"/>
+        <dia:real val="4.6049999999999995"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.6000000000000001"/>
@@ -98,7 +98,7 @@
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#CSE 460   
-Oper Sys   #</dia:string>
+OS I   #</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="80" name="Helvetica-Bold"/>
@@ -107,7 +107,7 @@ Oper Sys   #</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="35.7257,21.6067"/>
+            <dia:point val="35.9782,21.6067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -246,19 +246,19 @@ or
     </dia:object>
     <dia:object type="UML - State" version="0" id="O3">
       <dia:attribute name="obj_pos">
-        <dia:point val="33.2838,24.4157"/>
+        <dia:point val="33.7838,24.7657"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.2338,24.3657;38.2238,27.0657"/>
+        <dia:rectangle val="33.7338,24.7157;37.8338,27.4157"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="33.2838,24.4157"/>
+        <dia:point val="33.7838,24.7657"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="4.8899999999999997"/>
+        <dia:real val="4"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.6000000000000001"/>
@@ -273,7 +273,7 @@ or
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#CSE 461
-Op System#</dia:string>
+OS II#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="80" name="Helvetica-Bold"/>
@@ -282,7 +282,7 @@ Op System#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="35.7288,25.5107"/>
+            <dia:point val="35.7838,25.8607"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -1658,13 +1658,13 @@ Ethics   #</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O32">
       <dia:attribute name="obj_pos">
-        <dia:point val="44.7223,30.1459"/>
+        <dia:point val="45.05,30.05"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="44.5444,30.0896;45.2614,32.1907"/>
+        <dia:rectangle val="44.6432,29.9984;45.3664,32.1916"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="44.7223,30.1459"/>
+        <dia:point val="45.05,30.05"/>
         <dia:point val="44.9853,32.0799"/>
       </dia:attribute>
       <dia:attribute name="numcp">
@@ -1685,19 +1685,19 @@ Ethics   #</dia:string>
     </dia:object>
     <dia:object type="UML - State" version="0" id="O33">
       <dia:attribute name="obj_pos">
-        <dia:point val="33.5,32.0092"/>
+        <dia:point val="33.4,32.0092"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.45,31.9592;38.35,34.6592"/>
+        <dia:rectangle val="33.35,31.9592;38.8775,34.6592"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="33.5,32.0092"/>
+        <dia:point val="33.4,32.0092"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="4.7999999999999998"/>
+        <dia:real val="5.4275000000000002"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2.6000000000000001"/>
@@ -1712,7 +1712,7 @@ Ethics   #</dia:string>
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#CSE 489  
-Sen Semi  #</dia:string>
+Sr Seminar  #</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="80" name="Helvetica-Bold"/>
@@ -1721,7 +1721,7 @@ Sen Semi  #</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="35.9,33.1042"/>
+            <dia:point val="36.1137,33.1042"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -1743,14 +1743,14 @@ Sen Semi  #</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O34">
       <dia:attribute name="obj_pos">
-        <dia:point val="35.9443,30.5958"/>
+        <dia:point val="35.85,30.25"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.5575,30.5443;36.2808,32.1209"/>
+        <dia:rectangle val="35.489,30.2;36.2127,32.121"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="35.9443,30.5958"/>
-        <dia:point val="35.9,32.0092"/>
+        <dia:point val="35.85,30.25"/>
+        <dia:point val="35.8513,32.0092"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -1773,12 +1773,12 @@ Sen Semi  #</dia:string>
         <dia:point val="11.9395,37.0764"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="11.9395,36.3339;39.247,37.2639"/>
+        <dia:rectangle val="11.9395,36.3339;39.0495,37.2639"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#*Electives 16 units in CSE courses numbered 400 and above #</dia:string>
+            <dia:string>#* 16 Elective units in CSE courses numbered 400 and above #</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="88" name="Helvetica-BoldOblique"/>
@@ -1869,10 +1869,10 @@ Sen Semi  #</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O38">
       <dia:attribute name="obj_pos">
-        <dia:point val="35.8828,29.6799"/>
+        <dia:point val="35.9,29.15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="31.9166,29.0849;39.8491,30.6299"/>
+        <dia:rectangle val="31.9337,28.555;39.8663,30.1"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1887,7 +1887,7 @@ CSE Courses#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="35.8828,29.6799"/>
+            <dia:point val="35.9,29.15"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -1994,16 +1994,16 @@ CSE Courses#</dia:string>
     </dia:object>
     <dia:object type="UML - State" version="0" id="O41">
       <dia:attribute name="obj_pos">
-        <dia:point val="8.64925,25.8206"/>
+        <dia:point val="8.24925,25.7706"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.59925,25.7706;14.3768,28.4706"/>
+        <dia:rectangle val="8.19925,25.7206;13.9768,28.4206"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="8.64925,25.8206"/>
+        <dia:point val="8.24925,25.7706"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="5.6775000000000002"/>
@@ -2030,7 +2030,7 @@ Electives *    #</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="11.488,26.9156"/>
+            <dia:point val="11.088,26.8656"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -2055,12 +2055,12 @@ Electives *    #</dia:string>
         <dia:point val="12.0652,38.5846"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.0652,37.8421;38.6302,38.7721"/>
+        <dia:rectangle val="12.0652,37.8421;38.9077,38.7721"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#**Some Programming Experience or CSE 125 (Visual Basic)#</dia:string>
+            <dia:string>#** Some Programming Experience or CSE 125 (Visual Basic)#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="80" name="Helvetica-Bold"/>
@@ -2088,12 +2088,12 @@ Electives *    #</dia:string>
         <dia:point val="24.6395,42.8785"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="24.6395,42.4892;29.9088,42.9971"/>
+        <dia:rectangle val="24.6395,42.4892;30.2938,42.9971"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Revision April 25, 2016 dt#</dia:string>
+            <dia:string>#Revision January 8, 2017 kz#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -2121,12 +2121,12 @@ Electives *    #</dia:string>
         <dia:point val="12.15,4.21595"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.15,3.06601;43.4524,4.56832"/>
+        <dia:rectangle val="12.15,3.10095;42.7925,4.49845"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Flowchart of Coursework -- Academic Years 2016/17#</dia:string>
+            <dia:string>#Flowchart of Coursework -- Academic Year 2016/17#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -2489,11 +2489,11 @@ Electives *    #</dia:string>
         <dia:point val="42.3687,17.65"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.623,17.5843;42.4344,20.6139"/>
+        <dia:rectangle val="35.6731,17.5842;42.4345,20.6124"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="42.3687,17.65"/>
-        <dia:point val="35.7257,20.5117"/>
+        <dia:point val="35.7757,20.5117"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -2517,11 +2517,11 @@ Electives *    #</dia:string>
         <dia:point val="35.7312,17.6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.3651,17.5499;36.0887,20.6235"/>
+        <dia:rectangle val="35.4046,17.5492;36.1281,20.6235"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="35.7312,17.6"/>
-        <dia:point val="35.7257,20.5117"/>
+        <dia:point val="35.7757,20.5117"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -2570,14 +2570,14 @@ Electives *    #</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O60">
       <dia:attribute name="obj_pos">
-        <dia:point val="35.7257,23.1117"/>
+        <dia:point val="35.7757,23.1117"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.3655,23.0616;36.0891,24.5275"/>
+        <dia:rectangle val="35.419,23.0615;36.1426,24.8775"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="35.7257,23.1117"/>
-        <dia:point val="35.7288,24.4157"/>
+        <dia:point val="35.7757,23.1117"/>
+        <dia:point val="35.7838,24.7657"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -3234,12 +3234,12 @@ Experience**#</dia:string>
         <dia:point val="12.103,39.8016"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.103,39.0591;49.3105,39.9891"/>
+        <dia:rectangle val="12.103,39.0591;49.0155,39.9891"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#*** BIOL 200 also acceptable but does not fulfull GE requirement B2 (life sciences)#</dia:string>
+            <dia:string>#*** BIOL 200 also acceptable but does not fulfill GE requirement B2 (life sciences)#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="80" name="Helvetica-Bold"/>
