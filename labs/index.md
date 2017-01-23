@@ -17,7 +17,7 @@ nav:
 
 ###  Open Hours
 
-- [Open Lab Hours](Lab_hours.pdf)
+- [Open Lab Hours](../labs.pdf)
 
 ### Tutoring
 
