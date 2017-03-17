@@ -21,7 +21,6 @@ Degree requirements may be adjusted from one academic year to the next. Generall
 
 ### Additional Resources
 
-- [Yearly Schedule of Courses][yearly-schedule]
 - [CSUSB Catalogs][catalog]
 - [Transfer Students][transfer]
 
